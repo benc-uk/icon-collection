@@ -1,0 +1,8 @@
+<svg>
+                                <symbol id="svg-rbac-built-in-roles" viewBox="0 0 65 65">
+    <polygon fill="#3177bc" points="32.59 2.5 62.18 38.01 32.81 62.5 2.82 37.79 32.59 2.5"></polygon>
+    <polyline fill="#fff" points="29.08 35.16 29.23 50.21 32.36 54.43 36.53 50.54 33.22 47.81 36.53 44.78 33.22 41.32 36.53 38.73 36.53 35.13"></polyline>
+    <rect fill="#fff" x="24.48" y="18.96" width="16.66" height="16.66" rx="8.33" ry="8.33"></rect>
+    <circle fill="#3177bc" cx="32.59" cy="25.32" r="3.15"></circle>
+</symbol>
+                            </svg>

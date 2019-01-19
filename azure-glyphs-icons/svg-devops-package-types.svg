@@ -1,0 +1,7 @@
+<svg>
+                                <symbol id="svg-devops-package-types" viewBox="0 0 80 80">
+    <rect width="80" height="80" fill="black" fill-opacity="0"></rect>
+    <circle cx="40" cy="40" r="40" fill="#CB2E6D" fill-opacity="0.05"></circle>
+    <path d="M55 36.25H53.125V53.125H26.875V36.25H25V26.875H55V36.25ZM51.25 36.25H28.75V51.25H51.25V36.25ZM53.125 28.75H26.875V34.375H53.125V28.75ZM40 45.625H30.625V43.75H40V45.625ZM30.625 49.375V47.5H38.125V49.375H30.625Z" fill="#CB2E6D"></path>
+</symbol>
+                            </svg>

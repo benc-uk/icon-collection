@@ -1,0 +1,16 @@
+<svg>
+                                <symbol id="svg-clock2" viewBox="0 0 265 181">
+	<g fill="none">
+		<path d="M 146.548 73.4297C 146.548 113.984 113.742 146.859 73.2738 146.859C 32.8058 146.859 1.54004e-06 113.984 1.54004e-06 73.4297C 1.54004e-06 32.8756 32.8058 -7.71659e-07 73.2738 -7.71659e-07C 113.742 -7.71659e-07 146.548 32.8756 146.548 73.4297Z" stroke-width="4" stroke-miterlimit="10" transform="translate(115.452 32.1405)" stroke="#00A2F2"></path>
+		<path d="M -6.16016e-06 0L 41.3805 0L 41.3805 12.1371L -6.16016e-06 12.1371L -6.16016e-06 0Z" stroke-width="4" stroke-miterlimit="10" transform="translate(167.935 2)" stroke="#00A2F2"></path>
+		<path d="M 0 0L 0 16.7897" stroke-width="4" stroke-miterlimit="10" transform="translate(187.717 15.1486)" stroke="#00A2F2"></path>
+		<path d="M 9.48724 22.4537L 1.54004e-06 12.9463L 12.7169 0L 22.8097 10.1143" stroke-width="4" stroke-miterlimit="10" transform="translate(115.452 42.4572)" stroke="#00A2F2"></path>
+		<path d="M 13.3225 22.4537L 22.8098 12.9463L 10.0928 0L 0 10.1143" stroke-width="4" stroke-miterlimit="10" transform="translate(239.19 42.4572)" stroke="#00A2F2"></path>
+		<path d="M 14.9566 7.47497C 14.9566 11.6033 11.6084 14.9499 7.47829 14.9499C 3.34814 14.9499 6.16809e-06 11.6033 6.16809e-06 7.47497C 6.16809e-06 3.34666 3.34814 0 7.47829 0C 11.6084 0 14.9566 3.34666 14.9566 7.47497Z" stroke-width="4" stroke-miterlimit="10" transform="matrix(0.627992 -0.778253 0.776946 0.629608 178.247 106.589)" stroke="#00A2F2"></path>
+		<path d="M 37.7471 30.3429L 3.08008e-06 -1.54332e-06" stroke-width="4" stroke-miterlimit="10" transform="translate(145.125 70.3727)" stroke="#00A2F2"></path>
+		<path d="M 3.08008e-06 16.3851C 21.8005 -5.46172 57.3271 -5.46172 79.1276 16.3851C 100.928 38.232 100.928 73.8343 79.1276 95.6811C 57.3271 117.528 21.8005 117.528 3.08008e-06 95.6811" stroke-width="2" stroke-miterlimit="20" stroke-linecap="round" stroke-dasharray="5 5" transform="translate(149.162 49.5372)" stroke="#00A2F2"></path>
+    <path opacity="0.2" d="M 45.4176 0L 0 0" stroke-width="2" stroke-miterlimit="20" stroke-linecap="round" stroke-dasharray="5 5" transform="translate(52.4733 105.166)" stroke="#00A2F2"></path>
+    <path opacity="0.2" d="M 93.8631 0L 0 0" stroke-width="2" stroke-miterlimit="20" stroke-linecap="round" stroke-dasharray="5 5" transform="translate(1 138.543)" stroke="#00A2F2"></path>
+	</g>
+</symbol>
+                            </svg>

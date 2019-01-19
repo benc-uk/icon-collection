@@ -1,0 +1,9 @@
+<svg>
+                                <symbol id="svg-play-square" viewBox="0 0 64 64">
+    <g opacity="0.9">
+        <rect x="2" y="2" width="60" height="60" fill="#303030"></rect>
+      <path d="M64,64H0V0H64ZM2,62H62V2H2Z" fill="#f4f4f4"></path>
+    </g>
+    <polygon points="40 32 28 41 28 23 40 32" fill="#f4f4f4"></polygon>
+</symbol>
+                            </svg>

@@ -1,0 +1,9 @@
+<svg>
+                                <symbol id="svg-bot-service" viewBox="0 0 259 256">
+  <path d="M128,16A112,112,0,1,1,16,128,112.127,112.127,0,0,1,128,16m0-16A128,128,0,1,0,256,128,128,128,0,0,0,128,0h0Z" fill="#3a96dd"></path>
+  <circle cx="108" cy="128" r="12" fill="#3a96dd"></circle>
+  <circle cx="148" cy="128" r="12" fill="#3a96dd"></circle>
+  <path d="M157.436,197.073H66.927a8,8,0,0,1-8-8V98.564h16v82.511h82.511v16Z" fill="#3a96dd"></path>
+  <path d="M197.073,157.436h-16V74.926H98.564v-16h90.51a8,8,0,0,1,8,8v90.51Z" fill="#3a96dd"></path>
+</symbol>
+                            </svg>

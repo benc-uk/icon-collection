@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cb2e6d;
+      }
+    </style>
+  </defs>
+  <title>logo_vs-mobile-center</title>
+  <g id="Names">
+    <g id="iconBg">
+      <path class="cls-1" d="M48,0V55L0,47.84,48,64l16-6.66V6.66Z"/>
+      <path class="cls-1" d="M31.2,14.52,20.8,21.44V11.26h-.24l-5.5-1.69L4,18.64v4.25l7.16,4.66L4,32.21v4.25l11.06,9.09,5.74-1.71V33.66l10.4,6.92L40,37.87V17.23Zm-23.76,6,7-4.9v8.62Zm7,10.43v8.62l-7-4.9ZM32,33.17,20.68,27.55,32,21.93Z"/>
+    </g>
+  </g>
+</svg>

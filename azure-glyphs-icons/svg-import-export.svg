@@ -1,0 +1,9 @@
+<svg>
+                                <symbol id="svg-import-export" viewBox="0 0 24 24">
+  <path d="M0,21.3a.894.894,0,0,0,.888.9H23.1a.894.894,0,0,0,.9-.888s0-.008,0-.012V5.4H0Z" fill="#a0a1a2"></path>
+  <path d="M23.1,1.8H.9a.9.9,0,0,0-.9.9H0V5.5H24V2.7a.9.9,0,0,0-.9-.9h0" fill="#7a7a7a"></path>
+  <polygon points="16.4 19.1 18.4 19.1 18.5 11.5 21.8 14.8 23.1 13.5 17.5 8.2 12 12.9 13.1 14.4 16.5 11.5 16.4 19.1" fill="#fcd116"></polygon>
+  <polygon points="5.6 9.6 7.6 9.6 7.7 17.1 11 13.9 12.3 15.2 6.8 20.4 1.2 15.7 2.3 14.2 5.7 17.2 5.6 9.6" fill="#fff"></polygon>
+  <path d="M.9,1.8a.9.9,0,0,0-.9.9H0V21.3a.9.9,0,0,0,.9.9h1l19-20.4Z" fill="#fff" opacity="0.2" style="isolation: isolate"></path>
+</symbol>
+                            </svg>

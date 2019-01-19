@@ -1,0 +1,14 @@
+<svg>
+                                <symbol id="svg-enterprise" viewBox="0 0 32 32">
+    <rect x="6" y="12" width="2" height="2"></rect>
+    <rect x="6" y="16" width="2" height="2"></rect>
+    <rect x="6" y="20" width="2" height="2"></rect>
+    <rect x="6" y="24" width="2" height="2"></rect>
+    <rect x="6" y="28" width="2" height="2"></rect>
+    <path d="M20,0.578V12h-2V8H2v24h2V10h12v2h-6v20h6v-6h2v6h6V12h-2V5.422l6,6V32h2V10.578L20,0.578z M22,30h-2v-6h-6 v6h-2V14h10V30z"></path>
+    <rect x="14" y="16" width="2" height="2"></rect>
+    <rect x="14" y="20" width="2" height="2"></rect>
+    <rect x="18" y="16" width="2" height="2"></rect>
+    <rect x="18" y="20" width="2" height="2"></rect>
+</symbol>
+                            </svg>

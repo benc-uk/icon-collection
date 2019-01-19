@@ -1,0 +1,10 @@
+<svg>
+                                <symbol id="svg-video-alt-dark" viewBox="0 0 48 36">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.5H48V0H0V4.5Z" fill="#50E6FF"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 36H48V4.5H0V36Z" fill="black"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.00018 2.25C3.00018 2.664 2.66418 3 2.25018 3C1.83618 3 1.50018 2.664 1.50018 2.25C1.50018 1.836 1.83618 1.5 2.25018 1.5C2.66418 1.5 3.00018 1.836 3.00018 2.25" fill="#0078D4"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25018 2.25C5.25018 2.664 4.91418 3 4.50018 3C4.08618 3 3.75018 2.664 3.75018 2.25C3.75018 1.836 4.08618 1.5 4.50018 1.5C4.91418 1.5 5.25018 1.836 5.25018 2.25" fill="#0078D4"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.50018 2.25C7.50018 2.664 7.16418 3 6.75018 3C6.33618 3 6.00018 2.664 6.00018 2.25C6.00018 1.836 6.33618 1.5 6.75018 1.5C7.16418 1.5 7.50018 1.836 7.50018 2.25" fill="#0078D4"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.0002 19.4961L21.0002 24.9028V14.0957L30.0002 19.4961Z" fill="#0078D4"></path>
+</symbol>
+                            </svg>

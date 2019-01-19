@@ -1,0 +1,13 @@
+<svg>
+                                <symbol id="svg-portal-alt" viewBox="0 0 105 66">
+  <rect width="105" height="66" fill="black" fill-opacity="0"></rect>
+  <rect width="105" height="66" fill="black" fill-opacity="0"></rect>
+  <path d="M105 0H0V66H105V0Z" fill="#0078D4"></path>
+  <path d="M16.5789 0H0V66H16.5789V0Z" fill="black"></path>
+  <path d="M105 0H0V5.5H105V0Z" fill="black"></path>
+  <path d="M52.5 10.9999H27.6316V38.4632H52.5V10.9999Z" fill="white"></path>
+  <path d="M80.1316 10.9999H55.2632V38.4632H80.1316V10.9999Z" fill="white"></path>
+  <path d="M52.5 41.2684H27.6316V55.0001H52.5V41.2684Z" fill="white"></path>
+  <path d="M70.958 30.1951L80.1317 36.8317L89.287 43.4501L80.9791 45.8884L75.2501 52.3417L73.1133 41.2684L70.958 30.1951Z" fill="black"></path>
+</symbol>
+                            </svg>

@@ -1,0 +1,10 @@
+<svg>
+                                <symbol id="svg-routing" viewBox="0 0 630 630">
+  <rect width="630" height="630" fill="none" stroke="#fff" stroke-miterlimit="10"></rect>
+  <rect x="114.83" y="114.83" width="400.33" height="400.33" transform="translate(-130.48 315) rotate(-45)" fill="#50e6ff"></rect>
+  <rect x="425.64" y="286.41" width="30" height="122.8" transform="translate(375 -209.71) rotate(45)"></rect>
+  <rect x="424.14" y="217.17" width="30" height="127.04" transform="translate(-69.86 392.73) rotate(-45)"></rect>
+  <rect x="368.69" y="231.73" width="30" height="166.55" transform="translate(68.68 698.71) rotate(-90)"></rect>
+  <rect x="300.17" y="302.68" width="30" height="296.32" transform="translate(630.33 901.68) rotate(-180)"></rect>
+</symbol>
+                            </svg>

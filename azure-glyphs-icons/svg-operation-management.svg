@@ -1,0 +1,33 @@
+<svg>
+                                <symbol id="svg-operation-management" viewBox="0 0 65 65">
+    <rect fill="#5bb4da" x="8.57" y="28.53" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="8.57" y="34.48" width="3.97" height="3.97"></rect>
+    <path fill="#5bb4da" d="M8.57,26.55h4V23a22.33,22.33,0,0,0-4,2.61Z"></path>
+    <rect fill="#5bb4da" x="14.52" y="46.51" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="14.52" y="52.46" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="14.52" y="58.53" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="14.52" y="40.56" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="2.5" y="34.48" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="8.57" y="52.46" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="2.5" y="46.51" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="2.5" y="40.56" width="3.97" height="3.97"></rect>
+    <path fill="#5bb4da" d="M8.57,59.4a27.36,27.36,0,0,0,4,2.6V58.41h-4Z"></path>
+    <path fill="#5bb4da" d="M3,32.5H6.59v-4h-1A13.62,13.62,0,0,0,3,32.5Z"></path>
+    <rect fill="#5bb4da" x="8.57" y="46.51" width="3.97" height="3.97"></rect>
+    <path fill="#5bb4da" d="M38.45,56.43h1a28.29,28.29,0,0,0,2.61-4h-3.6Z"></path>
+    <rect fill="#5bb4da" x="14.52" y="34.48" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="32.5" y="52.46" width="3.97" height="3.97"></rect>
+    <path fill="#7fbb42" d="M41.55,2.5a21,21,0,0,0-20.95,21v21H41.55a21,21,0,1,0,0-41.9Z"></path>
+    <rect fill="#7682a7a" x="30.52" y="20.48" width="3.97" height="12.02"></rect>
+    <rect fill="#7682a7a" x="38.45" y="24.44" width="3.97" height="8.06"></rect>
+    <rect fill="#7682a7a" x="46.51" y="16.51" width="3.97" height="15.99"></rect>
+    <path fill="#5bb4da" d="M32.5,62a21.75,21.75,0,0,0,4-2.6v-1h-4Z"></path>
+    <rect fill="#5bb4da" x="38.45" y="46.51" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="32.5" y="46.51" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="20.48" y="52.46" width="3.97" height="3.97"></rect>
+    <polygon fill="#5bb4da" points="14.53 26.55 18.49 26.55 18.49 22.46 14.53 22.46 14.53 26.55"></polygon>
+    <rect fill="#5bb4da" x="26.55" y="52.46" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="26.55" y="58.53" width="3.97" height="3.97"></rect>
+    <rect fill="#5bb4da" x="20.48" y="46.51" width="3.97" height="3.97"></rect>
+</symbol>
+                            </svg>

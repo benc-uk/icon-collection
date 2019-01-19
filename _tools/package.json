@@ -1,0 +1,15 @@
+{
+  "name": "icon-scrapper",
+  "version": "1.0.0",
+  "description": "Scraping icons from various sites",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "author": "Ben Coleman",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^13.1.0",
+    "request": "^2.88.0"
+  }
+}

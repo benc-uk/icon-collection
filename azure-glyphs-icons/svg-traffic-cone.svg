@@ -1,0 +1,8 @@
+<svg>
+                                <symbol id="svg-traffic-cone" viewBox="0 0 630 630">
+  <rect width="630" height="630" fill="none"></rect>
+  <polygon points="434.12 227.82 195.88 227.82 273.97 30 356.03 30 434.12 227.82" fill="#50e6ff"></polygon>
+  <polygon points="540 508.88 90 508.88 182.65 261.35 447.35 261.35 540 508.88" fill="#0078d4"></polygon>
+  <rect x="30" y="540" width="570" height="60" rx="30" ry="30"></rect>
+</symbol>
+                            </svg>

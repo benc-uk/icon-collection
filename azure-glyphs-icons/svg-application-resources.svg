@@ -1,0 +1,34 @@
+<svg>
+                                <symbol id="svg-application-resources" viewBox="0 0 215.571 56.019">
+    <path d="M4.3,13.1A28.008,28.008,0,1,0,56.02,28.009H28.01Z" fill="#6ec2e9"></path>
+    <path d="M28.01,0V28.009H56.02A28.01,28.01,0,0,0,28.01,0Z" fill="#442359"></path>
+    <path d="M28.01,28.009V0A27.919,27.919,0,0,0,8.2,8.2Z" fill="#019e4a"></path>
+    <rect x="72.421" y="7.602" width="48.058" height="48.058" fill="#fff"></rect>
+    <rect x="75.363" y="34.571" width="7.854" height="17.769" fill="#fdb813"></rect>
+    <rect x="97.991" y="29.331" width="7.854" height="23.009" fill="#6ec2e9"></rect>
+    <rect x="109.305" y="13.888" width="7.854" height="38.452" fill="#0a8b44"></rect>
+    <rect x="86.678" y="26.477" width="7.853" height="25.862" fill="#442359"></rect>
+    <rect x="138.996" y="22.448" width="15.978" height="4.674" fill="#ff8c00"></rect>
+    <rect x="138.996" y="29.294" width="15.978" height="4.674" fill="#333"></rect>
+    <rect x="138.996" y="36.14" width="15.978" height="4.674" fill="#00b294"></rect>
+    <rect x="138.996" y="42.985" width="15.978" height="4.674" fill="#333"></rect>
+    <rect x="199.593" y="10.252" width="15.978" height="4.674" fill="#ff8c00"></rect>
+    <rect x="199.593" y="17.098" width="15.978" height="4.675" fill="#333"></rect>
+    <rect x="199.593" y="39.563" width="15.978" height="4.675" fill="#00b294"></rect>
+    <rect x="199.593" y="46.409" width="15.978" height="4.674" fill="#ff8c00"></rect>
+    <rect x="170.919" y="22.458" width="15.979" height="4.675" fill="#ff8c00"></rect>
+    <rect x="170.919" y="29.301" width="15.979" height="4.674" fill="#00b294"></rect>
+    <rect x="170.919" y="36.144" width="15.979" height="4.674" fill="#ff8c00"></rect>
+    <rect x="170.919" y="4.277" width="15.979" height="4.674" fill="#333"></rect>
+    <rect x="170.919" y="42.985" width="15.979" height="4.674" fill="#333"></rect>
+    <line x1="154.974" y1="22.448" x2="170.919" y2="8.951" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="154.974" y1="29.294" x2="170.919" y2="33.975" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="186.898" y1="29.301" x2="199.593" y2="21.772" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="186.898" y1="27.133" x2="199.593" y2="10.252" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="199.593" y1="44.237" x2="186.898" y2="36.144" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="199.593" y1="51.083" x2="186.898" y2="42.985" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="154.974" y1="36.14" x2="170.919" y2="40.817" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="154.974" y1="47.659" x2="170.919" y2="42.985" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+    <line x1="170.919" y1="27.133" x2="154.974" y2="27.122" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
+</symbol>
+                            </svg>
