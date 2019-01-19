@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-transfer-right-arrow" viewBox="0 0 49 49">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M48.1877 1.00391H0.296875V6.04151H48.1877V1.00391Z" fill="#50E6FF"></path>
     <path d="M48.1877 5.96094H0.296875V23.6094H48.1877V5.96094Z" fill="#0078D4"></path>
     <path d="M10.3805 26.0742H0.296875V36.1578H10.3805V26.0742Z" fill="#0078D4"></path>
@@ -9,5 +10,4 @@
     <path d="M22.9829 38.6797H0.296875V48.7633H22.9829V38.6797V38.6797Z" fill="#0078D4"></path>
     <path d="M48.1899 38.6797H25.5039V48.7549H48.1899V38.6797Z" fill="#50E6FF"></path>
     <path d="M41.8339 14.6406L35.5957 8.40234V12.592H6.45312V17.025H35.5957V20.8788L41.8339 14.6406Z" fill="#50E6FF"></path>
-</symbol>
-                            </svg>
+</svg>

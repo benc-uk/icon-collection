@@ -1,7 +1,7 @@
-<svg>
-                                <symbol id="svg-devops-language-platform" viewBox="0 0 80 80">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect width="80" height="80" fill="black" fill-opacity="0"></rect>
     <circle cx="40" cy="40" r="40" fill="#2560E0" fill-opacity="0.05"></circle>
     <path d="M60 54H42.5V56.5H47.5V59H35V56.5H40V54H22.5V44H20V21.5H37.5V31.5H60V54ZM22.5 24V41.5H35V24H22.5ZM25 44V51.5H57.5V34H37.5V44H25ZM30 26.5V29H25V26.5H30ZM30 31.5V34H25V31.5H30ZM25 39V36.5H32.5V39H25Z" fill="#2560E0"></path>
-</symbol>
-                            </svg>
+</svg>

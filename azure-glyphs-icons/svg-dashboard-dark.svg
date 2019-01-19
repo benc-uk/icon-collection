@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-dashboard-dark" viewBox="0 0 48 48">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <rect width="48" height="47.9696" fill="black" fill-opacity="0"></rect>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8.96963H48V0H0V8.96963Z" fill="#0078D4"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 47.9696H13.5255V12H0V47.9696Z" fill="#303030"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5007 47.9696H47.9696V12H16.5007V47.9696Z" fill="#303030"></path>
-</symbol>
-                            </svg>
+</svg>

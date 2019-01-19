@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-square-of-squares" viewBox="0 0 49 49">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path d="M7.42331 0.760376H0.222534V7.96116H7.42331V0.760376Z" fill="#50E6FF"></path>
   <path d="M17.6209 0.760376H10.4202V7.96116H17.6209V0.760376Z" fill="#50E6FF"></path>
   <path d="M27.8183 0.760376H20.6176V7.96116H27.8183V0.760376Z" fill="#50E6FF"></path>
@@ -25,5 +26,4 @@
   <path d="M38.0244 10.9583H30.8236V18.159H38.0244V10.9583Z" fill="#0078D4"></path>
   <path d="M27.8183 21.1643H20.6176V28.3651H27.8183V21.1643Z" fill="#0078D4"></path>
   <path d="M38.0244 31.3617H30.8236V38.5625H38.0244V31.3617Z" fill="#0078D4"></path>
-</symbol>
-                            </svg>
+</svg>

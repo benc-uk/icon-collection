@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-iot-edge" viewBox="0 0 90 101">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <g fill="none" fill-rule="evenodd">
     <path stroke="#006DD6" stroke-dasharray="1 7" stroke-linecap="square" stroke-width="4" d="M12,42 L57,52"></path>
     <path stroke="#006DD6" stroke-dasharray="1" stroke-linecap="square" stroke-width="4" d="M48.5,15.5 L60,49"></path>
@@ -16,5 +17,4 @@
     <rect width="14" height="14" x="1.573" y="33.989" fill="#89C402" rx="1" transform="rotate(15 8.573 40.99)"></rect>
     <path fill="#FFF" d="M1.64438454,34.9316867 C1.64438454,34.3811275 2.09434557,33.934811 2.6412602,33.934811 L15.1508832,33.934811 C15.7014425,33.934811 15.8313472,34.2512227 15.438413,34.6441569 L2.35373039,47.7288395 C1.9619695,48.1206004 1.64438454,47.9882244 1.64438454,47.4413097 L1.64438454,34.9316867 Z" opacity=".3" transform="rotate(15 8.644 40.935)"></path>
   </g>
-</symbol>
-                            </svg>
+</svg>

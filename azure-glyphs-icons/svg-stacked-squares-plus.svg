@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-stacked-squares-plus" viewBox="0 0 156 157">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 <path d="M142.034 14.4607H44.5715V111.924H142.034V14.4607Z" fill="black"></path>
 <path d="M126.088 30.3828H22.459V134.011H126.088V30.3828Z" fill="#0078D4"></path>
 <path d="M111.428 45.0667H7.42847V149.067H111.428V45.0667Z" fill="#50E6FF"></path>
 <path d="M96.5713 93.3771H63.1922V59.998H55.7637V93.3771H22.3599V100.806H55.7637V134.209H63.1922V100.806H96.5713V93.3771Z" fill="#0078D4"></path>
-</symbol>
-                            </svg>
+</svg>

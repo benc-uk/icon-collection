@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-storage-tables" viewBox="-454 256 50 50">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path fill="#59B4D9" d="M-416.5,259.3h-25L-454,281l12.5,21.7h25L-404,281L-416.5,259.3z M-430.2,270.7h5.8v5.8h-5.8V270.7z M-430.2,277.9h5.8v5.8h-5.8V277.9z M-430.2,285.2h5.8v5.8h-5.8V285.2z M-437.5,270.7h5.8v5.8h-5.8V270.7z M-437.5,277.9h5.8v5.8 h-5.8V277.9z M-437.5,285.2h5.8v5.8h-5.8V285.2z M-417.2,294.1h-23.6v-23.6h1.5v22h0.1l0,0h22V294.1z M-417.2,291h-5.8v-5.8h5.8V291 z M-417.2,283.7h-5.8v-5.8h5.8V283.7z M-417.2,276.5h-5.8v-5.8h5.8V276.5z"></path>
     <rect x="-430.2" y="270.7" fill="#0072C6" width="5.8" height="5.8"></rect>
     <rect x="-430.2" y="277.9" fill="#0072C6" width="5.8" height="5.8"></rect>
@@ -10,5 +11,4 @@
     <rect x="-423" y="285.2" fill="#0072C6" width="5.8" height="5.8"></rect>
     <rect x="-423" y="277.9" fill="#0072C6" width="5.8" height="5.8"></rect>
     <rect x="-423" y="270.7" fill="#0072C6" width="5.8" height="5.8"></rect>
-</symbol>
-                            </svg>
+</svg>

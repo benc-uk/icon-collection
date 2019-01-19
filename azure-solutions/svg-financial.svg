@@ -1,5 +1,4 @@
-<svg>
-                                <symbol id="svg-financial" viewBox="0 0 93.79 49.512">
+<svg xmlns="http://www.w3.org/2000/svg">
   <polygon points="47.011 0 46.895 0.057 46.778 0 28.192 9.146 46.895 9.146 65.598 9.146 47.011 0" fill="#7fba00"></polygon>
   <rect x="22.8" y="10.975" width="48.189" height="35.179" fill="#7fba00"></rect>
   <polygon points="92.145 29.673 72.922 29.673 70.989 29.673 70.989 48.623 92.145 48.623 92.145 29.673" fill="#7fba00"></polygon>
@@ -16,5 +15,4 @@
   <rect x="75.267" y="34.758" width="3.624" height="4.389" fill="#008a00"></rect>
   <rect x="82.328" y="34.758" width="3.624" height="4.389" fill="#008a00"></rect>
   <polygon points="28.192 9.146 46.895 9.146 46.895 0.057 28.192 9.146" fill="#008a00" opacity="0.2"></polygon>
-</symbol>
-                            </svg>
+</svg>

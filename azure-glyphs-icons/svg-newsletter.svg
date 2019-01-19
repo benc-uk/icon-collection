@@ -1,7 +1,7 @@
-<svg>
-                                <symbol id="svg-newsletter" viewBox="0 0 28 28">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect width="28" height="28" fill="#515252"></rect>
     <rect x="5.527" y="9.223" width="16.802" height="10.245" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.639"></rect>
     <polyline points="22.428 9.904 13.928 15.947 5.428 9.904" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.639"></polyline>
-</symbol>
-                            </svg>
+</svg>

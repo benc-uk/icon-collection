@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-operation-management" viewBox="0 0 65 65">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect fill="#5bb4da" x="8.57" y="28.53" width="3.97" height="3.97"></rect>
     <rect fill="#5bb4da" x="8.57" y="34.48" width="3.97" height="3.97"></rect>
     <path fill="#5bb4da" d="M8.57,26.55h4V23a22.33,22.33,0,0,0-4,2.61Z"></path>
@@ -29,5 +30,4 @@
     <rect fill="#5bb4da" x="26.55" y="52.46" width="3.97" height="3.97"></rect>
     <rect fill="#5bb4da" x="26.55" y="58.53" width="3.97" height="3.97"></rect>
     <rect fill="#5bb4da" x="20.48" y="46.51" width="3.97" height="3.97"></rect>
-</symbol>
-                            </svg>
+</svg>

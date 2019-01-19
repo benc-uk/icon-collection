@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-beaker" viewBox="0 0 32 33">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 	<g fill="none" fill-rule="evenodd">
 		<path fill="#0078D4" d="M31.5525 29.0593l-10.741-18.511v-8.331h2.141v-2.218H8.8735v2.218h2.141v8.331L.2735 29.0593c-.774 1.334.188 3.004 1.729 3.004H29.8235c1.541 0 2.503-1.67 1.729-3.004"></path>
 		<path fill="#FFF" d="M29.8259 29.947l-6.924-11.933H8.9249l-6.925 11.933z"></path>
 	</g>
-</symbol>
-                            </svg>
+</svg>

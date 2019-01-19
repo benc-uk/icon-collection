@@ -1,13 +1,11 @@
 #!/usr/bin/node
+
 const fs = require('fs');
-const path = require('path');
 const request = require('request');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 var BASEURL = process.argv[2];
-//var OUTPUT = path.resolve(process.argv[3]);
-//var EXTENSION = process.argv[3] || 'svg';
 if(!BASEURL) {
   console.log(`### ERROR! No base URL provided!`);
   console.log(`Usage: node scrape.js {URL to scrape REQUIRED}`);
@@ -25,7 +23,7 @@ try {
 
 console.log(`### Scraping icons from ${BASEURL} ...`);
 
-// Get page HTML
+// Fetch page HTML from server
 request.get(BASEURL, (err, resp, body) => {
 
   if(err) {
@@ -33,6 +31,7 @@ request.get(BASEURL, (err, resp, body) => {
     return;
   }
 
+  // Load and parse into a virtual DOM document
   var doc = new JSDOM(body).window.document;
   let count = 0;
 
@@ -50,21 +49,24 @@ request.get(BASEURL, (err, resp, body) => {
       if(href.startsWith('#')) {
         name = href.substring(1);
         let symbol = doc.getElementById(href.substring(1));
-        use.replaceWith(symbol)
+        
+        // Remove the <use> node and insert the contents of the referred symbol
+        svg.removeChild(use);
+        svg.innerHTML = svg.innerHTML + symbol.innerHTML;
       }
-      // Use is external URL
+      // Use is pointing at external URL
       if(href.startsWith('http')) {
         // NOT HANDLED - NOT EVEN SURE ITS PART OF THE SVG SPEC
-      }        
+      }
     }
-
+    
     // Skip SVGs which just contain the defs
-    if(svg.firstElementChild.nodeName == "defs") {
+    if(svg.firstElementChild && svg.firstElementChild.nodeName == "defs") {
       continue;
     }
 
     console.log(`### - ${name} (Inline SVG)`)
-    let svgContent = `<svg>${svg.innerHTML}</svg>`;
+    let svgContent = `<svg xmlns="http://www.w3.org/2000/svg">${svg.innerHTML}</svg>`;
     fs.writeFileSync(`${OUTPUT}/${name}.svg`, svgContent)
   }
 
@@ -76,12 +78,11 @@ request.get(BASEURL, (err, resp, body) => {
     if (src) {
       let fileName = src.split('/');
       fileName = fileName[fileName.length - 1];
+      if(fileName.endsWith('.jpeg') || fileName.endsWith('.jpg')) continue;
       console.log(`### - ${fileName}`);      
 
       if (src.startsWith('//')) src = 'https:' + src;
       if (!src.startsWith('http')) src = BASEURL + "/" + src;
-    
-      //console.log(src);
       
       // Fetch image file and write to disk
       request.get(src)

@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-data-warehouse" viewBox="0 0 80 79.04">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 <polygon fill="#3999C6" points="80,79.04 72.8,79.04 72.8,26.72 39.84,8.48 7.2,26.72 7.2,79.04 0,79.04 0,22.4 39.84,0 80,22.4 "></polygon>
 <rect x="33.28" y="55.52" fill="#B8D432" width="13.44" height="9.6"></rect>
 <rect x="33.28" y="40.32" fill="#B8D432" width="13.44" height="11.04"></rect>
@@ -11,5 +12,4 @@
 <rect x="15.68" y="40.32" fill="#B8D432" width="13.44" height="11.04"></rect>
 <rect x="15.68" y="55.52" fill="#B8D432" width="13.44" height="9.6"></rect>
 <rect x="15.68" y="69.28" fill="#B8D432" width="13.44" height="9.76"></rect>
-</symbol>
-                            </svg>
+</svg>

@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-templates-2" viewBox="0 0 58.799 53.683">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <line x1="28.339" y1="13.982" x2="27.839" y2="13.982" fill="none" stroke="#7a7a7a" stroke-miterlimit="10"></line>
     <line x1="26.737" y1="13.982" x2="20.677" y2="13.982" fill="none" stroke="#7a7a7a" stroke-miterlimit="10" stroke-dasharray="1.102 1.102"></line>
     <line x1="20.126" y1="13.982" x2="19.626" y2="13.982" fill="none" stroke="#7a7a7a" stroke-miterlimit="10"></line>
@@ -21,5 +22,4 @@
     <polygon points="46.256 27.386 47.093 28.835 47.929 30.285 46.256 30.285 44.582 30.285 45.419 28.835 46.256 27.386" fill="#7a7a7a"></polygon>
     <polyline points="51.403 3.766 56.833 6.917 56.804 19.891 51.36 23.018" fill="none" stroke="#7a7a7a" stroke-miterlimit="10" stroke-width="1.5"></polyline>
     <polyline points="39.541 22.863 34.333 19.841 34.362 6.867 39.76 3.766" fill="none" stroke="#7a7a7a" stroke-miterlimit="10" stroke-width="1.5"></polyline>
-</symbol>
-                            </svg>
+</svg>

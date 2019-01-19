@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-four-servers" viewBox="0 0 49 49">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 	<path d="M10.7591 0.0800781H0.653809V48.0464H10.7591V0.0800781Z" fill="#0078D4"></path>
 	<path d="M23.3899 0.0800781H13.2847V48.0464H23.3899V0.0800781Z" fill="#0078D4"></path>
 	<path d="M36.0227 0.0800781H25.9175V48.0464H36.0227V0.0800781Z" fill="#0078D4"></path>
@@ -12,5 +13,4 @@
 	<path d="M32.2497 36.7109H29.7065V39.2559H32.2497V36.7109Z" fill="#50E6FF"></path>
 	<path d="M44.8298 41.7676H42.2866V44.3125H44.8298V41.7676Z" fill="#50E6FF"></path>
 	<path d="M44.8298 36.7109H42.2866V39.2559H44.8298V36.7109Z" fill="#50E6FF"></path>
-</symbol>
-                            </svg>
+</svg>

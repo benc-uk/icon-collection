@@ -1,5 +1,5 @@
-<svg>
-                                <symbol id="svg-calculator-collapse" viewBox="0 0 16 16.1">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M1.3,10.7V9.3h5.3v5.3H5.3v-3.2l-4.4,4.4l-0.8-0.8l4.4-4.4H1.3z M15.9,0.9l-4.4,4.4h3.2v1.3H9.3V1.3h1.3v3.2 l4.4-4.4L15.9,0.9z"></path>
-</symbol>
-                            </svg>
+</svg>

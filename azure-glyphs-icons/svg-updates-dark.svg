@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-updates-dark" viewBox="0 0 48 48">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <rect width="48" height="48" fill="black" fill-opacity="0"></rect>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 48H48V4.5H0V48ZM6.75 17.25H11.25V12.75H6.75V17.25ZM26.25 24.75H21.75V20.25H26.25V24.75ZM14.25 32.25H18.75V27.75H14.25V32.25ZM33.75 39.75H29.25V35.25H33.75V39.75Z" fill="#303030"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.5H48V1C48 0.447715 47.5523 0 47 0H0.999999C0.447714 0 0 0.447715 0 1V4.5Z" fill="#0078D4"></path>
@@ -19,5 +20,4 @@
   <path fill-rule="evenodd" clip-rule="evenodd" d="M36.75 24.75H41.25V20.25H36.75V24.75Z" fill="#0078D4"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M36.75 32.25H41.25V27.75H36.75V32.25Z" fill="#0078D4"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M36.75 39.75H41.25V35.25H36.75V39.75Z" fill="#0078D4"></path>
-</symbol>
-                            </svg>
+</svg>

@@ -1,7 +1,7 @@
-<svg>
-                                <symbol id="svg-calculator-invite" viewBox="0 0 18.395 18.472">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M8.678,9.667a4.169,4.169,0,1,0-4.095.005C2.206,10.856.5,12.377.5,14.621c0,2.849,2.743,3.351,6.126,3.351s6.126-.586,6.126-3.435C12.751,12.3,11.05,10.832,8.678,9.667Z" fill="none" stroke-miterlimit="10"></path>
     <line x1="12.217" y1="3.5" x2="18.395" y2="3.5" fill="none" stroke-miterlimit="10"></line>
     <line x1="15.306" x2="15.306" y2="6.833" fill="none" stroke-miterlimit="10"></line>
-</symbol>
-                            </svg>
+</svg>

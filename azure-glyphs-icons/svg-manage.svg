@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-manage" viewBox="0 0 39.761 34.989">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path d="M0,33.4a1.531,1.531,0,0,0,1.59,1.59H38.17a1.531,1.531,0,0,0,1.59-1.59V6.892H0Z" fill="#59b4d9"></path>
   <path d="M38.17,0H1.59A1.531,1.531,0,0,0,0,1.59V7.422H39.761V1.59A1.531,1.531,0,0,0,38.17,0Z" fill="#a0a1a2"></path>
   <path d="M1.59,0A1.531,1.531,0,0,0,0,1.59V33.4a1.531,1.531,0,0,0,1.59,1.59H16.832L34.724,0Z" fill="#fff" opacity="0.1" style="isolation: isolate"></path>
@@ -7,5 +8,4 @@
   <rect x="17.495" y="16.567" width="15.904" height="2.651" fill="#fff" opacity="0.6" style="isolation: isolate"></rect>
   <path d="M6.759,27.037l-.4-.4a.249.249,0,0,1,0-.4l1.06-.928.133-.133c.133,0,.133,0,.133.133L10.6,28.5,15.772,22a.463.463,0,0,1,.265-.133h.133l1.193.928.133.133v.133l-6.627,8.35Z" fill="#fff"></path>
   <rect x="17.495" y="27.037" width="15.904" height="2.651" fill="#fff" opacity="0.6" style="isolation: isolate"></rect>
-</symbol>
-                            </svg>
+</svg>

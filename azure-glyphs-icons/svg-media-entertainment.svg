@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-media-entertainment" viewBox="0 0 52 37">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 <rect width="52" height="37" fill="black" fill-opacity="0"></rect>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 37H52V4.11108H0V37Z" fill="black"></path>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.11111H52V0H0V4.11111Z" fill="#0078D4"></path>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M31.4805 20.6804L21.7305 26.7004V14.6675L31.4805 20.6804Z" fill="#50E6FF"></path>
-</symbol>
-                            </svg>
+</svg>

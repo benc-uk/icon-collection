@@ -1,5 +1,5 @@
-<svg>
-                                <symbol id="svg-nav-search-close" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path transform="translate(-3818 18) matrix(0.0117 0 0 -0.0117 3818 14)" d="M 2591.95 2735.04L 2735.04 2591.95L 1510.62 1367.52L 2735.04 143.097L 2591.95 0L 1367.52 1224.42L 143.097 0L 0 143.097L 1224.42 1367.52L 0 2591.95L 143.097 2735.04L 1367.52 1510.62L 2591.95 2735.04Z"></path>
-</symbol>
-                            </svg>
+</svg>

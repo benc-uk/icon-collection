@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-events-dark" viewBox="0 0 31 31">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path d="M3.4 0H0V3.4H3.4V0Z" transform="translate(18.425 18.5)" fill="#303030"></path>
   <path d="M3.4 0H0V3.4H3.4V0Z" transform="translate(13.425 18.5)" fill="#303030"></path>
   <path d="M3.4 0H0V3.4H3.4V0Z" transform="translate(18.425 13.5)" fill="#59B4D9"></path>
@@ -21,5 +22,4 @@
   <path d="M3.4 0H0V3.4H3.4V0Z" transform="translate(8.42505 18.5)" fill="#59B4D9"></path>
   <path d="M3.4 0H0V3.4H3.4V0Z" transform="translate(18.425 13.5)" fill="#0078D4"></path>
   <path d="M3.4 0H0V3.4H3.4V0Z" transform="translate(8.42505 18.5)" fill="#0078D4"></path>
-</symbol>
-                            </svg>
+</svg>

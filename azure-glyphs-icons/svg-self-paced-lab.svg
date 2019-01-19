@@ -1,5 +1,5 @@
-<svg>
-                                <symbol id="svg-self-paced-lab" viewBox="0 0 24 15">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path d="M0,1.5V0H1.5V1.5ZM0,6V4.5H1.5V6Zm0,4.5V9H1.5v1.5ZM0,15V13.5H1.5V15ZM4.5,0H24V1.5H4.5Zm0,6V4.5H24V6Zm0,4.5V9H24v1.5Zm0,4.5V13.5H24V15Z" fill="#969696"></path>
-</symbol>
-                            </svg>
+</svg>

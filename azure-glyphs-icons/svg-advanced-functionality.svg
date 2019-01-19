@@ -1,10 +1,10 @@
-<svg>
-                                <symbol id="svg-advanced-functionality" viewBox="0 0 630 630">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <rect width="630" height="630" fill="none" stroke="#fff" stroke-miterlimit="10"></rect>
   <polygon points="420.33 137.83 377.91 180.26 515.15 317.5 383.91 448.74 426.33 491.17 600 317.5 420.33 137.83"></polygon>
   <polygon fill="#0078d4" points="252.09 180.26 209.67 137.83 72.43 275.07 30 317.5 203.67 491.17 246.09 448.74 114.85 317.5 252.09 180.26"></polygon>
   <circle fill="#0078d4" cx="260" cy="370" r="30"></circle>
   <circle fill="#50e6ff" cx="314.99" cy="315.01" r="30"></circle>
   <circle cx="369.97" cy="260.03" r="30"></circle>
-</symbol>
-                            </svg>
+</svg>

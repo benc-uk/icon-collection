@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-scale-and-run" viewBox="0 0 307.603 147.566">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <line x1="126.12" y1="137.205" x2="297.16" y2="137.205" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5.395"></line>
     <line x1="6.079" y1="137.205" x2="71.954" y2="137.205" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.697"></line>
     <rect x="156.698" y="10.446" width="134.269" height="92.956" fill="#afe5fd"></rect>
@@ -35,5 +36,4 @@
     <line x1="82.154" y1="121.621" x2="284.318" y2="108.349" fill="none" stroke="#9b9b9b" stroke-miterlimit="10" stroke-width="2.697" stroke-dasharray="5.403 2.691 0.01 0"></line>
     <line x1="284.318" y1="108.349" x2="287.009" y2="108.172" fill="none" stroke="#9b9b9b" stroke-miterlimit="10" stroke-width="2.697"></line>
     <polygon points="285.791 113.644 294.735 107.665 285.086 102.907 285.791 113.644" fill="#9b9b9b"></polygon>
-</symbol>
-                            </svg>
+</svg>

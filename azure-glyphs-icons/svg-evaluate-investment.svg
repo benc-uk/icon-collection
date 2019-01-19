@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-evaluate-investment" viewBox="0 0 156.533 94.1">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect width="114.131" height="54.948" fill="#bad80a"></rect>
     <ellipse cx="57.065" cy="27.474" rx="13.661" ry="19.31" fill="#008a00"></ellipse>
     <rect x="5.353" y="4.695" width="103.427" height="45.558" fill="none" stroke="#008a00" stroke-miterlimit="10" stroke-width="1.423"></rect>
@@ -27,5 +28,4 @@
     <rect x="23.948" y="73.979" width="41.33" height="10.117" rx="2" ry="2" transform="translate(-36.833 38.99) rotate(-34.373)" fill="#525252"></rect>
     <path d="M62.1,68.005l-2.161-3.159a2,2,0,0,0-2.78-.522L26.351,85.4a2,2,0,0,0-.522,2.78l2.161,3.159Z" fill="#1a1a1a" opacity="0.28"></path>
     <circle cx="90.506" cy="48.419" r="9.212" fill="#fff" opacity="0.18"></circle>
-</symbol>
-                            </svg>
+</svg>

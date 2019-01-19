@@ -1,6 +1,6 @@
-<svg>
-                                <symbol id="svg-facebook" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <circle fill="#3C5B92" cx="12" cy="12" r="12"></circle>
     <path fill="#FFF" d="M10.347,8.4v1.717H9.089v2.1h1.258v5.765h2.586V12.216h1.735s0.162-1.007.241-2.108H12.942V8.672a0.611,0.611,0,0,1,.561-0.5h1.409V5.981H13C10.283,5.981,10.347,8.084,10.347,8.4Z"></path>
-</symbol>
-                            </svg>
+</svg>

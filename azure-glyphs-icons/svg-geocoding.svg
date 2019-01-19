@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-geocoding" viewBox="0 0 630 630">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <rect fill="none" width="630" height="630"></rect>
   <polygon fill="#0078d4" points="600 150 270 150 270 30 150 30 150 150 30 150 30 270 150 270 150 600 270 600 270 270 600 270 600 150"></polygon>
   <path d="M570,360V569.94H360V360H570m30-30H330V599.94H600V330Z"></path>
@@ -7,5 +8,4 @@
   <rect fill="#50e6ff" x="30" y="30" width="60" height="60"></rect>
   <rect fill="#50e6ff" x="30" y="330" width="60" height="270"></rect>
   <circle fill="#0078d4" cx="464.56" cy="465.15" r="60"></circle>
-</symbol>
-                            </svg>
+</svg>

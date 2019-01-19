@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-work-how-you-want" viewBox="0 0 283.693 170.349">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect x="9.628" y="70.523" width="213.73" height="73.286" fill="#4ab9e6" opacity="0.5"></rect>
     <rect x="9.628" y="10.796" width="105.987" height="59.727" fill="#afe5fd"></rect>
     <rect x="115.615" y="10.796" width="105.987" height="59.727" fill="#4ab9e6"></rect>
@@ -48,5 +49,4 @@
     <path d="M154.621,54.785a5.319,5.319,0,0,0-5.32,5.32V162.47a5.321,5.321,0,0,0,5.32,5.32h50.859l59.421-113Z" fill="#fff" opacity="0.1" style="isolation: isolate"></path>
     <polygon points="168.799 143.139 168.799 139.768 192.601 128.039 192.601 127.899 168.799 114.59 168.799 111.287 198.046 127.689 198.046 128.32 168.799 143.139" fill="#fff"></polygon>
     <rect x="195.989" y="154.937" width="29.851" height="4.177" fill="#fff"></rect>
-</symbol>
-                            </svg>
+</svg>

@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-application-resources" viewBox="0 0 215.571 56.019">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M4.3,13.1A28.008,28.008,0,1,0,56.02,28.009H28.01Z" fill="#6ec2e9"></path>
     <path d="M28.01,0V28.009H56.02A28.01,28.01,0,0,0,28.01,0Z" fill="#442359"></path>
     <path d="M28.01,28.009V0A27.919,27.919,0,0,0,8.2,8.2Z" fill="#019e4a"></path>
@@ -30,5 +31,4 @@
     <line x1="154.974" y1="36.14" x2="170.919" y2="40.817" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
     <line x1="154.974" y1="47.659" x2="170.919" y2="42.985" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
     <line x1="170.919" y1="27.133" x2="154.974" y2="27.122" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.456"></line>
-</symbol>
-                            </svg>
+</svg>

@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-calculator-copy" viewBox="0 0 13.324 13.106">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect x="0.448" y="0.448" width="9.746" height="9.746" rx="0.8" ry="0.8" fill="#fff" stroke-miterlimit="10" stroke-width="0.896"></rect>
     <rect x="3.13" y="2.912" width="9.746" height="9.746" rx="0.8" ry="0.8" fill="#fff" stroke-miterlimit="10" stroke-width="0.896"></rect>
     <line x1="8.003" y1="10.446" x2="8.003" y2="5.124" fill="none" stroke-miterlimit="10" stroke-width="0.896"></line>
     <line x1="5.342" y1="7.785" x2="10.664" y2="7.785" fill="none" stroke-miterlimit="10" stroke-width="0.896"></line>
-</symbol>
-                            </svg>
+</svg>

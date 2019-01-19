@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-flip-calendar" viewBox="0 0 157 157">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 <path d="M148.958 32.0164H7.81494V149.635H148.958V32.0164Z" fill="#0078D4"></path>
 <path d="M134.101 23.3496V8.49243H111.815V23.3496H44.9578V8.49243H22.6721V23.3496H7.81494V38.2067H148.958V23.3496H134.101Z" fill="black"></path>
 <path d="M52.3862 60.4924H22.6719V90.2067H52.3862V60.4924Z" fill="#50E6FF"></path>
@@ -8,5 +9,4 @@
 <path d="M52.3862 105.064H22.6719V134.778H52.3862V105.064Z" fill="#50E6FF"></path>
 <path d="M134.101 105.064H104.386V134.778H134.101V105.064Z" fill="#50E6FF"></path>
 <path d="M93.2685 105.064H63.5542V134.778H93.2685V105.064Z" fill="#50E6FF"></path>
-</symbol>
-                            </svg>
+</svg>

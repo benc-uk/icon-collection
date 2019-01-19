@@ -1,7 +1,7 @@
-<svg>
-                                <symbol id="svg-blue-black-square" viewBox="0 0 157 157">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 <path d="M134.096 22.5356V133.964H22.6677V22.5356H134.096ZM148.953 7.67847H7.81055V148.821H148.953V7.67847Z" fill="#0078D4"></path>
 <path d="M74.6677 81.9644H7.81055V148.821H74.6677V81.9644Z" fill="#50E6FF"></path>
 <path d="M96.9531 7.67847V22.5356H134.096V59.6785H148.953V7.67847H96.9531Z" fill="black"></path>
-</symbol>
-                            </svg>
+</svg>

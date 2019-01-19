@@ -1,7 +1,7 @@
-<svg>
-                                <symbol id="svg-devops-advanced-workflows" viewBox="0 0 80 80">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect width="80" height="80" fill="black" fill-opacity="0"></rect>
     <circle cx="40" cy="40" r="40" fill="#2560E0" fill-opacity="0.05"></circle>
     <path d="M31 24.25H25.8496L31.791 30.209L30.209 31.791L24.25 25.8496V31H22V22H31V24.25ZM49 22H58V31H55.75V25.8496L49.791 31.791L48.209 30.209L54.1504 24.25H49V22ZM30.209 48.209L31.791 49.791L25.8496 55.75H31V58H22V49H24.25V54.1504L30.209 48.209ZM55.75 54.1504V49H58V58H49V55.75H54.1504L48.209 49.791L49.791 48.209L55.75 54.1504ZM33.25 46.75V33.25H46.75V46.75H33.25ZM35.5 35.5V44.5H44.5V35.5H35.5Z" fill="#2560E0"></path>
-</symbol>
-                            </svg>
+</svg>

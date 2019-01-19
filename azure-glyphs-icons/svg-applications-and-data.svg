@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-applications-and-data" viewBox="0 0 213.735 100.167">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M42.563,42.246H65.046a1.012,1.012,0,0,1,1.012,1.012v47.29a1.013,1.013,0,0,1-1.013,1.013H42.562a1.012,1.012,0,0,1-1.012-1.012V43.259A1.013,1.013,0,0,1,42.563,42.246Z"></path>
     <rect x="43.711" y="52.274" width="20.219" height="9.796" fill="#00aeef"></rect>
     <rect x="43.711" y="62.458" width="4.676" height="4.676" fill="#fff"></rect>
@@ -61,5 +62,4 @@
     <text transform="translate(153.114 32.013)" font-size="1.518" fill="#fff" font-family="Segoe-Light, Segoe Light" letter-spacing="0.018em">J<tspan x="0.589" y="0" letter-spacing="0.014em">u</tspan><tspan x="1.446" y="0" letter-spacing="0.025em">s</tspan><tspan x="2.085" y="0" letter-spacing="0.014em">ti</tspan><tspan x="2.984" y="0" letter-spacing="0.001em">n</tspan></text>
     <path d="M170.828,78.778c-.1,0-.2.006-.3.006a21.152,21.152,0,0,0-42.146-2.344,14.651,14.651,0,1,0-11.5,23.727h53.947a10.695,10.695,0,0,0,0-21.389Z" fill="#00abec" opacity="0.23"></path>
     <path d="M46.735,81.181a9.26,9.26,0,0,0-.95.049A9.2,9.2,0,1,0,28.4,76.065a9.2,9.2,0,0,0-16.017,5.682A9.2,9.2,0,1,0,9.2,99.581H46.735a9.2,9.2,0,0,0,0-18.4Z" fill="#00abec" opacity="0.23"></path>
-</symbol>
-                            </svg>
+</svg>

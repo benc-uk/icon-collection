@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-migration" viewBox="0 0 48 48">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path d="M0 0H10.1053V10.1053L0 0Z" fill="#0078D4"></path>
   <path d="M12.6316 0H22.7369V10.1053L12.6316 0Z" fill="#50E6FF"></path>
   <path d="M25.2632 0H35.3684V10.1053L25.2632 0Z" fill="#50E6FF"></path>
@@ -16,5 +17,4 @@
   <path d="M12.6316 37.8945H22.7369V47.9998L12.6316 37.8945Z" fill="#0078D4"></path>
   <path d="M25.2632 37.8945H35.3684V47.9998L25.2632 37.8945Z" fill="#0078D4"></path>
   <path d="M37.8948 37.8945H48.0001V47.9998L37.8948 37.8945Z" fill="#0078D4"></path>
-</symbol>
-                            </svg>
+</svg>

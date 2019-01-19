@@ -1,5 +1,5 @@
-<svg>
-                                <symbol id="svg-calendar-alt" viewBox="0 0 25.346 24.596">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M19.5,2.026H24l-.006,21.061L0,23.092.006,2.031H4.5V.525H6v1.5l12,0V.521h1.5ZM1.5,21.587l20.992-.006,0-13.539L1.5,8.048Zm3-18.053h-3V6.544L22.5,6.538V3.529h-3v1.5H18V3.53l-12,0v1.5H4.5Zm0,13.539v-1.5H6v1.5Zm0,3.009v-1.5H6v1.5Zm0-6.018v-1.5H6v1.5ZM9,17.072v-1.5h1.5v1.5Zm0,3.009v-1.5h1.5v1.5Zm0-6.018v-1.5h1.5v1.5Zm0-3.009v-1.5h1.5v1.5Zm4.5,6.017v-1.5H15v1.5Zm0,3.009v-1.5H15v1.5Zm0-6.018v-1.5H15v1.5Zm0-3.009V9.55H15v1.5Zm4.5,6.016v-1.5h1.5v1.5Zm0-3.009v-1.5h1.5v1.5Zm0-3.009v-1.5h1.5v1.5Z" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.207"></path>
-</symbol>
-                            </svg>
+</svg>

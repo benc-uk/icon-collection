@@ -1,6 +1,6 @@
-<svg>
-                                <symbol id="svg-book" viewBox="0 0 30 30">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path fill="#59B4D9" d="M25.256,0H3v30h22.256C26.215,30,27,29.297,27,28.438V1.563C27,0.704,26.215,0,25.256,0z M21,11.416H9V7.688 h12V11.416z"></path>
     <polygon fill="#5E5E5E" points="23.377,10.313 20.215,8.438 17.052,10.313 17.052,0 23.377,0"></polygon>
-</symbol>
-                            </svg>
+</svg>

@@ -1,10 +1,10 @@
-<svg>
-                                <symbol id="svg-whitepaper-alt-dark" viewBox="0 0 33 48">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 48H33V0H0V48Z" fill="black"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M4.56 10.502H28.56V6.00195H4.56V10.502Z" fill="#50E6FF"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M4.56 17.998H28.56V13.498H4.56V17.998Z" fill="#0078D4"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M4.56 25.498H28.56V20.998H4.56V25.498Z" fill="#0078D4"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M4.56 32.998H28.56V28.498H4.56V32.998Z" fill="#0078D4"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 40.498H18V35.998H4.5V40.498Z" fill="#0078D4"></path>
-</symbol>
-                            </svg>
+</svg>

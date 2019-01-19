@@ -1,10 +1,10 @@
-<svg>
-                                <symbol id="svg-bing-visual-search" viewBox="0 0 183.3 183.3">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <polyline points="5.65 36.15 5.65 5.65 37.483 5.65" fill="none" stroke="#0063B1" stroke-miterlimit="10" stroke-width="11.3"></polyline>
     <polyline points="37.483 177.65 5.65 177.65 5.65 146.817" fill="none" stroke="#0063B1" stroke-miterlimit="10" stroke-width="11.3"></polyline>
     <polyline points="177.65 146.817 177.65 177.65 147.483 177.65" fill="none" stroke="#0063B1" stroke-miterlimit="10" stroke-width="11.3"></polyline>
     <polyline points="147.483 5.65 177.65 5.65 177.65 36.15" fill="none" stroke="#0063B1" stroke-miterlimit="10" stroke-width="11.3"></polyline>
     <circle cx="102.65" cy="81.65" r="33" fill="none" stroke="#0063B1" stroke-miterlimit="10" stroke-width="11.3"></circle>
     <line x1="47.65" y1="135.65" x2="79.15" y2="104.15" fill="none" stroke="#0063B1" stroke-miterlimit="10" stroke-width="11.3"></line>
-</symbol>
-                            </svg>
+</svg>

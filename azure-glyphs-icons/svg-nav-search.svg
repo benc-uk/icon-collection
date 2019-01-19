@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-nav-search" viewBox="0 0 13 14">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <g fill="none" fill-rule="evenodd" stroke-width="1.5" transform="translate(1 1)">
     <path stroke-linecap="round" d="M11.1143362,9.69887875 L8.91949589,11.9557202" transform="matrix(-1 0 0 1 20.034 0)"></path>
     <ellipse cx="5.122" cy="5.257" rx="5.112" ry="5.257" transform="matrix(-1 0 0 1 10.245 0)"></ellipse>
   </g>
-</symbol>
-                            </svg>
+</svg>

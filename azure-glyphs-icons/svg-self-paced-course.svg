@@ -1,5 +1,5 @@
-<svg>
-                                <symbol id="svg-self-paced-course" viewBox="0 0 24 18">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path d="M0,0H24V18H0ZM22.5,16.5V1.5H1.5v15ZM21,3V15H3V3ZM19.5,13.5v-9H4.5v9ZM9,6l6,3L9,12Zm1.125,1.816v2.367L12.48,9Z" fill="#969696"></path>
-</symbol>
-                            </svg>
+</svg>

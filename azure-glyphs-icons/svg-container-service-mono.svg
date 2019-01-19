@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-container-service-mono" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <rect x="4" y="14" width="1" height="6"></rect>
   <rect x="8" y="14" width="1" height="6"></rect>
   <rect x="6" y="14" width="1" height="6"></rect>
@@ -15,5 +16,4 @@
   <rect x="20" y="14" width="1" height="6"></rect>
   <path d="M12,12v10h11V12H12z M22,21h-9v-8h9V21z"></path>
   <rect x="14" y="14" width="1" height="6"></rect>
-</symbol>
-                            </svg>
+</svg>

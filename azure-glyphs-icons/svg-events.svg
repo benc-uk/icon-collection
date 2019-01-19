@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-events" viewBox="0 0 30 30">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <rect x="18.4" y="18.5" fill="#59B4D9" width="3.4" height="3.4"></rect>
     <rect x="13.4" y="18.5" fill="#59B4D9" width="3.4" height="3.4"></rect>
     <rect x="18.4" y="13.5" fill="#59B4D9" width="3.4" height="3.4"></rect>
@@ -21,5 +22,4 @@
     <rect x="8.4" y="18.5" fill="#59B4D9" width="3.4" height="3.4"></rect>
     <rect x="18.4" y="13.5" fill="#5E5E5E" width="3.4" height="3.4"></rect>
     <rect x="8.4" y="18.5" fill="#5E5E5E" width="3.4" height="3.4"></rect>
-</symbol>
-                            </svg>
+</svg>

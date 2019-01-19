@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-case-studies" viewBox="0 0 47.881 66.403">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <line x1="21.359" y1="6.456" x2="30.397" y2="6.456" fill="none" stroke="#7e7e7e" stroke-miterlimit="10" stroke-width="1.5"></line>
   <line x1="21.359" y1="11.066" x2="40.602" y2="11.066" fill="none" stroke="#7e7e7e" stroke-miterlimit="10" stroke-width="1.5"></line>
   <line x1="21.359" y1="15.677" x2="40.602" y2="15.677" fill="none" stroke="#7e7e7e" stroke-miterlimit="10" stroke-width="1.5"></line>
@@ -16,5 +17,4 @@
   <line x1="35.914" y1="42.378" x2="32.057" y2="38.682" fill="none" stroke="#008272" stroke-linecap="round" stroke-miterlimit="10"></line>
   <line x1="33.777" y1="43.695" x2="29.892" y2="40.167" fill="none" stroke="#008272" stroke-linecap="round" stroke-miterlimit="10"></line>
   <line x1="31.263" y1="44.497" x2="27.869" y2="41.509" fill="none" stroke="#008272" stroke-linecap="round" stroke-miterlimit="10"></line>
-</symbol>
-                            </svg>
+</svg>

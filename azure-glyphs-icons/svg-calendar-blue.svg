@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-calendar-blue" viewBox="0 0 32 30">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 <path d="M26 0H24V2H8V0H6V2H0V30H32V2H26V0ZM8 26H6V24H8V26ZM8 22H6V20H8V22ZM8 18H6V16H8V18ZM14 26H12V24H14V26ZM14 22H12V20H14V22ZM14 18H12V16H14V18ZM14 14H12V12H14V14ZM20 26H18V24H20V26ZM20 22H18V20H20V22ZM20 18H18V16H20V18ZM20 14H18V12H20V14ZM26 22H24V20H26V22ZM26 18H24V16H26V18ZM26 14H24V12H26V14ZM30 4V8H2V4H6V6H8V4H24V6H26V4H30Z" fill="#243A5E"></path>
 <path d="M2 0H0V2H2V0Z" transform="translate(6 24)" fill="#0078D4"></path>
 <path d="M2 0H0V2H2V0Z" transform="translate(12 24)" fill="#0078D4"></path>
@@ -8,5 +9,4 @@
 <path d="M2 0H0V2H2V0Z" transform="translate(12 16)" fill="#50E6FF"></path>
 <path d="M2 0H0V2H2V0Z" transform="translate(12 12)" fill="#0078D4"></path>
 <path d="M2 0H0V2H2V0Z" transform="translate(24 12)" fill="#50E6FF"></path>
-</symbol>
-                            </svg>
+</svg>

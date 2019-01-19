@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-productivity-graph" viewBox="0 0 48 42">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <polygon points="40.129 42 47.999 42 47.999 0 40.129 0"></polygon>
   <polygon points="13.119 42 20.989 42 20.989 28.696 13.119 28.696"></polygon>
   <polygon points="0 42 7.871 42 7.871 35.193 0 35.193"></polygon>
   <polygon points="26.855 42 34.726 42 34.726 15.314 26.855 15.314"></polygon>
-</symbol>
-                            </svg>
+</svg>

@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-clock2" viewBox="0 0 265 181">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
 	<g fill="none">
 		<path d="M 146.548 73.4297C 146.548 113.984 113.742 146.859 73.2738 146.859C 32.8058 146.859 1.54004e-06 113.984 1.54004e-06 73.4297C 1.54004e-06 32.8756 32.8058 -7.71659e-07 73.2738 -7.71659e-07C 113.742 -7.71659e-07 146.548 32.8756 146.548 73.4297Z" stroke-width="4" stroke-miterlimit="10" transform="translate(115.452 32.1405)" stroke="#00A2F2"></path>
 		<path d="M -6.16016e-06 0L 41.3805 0L 41.3805 12.1371L -6.16016e-06 12.1371L -6.16016e-06 0Z" stroke-width="4" stroke-miterlimit="10" transform="translate(167.935 2)" stroke="#00A2F2"></path>
@@ -12,5 +13,4 @@
     <path opacity="0.2" d="M 45.4176 0L 0 0" stroke-width="2" stroke-miterlimit="20" stroke-linecap="round" stroke-dasharray="5 5" transform="translate(52.4733 105.166)" stroke="#00A2F2"></path>
     <path opacity="0.2" d="M 93.8631 0L 0 0" stroke-width="2" stroke-miterlimit="20" stroke-linecap="round" stroke-dasharray="5 5" transform="translate(1 138.543)" stroke="#00A2F2"></path>
 	</g>
-</symbol>
-                            </svg>
+</svg>

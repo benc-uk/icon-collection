@@ -1,9 +1,9 @@
-<svg>
-                                <symbol id="svg-scalability" viewBox="0 0 140 139">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <path fill-rule="evenodd" clip-rule="evenodd" d="M103.687 103.146V0H0.442811L0 102.78L103.687 103.146Z" transform="translate(4.5127 30.7397)" fill="#D7E8F6"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M82.1466 81.5676V0H0.444273L0 81.9337L82.1466 81.5676Z" transform="translate(4.5127 51.9518)" fill="#ACD1EF"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M61.7028 60.2629V0H0.0701485L0 61.7113L61.7028 60.2629Z" transform="translate(4.87598 71.44)" fill="#7FB9E7"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M0 46.2177H45.9355V0H0V46.2177Z" transform="translate(4.28613 88.3344)" fill="white"></path>
   <path fill-rule="evenodd" clip-rule="evenodd" d="M140 133.704L132.348 139V135.118H5.20705C4.45296 135.118 3.84062 134.502 3.84062 133.742V7.69608H0L5.26405 0L10.531 7.69608H6.57641V86.5934H50.1488C50.9043 86.5934 51.5166 87.2095 51.5166 87.9682V132.366H132.348V128.404L140 133.704ZM6.57641 132.366H48.7809V89.346H6.57641V132.366Z" fill="#0078D7"></path>
-</symbol>
-                            </svg>
+</svg>

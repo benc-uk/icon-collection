@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-mongo-db" viewBox="0 0 39 51">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
     <path d="M0.757,7.288 L0.757,43.399 C0.757,47.148 9.149,50.188 19.5,50.188 L19.5,7.288 C19.5,7.288 0.757,7.288 0.757,7.288 Z" fill="#505050" fill-rule="nonzero"></path>
     <path d="M19.243,50.187 L19.5,50.187 C29.851,50.187 38.243,47.149 38.243,43.399 L38.243,7.288 L19.243,7.288 L19.243,50.187 Z" fill="#505050" fill-rule="nonzero"></path>
     <path d="M19.243,50.187 L19.5,50.187 C29.851,50.187 38.243,47.149 38.243,43.399 L38.243,7.288 L19.243,7.288 L19.243,50.187 Z" fill="#FFFFFF" fill-rule="nonzero" opacity="0.15"></path>
@@ -11,5 +12,4 @@
         <tspan x="7.53536161" y="33" font-family="SegoeUI-Semibold, Segoe UI" font-size="11" font-weight="500">LEAF</tspan>
         <tspan x="31.6123549" y="33">}</tspan>
     </text>
-</symbol>
-                            </svg>
+</svg>

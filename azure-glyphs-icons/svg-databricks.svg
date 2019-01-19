@@ -1,5 +1,6 @@
-<svg>
-                                <symbol id="svg-databricks" viewBox="0 0 60 66">
+<svg xmlns="http://www.w3.org/2000/svg">
+                                
+                            
   <g fill="none" fill-rule="evenodd">
     <polygon fill="#CC271F" points="0 38.432 0 48.932 29.637 65.524 59.273 48.932 59.273 38.432"></polygon>
     <polygon fill="#E63118" points="29.637 38.432 29.637 65.524 59.273 48.932 59.273 38.432"></polygon>
@@ -8,5 +9,4 @@
     <polygon fill="#E63118" points="29.637 16.591 29.637 43.683 59.273 27.091 59.273 16.591"></polygon>
     <polygon fill="#F65B23" points="0 16.591 29.637 33.182 59.273 16.591 29.637 0"></polygon>
   </g>
-</symbol>
-                            </svg>
+</svg>
