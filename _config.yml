@@ -1,1 +1,6 @@
 remote_theme: benc-uk/theme-msdark
+title: Azure Icon Collection
+favicon: https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-patterns/svg-gear-check-blue.svg
+buttons:
+  - text: Download All
+    href: https://github.com/benc-uk/icon-collection/archive/master.zip
