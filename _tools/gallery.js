@@ -12,7 +12,6 @@ if(!DIR || !TITLE) {
 
 outHtml = `
 <head><title>${TITLE}</title>
-<script src="http://pablojs.com/downloads/pablo.min.js"></script>
 </head>
 <style>
 body {
