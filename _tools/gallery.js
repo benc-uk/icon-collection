@@ -11,7 +11,9 @@ if(!DIR || !TITLE) {
 }
 
 outHtml = `
-<head><title>${TITLE}</title></head>
+<head><title>${TITLE}</title>
+<script src="http://pablojs.com/downloads/pablo.min.js"></script>
+</head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
@@ -87,7 +89,7 @@ h1 {
 var files = fs.readdirSync(DIR);
 for(let f of files) {
   if(!f.endsWith(".svg")) continue;
-  outHtml += `<div id="${f}" class="imgbox"><a href="${f}" download><img src="${f}" class="bg0"/></a><div class="label">${f}</div></div>\n`
+  outHtml += `<div id="${f}" class="imgbox"><img src="${f}" class="bg0" onclick="download('${f}', this)"/><div class="label">${f}</div></div>\n`
 }
 
 outHtml += `
@@ -117,12 +119,24 @@ function search() {
   }
 }
 
-function download(f) {
+function download(f, e) {
   let a = document.createElement('a')
   a.href = f
   a.download = f
-  console.log(a)
-  a.click()
+  //a.click()
+
+  console.log(getBase64Image(e))
+
+}
+
+function getBase64Image(img) {
+  var canvas = document.createElement("canvas");
+  canvas.width = img.width;
+  canvas.height = img.height;
+  var ctx = canvas.getContext("2d");
+  ctx.drawImage(img, 0, 0);
+  var dataURL = canvas.toDataURL("image/png");
+  return dataURL.replace(/^data:image\\/(png|jpg);base64,/, "");
 }
 </script>
 </body></html>`

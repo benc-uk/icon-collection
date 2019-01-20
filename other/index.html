@@ -1,5 +1,7 @@
 
-<head><title>Other Icons</title></head>
+<head><title>Other Icons</title>
+<script src="http://pablojs.com/downloads/pablo.min.js"></script>
+</head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
@@ -70,31 +72,31 @@ h1 {
 <button onclick="toggleBg()">Change Background</button>
 </div>
 <div class="grid">
-<div id="Kudu.svg" class="imgbox"><a href="Kudu.svg" download><img src="Kudu.svg" class="bg0"/></a><div class="label">Kudu.svg</div></div>
-<div id="aks-blue.svg" class="imgbox"><a href="aks-blue.svg" download><img src="aks-blue.svg" class="bg0"/></a><div class="label">aks-blue.svg</div></div>
-<div id="app-center-colour.svg" class="imgbox"><a href="app-center-colour.svg" download><img src="app-center-colour.svg" class="bg0"/></a><div class="label">app-center-colour.svg</div></div>
-<div id="app-center.svg" class="imgbox"><a href="app-center.svg" download><img src="app-center.svg" class="bg0"/></a><div class="label">app-center.svg</div></div>
-<div id="azure ml.svg" class="imgbox"><a href="azure ml.svg" download><img src="azure ml.svg" class="bg0"/></a><div class="label">azure ml.svg</div></div>
-<div id="cloud-security.svg" class="imgbox"><a href="cloud-security.svg" download><img src="cloud-security.svg" class="bg0"/></a><div class="label">cloud-security.svg</div></div>
-<div id="connector.svg" class="imgbox"><a href="connector.svg" download><img src="connector.svg" class="bg0"/></a><div class="label">connector.svg</div></div>
-<div id="container-insights.svg" class="imgbox"><a href="container-insights.svg" download><img src="container-insights.svg" class="bg0"/></a><div class="label">container-insights.svg</div></div>
-<div id="container-mon.svg" class="imgbox"><a href="container-mon.svg" download><img src="container-mon.svg" class="bg0"/></a><div class="label">container-mon.svg</div></div>
-<div id="container.svg" class="imgbox"><a href="container.svg" download><img src="container.svg" class="bg0"/></a><div class="label">container.svg</div></div>
-<div id="containerinstances-mono.svg" class="imgbox"><a href="containerinstances-mono.svg" download><img src="containerinstances-mono.svg" class="bg0"/></a><div class="label">containerinstances-mono.svg</div></div>
-<div id="cubes.svg" class="imgbox"><a href="cubes.svg" download><img src="cubes.svg" class="bg0"/></a><div class="label">cubes.svg</div></div>
-<div id="designer.svg" class="imgbox"><a href="designer.svg" download><img src="designer.svg" class="bg0"/></a><div class="label">designer.svg</div></div>
-<div id="devops-boards.svg" class="imgbox"><a href="devops-boards.svg" download><img src="devops-boards.svg" class="bg0"/></a><div class="label">devops-boards.svg</div></div>
-<div id="devops-pipelines.svg" class="imgbox"><a href="devops-pipelines.svg" download><img src="devops-pipelines.svg" class="bg0"/></a><div class="label">devops-pipelines.svg</div></div>
-<div id="devops-repos.svg" class="imgbox"><a href="devops-repos.svg" download><img src="devops-repos.svg" class="bg0"/></a><div class="label">devops-repos.svg</div></div>
-<div id="devops-testplans.svg" class="imgbox"><a href="devops-testplans.svg" download><img src="devops-testplans.svg" class="bg0"/></a><div class="label">devops-testplans.svg</div></div>
-<div id="devopsiconartifacts96.svg" class="imgbox"><a href="devopsiconartifacts96.svg" download><img src="devopsiconartifacts96.svg" class="bg0"/></a><div class="label">devopsiconartifacts96.svg</div></div>
-<div id="event-grid-topic.svg" class="imgbox"><a href="event-grid-topic.svg" download><img src="event-grid-topic.svg" class="bg0"/></a><div class="label">event-grid-topic.svg</div></div>
-<div id="machine-learning-diagram.svg" class="imgbox"><a href="machine-learning-diagram.svg" download><img src="machine-learning-diagram.svg" class="bg0"/></a><div class="label">machine-learning-diagram.svg</div></div>
-<div id="pickle.svg" class="imgbox"><a href="pickle.svg" download><img src="pickle.svg" class="bg0"/></a><div class="label">pickle.svg</div></div>
-<div id="resource-explorer.svg" class="imgbox"><a href="resource-explorer.svg" download><img src="resource-explorer.svg" class="bg0"/></a><div class="label">resource-explorer.svg</div></div>
-<div id="rss.svg" class="imgbox"><a href="rss.svg" download><img src="rss.svg" class="bg0"/></a><div class="label">rss.svg</div></div>
-<div id="shield.svg" class="imgbox"><a href="shield.svg" download><img src="shield.svg" class="bg0"/></a><div class="label">shield.svg</div></div>
-<div id="xcode.svg" class="imgbox"><a href="xcode.svg" download><img src="xcode.svg" class="bg0"/></a><div class="label">xcode.svg</div></div>
+<div id="Kudu.svg" class="imgbox"><img src="Kudu.svg" class="bg0" onclick="download('Kudu.svg', this)"/><div class="label">Kudu.svg</div></div>
+<div id="aks-blue.svg" class="imgbox"><img src="aks-blue.svg" class="bg0" onclick="download('aks-blue.svg', this)"/><div class="label">aks-blue.svg</div></div>
+<div id="app-center-colour.svg" class="imgbox"><img src="app-center-colour.svg" class="bg0" onclick="download('app-center-colour.svg', this)"/><div class="label">app-center-colour.svg</div></div>
+<div id="app-center.svg" class="imgbox"><img src="app-center.svg" class="bg0" onclick="download('app-center.svg', this)"/><div class="label">app-center.svg</div></div>
+<div id="azure ml.svg" class="imgbox"><img src="azure ml.svg" class="bg0" onclick="download('azure ml.svg', this)"/><div class="label">azure ml.svg</div></div>
+<div id="cloud-security.svg" class="imgbox"><img src="cloud-security.svg" class="bg0" onclick="download('cloud-security.svg', this)"/><div class="label">cloud-security.svg</div></div>
+<div id="connector.svg" class="imgbox"><img src="connector.svg" class="bg0" onclick="download('connector.svg', this)"/><div class="label">connector.svg</div></div>
+<div id="container-insights.svg" class="imgbox"><img src="container-insights.svg" class="bg0" onclick="download('container-insights.svg', this)"/><div class="label">container-insights.svg</div></div>
+<div id="container-mon.svg" class="imgbox"><img src="container-mon.svg" class="bg0" onclick="download('container-mon.svg', this)"/><div class="label">container-mon.svg</div></div>
+<div id="container.svg" class="imgbox"><img src="container.svg" class="bg0" onclick="download('container.svg', this)"/><div class="label">container.svg</div></div>
+<div id="containerinstances-mono.svg" class="imgbox"><img src="containerinstances-mono.svg" class="bg0" onclick="download('containerinstances-mono.svg', this)"/><div class="label">containerinstances-mono.svg</div></div>
+<div id="cubes.svg" class="imgbox"><img src="cubes.svg" class="bg0" onclick="download('cubes.svg', this)"/><div class="label">cubes.svg</div></div>
+<div id="designer.svg" class="imgbox"><img src="designer.svg" class="bg0" onclick="download('designer.svg', this)"/><div class="label">designer.svg</div></div>
+<div id="devops-boards.svg" class="imgbox"><img src="devops-boards.svg" class="bg0" onclick="download('devops-boards.svg', this)"/><div class="label">devops-boards.svg</div></div>
+<div id="devops-pipelines.svg" class="imgbox"><img src="devops-pipelines.svg" class="bg0" onclick="download('devops-pipelines.svg', this)"/><div class="label">devops-pipelines.svg</div></div>
+<div id="devops-repos.svg" class="imgbox"><img src="devops-repos.svg" class="bg0" onclick="download('devops-repos.svg', this)"/><div class="label">devops-repos.svg</div></div>
+<div id="devops-testplans.svg" class="imgbox"><img src="devops-testplans.svg" class="bg0" onclick="download('devops-testplans.svg', this)"/><div class="label">devops-testplans.svg</div></div>
+<div id="devopsiconartifacts96.svg" class="imgbox"><img src="devopsiconartifacts96.svg" class="bg0" onclick="download('devopsiconartifacts96.svg', this)"/><div class="label">devopsiconartifacts96.svg</div></div>
+<div id="event-grid-topic.svg" class="imgbox"><img src="event-grid-topic.svg" class="bg0" onclick="download('event-grid-topic.svg', this)"/><div class="label">event-grid-topic.svg</div></div>
+<div id="machine-learning-diagram.svg" class="imgbox"><img src="machine-learning-diagram.svg" class="bg0" onclick="download('machine-learning-diagram.svg', this)"/><div class="label">machine-learning-diagram.svg</div></div>
+<div id="pickle.svg" class="imgbox"><img src="pickle.svg" class="bg0" onclick="download('pickle.svg', this)"/><div class="label">pickle.svg</div></div>
+<div id="resource-explorer.svg" class="imgbox"><img src="resource-explorer.svg" class="bg0" onclick="download('resource-explorer.svg', this)"/><div class="label">resource-explorer.svg</div></div>
+<div id="rss.svg" class="imgbox"><img src="rss.svg" class="bg0" onclick="download('rss.svg', this)"/><div class="label">rss.svg</div></div>
+<div id="shield.svg" class="imgbox"><img src="shield.svg" class="bg0" onclick="download('shield.svg', this)"/><div class="label">shield.svg</div></div>
+<div id="xcode.svg" class="imgbox"><img src="xcode.svg" class="bg0" onclick="download('xcode.svg', this)"/><div class="label">xcode.svg</div></div>
 
 </div>
 <script>
@@ -122,12 +124,24 @@ function search() {
   }
 }
 
-function download(f) {
+function download(f, e) {
   let a = document.createElement('a')
   a.href = f
   a.download = f
-  console.log(a)
-  a.click()
+  //a.click()
+
+  console.log(getBase64Image(e))
+
+}
+
+function getBase64Image(img) {
+  var canvas = document.createElement("canvas");
+  canvas.width = img.width;
+  canvas.height = img.height;
+  var ctx = canvas.getContext("2d");
+  ctx.drawImage(img, 0, 0);
+  var dataURL = canvas.toDataURL("image/png");
+  return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
 }
 </script>
 </body></html>
