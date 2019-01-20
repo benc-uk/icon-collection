@@ -32,6 +32,7 @@ body {
   width: 10.5rem;
   height: 10.5rem;
   object-fit: contain;
+  cursor: pointer;
 }
 .imgbox {
   margin: 0.6rem;
@@ -86,7 +87,7 @@ h1 {
 var files = fs.readdirSync(DIR);
 for(let f of files) {
   if(!f.endsWith(".svg")) continue;
-  outHtml += `<div id="${f}" class="imgbox"><img src="${f}" class="bg0"/><div class="label">${f}</div></div>\n`
+  outHtml += `<div id="${f}" class="imgbox"><a href="${f}" download><img src="${f}" class="bg0"/></a><div class="label">${f}</div></div>\n`
 }
 
 outHtml += `
@@ -116,6 +117,13 @@ function search() {
   }
 }
 
+function download(f) {
+  let a = document.createElement('a')
+  a.href = f
+  a.download = f
+  console.log(a)
+  a.click()
+}
 </script>
 </body></html>`
 

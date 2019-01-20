@@ -20,6 +20,7 @@ body {
   width: 10.5rem;
   height: 10.5rem;
   object-fit: contain;
+  cursor: pointer;
 }
 .imgbox {
   margin: 0.6rem;
@@ -69,17 +70,17 @@ h1 {
 <button onclick="toggleBg()">Change Background</button>
 </div>
 <div class="grid">
-<div id="backup-archive.svg" class="imgbox"><img src="backup-archive.svg" class="bg0"/><div class="label">backup-archive.svg</div></div>
-<div id="blockchain.svg" class="imgbox"><img src="blockchain.svg" class="bg0"/><div class="label">blockchain.svg</div></div>
-<div id="digital-marketing.svg" class="imgbox"><img src="digital-marketing.svg" class="bg0"/><div class="label">digital-marketing.svg</div></div>
-<div id="e-commerce.svg" class="imgbox"><img src="e-commerce.svg" class="bg0"/><div class="label">e-commerce.svg</div></div>
-<div id="high-performance-computing.svg" class="imgbox"><img src="high-performance-computing.svg" class="bg0"/><div class="label">high-performance-computing.svg</div></div>
-<div id="hybrid-cloud-app.svg" class="imgbox"><img src="hybrid-cloud-app.svg" class="bg0"/><div class="label">hybrid-cloud-app.svg</div></div>
-<div id="internet-of-things.svg" class="imgbox"><img src="internet-of-things.svg" class="bg0"/><div class="label">internet-of-things.svg</div></div>
-<div id="lob-applications.svg" class="imgbox"><img src="lob-applications.svg" class="bg0"/><div class="label">lob-applications.svg</div></div>
-<div id="saas.svg" class="imgbox"><img src="saas.svg" class="bg0"/><div class="label">saas.svg</div></div>
-<div id="serverless.svg" class="imgbox"><img src="serverless.svg" class="bg0"/><div class="label">serverless.svg</div></div>
-<div id="solutions.svg" class="imgbox"><img src="solutions.svg" class="bg0"/><div class="label">solutions.svg</div></div>
+<div id="backup-archive.svg" class="imgbox"><a href="backup-archive.svg" download><img src="backup-archive.svg" class="bg0"/></a><div class="label">backup-archive.svg</div></div>
+<div id="blockchain.svg" class="imgbox"><a href="blockchain.svg" download><img src="blockchain.svg" class="bg0"/></a><div class="label">blockchain.svg</div></div>
+<div id="digital-marketing.svg" class="imgbox"><a href="digital-marketing.svg" download><img src="digital-marketing.svg" class="bg0"/></a><div class="label">digital-marketing.svg</div></div>
+<div id="e-commerce.svg" class="imgbox"><a href="e-commerce.svg" download><img src="e-commerce.svg" class="bg0"/></a><div class="label">e-commerce.svg</div></div>
+<div id="high-performance-computing.svg" class="imgbox"><a href="high-performance-computing.svg" download><img src="high-performance-computing.svg" class="bg0"/></a><div class="label">high-performance-computing.svg</div></div>
+<div id="hybrid-cloud-app.svg" class="imgbox"><a href="hybrid-cloud-app.svg" download><img src="hybrid-cloud-app.svg" class="bg0"/></a><div class="label">hybrid-cloud-app.svg</div></div>
+<div id="internet-of-things.svg" class="imgbox"><a href="internet-of-things.svg" download><img src="internet-of-things.svg" class="bg0"/></a><div class="label">internet-of-things.svg</div></div>
+<div id="lob-applications.svg" class="imgbox"><a href="lob-applications.svg" download><img src="lob-applications.svg" class="bg0"/></a><div class="label">lob-applications.svg</div></div>
+<div id="saas.svg" class="imgbox"><a href="saas.svg" download><img src="saas.svg" class="bg0"/></a><div class="label">saas.svg</div></div>
+<div id="serverless.svg" class="imgbox"><a href="serverless.svg" download><img src="serverless.svg" class="bg0"/></a><div class="label">serverless.svg</div></div>
+<div id="solutions.svg" class="imgbox"><a href="solutions.svg" download><img src="solutions.svg" class="bg0"/></a><div class="label">solutions.svg</div></div>
 
 </div>
 <script>
@@ -107,5 +108,12 @@ function search() {
   }
 }
 
+function download(f) {
+  let a = document.createElement('a')
+  a.href = f
+  a.download = f
+  console.log(a)
+  a.click()
+}
 </script>
 </body></html>
