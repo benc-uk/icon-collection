@@ -12,12 +12,24 @@ All files have been sourced and scraped from the public internet and various Mic
 
 # Icon Galleries
 To view the icons, gallery pages indexing each of the main sets is provided:
+
 #### [Azure Patterns Collection](azure-patterns)
+Probably the best place to start, 700 icons including all Azure services, this has been scraped from https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/ 
+
 #### [Azure Docs](azure-docs)
+Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. In most places this overlaps with the above set
+
 #### [Logos & Brands](logos)
+Various product, company & programing language logos, fetched from various sources online
+
 #### [Azure Various](azure-dotcom)
+Extra icons taken from pages on the azure.com site, but overlaps removed 
+
 #### [Microsoft Learning Site](learning-site)
+More conceptual and illustration type images taken from https://docs.microsoft.com/en-us/learn/browse
+
 #### [Other Icons](other)
+There's several Azure icons which can't be found anywhere else (e.g. Azure DevOps) and some taken from the Azure portal
 
 
 # Scraping & Other Tools
