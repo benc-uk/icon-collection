@@ -35,14 +35,15 @@ img {
 </style>
 <body>
 `
+
 var files = fs.readdirSync(DIR);
 for(let f of files) {
   if(!f.endsWith(".svg")) continue;
-  //console.log(f);
-  //<br/><span>${f}<span><br/>
   outHtml += `<div class="imgbox"><img src="${f}" /><span>${f}</span></div>\n`
 }
 
 outHtml += "</body></html>"
+
+console.log(`### Generating gallery index.html for ${DIR}`);
 
 fs.writeFileSync(DIR + '/index.html', outHtml);
