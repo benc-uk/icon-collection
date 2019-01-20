@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 .bg0 {
-  background-image: url("../_tools/background.png")
+  background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
 }
 .bg1 {
   background-color: #333;
@@ -65,6 +65,16 @@ h1 {
   top: -2rem; 
   font-size: 1.5rem;
 }
+.pngbox {
+  position: absolute; 
+  top: 2rem; 
+  right: 1rem;
+  font-size: 1.5rem;
+}
+input[type="checkbox"] {
+  width: 1.6em;
+  height: 1.6em;
+}
 .label {
   height: 2.5em;
   line-height: 1em;
@@ -80,7 +90,8 @@ h1 {
 <body>
 <div class="top">
 <h1>${TITLE}</h1>
-<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
+<div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
 <button onclick="toggleBg()">Change Background</button>
 </div>
 <div class="grid">
@@ -120,19 +131,26 @@ function search() {
 }
 
 function download(f, e) {
-  let a = document.createElement('a')
-  a.href = f
-  a.download = f
-  //a.click()
-
-  console.log(getBase64Image(e))
-
+  var downloadPNG = document.getElementById("pngcheck").checked;
+  if(downloadPNG) {
+    var data = getBase64Image(e);
+    let a = document.createElement('a')
+    a.href = "data:application/octet-stream;base64," + data
+    a.download = f.replace('.svg', '.png')
+    a.click()
+  } else {
+    let a = document.createElement('a')
+    a.href = f
+    a.download = f
+    a.click()
+  }
 }
 
 function getBase64Image(img) {
   var canvas = document.createElement("canvas");
-  canvas.width = img.width;
-  canvas.height = img.height;
+  canvas.width = img.naturalWidth;
+  canvas.height = img.naturalHeight;
+  console.log(canvas.width , canvas.height)
   var ctx = canvas.getContext("2d");
   ctx.drawImage(img, 0, 0);
   var dataURL = canvas.toDataURL("image/png");
