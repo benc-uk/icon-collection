@@ -1,50 +1,125 @@
 
-<head><title>Gallery</title></head>
+<head><title>Other Icons</title></head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
-  font-size: 15px;
   background-color: #aaa;
+  padding: 0;
+  margin: 0;
 }
-img { 
-  width: 100%;
-  height: auto;
+.bg0 {
+  background-image: url("../_tools/background.png")
+}
+.bg1 {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #fff;
+}
+.imgbox img { 
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
 }
 .imgbox {
-  display: inline-block;
-  margin: 0.5rem;
+  margin: 0.6rem;
   padding: 0.5rem;
   text-align: center;
   width: 12rem;
-  
-  word-wrap: break-word;
+  height: 12rem;
   background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.6rem;
+}
+.find, .find input {
+  font-size: 1.5rem;
+}
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+}
+.top button {
+  float: right; 
+  position: relative; 
+  top: -2rem; 
+  font-size: 1.5rem;
+}
+.label {
+  height: 2.5em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
 <body>
-<div class="imgbox"><img src="Kudu.svg" /><span>Kudu.svg</span></div>
-<div class="imgbox"><img src="aks-blue.svg" /><span>aks-blue.svg</span></div>
-<div class="imgbox"><img src="app-center-colour.svg" /><span>app-center-colour.svg</span></div>
-<div class="imgbox"><img src="app-center.svg" /><span>app-center.svg</span></div>
-<div class="imgbox"><img src="azure ml.svg" /><span>azure ml.svg</span></div>
-<div class="imgbox"><img src="cloud-security.svg" /><span>cloud-security.svg</span></div>
-<div class="imgbox"><img src="connector.svg" /><span>connector.svg</span></div>
-<div class="imgbox"><img src="container-insights.svg" /><span>container-insights.svg</span></div>
-<div class="imgbox"><img src="container-mon.svg" /><span>container-mon.svg</span></div>
-<div class="imgbox"><img src="container.svg" /><span>container.svg</span></div>
-<div class="imgbox"><img src="containerinstances-mono.svg" /><span>containerinstances-mono.svg</span></div>
-<div class="imgbox"><img src="cubes.svg" /><span>cubes.svg</span></div>
-<div class="imgbox"><img src="designer.svg" /><span>designer.svg</span></div>
-<div class="imgbox"><img src="devops-boards.svg" /><span>devops-boards.svg</span></div>
-<div class="imgbox"><img src="devops-pipelines.svg" /><span>devops-pipelines.svg</span></div>
-<div class="imgbox"><img src="devops-repos.svg" /><span>devops-repos.svg</span></div>
-<div class="imgbox"><img src="devops-testplans.svg" /><span>devops-testplans.svg</span></div>
-<div class="imgbox"><img src="devopsiconartifacts96.svg" /><span>devopsiconartifacts96.svg</span></div>
-<div class="imgbox"><img src="event-grid-topic.svg" /><span>event-grid-topic.svg</span></div>
-<div class="imgbox"><img src="machine-learning-diagram.svg" /><span>machine-learning-diagram.svg</span></div>
-<div class="imgbox"><img src="pickle.svg" /><span>pickle.svg</span></div>
-<div class="imgbox"><img src="resource-explorer.svg" /><span>resource-explorer.svg</span></div>
-<div class="imgbox"><img src="rss.svg" /><span>rss.svg</span></div>
-<div class="imgbox"><img src="shield.svg" /><span>shield.svg</span></div>
-<div class="imgbox"><img src="xcode.svg" /><span>xcode.svg</span></div>
+<div class="top">
+<h1>Other Icons</h1>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<button onclick="toggleBg()">Change Background</button>
+</div>
+<div class="grid">
+<div id="Kudu.svg" class="imgbox"><img src="Kudu.svg" class="bg0"/><div class="label">Kudu.svg</div></div>
+<div id="aks-blue.svg" class="imgbox"><img src="aks-blue.svg" class="bg0"/><div class="label">aks-blue.svg</div></div>
+<div id="app-center-colour.svg" class="imgbox"><img src="app-center-colour.svg" class="bg0"/><div class="label">app-center-colour.svg</div></div>
+<div id="app-center.svg" class="imgbox"><img src="app-center.svg" class="bg0"/><div class="label">app-center.svg</div></div>
+<div id="azure ml.svg" class="imgbox"><img src="azure ml.svg" class="bg0"/><div class="label">azure ml.svg</div></div>
+<div id="cloud-security.svg" class="imgbox"><img src="cloud-security.svg" class="bg0"/><div class="label">cloud-security.svg</div></div>
+<div id="connector.svg" class="imgbox"><img src="connector.svg" class="bg0"/><div class="label">connector.svg</div></div>
+<div id="container-insights.svg" class="imgbox"><img src="container-insights.svg" class="bg0"/><div class="label">container-insights.svg</div></div>
+<div id="container-mon.svg" class="imgbox"><img src="container-mon.svg" class="bg0"/><div class="label">container-mon.svg</div></div>
+<div id="container.svg" class="imgbox"><img src="container.svg" class="bg0"/><div class="label">container.svg</div></div>
+<div id="containerinstances-mono.svg" class="imgbox"><img src="containerinstances-mono.svg" class="bg0"/><div class="label">containerinstances-mono.svg</div></div>
+<div id="cubes.svg" class="imgbox"><img src="cubes.svg" class="bg0"/><div class="label">cubes.svg</div></div>
+<div id="designer.svg" class="imgbox"><img src="designer.svg" class="bg0"/><div class="label">designer.svg</div></div>
+<div id="devops-boards.svg" class="imgbox"><img src="devops-boards.svg" class="bg0"/><div class="label">devops-boards.svg</div></div>
+<div id="devops-pipelines.svg" class="imgbox"><img src="devops-pipelines.svg" class="bg0"/><div class="label">devops-pipelines.svg</div></div>
+<div id="devops-repos.svg" class="imgbox"><img src="devops-repos.svg" class="bg0"/><div class="label">devops-repos.svg</div></div>
+<div id="devops-testplans.svg" class="imgbox"><img src="devops-testplans.svg" class="bg0"/><div class="label">devops-testplans.svg</div></div>
+<div id="devopsiconartifacts96.svg" class="imgbox"><img src="devopsiconartifacts96.svg" class="bg0"/><div class="label">devopsiconartifacts96.svg</div></div>
+<div id="event-grid-topic.svg" class="imgbox"><img src="event-grid-topic.svg" class="bg0"/><div class="label">event-grid-topic.svg</div></div>
+<div id="machine-learning-diagram.svg" class="imgbox"><img src="machine-learning-diagram.svg" class="bg0"/><div class="label">machine-learning-diagram.svg</div></div>
+<div id="pickle.svg" class="imgbox"><img src="pickle.svg" class="bg0"/><div class="label">pickle.svg</div></div>
+<div id="resource-explorer.svg" class="imgbox"><img src="resource-explorer.svg" class="bg0"/><div class="label">resource-explorer.svg</div></div>
+<div id="rss.svg" class="imgbox"><img src="rss.svg" class="bg0"/><div class="label">rss.svg</div></div>
+<div id="shield.svg" class="imgbox"><img src="shield.svg" class="bg0"/><div class="label">shield.svg</div></div>
+<div id="xcode.svg" class="imgbox"><img src="xcode.svg" class="bg0"/><div class="label">xcode.svg</div></div>
+
+</div>
+<script>
+var bg = 0;
+function toggleBg() {
+  bg++
+  if(bg > 2) bg = 0;
+  for(let img of document.getElementsByTagName("img")) {
+    img.className = `bg${bg}`;
+  }
+}
+
+function search() {
+  let q = document.getElementById('finder').value.trim().toLowerCase()
+  if(q.length <= 0) {
+    for(let imgbox of document.getElementsByClassName("imgbox")) {
+      imgbox.style.display = "inline-block"
+    }
+  }
+  for(let imgbox of document.getElementsByClassName("imgbox")) {
+    imgbox.style.display = "inline-block"
+    if(!imgbox.id.includes(q)) {
+      imgbox.style.display = "none"
+    }
+  }
+}
+
+</script>
 </body></html>

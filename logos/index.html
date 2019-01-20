@@ -1,81 +1,156 @@
 
-<head><title>Gallery</title></head>
+<head><title>Logos & Brands</title></head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
-  font-size: 15px;
   background-color: #aaa;
+  padding: 0;
+  margin: 0;
 }
-img { 
-  width: 100%;
-  height: auto;
+.bg0 {
+  background-image: url("../_tools/background.png")
+}
+.bg1 {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #fff;
+}
+.imgbox img { 
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
 }
 .imgbox {
-  display: inline-block;
-  margin: 0.5rem;
+  margin: 0.6rem;
   padding: 0.5rem;
   text-align: center;
   width: 12rem;
-  
-  word-wrap: break-word;
+  height: 12rem;
   background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.6rem;
+}
+.find, .find input {
+  font-size: 1.5rem;
+}
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+}
+.top button {
+  float: right; 
+  position: relative; 
+  top: -2rem; 
+  font-size: 1.5rem;
+}
+.label {
+  height: 2.5em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
 <body>
-<div class="imgbox"><img src="android.svg" /><span>android.svg</span></div>
-<div class="imgbox"><img src="angular.svg" /><span>angular.svg</span></div>
-<div class="imgbox"><img src="ansible.svg" /><span>ansible.svg</span></div>
-<div class="imgbox"><img src="apache.svg" /><span>apache.svg</span></div>
-<div class="imgbox"><img src="azure-logo.svg" /><span>azure-logo.svg</span></div>
-<div class="imgbox"><img src="azure-offical.svg" /><span>azure-offical.svg</span></div>
-<div class="imgbox"><img src="bash.svg" /><span>bash.svg</span></div>
-<div class="imgbox"><img src="bit-bucket.svg" /><span>bit-bucket.svg</span></div>
-<div class="imgbox"><img src="chef-logo.svg" /><span>chef-logo.svg</span></div>
-<div class="imgbox"><img src="chef.svg" /><span>chef.svg</span></div>
-<div class="imgbox"><img src="csharp.svg" /><span>csharp.svg</span></div>
-<div class="imgbox"><img src="docker-icon-wh.svg" /><span>docker-icon-wh.svg</span></div>
-<div class="imgbox"><img src="docker-icon.svg" /><span>docker-icon.svg</span></div>
-<div class="imgbox"><img src="docker-mono.svg" /><span>docker-mono.svg</span></div>
-<div class="imgbox"><img src="docker-whale.svg" /><span>docker-whale.svg</span></div>
-<div class="imgbox"><img src="dotnetcore.svg" /><span>dotnetcore.svg</span></div>
-<div class="imgbox"><img src="dynamics.svg" /><span>dynamics.svg</span></div>
-<div class="imgbox"><img src="eclipse.svg" /><span>eclipse.svg</span></div>
-<div class="imgbox"><img src="flask.svg" /><span>flask.svg</span></div>
-<div class="imgbox"><img src="git.svg" /><span>git.svg</span></div>
-<div class="imgbox"><img src="github.svg" /><span>github.svg</span></div>
-<div class="imgbox"><img src="gradle.svg" /><span>gradle.svg</span></div>
-<div class="imgbox"><img src="helm-logo.svg" /><span>helm-logo.svg</span></div>
-<div class="imgbox"><img src="java.svg" /><span>java.svg</span></div>
-<div class="imgbox"><img src="jenkins.svg" /><span>jenkins.svg</span></div>
-<div class="imgbox"><img src="jfrog.svg" /><span>jfrog.svg</span></div>
-<div class="imgbox"><img src="kube.svg" /><span>kube.svg</span></div>
-<div class="imgbox"><img src="linkedin.svg" /><span>linkedin.svg</span></div>
-<div class="imgbox"><img src="linux-tux-colour.svg" /><span>linux-tux-colour.svg</span></div>
-<div class="imgbox"><img src="linux-tux-mono.svg" /><span>linux-tux-mono.svg</span></div>
-<div class="imgbox"><img src="microsoft-logo.svg" /><span>microsoft-logo.svg</span></div>
-<div class="imgbox"><img src="microsoft.svg" /><span>microsoft.svg</span></div>
-<div class="imgbox"><img src="ms-sq.svg" /><span>ms-sq.svg</span></div>
-<div class="imgbox"><img src="ms.svg" /><span>ms.svg</span></div>
-<div class="imgbox"><img src="nodejs-2.svg" /><span>nodejs-2.svg</span></div>
-<div class="imgbox"><img src="nodejs-3.svg" /><span>nodejs-3.svg</span></div>
-<div class="imgbox"><img src="nodejs.svg" /><span>nodejs.svg</span></div>
-<div class="imgbox"><img src="octopus-deploy.svg" /><span>octopus-deploy.svg</span></div>
-<div class="imgbox"><img src="powerbi-mono-black.svg" /><span>powerbi-mono-black.svg</span></div>
-<div class="imgbox"><img src="puppet.svg" /><span>puppet.svg</span></div>
-<div class="imgbox"><img src="python-colour.svg" /><span>python-colour.svg</span></div>
-<div class="imgbox"><img src="python-mono.svg" /><span>python-mono.svg</span></div>
-<div class="imgbox"><img src="red-hat.svg" /><span>red-hat.svg</span></div>
-<div class="imgbox"><img src="ruby mono.svg" /><span>ruby mono.svg</span></div>
-<div class="imgbox"><img src="ruby.svg" /><span>ruby.svg</span></div>
-<div class="imgbox"><img src="saltstack.svg" /><span>saltstack.svg</span></div>
-<div class="imgbox"><img src="sap.svg" /><span>sap.svg</span></div>
-<div class="imgbox"><img src="slack.svg" /><span>slack.svg</span></div>
-<div class="imgbox"><img src="suse.svg" /><span>suse.svg</span></div>
-<div class="imgbox"><img src="terraform.svg" /><span>terraform.svg</span></div>
-<div class="imgbox"><img src="trello.svg" /><span>trello.svg</span></div>
-<div class="imgbox"><img src="twitter-square.svg" /><span>twitter-square.svg</span></div>
-<div class="imgbox"><img src="ubuntu.svg" /><span>ubuntu.svg</span></div>
-<div class="imgbox"><img src="vuejs.svg" /><span>vuejs.svg</span></div>
-<div class="imgbox"><img src="windows.svg" /><span>windows.svg</span></div>
-<div class="imgbox"><img src="youtube.svg" /><span>youtube.svg</span></div>
+<div class="top">
+<h1>Logos & Brands</h1>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<button onclick="toggleBg()">Change Background</button>
+</div>
+<div class="grid">
+<div id="android.svg" class="imgbox"><img src="android.svg" class="bg0"/><div class="label">android.svg</div></div>
+<div id="angular.svg" class="imgbox"><img src="angular.svg" class="bg0"/><div class="label">angular.svg</div></div>
+<div id="ansible.svg" class="imgbox"><img src="ansible.svg" class="bg0"/><div class="label">ansible.svg</div></div>
+<div id="apache.svg" class="imgbox"><img src="apache.svg" class="bg0"/><div class="label">apache.svg</div></div>
+<div id="azure-logo.svg" class="imgbox"><img src="azure-logo.svg" class="bg0"/><div class="label">azure-logo.svg</div></div>
+<div id="azure-offical.svg" class="imgbox"><img src="azure-offical.svg" class="bg0"/><div class="label">azure-offical.svg</div></div>
+<div id="bash.svg" class="imgbox"><img src="bash.svg" class="bg0"/><div class="label">bash.svg</div></div>
+<div id="bit-bucket.svg" class="imgbox"><img src="bit-bucket.svg" class="bg0"/><div class="label">bit-bucket.svg</div></div>
+<div id="chef-logo.svg" class="imgbox"><img src="chef-logo.svg" class="bg0"/><div class="label">chef-logo.svg</div></div>
+<div id="chef.svg" class="imgbox"><img src="chef.svg" class="bg0"/><div class="label">chef.svg</div></div>
+<div id="csharp.svg" class="imgbox"><img src="csharp.svg" class="bg0"/><div class="label">csharp.svg</div></div>
+<div id="docker-icon-wh.svg" class="imgbox"><img src="docker-icon-wh.svg" class="bg0"/><div class="label">docker-icon-wh.svg</div></div>
+<div id="docker-icon.svg" class="imgbox"><img src="docker-icon.svg" class="bg0"/><div class="label">docker-icon.svg</div></div>
+<div id="docker-mono.svg" class="imgbox"><img src="docker-mono.svg" class="bg0"/><div class="label">docker-mono.svg</div></div>
+<div id="docker-whale.svg" class="imgbox"><img src="docker-whale.svg" class="bg0"/><div class="label">docker-whale.svg</div></div>
+<div id="dotnetcore.svg" class="imgbox"><img src="dotnetcore.svg" class="bg0"/><div class="label">dotnetcore.svg</div></div>
+<div id="dynamics.svg" class="imgbox"><img src="dynamics.svg" class="bg0"/><div class="label">dynamics.svg</div></div>
+<div id="eclipse.svg" class="imgbox"><img src="eclipse.svg" class="bg0"/><div class="label">eclipse.svg</div></div>
+<div id="flask.svg" class="imgbox"><img src="flask.svg" class="bg0"/><div class="label">flask.svg</div></div>
+<div id="git.svg" class="imgbox"><img src="git.svg" class="bg0"/><div class="label">git.svg</div></div>
+<div id="github.svg" class="imgbox"><img src="github.svg" class="bg0"/><div class="label">github.svg</div></div>
+<div id="gradle.svg" class="imgbox"><img src="gradle.svg" class="bg0"/><div class="label">gradle.svg</div></div>
+<div id="helm-logo.svg" class="imgbox"><img src="helm-logo.svg" class="bg0"/><div class="label">helm-logo.svg</div></div>
+<div id="java.svg" class="imgbox"><img src="java.svg" class="bg0"/><div class="label">java.svg</div></div>
+<div id="jenkins.svg" class="imgbox"><img src="jenkins.svg" class="bg0"/><div class="label">jenkins.svg</div></div>
+<div id="jfrog.svg" class="imgbox"><img src="jfrog.svg" class="bg0"/><div class="label">jfrog.svg</div></div>
+<div id="kube.svg" class="imgbox"><img src="kube.svg" class="bg0"/><div class="label">kube.svg</div></div>
+<div id="linkedin.svg" class="imgbox"><img src="linkedin.svg" class="bg0"/><div class="label">linkedin.svg</div></div>
+<div id="linux-tux-colour.svg" class="imgbox"><img src="linux-tux-colour.svg" class="bg0"/><div class="label">linux-tux-colour.svg</div></div>
+<div id="linux-tux-mono.svg" class="imgbox"><img src="linux-tux-mono.svg" class="bg0"/><div class="label">linux-tux-mono.svg</div></div>
+<div id="microsoft-logo.svg" class="imgbox"><img src="microsoft-logo.svg" class="bg0"/><div class="label">microsoft-logo.svg</div></div>
+<div id="microsoft.svg" class="imgbox"><img src="microsoft.svg" class="bg0"/><div class="label">microsoft.svg</div></div>
+<div id="ms-sq.svg" class="imgbox"><img src="ms-sq.svg" class="bg0"/><div class="label">ms-sq.svg</div></div>
+<div id="ms.svg" class="imgbox"><img src="ms.svg" class="bg0"/><div class="label">ms.svg</div></div>
+<div id="nodejs-2.svg" class="imgbox"><img src="nodejs-2.svg" class="bg0"/><div class="label">nodejs-2.svg</div></div>
+<div id="nodejs-3.svg" class="imgbox"><img src="nodejs-3.svg" class="bg0"/><div class="label">nodejs-3.svg</div></div>
+<div id="nodejs.svg" class="imgbox"><img src="nodejs.svg" class="bg0"/><div class="label">nodejs.svg</div></div>
+<div id="octopus-deploy.svg" class="imgbox"><img src="octopus-deploy.svg" class="bg0"/><div class="label">octopus-deploy.svg</div></div>
+<div id="powerbi-mono-black.svg" class="imgbox"><img src="powerbi-mono-black.svg" class="bg0"/><div class="label">powerbi-mono-black.svg</div></div>
+<div id="puppet.svg" class="imgbox"><img src="puppet.svg" class="bg0"/><div class="label">puppet.svg</div></div>
+<div id="python-colour.svg" class="imgbox"><img src="python-colour.svg" class="bg0"/><div class="label">python-colour.svg</div></div>
+<div id="python-mono.svg" class="imgbox"><img src="python-mono.svg" class="bg0"/><div class="label">python-mono.svg</div></div>
+<div id="red-hat.svg" class="imgbox"><img src="red-hat.svg" class="bg0"/><div class="label">red-hat.svg</div></div>
+<div id="ruby mono.svg" class="imgbox"><img src="ruby mono.svg" class="bg0"/><div class="label">ruby mono.svg</div></div>
+<div id="ruby.svg" class="imgbox"><img src="ruby.svg" class="bg0"/><div class="label">ruby.svg</div></div>
+<div id="saltstack.svg" class="imgbox"><img src="saltstack.svg" class="bg0"/><div class="label">saltstack.svg</div></div>
+<div id="sap.svg" class="imgbox"><img src="sap.svg" class="bg0"/><div class="label">sap.svg</div></div>
+<div id="slack.svg" class="imgbox"><img src="slack.svg" class="bg0"/><div class="label">slack.svg</div></div>
+<div id="suse.svg" class="imgbox"><img src="suse.svg" class="bg0"/><div class="label">suse.svg</div></div>
+<div id="terraform.svg" class="imgbox"><img src="terraform.svg" class="bg0"/><div class="label">terraform.svg</div></div>
+<div id="trello.svg" class="imgbox"><img src="trello.svg" class="bg0"/><div class="label">trello.svg</div></div>
+<div id="twitter-square.svg" class="imgbox"><img src="twitter-square.svg" class="bg0"/><div class="label">twitter-square.svg</div></div>
+<div id="ubuntu.svg" class="imgbox"><img src="ubuntu.svg" class="bg0"/><div class="label">ubuntu.svg</div></div>
+<div id="vuejs.svg" class="imgbox"><img src="vuejs.svg" class="bg0"/><div class="label">vuejs.svg</div></div>
+<div id="windows.svg" class="imgbox"><img src="windows.svg" class="bg0"/><div class="label">windows.svg</div></div>
+<div id="youtube.svg" class="imgbox"><img src="youtube.svg" class="bg0"/><div class="label">youtube.svg</div></div>
+
+</div>
+<script>
+var bg = 0;
+function toggleBg() {
+  bg++
+  if(bg > 2) bg = 0;
+  for(let img of document.getElementsByTagName("img")) {
+    img.className = `bg${bg}`;
+  }
+}
+
+function search() {
+  let q = document.getElementById('finder').value.trim().toLowerCase()
+  if(q.length <= 0) {
+    for(let imgbox of document.getElementsByClassName("imgbox")) {
+      imgbox.style.display = "inline-block"
+    }
+  }
+  for(let imgbox of document.getElementsByClassName("imgbox")) {
+    imgbox.style.display = "inline-block"
+    if(!imgbox.id.includes(q)) {
+      imgbox.style.display = "none"
+    }
+  }
+}
+
+</script>
 </body></html>

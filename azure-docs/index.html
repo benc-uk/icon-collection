@@ -1,213 +1,288 @@
 
-<head><title>Gallery</title></head>
+<head><title>Azure Docs</title></head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
-  font-size: 15px;
   background-color: #aaa;
+  padding: 0;
+  margin: 0;
 }
-img { 
-  width: 100%;
-  height: auto;
+.bg0 {
+  background-image: url("../_tools/background.png")
+}
+.bg1 {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #fff;
+}
+.imgbox img { 
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
 }
 .imgbox {
-  display: inline-block;
-  margin: 0.5rem;
+  margin: 0.6rem;
   padding: 0.5rem;
   text-align: center;
   width: 12rem;
-  
-  word-wrap: break-word;
+  height: 12rem;
   background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.6rem;
+}
+.find, .find input {
+  font-size: 1.5rem;
+}
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+}
+.top button {
+  float: right; 
+  position: relative; 
+  top: -2rem; 
+  font-size: 1.5rem;
+}
+.label {
+  height: 2.5em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
 <body>
-<div class="imgbox"><img src="activedirectory.svg" /><span>activedirectory.svg</span></div>
-<div class="imgbox"><img src="advisor.svg" /><span>advisor.svg</span></div>
-<div class="imgbox"><img src="analysisservices.svg" /><span>analysisservices.svg</span></div>
-<div class="imgbox"><img src="ansible.svg" /><span>ansible.svg</span></div>
-<div class="imgbox"><img src="api_anomaly_finder.svg" /><span>api_anomaly_finder.svg</span></div>
-<div class="imgbox"><img src="api_answer_search.svg" /><span>api_answer_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_autosuggest.svg" /><span>api_bing_autosuggest.svg</span></div>
-<div class="imgbox"><img src="api_bing_custom_search.svg" /><span>api_bing_custom_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_entity_search.svg" /><span>api_bing_entity_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_image_search.svg" /><span>api_bing_image_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_news_search.svg" /><span>api_bing_news_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_speech.svg" /><span>api_bing_speech.svg</span></div>
-<div class="imgbox"><img src="api_bing_spell_check.svg" /><span>api_bing_spell_check.svg</span></div>
-<div class="imgbox"><img src="api_bing_video_search.svg" /><span>api_bing_video_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_visual_search.svg" /><span>api_bing_visual_search.svg</span></div>
-<div class="imgbox"><img src="api_bing_web_search.svg" /><span>api_bing_web_search.svg</span></div>
-<div class="imgbox"><img src="api_computer_vision.svg" /><span>api_computer_vision.svg</span></div>
-<div class="imgbox"><img src="api_content_moderator.svg" /><span>api_content_moderator.svg</span></div>
-<div class="imgbox"><img src="api_conversation_learner.svg" /><span>api_conversation_learner.svg</span></div>
-<div class="imgbox"><img src="api_custom_decision_service.svg" /><span>api_custom_decision_service.svg</span></div>
-<div class="imgbox"><img src="api_custom_speech.svg" /><span>api_custom_speech.svg</span></div>
-<div class="imgbox"><img src="api_custom_vision.svg" /><span>api_custom_vision.svg</span></div>
-<div class="imgbox"><img src="api_emotion.svg" /><span>api_emotion.svg</span></div>
-<div class="imgbox"><img src="api_entity_linkingintelligence.svg" /><span>api_entity_linkingintelligence.svg</span></div>
-<div class="imgbox"><img src="api_face.svg" /><span>api_face.svg</span></div>
-<div class="imgbox"><img src="api_know_academic.svg" /><span>api_know_academic.svg</span></div>
-<div class="imgbox"><img src="api_knowledgeexploration.svg" /><span>api_knowledgeexploration.svg</span></div>
-<div class="imgbox"><img src="api_linguisticanalysis.svg" /><span>api_linguisticanalysis.svg</span></div>
-<div class="imgbox"><img src="api_luis.svg" /><span>api_luis.svg</span></div>
-<div class="imgbox"><img src="api_qnamaker.svg" /><span>api_qnamaker.svg</span></div>
-<div class="imgbox"><img src="api_recommendations.svg" /><span>api_recommendations.svg</span></div>
-<div class="imgbox"><img src="api_speaker_recognition.svg" /><span>api_speaker_recognition.svg</span></div>
-<div class="imgbox"><img src="api_speech_service.svg" /><span>api_speech_service.svg</span></div>
-<div class="imgbox"><img src="api_textanalytics.svg" /><span>api_textanalytics.svg</span></div>
-<div class="imgbox"><img src="api_translatorspeech.svg" /><span>api_translatorspeech.svg</span></div>
-<div class="imgbox"><img src="api_translatortext.svg" /><span>api_translatortext.svg</span></div>
-<div class="imgbox"><img src="api_url_preview.svg" /><span>api_url_preview.svg</span></div>
-<div class="imgbox"><img src="api_videoindexer.svg" /><span>api_videoindexer.svg</span></div>
-<div class="imgbox"><img src="api_weblanguagemodel.svg" /><span>api_weblanguagemodel.svg</span></div>
-<div class="imgbox"><img src="apimanagement.svg" /><span>apimanagement.svg</span></div>
-<div class="imgbox"><img src="app-service-api.svg" /><span>app-service-api.svg</span></div>
-<div class="imgbox"><img src="app-service-mobile.svg" /><span>app-service-mobile.svg</span></div>
-<div class="imgbox"><img src="app-service-web.svg" /><span>app-service-web.svg</span></div>
-<div class="imgbox"><img src="applicationgateway.svg" /><span>applicationgateway.svg</span></div>
-<div class="imgbox"><img src="applicationinsights.svg" /><span>applicationinsights.svg</span></div>
-<div class="imgbox"><img src="appservice.svg" /><span>appservice.svg</span></div>
-<div class="imgbox"><img src="automate-azure-tasks-with-powershell.svg" /><span>automate-azure-tasks-with-powershell.svg</span></div>
-<div class="imgbox"><img src="automation.svg" /><span>automation.svg</span></div>
-<div class="imgbox"><img src="availabilitysetold.svg" /><span>availabilitysetold.svg</span></div>
-<div class="imgbox"><img src="avere.svg" /><span>avere.svg</span></div>
-<div class="imgbox"><img src="azure-data-lake-analytics-color.svg" /><span>azure-data-lake-analytics-color.svg</span></div>
-<div class="imgbox"><img src="azure-data-lake-store-color.svg" /><span>azure-data-lake-store-color.svg</span></div>
-<div class="imgbox"><img src="azure-germany.svg" /><span>azure-germany.svg</span></div>
-<div class="imgbox"><img src="azure-government.svg" /><span>azure-government.svg</span></div>
-<div class="imgbox"><img src="azure-maps-icon-portal.svg" /><span>azure-maps-icon-portal.svg</span></div>
-<div class="imgbox"><img src="azure-migrate.svg" /><span>azure-migrate.svg</span></div>
-<div class="imgbox"><img src="azure-resource-manager.svg" /><span>azure-resource-manager.svg</span></div>
-<div class="imgbox"><img src="azure-signalr.svg" /><span>azure-signalr.svg</span></div>
-<div class="imgbox"><img src="azure-stack.svg" /><span>azure-stack.svg</span></div>
-<div class="imgbox"><img src="azure_best-practices.svg" /><span>azure_best-practices.svg</span></div>
-<div class="imgbox"><img src="azure_dev-1.svg" /><span>azure_dev-1.svg</span></div>
-<div class="imgbox"><img src="azure_dev-10.svg" /><span>azure_dev-10.svg</span></div>
-<div class="imgbox"><img src="azure_dev-11.svg" /><span>azure_dev-11.svg</span></div>
-<div class="imgbox"><img src="azure_dev-2.svg" /><span>azure_dev-2.svg</span></div>
-<div class="imgbox"><img src="azure_dev-3.svg" /><span>azure_dev-3.svg</span></div>
-<div class="imgbox"><img src="azure_dev-4.svg" /><span>azure_dev-4.svg</span></div>
-<div class="imgbox"><img src="azure_dev-6.svg" /><span>azure_dev-6.svg</span></div>
-<div class="imgbox"><img src="azure_dev-7.svg" /><span>azure_dev-7.svg</span></div>
-<div class="imgbox"><img src="azure_dev-8.svg" /><span>azure_dev-8.svg</span></div>
-<div class="imgbox"><img src="azure_event_grid.svg" /><span>azure_event_grid.svg</span></div>
-<div class="imgbox"><img src="azure_firewall.svg" /><span>azure_firewall.svg</span></div>
-<div class="imgbox"><img src="azure_fundamentals.svg" /><span>azure_fundamentals.svg</span></div>
-<div class="imgbox"><img src="azure_patterns.svg" /><span>azure_patterns.svg</span></div>
-<div class="imgbox"><img src="azure_reference-archictectures.svg" /><span>azure_reference-archictectures.svg</span></div>
-<div class="imgbox"><img src="azuredevspacecontroller_50x.svg" /><span>azuredevspacecontroller_50x.svg</span></div>
-<div class="imgbox"><img src="azurefunctions.svg" /><span>azurefunctions.svg</span></div>
-<div class="imgbox"><img src="azuremonitoring.svg" /><span>azuremonitoring.svg</span></div>
-<div class="imgbox"><img src="backup.svg" /><span>backup.svg</span></div>
-<div class="imgbox"><img src="batch.svg" /><span>batch.svg</span></div>
-<div class="imgbox"><img src="billing.svg" /><span>billing.svg</span></div>
-<div class="imgbox"><img src="blockchain-workbench.svg" /><span>blockchain-workbench.svg</span></div>
-<div class="imgbox"><img src="blueprints.svg" /><span>blueprints.svg</span></div>
-<div class="imgbox"><img src="bot-service.svg" /><span>bot-service.svg</span></div>
-<div class="imgbox"><img src="chef_regular.svg" /><span>chef_regular.svg</span></div>
-<div class="imgbox"><img src="cloud-shell.svg" /><span>cloud-shell.svg</span></div>
-<div class="imgbox"><img src="cloudservice.svg" /><span>cloudservice.svg</span></div>
-<div class="imgbox"><img src="container-registry.svg" /><span>container-registry.svg</span></div>
-<div class="imgbox"><img src="containerinstances.svg" /><span>containerinstances.svg</span></div>
-<div class="imgbox"><img src="containerservice.svg" /><span>containerservice.svg</span></div>
-<div class="imgbox"><img src="contentdeliverynetwork.svg" /><span>contentdeliverynetwork.svg</span></div>
-<div class="imgbox"><img src="control-azure-services-with-cli.svg" /><span>control-azure-services-with-cli.svg</span></div>
-<div class="imgbox"><img src="cosmosdb.svg" /><span>cosmosdb.svg</span></div>
-<div class="imgbox"><img src="cosmosdb_rgb_ui_lighttheme.svg" /><span>cosmosdb_rgb_ui_lighttheme.svg</span></div>
-<div class="imgbox"><img src="data-catalog.svg" /><span>data-catalog.svg</span></div>
-<div class="imgbox"><img src="database-migration.svg" /><span>database-migration.svg</span></div>
-<div class="imgbox"><img src="datafactory.svg" /><span>datafactory.svg</span></div>
-<div class="imgbox"><img src="ddos-protection.svg" /><span>ddos-protection.svg</span></div>
-<div class="imgbox"><img src="ddos.svg" /><span>ddos.svg</span></div>
-<div class="imgbox"><img src="dedicated-hsm.svg" /><span>dedicated-hsm.svg</span></div>
-<div class="imgbox"><img src="devopsiconpipelines96.svg" /><span>devopsiconpipelines96.svg</span></div>
-<div class="imgbox"><img src="devtestlabs.svg" /><span>devtestlabs.svg</span></div>
-<div class="imgbox"><img src="digital_twin.svg" /><span>digital_twin.svg</span></div>
-<div class="imgbox"><img src="disks-color.svg" /><span>disks-color.svg</span></div>
-<div class="imgbox"><img src="dns.svg" /><span>dns.svg</span></div>
-<div class="imgbox"><img src="dps.svg" /><span>dps.svg</span></div>
-<div class="imgbox"><img src="eventhubs.svg" /><span>eventhubs.svg</span></div>
-<div class="imgbox"><img src="expressroute.svg" /><span>expressroute.svg</span></div>
-<div class="imgbox"><img src="fabric.svg" /><span>fabric.svg</span></div>
-<div class="imgbox"><img src="frontdoor.svg" /><span>frontdoor.svg</span></div>
-<div class="imgbox"><img src="genomics.svg" /><span>genomics.svg</span></div>
-<div class="imgbox"><img src="governance.svg" /><span>governance.svg</span></div>
-<div class="imgbox"><img src="hdinsight.svg" /><span>hdinsight.svg</span></div>
-<div class="imgbox"><img src="hockeyapp.svg" /><span>hockeyapp.svg</span></div>
-<div class="imgbox"><img src="i_azure-cognitive-services-color.svg" /><span>i_azure-cognitive-services-color.svg</span></div>
-<div class="imgbox"><img src="i_cligeneric.svg" /><span>i_cligeneric.svg</span></div>
-<div class="imgbox"><img src="i_extensions.svg" /><span>i_extensions.svg</span></div>
-<div class="imgbox"><img src="i_information-protection.svg" /><span>i_information-protection.svg</span></div>
-<div class="imgbox"><img src="i_managed-application.svg" /><span>i_managed-application.svg</span></div>
-<div class="imgbox"><img src="i_mobile-app-developement.svg" /><span>i_mobile-app-developement.svg</span></div>
-<div class="imgbox"><img src="i_tools.svg" /><span>i_tools.svg</span></div>
-<div class="imgbox"><img src="iot-central.svg" /><span>iot-central.svg</span></div>
-<div class="imgbox"><img src="iot-edge-alt.svg" /><span>iot-edge-alt.svg</span></div>
-<div class="imgbox"><img src="iot-solution-accelerators.svg" /><span>iot-solution-accelerators.svg</span></div>
-<div class="imgbox"><img src="iothub.svg" /><span>iothub.svg</span></div>
-<div class="imgbox"><img src="keyvault.svg" /><span>keyvault.svg</span></div>
-<div class="imgbox"><img src="loadbalancer.svg" /><span>loadbalancer.svg</span></div>
-<div class="imgbox"><img src="logicapp.svg" /><span>logicapp.svg</span></div>
-<div class="imgbox"><img src="logo_Go-lightblue.svg" /><span>logo_Go-lightblue.svg</span></div>
-<div class="imgbox"><img src="logo_azure-blob-storage.svg" /><span>logo_azure-blob-storage.svg</span></div>
-<div class="imgbox"><img src="logo_azure-storage-file.svg" /><span>logo_azure-storage-file.svg</span></div>
-<div class="imgbox"><img src="logo_azure-storage-q.svg" /><span>logo_azure-storage-q.svg</span></div>
-<div class="imgbox"><img src="logo_azure.svg" /><span>logo_azure.svg</span></div>
-<div class="imgbox"><img src="logo_cyclecloud.svg" /><span>logo_cyclecloud.svg</span></div>
-<div class="imgbox"><img src="logo_databricks.svg" /><span>logo_databricks.svg</span></div>
-<div class="imgbox"><img src="logo_java.svg" /><span>logo_java.svg</span></div>
-<div class="imgbox"><img src="logo_jenkins.svg" /><span>logo_jenkins.svg</span></div>
-<div class="imgbox"><img src="logo_net.svg" /><span>logo_net.svg</span></div>
-<div class="imgbox"><img src="logo_nodejs.svg" /><span>logo_nodejs.svg</span></div>
-<div class="imgbox"><img src="logo_php.svg" /><span>logo_php.svg</span></div>
-<div class="imgbox"><img src="logo_python.svg" /><span>logo_python.svg</span></div>
-<div class="imgbox"><img src="logo_terraform.svg" /><span>logo_terraform.svg</span></div>
-<div class="imgbox"><img src="logo_visual-studio.svg" /><span>logo_visual-studio.svg</span></div>
-<div class="imgbox"><img src="logo_vs-code.svg" /><span>logo_vs-code.svg</span></div>
-<div class="imgbox"><img src="logo_vs-mobile-center.svg" /><span>logo_vs-mobile-center.svg</span></div>
-<div class="imgbox"><img src="logo_vs-team-services.svg" /><span>logo_vs-team-services.svg</span></div>
-<div class="imgbox"><img src="logo_xamarin.svg" /><span>logo_xamarin.svg</span></div>
-<div class="imgbox"><img src="machinelearning.svg" /><span>machinelearning.svg</span></div>
-<div class="imgbox"><img src="managed-disks.svg" /><span>managed-disks.svg</span></div>
-<div class="imgbox"><img src="mariadb.svg" /><span>mariadb.svg</span></div>
-<div class="imgbox"><img src="media-encoding.svg" /><span>media-encoding.svg</span></div>
-<div class="imgbox"><img src="media-indexer.svg" /><span>media-indexer.svg</span></div>
-<div class="imgbox"><img src="media-ondemand.svg" /><span>media-ondemand.svg</span></div>
-<div class="imgbox"><img src="media-player.svg" /><span>media-player.svg</span></div>
-<div class="imgbox"><img src="media-protection.svg" /><span>media-protection.svg</span></div>
-<div class="imgbox"><img src="media-services.svg" /><span>media-services.svg</span></div>
-<div class="imgbox"><img src="mediaservices.svg" /><span>mediaservices.svg</span></div>
-<div class="imgbox"><img src="multifactorauthentication.svg" /><span>multifactorauthentication.svg</span></div>
-<div class="imgbox"><img src="mysql.svg" /><span>mysql.svg</span></div>
-<div class="imgbox"><img src="netappstorage.svg" /><span>netappstorage.svg</span></div>
-<div class="imgbox"><img src="network-watcher.svg" /><span>network-watcher.svg</span></div>
-<div class="imgbox"><img src="networking-overview.svg" /><span>networking-overview.svg</span></div>
-<div class="imgbox"><img src="notebooks.svg" /><span>notebooks.svg</span></div>
-<div class="imgbox"><img src="notificationhubs.svg" /><span>notificationhubs.svg</span></div>
-<div class="imgbox"><img src="operationsmanagementsuite.svg" /><span>operationsmanagementsuite.svg</span></div>
-<div class="imgbox"><img src="personwithfriend.svg" /><span>personwithfriend.svg</span></div>
-<div class="imgbox"><img src="postgresql.svg" /><span>postgresql.svg</span></div>
-<div class="imgbox"><img src="powerbiembedded.svg" /><span>powerbiembedded.svg</span></div>
-<div class="imgbox"><img src="principles-cloud-computing.svg" /><span>principles-cloud-computing.svg</span></div>
-<div class="imgbox"><img src="rediscache.svg" /><span>rediscache.svg</span></div>
-<div class="imgbox"><img src="resource-graph.svg" /><span>resource-graph.svg</span></div>
-<div class="imgbox"><img src="resource-health.svg" /><span>resource-health.svg</span></div>
-<div class="imgbox"><img src="scheduler.svg" /><span>scheduler.svg</span></div>
-<div class="imgbox"><img src="search.svg" /><span>search.svg</span></div>
-<div class="imgbox"><img src="securitycenter.svg" /><span>securitycenter.svg</span></div>
-<div class="imgbox"><img src="servicebus.svg" /><span>servicebus.svg</span></div>
-<div class="imgbox"><img src="siterecovery.svg" /><span>siterecovery.svg</span></div>
-<div class="imgbox"><img src="sqldatabase.svg" /><span>sqldatabase.svg</span></div>
-<div class="imgbox"><img src="sqldatawarehouse.svg" /><span>sqldatawarehouse.svg</span></div>
-<div class="imgbox"><img src="storage.svg" /><span>storage.svg</span></div>
-<div class="imgbox"><img src="storsimple.svg" /><span>storsimple.svg</span></div>
-<div class="imgbox"><img src="streamanalytics.svg" /><span>streamanalytics.svg</span></div>
-<div class="imgbox"><img src="time-series-insights.svg" /><span>time-series-insights.svg</span></div>
-<div class="imgbox"><img src="tour-azure-services-and-features.svg" /><span>tour-azure-services-and-features.svg</span></div>
-<div class="imgbox"><img src="trafficmanager.svg" /><span>trafficmanager.svg</span></div>
-<div class="imgbox"><img src="virtualmachine.svg" /><span>virtualmachine.svg</span></div>
-<div class="imgbox"><img src="virtualnetwork.svg" /><span>virtualnetwork.svg</span></div>
-<div class="imgbox"><img src="vpngateway.svg" /><span>vpngateway.svg</span></div>
-<div class="imgbox"><img src="wan.svg" /><span>wan.svg</span></div>
+<div class="top">
+<h1>Azure Docs</h1>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<button onclick="toggleBg()">Change Background</button>
+</div>
+<div class="grid">
+<div id="activedirectory.svg" class="imgbox"><img src="activedirectory.svg" class="bg0"/><div class="label">activedirectory.svg</div></div>
+<div id="advisor.svg" class="imgbox"><img src="advisor.svg" class="bg0"/><div class="label">advisor.svg</div></div>
+<div id="analysisservices.svg" class="imgbox"><img src="analysisservices.svg" class="bg0"/><div class="label">analysisservices.svg</div></div>
+<div id="ansible.svg" class="imgbox"><img src="ansible.svg" class="bg0"/><div class="label">ansible.svg</div></div>
+<div id="api_anomaly_finder.svg" class="imgbox"><img src="api_anomaly_finder.svg" class="bg0"/><div class="label">api_anomaly_finder.svg</div></div>
+<div id="api_answer_search.svg" class="imgbox"><img src="api_answer_search.svg" class="bg0"/><div class="label">api_answer_search.svg</div></div>
+<div id="api_bing_autosuggest.svg" class="imgbox"><img src="api_bing_autosuggest.svg" class="bg0"/><div class="label">api_bing_autosuggest.svg</div></div>
+<div id="api_bing_custom_search.svg" class="imgbox"><img src="api_bing_custom_search.svg" class="bg0"/><div class="label">api_bing_custom_search.svg</div></div>
+<div id="api_bing_entity_search.svg" class="imgbox"><img src="api_bing_entity_search.svg" class="bg0"/><div class="label">api_bing_entity_search.svg</div></div>
+<div id="api_bing_image_search.svg" class="imgbox"><img src="api_bing_image_search.svg" class="bg0"/><div class="label">api_bing_image_search.svg</div></div>
+<div id="api_bing_news_search.svg" class="imgbox"><img src="api_bing_news_search.svg" class="bg0"/><div class="label">api_bing_news_search.svg</div></div>
+<div id="api_bing_speech.svg" class="imgbox"><img src="api_bing_speech.svg" class="bg0"/><div class="label">api_bing_speech.svg</div></div>
+<div id="api_bing_spell_check.svg" class="imgbox"><img src="api_bing_spell_check.svg" class="bg0"/><div class="label">api_bing_spell_check.svg</div></div>
+<div id="api_bing_video_search.svg" class="imgbox"><img src="api_bing_video_search.svg" class="bg0"/><div class="label">api_bing_video_search.svg</div></div>
+<div id="api_bing_visual_search.svg" class="imgbox"><img src="api_bing_visual_search.svg" class="bg0"/><div class="label">api_bing_visual_search.svg</div></div>
+<div id="api_bing_web_search.svg" class="imgbox"><img src="api_bing_web_search.svg" class="bg0"/><div class="label">api_bing_web_search.svg</div></div>
+<div id="api_computer_vision.svg" class="imgbox"><img src="api_computer_vision.svg" class="bg0"/><div class="label">api_computer_vision.svg</div></div>
+<div id="api_content_moderator.svg" class="imgbox"><img src="api_content_moderator.svg" class="bg0"/><div class="label">api_content_moderator.svg</div></div>
+<div id="api_conversation_learner.svg" class="imgbox"><img src="api_conversation_learner.svg" class="bg0"/><div class="label">api_conversation_learner.svg</div></div>
+<div id="api_custom_decision_service.svg" class="imgbox"><img src="api_custom_decision_service.svg" class="bg0"/><div class="label">api_custom_decision_service.svg</div></div>
+<div id="api_custom_speech.svg" class="imgbox"><img src="api_custom_speech.svg" class="bg0"/><div class="label">api_custom_speech.svg</div></div>
+<div id="api_custom_vision.svg" class="imgbox"><img src="api_custom_vision.svg" class="bg0"/><div class="label">api_custom_vision.svg</div></div>
+<div id="api_emotion.svg" class="imgbox"><img src="api_emotion.svg" class="bg0"/><div class="label">api_emotion.svg</div></div>
+<div id="api_entity_linkingintelligence.svg" class="imgbox"><img src="api_entity_linkingintelligence.svg" class="bg0"/><div class="label">api_entity_linkingintelligence.svg</div></div>
+<div id="api_face.svg" class="imgbox"><img src="api_face.svg" class="bg0"/><div class="label">api_face.svg</div></div>
+<div id="api_know_academic.svg" class="imgbox"><img src="api_know_academic.svg" class="bg0"/><div class="label">api_know_academic.svg</div></div>
+<div id="api_knowledgeexploration.svg" class="imgbox"><img src="api_knowledgeexploration.svg" class="bg0"/><div class="label">api_knowledgeexploration.svg</div></div>
+<div id="api_linguisticanalysis.svg" class="imgbox"><img src="api_linguisticanalysis.svg" class="bg0"/><div class="label">api_linguisticanalysis.svg</div></div>
+<div id="api_luis.svg" class="imgbox"><img src="api_luis.svg" class="bg0"/><div class="label">api_luis.svg</div></div>
+<div id="api_qnamaker.svg" class="imgbox"><img src="api_qnamaker.svg" class="bg0"/><div class="label">api_qnamaker.svg</div></div>
+<div id="api_recommendations.svg" class="imgbox"><img src="api_recommendations.svg" class="bg0"/><div class="label">api_recommendations.svg</div></div>
+<div id="api_speaker_recognition.svg" class="imgbox"><img src="api_speaker_recognition.svg" class="bg0"/><div class="label">api_speaker_recognition.svg</div></div>
+<div id="api_speech_service.svg" class="imgbox"><img src="api_speech_service.svg" class="bg0"/><div class="label">api_speech_service.svg</div></div>
+<div id="api_textanalytics.svg" class="imgbox"><img src="api_textanalytics.svg" class="bg0"/><div class="label">api_textanalytics.svg</div></div>
+<div id="api_translatorspeech.svg" class="imgbox"><img src="api_translatorspeech.svg" class="bg0"/><div class="label">api_translatorspeech.svg</div></div>
+<div id="api_translatortext.svg" class="imgbox"><img src="api_translatortext.svg" class="bg0"/><div class="label">api_translatortext.svg</div></div>
+<div id="api_url_preview.svg" class="imgbox"><img src="api_url_preview.svg" class="bg0"/><div class="label">api_url_preview.svg</div></div>
+<div id="api_videoindexer.svg" class="imgbox"><img src="api_videoindexer.svg" class="bg0"/><div class="label">api_videoindexer.svg</div></div>
+<div id="api_weblanguagemodel.svg" class="imgbox"><img src="api_weblanguagemodel.svg" class="bg0"/><div class="label">api_weblanguagemodel.svg</div></div>
+<div id="apimanagement.svg" class="imgbox"><img src="apimanagement.svg" class="bg0"/><div class="label">apimanagement.svg</div></div>
+<div id="app-service-api.svg" class="imgbox"><img src="app-service-api.svg" class="bg0"/><div class="label">app-service-api.svg</div></div>
+<div id="app-service-mobile.svg" class="imgbox"><img src="app-service-mobile.svg" class="bg0"/><div class="label">app-service-mobile.svg</div></div>
+<div id="app-service-web.svg" class="imgbox"><img src="app-service-web.svg" class="bg0"/><div class="label">app-service-web.svg</div></div>
+<div id="applicationgateway.svg" class="imgbox"><img src="applicationgateway.svg" class="bg0"/><div class="label">applicationgateway.svg</div></div>
+<div id="applicationinsights.svg" class="imgbox"><img src="applicationinsights.svg" class="bg0"/><div class="label">applicationinsights.svg</div></div>
+<div id="appservice.svg" class="imgbox"><img src="appservice.svg" class="bg0"/><div class="label">appservice.svg</div></div>
+<div id="automate-azure-tasks-with-powershell.svg" class="imgbox"><img src="automate-azure-tasks-with-powershell.svg" class="bg0"/><div class="label">automate-azure-tasks-with-powershell.svg</div></div>
+<div id="automation.svg" class="imgbox"><img src="automation.svg" class="bg0"/><div class="label">automation.svg</div></div>
+<div id="availabilitysetold.svg" class="imgbox"><img src="availabilitysetold.svg" class="bg0"/><div class="label">availabilitysetold.svg</div></div>
+<div id="avere.svg" class="imgbox"><img src="avere.svg" class="bg0"/><div class="label">avere.svg</div></div>
+<div id="azure-data-lake-analytics-color.svg" class="imgbox"><img src="azure-data-lake-analytics-color.svg" class="bg0"/><div class="label">azure-data-lake-analytics-color.svg</div></div>
+<div id="azure-data-lake-store-color.svg" class="imgbox"><img src="azure-data-lake-store-color.svg" class="bg0"/><div class="label">azure-data-lake-store-color.svg</div></div>
+<div id="azure-germany.svg" class="imgbox"><img src="azure-germany.svg" class="bg0"/><div class="label">azure-germany.svg</div></div>
+<div id="azure-government.svg" class="imgbox"><img src="azure-government.svg" class="bg0"/><div class="label">azure-government.svg</div></div>
+<div id="azure-maps-icon-portal.svg" class="imgbox"><img src="azure-maps-icon-portal.svg" class="bg0"/><div class="label">azure-maps-icon-portal.svg</div></div>
+<div id="azure-migrate.svg" class="imgbox"><img src="azure-migrate.svg" class="bg0"/><div class="label">azure-migrate.svg</div></div>
+<div id="azure-resource-manager.svg" class="imgbox"><img src="azure-resource-manager.svg" class="bg0"/><div class="label">azure-resource-manager.svg</div></div>
+<div id="azure-signalr.svg" class="imgbox"><img src="azure-signalr.svg" class="bg0"/><div class="label">azure-signalr.svg</div></div>
+<div id="azure-stack.svg" class="imgbox"><img src="azure-stack.svg" class="bg0"/><div class="label">azure-stack.svg</div></div>
+<div id="azure_best-practices.svg" class="imgbox"><img src="azure_best-practices.svg" class="bg0"/><div class="label">azure_best-practices.svg</div></div>
+<div id="azure_dev-1.svg" class="imgbox"><img src="azure_dev-1.svg" class="bg0"/><div class="label">azure_dev-1.svg</div></div>
+<div id="azure_dev-10.svg" class="imgbox"><img src="azure_dev-10.svg" class="bg0"/><div class="label">azure_dev-10.svg</div></div>
+<div id="azure_dev-11.svg" class="imgbox"><img src="azure_dev-11.svg" class="bg0"/><div class="label">azure_dev-11.svg</div></div>
+<div id="azure_dev-2.svg" class="imgbox"><img src="azure_dev-2.svg" class="bg0"/><div class="label">azure_dev-2.svg</div></div>
+<div id="azure_dev-3.svg" class="imgbox"><img src="azure_dev-3.svg" class="bg0"/><div class="label">azure_dev-3.svg</div></div>
+<div id="azure_dev-4.svg" class="imgbox"><img src="azure_dev-4.svg" class="bg0"/><div class="label">azure_dev-4.svg</div></div>
+<div id="azure_dev-6.svg" class="imgbox"><img src="azure_dev-6.svg" class="bg0"/><div class="label">azure_dev-6.svg</div></div>
+<div id="azure_dev-7.svg" class="imgbox"><img src="azure_dev-7.svg" class="bg0"/><div class="label">azure_dev-7.svg</div></div>
+<div id="azure_dev-8.svg" class="imgbox"><img src="azure_dev-8.svg" class="bg0"/><div class="label">azure_dev-8.svg</div></div>
+<div id="azure_event_grid.svg" class="imgbox"><img src="azure_event_grid.svg" class="bg0"/><div class="label">azure_event_grid.svg</div></div>
+<div id="azure_firewall.svg" class="imgbox"><img src="azure_firewall.svg" class="bg0"/><div class="label">azure_firewall.svg</div></div>
+<div id="azure_fundamentals.svg" class="imgbox"><img src="azure_fundamentals.svg" class="bg0"/><div class="label">azure_fundamentals.svg</div></div>
+<div id="azure_patterns.svg" class="imgbox"><img src="azure_patterns.svg" class="bg0"/><div class="label">azure_patterns.svg</div></div>
+<div id="azure_reference-archictectures.svg" class="imgbox"><img src="azure_reference-archictectures.svg" class="bg0"/><div class="label">azure_reference-archictectures.svg</div></div>
+<div id="azuredevspacecontroller_50x.svg" class="imgbox"><img src="azuredevspacecontroller_50x.svg" class="bg0"/><div class="label">azuredevspacecontroller_50x.svg</div></div>
+<div id="azurefunctions.svg" class="imgbox"><img src="azurefunctions.svg" class="bg0"/><div class="label">azurefunctions.svg</div></div>
+<div id="azuremonitoring.svg" class="imgbox"><img src="azuremonitoring.svg" class="bg0"/><div class="label">azuremonitoring.svg</div></div>
+<div id="backup.svg" class="imgbox"><img src="backup.svg" class="bg0"/><div class="label">backup.svg</div></div>
+<div id="batch.svg" class="imgbox"><img src="batch.svg" class="bg0"/><div class="label">batch.svg</div></div>
+<div id="billing.svg" class="imgbox"><img src="billing.svg" class="bg0"/><div class="label">billing.svg</div></div>
+<div id="blockchain-workbench.svg" class="imgbox"><img src="blockchain-workbench.svg" class="bg0"/><div class="label">blockchain-workbench.svg</div></div>
+<div id="blueprints.svg" class="imgbox"><img src="blueprints.svg" class="bg0"/><div class="label">blueprints.svg</div></div>
+<div id="bot-service.svg" class="imgbox"><img src="bot-service.svg" class="bg0"/><div class="label">bot-service.svg</div></div>
+<div id="chef_regular.svg" class="imgbox"><img src="chef_regular.svg" class="bg0"/><div class="label">chef_regular.svg</div></div>
+<div id="cloud-shell.svg" class="imgbox"><img src="cloud-shell.svg" class="bg0"/><div class="label">cloud-shell.svg</div></div>
+<div id="cloudservice.svg" class="imgbox"><img src="cloudservice.svg" class="bg0"/><div class="label">cloudservice.svg</div></div>
+<div id="container-registry.svg" class="imgbox"><img src="container-registry.svg" class="bg0"/><div class="label">container-registry.svg</div></div>
+<div id="containerinstances.svg" class="imgbox"><img src="containerinstances.svg" class="bg0"/><div class="label">containerinstances.svg</div></div>
+<div id="containerservice.svg" class="imgbox"><img src="containerservice.svg" class="bg0"/><div class="label">containerservice.svg</div></div>
+<div id="contentdeliverynetwork.svg" class="imgbox"><img src="contentdeliverynetwork.svg" class="bg0"/><div class="label">contentdeliverynetwork.svg</div></div>
+<div id="control-azure-services-with-cli.svg" class="imgbox"><img src="control-azure-services-with-cli.svg" class="bg0"/><div class="label">control-azure-services-with-cli.svg</div></div>
+<div id="cosmosdb.svg" class="imgbox"><img src="cosmosdb.svg" class="bg0"/><div class="label">cosmosdb.svg</div></div>
+<div id="cosmosdb_rgb_ui_lighttheme.svg" class="imgbox"><img src="cosmosdb_rgb_ui_lighttheme.svg" class="bg0"/><div class="label">cosmosdb_rgb_ui_lighttheme.svg</div></div>
+<div id="data-catalog.svg" class="imgbox"><img src="data-catalog.svg" class="bg0"/><div class="label">data-catalog.svg</div></div>
+<div id="database-migration.svg" class="imgbox"><img src="database-migration.svg" class="bg0"/><div class="label">database-migration.svg</div></div>
+<div id="datafactory.svg" class="imgbox"><img src="datafactory.svg" class="bg0"/><div class="label">datafactory.svg</div></div>
+<div id="ddos-protection.svg" class="imgbox"><img src="ddos-protection.svg" class="bg0"/><div class="label">ddos-protection.svg</div></div>
+<div id="ddos.svg" class="imgbox"><img src="ddos.svg" class="bg0"/><div class="label">ddos.svg</div></div>
+<div id="dedicated-hsm.svg" class="imgbox"><img src="dedicated-hsm.svg" class="bg0"/><div class="label">dedicated-hsm.svg</div></div>
+<div id="devopsiconpipelines96.svg" class="imgbox"><img src="devopsiconpipelines96.svg" class="bg0"/><div class="label">devopsiconpipelines96.svg</div></div>
+<div id="devtestlabs.svg" class="imgbox"><img src="devtestlabs.svg" class="bg0"/><div class="label">devtestlabs.svg</div></div>
+<div id="digital_twin.svg" class="imgbox"><img src="digital_twin.svg" class="bg0"/><div class="label">digital_twin.svg</div></div>
+<div id="disks-color.svg" class="imgbox"><img src="disks-color.svg" class="bg0"/><div class="label">disks-color.svg</div></div>
+<div id="dns.svg" class="imgbox"><img src="dns.svg" class="bg0"/><div class="label">dns.svg</div></div>
+<div id="dps.svg" class="imgbox"><img src="dps.svg" class="bg0"/><div class="label">dps.svg</div></div>
+<div id="eventhubs.svg" class="imgbox"><img src="eventhubs.svg" class="bg0"/><div class="label">eventhubs.svg</div></div>
+<div id="expressroute.svg" class="imgbox"><img src="expressroute.svg" class="bg0"/><div class="label">expressroute.svg</div></div>
+<div id="fabric.svg" class="imgbox"><img src="fabric.svg" class="bg0"/><div class="label">fabric.svg</div></div>
+<div id="frontdoor.svg" class="imgbox"><img src="frontdoor.svg" class="bg0"/><div class="label">frontdoor.svg</div></div>
+<div id="genomics.svg" class="imgbox"><img src="genomics.svg" class="bg0"/><div class="label">genomics.svg</div></div>
+<div id="governance.svg" class="imgbox"><img src="governance.svg" class="bg0"/><div class="label">governance.svg</div></div>
+<div id="hdinsight.svg" class="imgbox"><img src="hdinsight.svg" class="bg0"/><div class="label">hdinsight.svg</div></div>
+<div id="hockeyapp.svg" class="imgbox"><img src="hockeyapp.svg" class="bg0"/><div class="label">hockeyapp.svg</div></div>
+<div id="i_azure-cognitive-services-color.svg" class="imgbox"><img src="i_azure-cognitive-services-color.svg" class="bg0"/><div class="label">i_azure-cognitive-services-color.svg</div></div>
+<div id="i_cligeneric.svg" class="imgbox"><img src="i_cligeneric.svg" class="bg0"/><div class="label">i_cligeneric.svg</div></div>
+<div id="i_extensions.svg" class="imgbox"><img src="i_extensions.svg" class="bg0"/><div class="label">i_extensions.svg</div></div>
+<div id="i_information-protection.svg" class="imgbox"><img src="i_information-protection.svg" class="bg0"/><div class="label">i_information-protection.svg</div></div>
+<div id="i_managed-application.svg" class="imgbox"><img src="i_managed-application.svg" class="bg0"/><div class="label">i_managed-application.svg</div></div>
+<div id="i_mobile-app-developement.svg" class="imgbox"><img src="i_mobile-app-developement.svg" class="bg0"/><div class="label">i_mobile-app-developement.svg</div></div>
+<div id="i_tools.svg" class="imgbox"><img src="i_tools.svg" class="bg0"/><div class="label">i_tools.svg</div></div>
+<div id="iot-central.svg" class="imgbox"><img src="iot-central.svg" class="bg0"/><div class="label">iot-central.svg</div></div>
+<div id="iot-edge-alt.svg" class="imgbox"><img src="iot-edge-alt.svg" class="bg0"/><div class="label">iot-edge-alt.svg</div></div>
+<div id="iot-solution-accelerators.svg" class="imgbox"><img src="iot-solution-accelerators.svg" class="bg0"/><div class="label">iot-solution-accelerators.svg</div></div>
+<div id="iothub.svg" class="imgbox"><img src="iothub.svg" class="bg0"/><div class="label">iothub.svg</div></div>
+<div id="keyvault.svg" class="imgbox"><img src="keyvault.svg" class="bg0"/><div class="label">keyvault.svg</div></div>
+<div id="loadbalancer.svg" class="imgbox"><img src="loadbalancer.svg" class="bg0"/><div class="label">loadbalancer.svg</div></div>
+<div id="logicapp.svg" class="imgbox"><img src="logicapp.svg" class="bg0"/><div class="label">logicapp.svg</div></div>
+<div id="logo_Go-lightblue.svg" class="imgbox"><img src="logo_Go-lightblue.svg" class="bg0"/><div class="label">logo_Go-lightblue.svg</div></div>
+<div id="logo_azure-blob-storage.svg" class="imgbox"><img src="logo_azure-blob-storage.svg" class="bg0"/><div class="label">logo_azure-blob-storage.svg</div></div>
+<div id="logo_azure-storage-file.svg" class="imgbox"><img src="logo_azure-storage-file.svg" class="bg0"/><div class="label">logo_azure-storage-file.svg</div></div>
+<div id="logo_azure-storage-q.svg" class="imgbox"><img src="logo_azure-storage-q.svg" class="bg0"/><div class="label">logo_azure-storage-q.svg</div></div>
+<div id="logo_azure.svg" class="imgbox"><img src="logo_azure.svg" class="bg0"/><div class="label">logo_azure.svg</div></div>
+<div id="logo_cyclecloud.svg" class="imgbox"><img src="logo_cyclecloud.svg" class="bg0"/><div class="label">logo_cyclecloud.svg</div></div>
+<div id="logo_databricks.svg" class="imgbox"><img src="logo_databricks.svg" class="bg0"/><div class="label">logo_databricks.svg</div></div>
+<div id="logo_java.svg" class="imgbox"><img src="logo_java.svg" class="bg0"/><div class="label">logo_java.svg</div></div>
+<div id="logo_jenkins.svg" class="imgbox"><img src="logo_jenkins.svg" class="bg0"/><div class="label">logo_jenkins.svg</div></div>
+<div id="logo_net.svg" class="imgbox"><img src="logo_net.svg" class="bg0"/><div class="label">logo_net.svg</div></div>
+<div id="logo_nodejs.svg" class="imgbox"><img src="logo_nodejs.svg" class="bg0"/><div class="label">logo_nodejs.svg</div></div>
+<div id="logo_php.svg" class="imgbox"><img src="logo_php.svg" class="bg0"/><div class="label">logo_php.svg</div></div>
+<div id="logo_python.svg" class="imgbox"><img src="logo_python.svg" class="bg0"/><div class="label">logo_python.svg</div></div>
+<div id="logo_terraform.svg" class="imgbox"><img src="logo_terraform.svg" class="bg0"/><div class="label">logo_terraform.svg</div></div>
+<div id="logo_visual-studio.svg" class="imgbox"><img src="logo_visual-studio.svg" class="bg0"/><div class="label">logo_visual-studio.svg</div></div>
+<div id="logo_vs-code.svg" class="imgbox"><img src="logo_vs-code.svg" class="bg0"/><div class="label">logo_vs-code.svg</div></div>
+<div id="logo_vs-mobile-center.svg" class="imgbox"><img src="logo_vs-mobile-center.svg" class="bg0"/><div class="label">logo_vs-mobile-center.svg</div></div>
+<div id="logo_vs-team-services.svg" class="imgbox"><img src="logo_vs-team-services.svg" class="bg0"/><div class="label">logo_vs-team-services.svg</div></div>
+<div id="logo_xamarin.svg" class="imgbox"><img src="logo_xamarin.svg" class="bg0"/><div class="label">logo_xamarin.svg</div></div>
+<div id="machinelearning.svg" class="imgbox"><img src="machinelearning.svg" class="bg0"/><div class="label">machinelearning.svg</div></div>
+<div id="managed-disks.svg" class="imgbox"><img src="managed-disks.svg" class="bg0"/><div class="label">managed-disks.svg</div></div>
+<div id="mariadb.svg" class="imgbox"><img src="mariadb.svg" class="bg0"/><div class="label">mariadb.svg</div></div>
+<div id="media-encoding.svg" class="imgbox"><img src="media-encoding.svg" class="bg0"/><div class="label">media-encoding.svg</div></div>
+<div id="media-indexer.svg" class="imgbox"><img src="media-indexer.svg" class="bg0"/><div class="label">media-indexer.svg</div></div>
+<div id="media-ondemand.svg" class="imgbox"><img src="media-ondemand.svg" class="bg0"/><div class="label">media-ondemand.svg</div></div>
+<div id="media-player.svg" class="imgbox"><img src="media-player.svg" class="bg0"/><div class="label">media-player.svg</div></div>
+<div id="media-protection.svg" class="imgbox"><img src="media-protection.svg" class="bg0"/><div class="label">media-protection.svg</div></div>
+<div id="media-services.svg" class="imgbox"><img src="media-services.svg" class="bg0"/><div class="label">media-services.svg</div></div>
+<div id="mediaservices.svg" class="imgbox"><img src="mediaservices.svg" class="bg0"/><div class="label">mediaservices.svg</div></div>
+<div id="multifactorauthentication.svg" class="imgbox"><img src="multifactorauthentication.svg" class="bg0"/><div class="label">multifactorauthentication.svg</div></div>
+<div id="mysql.svg" class="imgbox"><img src="mysql.svg" class="bg0"/><div class="label">mysql.svg</div></div>
+<div id="netappstorage.svg" class="imgbox"><img src="netappstorage.svg" class="bg0"/><div class="label">netappstorage.svg</div></div>
+<div id="network-watcher.svg" class="imgbox"><img src="network-watcher.svg" class="bg0"/><div class="label">network-watcher.svg</div></div>
+<div id="networking-overview.svg" class="imgbox"><img src="networking-overview.svg" class="bg0"/><div class="label">networking-overview.svg</div></div>
+<div id="notebooks.svg" class="imgbox"><img src="notebooks.svg" class="bg0"/><div class="label">notebooks.svg</div></div>
+<div id="notificationhubs.svg" class="imgbox"><img src="notificationhubs.svg" class="bg0"/><div class="label">notificationhubs.svg</div></div>
+<div id="operationsmanagementsuite.svg" class="imgbox"><img src="operationsmanagementsuite.svg" class="bg0"/><div class="label">operationsmanagementsuite.svg</div></div>
+<div id="personwithfriend.svg" class="imgbox"><img src="personwithfriend.svg" class="bg0"/><div class="label">personwithfriend.svg</div></div>
+<div id="postgresql.svg" class="imgbox"><img src="postgresql.svg" class="bg0"/><div class="label">postgresql.svg</div></div>
+<div id="powerbiembedded.svg" class="imgbox"><img src="powerbiembedded.svg" class="bg0"/><div class="label">powerbiembedded.svg</div></div>
+<div id="principles-cloud-computing.svg" class="imgbox"><img src="principles-cloud-computing.svg" class="bg0"/><div class="label">principles-cloud-computing.svg</div></div>
+<div id="rediscache.svg" class="imgbox"><img src="rediscache.svg" class="bg0"/><div class="label">rediscache.svg</div></div>
+<div id="resource-graph.svg" class="imgbox"><img src="resource-graph.svg" class="bg0"/><div class="label">resource-graph.svg</div></div>
+<div id="resource-health.svg" class="imgbox"><img src="resource-health.svg" class="bg0"/><div class="label">resource-health.svg</div></div>
+<div id="scheduler.svg" class="imgbox"><img src="scheduler.svg" class="bg0"/><div class="label">scheduler.svg</div></div>
+<div id="search.svg" class="imgbox"><img src="search.svg" class="bg0"/><div class="label">search.svg</div></div>
+<div id="securitycenter.svg" class="imgbox"><img src="securitycenter.svg" class="bg0"/><div class="label">securitycenter.svg</div></div>
+<div id="servicebus.svg" class="imgbox"><img src="servicebus.svg" class="bg0"/><div class="label">servicebus.svg</div></div>
+<div id="siterecovery.svg" class="imgbox"><img src="siterecovery.svg" class="bg0"/><div class="label">siterecovery.svg</div></div>
+<div id="sqldatabase.svg" class="imgbox"><img src="sqldatabase.svg" class="bg0"/><div class="label">sqldatabase.svg</div></div>
+<div id="sqldatawarehouse.svg" class="imgbox"><img src="sqldatawarehouse.svg" class="bg0"/><div class="label">sqldatawarehouse.svg</div></div>
+<div id="storage.svg" class="imgbox"><img src="storage.svg" class="bg0"/><div class="label">storage.svg</div></div>
+<div id="storsimple.svg" class="imgbox"><img src="storsimple.svg" class="bg0"/><div class="label">storsimple.svg</div></div>
+<div id="streamanalytics.svg" class="imgbox"><img src="streamanalytics.svg" class="bg0"/><div class="label">streamanalytics.svg</div></div>
+<div id="time-series-insights.svg" class="imgbox"><img src="time-series-insights.svg" class="bg0"/><div class="label">time-series-insights.svg</div></div>
+<div id="tour-azure-services-and-features.svg" class="imgbox"><img src="tour-azure-services-and-features.svg" class="bg0"/><div class="label">tour-azure-services-and-features.svg</div></div>
+<div id="trafficmanager.svg" class="imgbox"><img src="trafficmanager.svg" class="bg0"/><div class="label">trafficmanager.svg</div></div>
+<div id="virtualmachine.svg" class="imgbox"><img src="virtualmachine.svg" class="bg0"/><div class="label">virtualmachine.svg</div></div>
+<div id="virtualnetwork.svg" class="imgbox"><img src="virtualnetwork.svg" class="bg0"/><div class="label">virtualnetwork.svg</div></div>
+<div id="vpngateway.svg" class="imgbox"><img src="vpngateway.svg" class="bg0"/><div class="label">vpngateway.svg</div></div>
+<div id="wan.svg" class="imgbox"><img src="wan.svg" class="bg0"/><div class="label">wan.svg</div></div>
+
+</div>
+<script>
+var bg = 0;
+function toggleBg() {
+  bg++
+  if(bg > 2) bg = 0;
+  for(let img of document.getElementsByTagName("img")) {
+    img.className = `bg${bg}`;
+  }
+}
+
+function search() {
+  let q = document.getElementById('finder').value.trim().toLowerCase()
+  if(q.length <= 0) {
+    for(let imgbox of document.getElementsByClassName("imgbox")) {
+      imgbox.style.display = "inline-block"
+    }
+  }
+  for(let imgbox of document.getElementsByClassName("imgbox")) {
+    imgbox.style.display = "inline-block"
+    if(!imgbox.id.includes(q)) {
+      imgbox.style.display = "none"
+    }
+  }
+}
+
+</script>
 </body></html>

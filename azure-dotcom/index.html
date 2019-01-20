@@ -1,60 +1,111 @@
 
-<head><title>Gallery</title></head>
+<head><title>Azure.com Various</title></head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
-  font-size: 15px;
   background-color: #aaa;
+  padding: 0;
+  margin: 0;
 }
-img { 
-  width: 100%;
-  height: auto;
+.bg0 {
+  background-image: url("../_tools/background.png")
+}
+.bg1 {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #fff;
+}
+.imgbox img { 
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
 }
 .imgbox {
-  display: inline-block;
-  margin: 0.5rem;
+  margin: 0.6rem;
   padding: 0.5rem;
   text-align: center;
   width: 12rem;
-  
-  word-wrap: break-word;
+  height: 12rem;
   background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.6rem;
+}
+.find, .find input {
+  font-size: 1.5rem;
+}
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+}
+.top button {
+  float: right; 
+  position: relative; 
+  top: -2rem; 
+  font-size: 1.5rem;
+}
+.label {
+  height: 2.5em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
 <body>
-<div class="imgbox"><img src="backup-archive.svg" /><span>backup-archive.svg</span></div>
-<div class="imgbox"><img src="blockchain.svg" /><span>blockchain.svg</span></div>
-<div class="imgbox"><img src="digital-marketing.svg" /><span>digital-marketing.svg</span></div>
-<div class="imgbox"><img src="e-commerce.svg" /><span>e-commerce.svg</span></div>
-<div class="imgbox"><img src="high-performance-computing.svg" /><span>high-performance-computing.svg</span></div>
-<div class="imgbox"><img src="hybrid-cloud-app.svg" /><span>hybrid-cloud-app.svg</span></div>
-<div class="imgbox"><img src="internet-of-things.svg" /><span>internet-of-things.svg</span></div>
-<div class="imgbox"><img src="lob-applications.svg" /><span>lob-applications.svg</span></div>
-<div class="imgbox"><img src="saas.svg" /><span>saas.svg</span></div>
-<div class="imgbox"><img src="serverless.svg" /><span>serverless.svg</span></div>
-<div class="imgbox"><img src="solutions.svg" /><span>solutions.svg</span></div>
-<div class="imgbox"><img src="svg-ai.svg" /><span>svg-ai.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-mobile.svg" /><span>svg-app-service-mobile.svg</span></div>
-<div class="imgbox"><img src="svg-automation.svg" /><span>svg-automation.svg</span></div>
-<div class="imgbox"><img src="svg-big-data.svg" /><span>svg-big-data.svg</span></div>
-<div class="imgbox"><img src="svg-business-intelligence.svg" /><span>svg-business-intelligence.svg</span></div>
-<div class="imgbox"><img src="svg-confidential-compute.svg" /><span>svg-confidential-compute.svg</span></div>
-<div class="imgbox"><img src="svg-data-warehouse.svg" /><span>svg-data-warehouse.svg</span></div>
-<div class="imgbox"><img src="svg-decentralized-identity.svg" /><span>svg-decentralized-identity.svg</span></div>
-<div class="imgbox"><img src="svg-devtest-lab.svg" /><span>svg-devtest-lab.svg</span></div>
-<div class="imgbox"><img src="svg-discrete-manufacturing.svg" /><span>svg-discrete-manufacturing.svg</span></div>
-<div class="imgbox"><img src="svg-dynamics.svg" /><span>svg-dynamics.svg</span></div>
-<div class="imgbox"><img src="svg-facebook-square-bw.svg" /><span>svg-facebook-square-bw.svg</span></div>
-<div class="imgbox"><img src="svg-financial.svg" /><span>svg-financial.svg</span></div>
-<div class="imgbox"><img src="svg-gaming.svg" /><span>svg-gaming.svg</span></div>
-<div class="imgbox"><img src="svg-governance.svg" /><span>svg-governance.svg</span></div>
-<div class="imgbox"><img src="svg-government.svg" /><span>svg-government.svg</span></div>
-<div class="imgbox"><img src="svg-healthcare.svg" /><span>svg-healthcare.svg</span></div>
-<div class="imgbox"><img src="svg-linkedin.svg" /><span>svg-linkedin.svg</span></div>
-<div class="imgbox"><img src="svg-media-player.svg" /><span>svg-media-player.svg</span></div>
-<div class="imgbox"><img src="svg-microservice.svg" /><span>svg-microservice.svg</span></div>
-<div class="imgbox"><img src="svg-microsoft.svg" /><span>svg-microsoft.svg</span></div>
-<div class="imgbox"><img src="svg-monitor.svg" /><span>svg-monitor.svg</span></div>
-<div class="imgbox"><img src="svg-msazure-logo.svg" /><span>svg-msazure-logo.svg</span></div>
-<div class="imgbox"><img src="svg-retailers.svg" /><span>svg-retailers.svg</span></div>
+<div class="top">
+<h1>Azure.com Various</h1>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<button onclick="toggleBg()">Change Background</button>
+</div>
+<div class="grid">
+<div id="backup-archive.svg" class="imgbox"><img src="backup-archive.svg" class="bg0"/><div class="label">backup-archive.svg</div></div>
+<div id="blockchain.svg" class="imgbox"><img src="blockchain.svg" class="bg0"/><div class="label">blockchain.svg</div></div>
+<div id="digital-marketing.svg" class="imgbox"><img src="digital-marketing.svg" class="bg0"/><div class="label">digital-marketing.svg</div></div>
+<div id="e-commerce.svg" class="imgbox"><img src="e-commerce.svg" class="bg0"/><div class="label">e-commerce.svg</div></div>
+<div id="high-performance-computing.svg" class="imgbox"><img src="high-performance-computing.svg" class="bg0"/><div class="label">high-performance-computing.svg</div></div>
+<div id="hybrid-cloud-app.svg" class="imgbox"><img src="hybrid-cloud-app.svg" class="bg0"/><div class="label">hybrid-cloud-app.svg</div></div>
+<div id="internet-of-things.svg" class="imgbox"><img src="internet-of-things.svg" class="bg0"/><div class="label">internet-of-things.svg</div></div>
+<div id="lob-applications.svg" class="imgbox"><img src="lob-applications.svg" class="bg0"/><div class="label">lob-applications.svg</div></div>
+<div id="saas.svg" class="imgbox"><img src="saas.svg" class="bg0"/><div class="label">saas.svg</div></div>
+<div id="serverless.svg" class="imgbox"><img src="serverless.svg" class="bg0"/><div class="label">serverless.svg</div></div>
+<div id="solutions.svg" class="imgbox"><img src="solutions.svg" class="bg0"/><div class="label">solutions.svg</div></div>
+
+</div>
+<script>
+var bg = 0;
+function toggleBg() {
+  bg++
+  if(bg > 2) bg = 0;
+  for(let img of document.getElementsByTagName("img")) {
+    img.className = `bg${bg}`;
+  }
+}
+
+function search() {
+  let q = document.getElementById('finder').value.trim().toLowerCase()
+  if(q.length <= 0) {
+    for(let imgbox of document.getElementsByClassName("imgbox")) {
+      imgbox.style.display = "inline-block"
+    }
+  }
+  for(let imgbox of document.getElementsByClassName("imgbox")) {
+    imgbox.style.display = "inline-block"
+    if(!imgbox.id.includes(q)) {
+      imgbox.style.display = "none"
+    }
+  }
+}
+
+</script>
 </body></html>

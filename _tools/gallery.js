@@ -15,34 +15,109 @@ outHtml = `
 <style>
 body {
   font-family: 'Segoe UI', Arial;
-  font-size: 15px;
   background-color: #aaa;
+  padding: 0;
+  margin: 0;
 }
-img { 
-  width: 100%;
-  height: auto;
+.bg0 {
+  background-image: url("../_tools/background.png")
+}
+.bg1 {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #fff;
+}
+.imgbox img { 
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
 }
 .imgbox {
-  display: inline-block;
-  margin: 0.5rem;
+  margin: 0.6rem;
   padding: 0.5rem;
   text-align: center;
   width: 12rem;
-  
-  word-wrap: break-word;
+  height: 12rem;
   background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.6rem;
+}
+.find, .find input {
+  font-size: 1.5rem;
+}
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+}
+.top button {
+  float: right; 
+  position: relative; 
+  top: -2rem; 
+  font-size: 1.5rem;
+}
+.label {
+  height: 2.5em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
 <body>
+<div class="top">
+<h1>${TITLE}</h1>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<button onclick="toggleBg()">Change Background</button>
+</div>
+<div class="grid">
 `
 
 var files = fs.readdirSync(DIR);
 for(let f of files) {
   if(!f.endsWith(".svg")) continue;
-  outHtml += `<div class="imgbox"><img src="${f}" /><span>${f}</span></div>\n`
+  outHtml += `<div id="${f}" class="imgbox"><img src="${f}" class="bg0"/><div class="label">${f}</div></div>\n`
 }
 
-outHtml += "</body></html>"
+outHtml += `
+</div>
+<script>
+var bg = 0;
+function toggleBg() {
+  bg++
+  if(bg > 2) bg = 0;
+  for(let img of document.getElementsByTagName("img")) {
+    img.className = \`bg\${bg}\`;
+  }
+}
+
+function search() {
+  let q = document.getElementById('finder').value.trim().toLowerCase()
+  if(q.length <= 0) {
+    for(let imgbox of document.getElementsByClassName("imgbox")) {
+      imgbox.style.display = "inline-block"
+    }
+  }
+  for(let imgbox of document.getElementsByClassName("imgbox")) {
+    imgbox.style.display = "inline-block"
+    if(!imgbox.id.includes(q)) {
+      imgbox.style.display = "none"
+    }
+  }
+}
+
+</script>
+</body></html>`
 
 console.log(`### Generating gallery index.html for ${DIR}`);
 

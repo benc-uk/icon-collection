@@ -1,723 +1,798 @@
 
-<head><title>Gallery</title></head>
+<head><title>Azure Patterns Collection</title></head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
-  font-size: 15px;
   background-color: #aaa;
+  padding: 0;
+  margin: 0;
 }
-img { 
-  width: 100%;
-  height: auto;
+.bg0 {
+  background-image: url("../_tools/background.png")
+}
+.bg1 {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #fff;
+}
+.imgbox img { 
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
 }
 .imgbox {
-  display: inline-block;
-  margin: 0.5rem;
+  margin: 0.6rem;
   padding: 0.5rem;
   text-align: center;
   width: 12rem;
-  
-  word-wrap: break-word;
+  height: 12rem;
   background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.6rem;
+}
+.find, .find input {
+  font-size: 1.5rem;
+}
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+}
+.top button {
+  float: right; 
+  position: relative; 
+  top: -2rem; 
+  font-size: 1.5rem;
+}
+.label {
+  height: 2.5em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
 <body>
-<div class="imgbox"><img src="svg-1.svg" /><span>svg-1.svg</span></div>
-<div class="imgbox"><img src="svg-academic-knowledge-api.svg" /><span>svg-academic-knowledge-api.svg</span></div>
-<div class="imgbox"><img src="svg-active-directory-black.svg" /><span>svg-active-directory-black.svg</span></div>
-<div class="imgbox"><img src="svg-active-directory.svg" /><span>svg-active-directory.svg</span></div>
-<div class="imgbox"><img src="svg-add-button.svg" /><span>svg-add-button.svg</span></div>
-<div class="imgbox"><img src="svg-admin-support.svg" /><span>svg-admin-support.svg</span></div>
-<div class="imgbox"><img src="svg-advanced-functionality.svg" /><span>svg-advanced-functionality.svg</span></div>
-<div class="imgbox"><img src="svg-advisor-blue.svg" /><span>svg-advisor-blue.svg</span></div>
-<div class="imgbox"><img src="svg-advisor.svg" /><span>svg-advisor.svg</span></div>
-<div class="imgbox"><img src="svg-ai-models.svg" /><span>svg-ai-models.svg</span></div>
-<div class="imgbox"><img src="svg-ai.svg" /><span>svg-ai.svg</span></div>
-<div class="imgbox"><img src="svg-analysis-services.svg" /><span>svg-analysis-services.svg</span></div>
-<div class="imgbox"><img src="svg-analytics.svg" /><span>svg-analytics.svg</span></div>
-<div class="imgbox"><img src="svg-api-management-mono.svg" /><span>svg-api-management-mono.svg</span></div>
-<div class="imgbox"><img src="svg-api-management.svg" /><span>svg-api-management.svg</span></div>
-<div class="imgbox"><img src="svg-app-center-mono.svg" /><span>svg-app-center-mono.svg</span></div>
-<div class="imgbox"><img src="svg-app-center.svg" /><span>svg-app-center.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-api.svg" /><span>svg-app-service-api.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-container.svg" /><span>svg-app-service-container.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-containers.svg" /><span>svg-app-service-containers.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-logic.svg" /><span>svg-app-service-logic.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-mobile.svg" /><span>svg-app-service-mobile.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-web-epi.svg" /><span>svg-app-service-web-epi.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-web-orchard.svg" /><span>svg-app-service-web-orchard.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-web-sitecore.svg" /><span>svg-app-service-web-sitecore.svg</span></div>
-<div class="imgbox"><img src="svg-app-service-web.svg" /><span>svg-app-service-web.svg</span></div>
-<div class="imgbox"><img src="svg-app-service.svg" /><span>svg-app-service.svg</span></div>
-<div class="imgbox"><img src="svg-application-gateway.svg" /><span>svg-application-gateway.svg</span></div>
-<div class="imgbox"><img src="svg-application-insights.svg" /><span>svg-application-insights.svg</span></div>
-<div class="imgbox"><img src="svg-application-resources.svg" /><span>svg-application-resources.svg</span></div>
-<div class="imgbox"><img src="svg-applications-and-data.svg" /><span>svg-applications-and-data.svg</span></div>
-<div class="imgbox"><img src="svg-arrow-in-bullseye.svg" /><span>svg-arrow-in-bullseye.svg</span></div>
-<div class="imgbox"><img src="svg-arrow-with-meter.svg" /><span>svg-arrow-with-meter.svg</span></div>
-<div class="imgbox"><img src="svg-audio-microphone.svg" /><span>svg-audio-microphone.svg</span></div>
-<div class="imgbox"><img src="svg-audio-play.svg" /><span>svg-audio-play.svg</span></div>
-<div class="imgbox"><img src="svg-audio-stop.svg" /><span>svg-audio-stop.svg</span></div>
-<div class="imgbox"><img src="svg-authentic.svg" /><span>svg-authentic.svg</span></div>
-<div class="imgbox"><img src="svg-automate.svg" /><span>svg-automate.svg</span></div>
-<div class="imgbox"><img src="svg-automation-blue.svg" /><span>svg-automation-blue.svg</span></div>
-<div class="imgbox"><img src="svg-automation.svg" /><span>svg-automation.svg</span></div>
-<div class="imgbox"><img src="svg-autoscale.svg" /><span>svg-autoscale.svg</span></div>
-<div class="imgbox"><img src="svg-autosuggest-api.svg" /><span>svg-autosuggest-api.svg</span></div>
-<div class="imgbox"><img src="svg-availability-set.svg" /><span>svg-availability-set.svg</span></div>
-<div class="imgbox"><img src="svg-avere-vfxt-dark.svg" /><span>svg-avere-vfxt-dark.svg</span></div>
-<div class="imgbox"><img src="svg-avere-vfxt.svg" /><span>svg-avere-vfxt.svg</span></div>
-<div class="imgbox"><img src="svg-azure-cli.svg" /><span>svg-azure-cli.svg</span></div>
-<div class="imgbox"><img src="svg-azure-cloud.svg" /><span>svg-azure-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-azure-dedicated-hsm.svg" /><span>svg-azure-dedicated-hsm.svg</span></div>
-<div class="imgbox"><img src="svg-azure-devops.svg" /><span>svg-azure-devops.svg</span></div>
-<div class="imgbox"><img src="svg-azure-direct.svg" /><span>svg-azure-direct.svg</span></div>
-<div class="imgbox"><img src="svg-azure-firewall.svg" /><span>svg-azure-firewall.svg</span></div>
-<div class="imgbox"><img src="svg-azure-maps.svg" /><span>svg-azure-maps.svg</span></div>
-<div class="imgbox"><img src="svg-azure-migrate-dark.svg" /><span>svg-azure-migrate-dark.svg</span></div>
-<div class="imgbox"><img src="svg-azure-migrate.svg" /><span>svg-azure-migrate.svg</span></div>
-<div class="imgbox"><img src="svg-azure-monitor.svg" /><span>svg-azure-monitor.svg</span></div>
-<div class="imgbox"><img src="svg-azure-policy-alt.svg" /><span>svg-azure-policy-alt.svg</span></div>
-<div class="imgbox"><img src="svg-azure-policy.svg" /><span>svg-azure-policy.svg</span></div>
-<div class="imgbox"><img src="svg-azure-resource-group-blue.svg" /><span>svg-azure-resource-group-blue.svg</span></div>
-<div class="imgbox"><img src="svg-azure-resource-manager.svg" /><span>svg-azure-resource-manager.svg</span></div>
-<div class="imgbox"><img src="svg-azure.svg" /><span>svg-azure.svg</span></div>
-<div class="imgbox"><img src="svg-backup-dark.svg" /><span>svg-backup-dark.svg</span></div>
-<div class="imgbox"><img src="svg-backup-one-cloud.svg" /><span>svg-backup-one-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-backup-server.svg" /><span>svg-backup-server.svg</span></div>
-<div class="imgbox"><img src="svg-backup.svg" /><span>svg-backup.svg</span></div>
-<div class="imgbox"><img src="svg-backward.svg" /><span>svg-backward.svg</span></div>
-<div class="imgbox"><img src="svg-bar-chart.svg" /><span>svg-bar-chart.svg</span></div>
-<div class="imgbox"><img src="svg-bar-graph.svg" /><span>svg-bar-graph.svg</span></div>
-<div class="imgbox"><img src="svg-bargraph-with-dollar-sign.svg" /><span>svg-bargraph-with-dollar-sign.svg</span></div>
-<div class="imgbox"><img src="svg-bars-with-star.svg" /><span>svg-bars-with-star.svg</span></div>
-<div class="imgbox"><img src="svg-batch-ai.svg" /><span>svg-batch-ai.svg</span></div>
-<div class="imgbox"><img src="svg-batch.svg" /><span>svg-batch.svg</span></div>
-<div class="imgbox"><img src="svg-beaker.svg" /><span>svg-beaker.svg</span></div>
-<div class="imgbox"><img src="svg-bell.svg" /><span>svg-bell.svg</span></div>
-<div class="imgbox"><img src="svg-big-data.svg" /><span>svg-big-data.svg</span></div>
-<div class="imgbox"><img src="svg-big-small-meters-fill.svg" /><span>svg-big-small-meters-fill.svg</span></div>
-<div class="imgbox"><img src="svg-billing-alert.svg" /><span>svg-billing-alert.svg</span></div>
-<div class="imgbox"><img src="svg-billing-statement.svg" /><span>svg-billing-statement.svg</span></div>
-<div class="imgbox"><img src="svg-bing-custom-search-api.svg" /><span>svg-bing-custom-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-bing-entity-search-api.svg" /><span>svg-bing-entity-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-bing-image-search-api.svg" /><span>svg-bing-image-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-bing-local-business-search.svg" /><span>svg-bing-local-business-search.svg</span></div>
-<div class="imgbox"><img src="svg-bing-news-search-api.svg" /><span>svg-bing-news-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-bing-video-search-api.svg" /><span>svg-bing-video-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-bing-visual-search.svg" /><span>svg-bing-visual-search.svg</span></div>
-<div class="imgbox"><img src="svg-biztalk-hybrid-connection.svg" /><span>svg-biztalk-hybrid-connection.svg</span></div>
-<div class="imgbox"><img src="svg-biztalk-services.svg" /><span>svg-biztalk-services.svg</span></div>
-<div class="imgbox"><img src="svg-blockchain-workbench.svg" /><span>svg-blockchain-workbench.svg</span></div>
-<div class="imgbox"><img src="svg-blog-alt-dark.svg" /><span>svg-blog-alt-dark.svg</span></div>
-<div class="imgbox"><img src="svg-blog-alt.svg" /><span>svg-blog-alt.svg</span></div>
-<div class="imgbox"><img src="svg-blowhorn.svg" /><span>svg-blowhorn.svg</span></div>
-<div class="imgbox"><img src="svg-blue-bell.svg" /><span>svg-blue-bell.svg</span></div>
-<div class="imgbox"><img src="svg-blue-black-square.svg" /><span>svg-blue-black-square.svg</span></div>
-<div class="imgbox"><img src="svg-blue-gears-v2.svg" /><span>svg-blue-gears-v2.svg</span></div>
-<div class="imgbox"><img src="svg-blueprints-alt.svg" /><span>svg-blueprints-alt.svg</span></div>
-<div class="imgbox"><img src="svg-blueprints.svg" /><span>svg-blueprints.svg</span></div>
-<div class="imgbox"><img src="svg-book-alt-dark.svg" /><span>svg-book-alt-dark.svg</span></div>
-<div class="imgbox"><img src="svg-book-alt.svg" /><span>svg-book-alt.svg</span></div>
-<div class="imgbox"><img src="svg-book-grey.svg" /><span>svg-book-grey.svg</span></div>
-<div class="imgbox"><img src="svg-book-open-alt.svg" /><span>svg-book-open-alt.svg</span></div>
-<div class="imgbox"><img src="svg-book-open.svg" /><span>svg-book-open.svg</span></div>
-<div class="imgbox"><img src="svg-book.svg" /><span>svg-book.svg</span></div>
-<div class="imgbox"><img src="svg-bookmark.svg" /><span>svg-bookmark.svg</span></div>
-<div class="imgbox"><img src="svg-bot-framework.svg" /><span>svg-bot-framework.svg</span></div>
-<div class="imgbox"><img src="svg-bot-service-icon.svg" /><span>svg-bot-service-icon.svg</span></div>
-<div class="imgbox"><img src="svg-bot-service.svg" /><span>svg-bot-service.svg</span></div>
-<div class="imgbox"><img src="svg-broadcast.svg" /><span>svg-broadcast.svg</span></div>
-<div class="imgbox"><img src="svg-bubbles.svg" /><span>svg-bubbles.svg</span></div>
-<div class="imgbox"><img src="svg-bug-grey.svg" /><span>svg-bug-grey.svg</span></div>
-<div class="imgbox"><img src="svg-build-partner.svg" /><span>svg-build-partner.svg</span></div>
-<div class="imgbox"><img src="svg-build.svg" /><span>svg-build.svg</span></div>
-<div class="imgbox"><img src="svg-buildings.svg" /><span>svg-buildings.svg</span></div>
-<div class="imgbox"><img src="svg-built-in-security.svg" /><span>svg-built-in-security.svg</span></div>
-<div class="imgbox"><img src="svg-business-health.svg" /><span>svg-business-health.svg</span></div>
-<div class="imgbox"><img src="svg-business-intelligence.svg" /><span>svg-business-intelligence.svg</span></div>
-<div class="imgbox"><img src="svg-cache.svg" /><span>svg-cache.svg</span></div>
-<div class="imgbox"><img src="svg-caching.svg" /><span>svg-caching.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-collapse.svg" /><span>svg-calculator-collapse.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-copy.svg" /><span>svg-calculator-copy.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-delete.svg" /><span>svg-calculator-delete.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-document.svg" /><span>svg-calculator-document.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-error.svg" /><span>svg-calculator-error.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-excel.svg" /><span>svg-calculator-excel.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-expand.svg" /><span>svg-calculator-expand.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-information.svg" /><span>svg-calculator-information.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-invite.svg" /><span>svg-calculator-invite.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-note-information.svg" /><span>svg-calculator-note-information.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-pricing-details.svg" /><span>svg-calculator-pricing-details.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-save-as.svg" /><span>svg-calculator-save-as.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-save.svg" /><span>svg-calculator-save.svg</span></div>
-<div class="imgbox"><img src="svg-calculator-share.svg" /><span>svg-calculator-share.svg</span></div>
-<div class="imgbox"><img src="svg-calculator.svg" /><span>svg-calculator.svg</span></div>
-<div class="imgbox"><img src="svg-calendar-alt-blue.svg" /><span>svg-calendar-alt-blue.svg</span></div>
-<div class="imgbox"><img src="svg-calendar-alt.svg" /><span>svg-calendar-alt.svg</span></div>
-<div class="imgbox"><img src="svg-calendar-blue.svg" /><span>svg-calendar-blue.svg</span></div>
-<div class="imgbox"><img src="svg-calendar.svg" /><span>svg-calendar.svg</span></div>
-<div class="imgbox"><img src="svg-cancel-cloud.svg" /><span>svg-cancel-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-case-studies.svg" /><span>svg-case-studies.svg</span></div>
-<div class="imgbox"><img src="svg-cdn-mono.svg" /><span>svg-cdn-mono.svg</span></div>
-<div class="imgbox"><img src="svg-cdn.svg" /><span>svg-cdn.svg</span></div>
-<div class="imgbox"><img src="svg-certificate.svg" /><span>svg-certificate.svg</span></div>
-<div class="imgbox"><img src="svg-chat-wrench.svg" /><span>svg-chat-wrench.svg</span></div>
-<div class="imgbox"><img src="svg-check-box.svg" /><span>svg-check-box.svg</span></div>
-<div class="imgbox"><img src="svg-check-circle.svg" /><span>svg-check-circle.svg</span></div>
-<div class="imgbox"><img src="svg-check-green.svg" /><span>svg-check-green.svg</span></div>
-<div class="imgbox"><img src="svg-check-white.svg" /><span>svg-check-white.svg</span></div>
-<div class="imgbox"><img src="svg-check.svg" /><span>svg-check.svg</span></div>
-<div class="imgbox"><img src="svg-checkmark-alt.svg" /><span>svg-checkmark-alt.svg</span></div>
-<div class="imgbox"><img src="svg-checkmark.svg" /><span>svg-checkmark.svg</span></div>
-<div class="imgbox"><img src="svg-choose.svg" /><span>svg-choose.svg</span></div>
-<div class="imgbox"><img src="svg-circle-cloud.svg" /><span>svg-circle-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-circle-lightning.svg" /><span>svg-circle-lightning.svg</span></div>
-<div class="imgbox"><img src="svg-circle-location.svg" /><span>svg-circle-location.svg</span></div>
-<div class="imgbox"><img src="svg-circles-ramp-blue.svg" /><span>svg-circles-ramp-blue.svg</span></div>
-<div class="imgbox"><img src="svg-circles-ramp.svg" /><span>svg-circles-ramp.svg</span></div>
-<div class="imgbox"><img src="svg-clock-grey.svg" /><span>svg-clock-grey.svg</span></div>
-<div class="imgbox"><img src="svg-clock-moving.svg" /><span>svg-clock-moving.svg</span></div>
-<div class="imgbox"><img src="svg-clock2.svg" /><span>svg-clock2.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-blue.svg" /><span>svg-cloud-blue.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-circle-key.svg" /><span>svg-cloud-circle-key.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-circle-video.svg" /><span>svg-cloud-circle-video.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-lock.svg" /><span>svg-cloud-lock.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-server.svg" /><span>svg-cloud-server.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-services-blue.svg" /><span>svg-cloud-services-blue.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-services-outline.svg" /><span>svg-cloud-services-outline.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-services.svg" /><span>svg-cloud-services.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-shell.svg" /><span>svg-cloud-shell.svg</span></div>
-<div class="imgbox"><img src="svg-cloud-unlock.svg" /><span>svg-cloud-unlock.svg</span></div>
-<div class="imgbox"><img src="svg-cloud.svg" /><span>svg-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-cms.svg" /><span>svg-cms.svg</span></div>
-<div class="imgbox"><img src="svg-code-blue.svg" /><span>svg-code-blue.svg</span></div>
-<div class="imgbox"><img src="svg-code-checkmark.svg" /><span>svg-code-checkmark.svg</span></div>
-<div class="imgbox"><img src="svg-code-grey.svg" /><span>svg-code-grey.svg</span></div>
-<div class="imgbox"><img src="svg-code-samples.svg" /><span>svg-code-samples.svg</span></div>
-<div class="imgbox"><img src="svg-code.svg" /><span>svg-code.svg</span></div>
-<div class="imgbox"><img src="svg-cognitive-services-labs.svg" /><span>svg-cognitive-services-labs.svg</span></div>
-<div class="imgbox"><img src="svg-cognitive-services.svg" /><span>svg-cognitive-services.svg</span></div>
-<div class="imgbox"><img src="svg-common-data-service.svg" /><span>svg-common-data-service.svg</span></div>
-<div class="imgbox"><img src="svg-computer-vision-service.svg" /><span>svg-computer-vision-service.svg</span></div>
-<div class="imgbox"><img src="svg-computer-vision.svg" /><span>svg-computer-vision.svg</span></div>
-<div class="imgbox"><img src="svg-confidential-compute.svg" /><span>svg-confidential-compute.svg</span></div>
-<div class="imgbox"><img src="svg-connect.svg" /><span>svg-connect.svg</span></div>
-<div class="imgbox"><img src="svg-consultants.svg" /><span>svg-consultants.svg</span></div>
-<div class="imgbox"><img src="svg-consulting-service.svg" /><span>svg-consulting-service.svg</span></div>
-<div class="imgbox"><img src="svg-container-instances.svg" /><span>svg-container-instances.svg</span></div>
-<div class="imgbox"><img src="svg-container-registry.svg" /><span>svg-container-registry.svg</span></div>
-<div class="imgbox"><img src="svg-container-service-mono.svg" /><span>svg-container-service-mono.svg</span></div>
-<div class="imgbox"><img src="svg-content-moderator.svg" /><span>svg-content-moderator.svg</span></div>
-<div class="imgbox"><img src="svg-convert-square-circle.svg" /><span>svg-convert-square-circle.svg</span></div>
-<div class="imgbox"><img src="svg-copy-to-clipboard.svg" /><span>svg-copy-to-clipboard.svg</span></div>
-<div class="imgbox"><img src="svg-cortana-intelligence.svg" /><span>svg-cortana-intelligence.svg</span></div>
-<div class="imgbox"><img src="svg-cosmos-db.svg" /><span>svg-cosmos-db.svg</span></div>
-<div class="imgbox"><img src="svg-cosmosdb-mono.svg" /><span>svg-cosmosdb-mono.svg</span></div>
-<div class="imgbox"><img src="svg-cost-management-alt.svg" /><span>svg-cost-management-alt.svg</span></div>
-<div class="imgbox"><img src="svg-cost-management.svg" /><span>svg-cost-management.svg</span></div>
-<div class="imgbox"><img src="svg-create.svg" /><span>svg-create.svg</span></div>
-<div class="imgbox"><img src="svg-credit-check.svg" /><span>svg-credit-check.svg</span></div>
-<div class="imgbox"><img src="svg-curly-brackets-gear.svg" /><span>svg-curly-brackets-gear.svg</span></div>
-<div class="imgbox"><img src="svg-curly-brackets.svg" /><span>svg-curly-brackets.svg</span></div>
-<div class="imgbox"><img src="svg-currency-graph.svg" /><span>svg-currency-graph.svg</span></div>
-<div class="imgbox"><img src="svg-curved-arrows.svg" /><span>svg-curved-arrows.svg</span></div>
-<div class="imgbox"><img src="svg-custom-speech-service.svg" /><span>svg-custom-speech-service.svg</span></div>
-<div class="imgbox"><img src="svg-custom-vision-service.svg" /><span>svg-custom-vision-service.svg</span></div>
-<div class="imgbox"><img src="svg-dashboard-dark.svg" /><span>svg-dashboard-dark.svg</span></div>
-<div class="imgbox"><img src="svg-data-catalog.svg" /><span>svg-data-catalog.svg</span></div>
-<div class="imgbox"><img src="svg-data-city.svg" /><span>svg-data-city.svg</span></div>
-<div class="imgbox"><img src="svg-data-cloud.svg" /><span>svg-data-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-data-factory.svg" /><span>svg-data-factory.svg</span></div>
-<div class="imgbox"><img src="svg-data-graph.svg" /><span>svg-data-graph.svg</span></div>
-<div class="imgbox"><img src="svg-data-lake.svg" /><span>svg-data-lake.svg</span></div>
-<div class="imgbox"><img src="svg-data-sheet.svg" /><span>svg-data-sheet.svg</span></div>
-<div class="imgbox"><img src="svg-data-transfers.svg" /><span>svg-data-transfers.svg</span></div>
-<div class="imgbox"><img src="svg-data-warehouse-mono.svg" /><span>svg-data-warehouse-mono.svg</span></div>
-<div class="imgbox"><img src="svg-data-warehouse.svg" /><span>svg-data-warehouse.svg</span></div>
-<div class="imgbox"><img src="svg-database-cloud.svg" /><span>svg-database-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-database-migration.svg" /><span>svg-database-migration.svg</span></div>
-<div class="imgbox"><img src="svg-database.svg" /><span>svg-database.svg</span></div>
-<div class="imgbox"><img src="svg-databox-data-dark.svg" /><span>svg-databox-data-dark.svg</span></div>
-<div class="imgbox"><img src="svg-databox-data.svg" /><span>svg-databox-data.svg</span></div>
-<div class="imgbox"><img src="svg-databox-edge.svg" /><span>svg-databox-edge.svg</span></div>
-<div class="imgbox"><img src="svg-databox-gateway.svg" /><span>svg-databox-gateway.svg</span></div>
-<div class="imgbox"><img src="svg-databox.svg" /><span>svg-databox.svg</span></div>
-<div class="imgbox"><img src="svg-databricks.svg" /><span>svg-databricks.svg</span></div>
-<div class="imgbox"><img src="svg-datacenter.svg" /><span>svg-datacenter.svg</span></div>
-<div class="imgbox"><img src="svg-ddos-protection-dark.svg" /><span>svg-ddos-protection-dark.svg</span></div>
-<div class="imgbox"><img src="svg-ddos-protection.svg" /><span>svg-ddos-protection.svg</span></div>
-<div class="imgbox"><img src="svg-decentralized-identity.svg" /><span>svg-decentralized-identity.svg</span></div>
-<div class="imgbox"><img src="svg-decrypt.svg" /><span>svg-decrypt.svg</span></div>
-<div class="imgbox"><img src="svg-deploy-alternative.svg" /><span>svg-deploy-alternative.svg</span></div>
-<div class="imgbox"><img src="svg-develop.svg" /><span>svg-develop.svg</span></div>
-<div class="imgbox"><img src="svg-device-provisioning.svg" /><span>svg-device-provisioning.svg</span></div>
-<div class="imgbox"><img src="svg-devops-add-packages.svg" /><span>svg-devops-add-packages.svg</span></div>
-<div class="imgbox"><img src="svg-devops-advanced-workflows.svg" /><span>svg-devops-advanced-workflows.svg</span></div>
-<div class="imgbox"><img src="svg-devops-capture-data.svg" /><span>svg-devops-capture-data.svg</span></div>
-<div class="imgbox"><img src="svg-devops-code-search.svg" /><span>svg-devops-code-search.svg</span></div>
-<div class="imgbox"><img src="svg-devops-connected.svg" /><span>svg-devops-connected.svg</span></div>
-<div class="imgbox"><img src="svg-devops-containers-kubernetes.svg" /><span>svg-devops-containers-kubernetes.svg</span></div>
-<div class="imgbox"><img src="svg-devops-deploy-cloud.svg" /><span>svg-devops-deploy-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-devops-extensible.svg" /><span>svg-devops-extensible.svg</span></div>
-<div class="imgbox"><img src="svg-devops-git-client.svg" /><span>svg-devops-git-client.svg</span></div>
-<div class="imgbox"><img src="svg-devops-language-platform.svg" /><span>svg-devops-language-platform.svg</span></div>
-<div class="imgbox"><img src="svg-devops-open-source.svg" /><span>svg-devops-open-source.svg</span></div>
-<div class="imgbox"><img src="svg-devops-package-types.svg" /><span>svg-devops-package-types.svg</span></div>
-<div class="imgbox"><img src="svg-devops-project-insights.svg" /><span>svg-devops-project-insights.svg</span></div>
-<div class="imgbox"><img src="svg-devops-scrum.svg" /><span>svg-devops-scrum.svg</span></div>
-<div class="imgbox"><img src="svg-devops-share-code.svg" /><span>svg-devops-share-code.svg</span></div>
-<div class="imgbox"><img src="svg-devops-test.svg" /><span>svg-devops-test.svg</span></div>
-<div class="imgbox"><img src="svg-devops-traceability.svg" /><span>svg-devops-traceability.svg</span></div>
-<div class="imgbox"><img src="svg-devops-web-hooks.svg" /><span>svg-devops-web-hooks.svg</span></div>
-<div class="imgbox"><img src="svg-devtest-lab.svg" /><span>svg-devtest-lab.svg</span></div>
-<div class="imgbox"><img src="svg-digital-twins.svg" /><span>svg-digital-twins.svg</span></div>
-<div class="imgbox"><img src="svg-discrete-manufacturing.svg" /><span>svg-discrete-manufacturing.svg</span></div>
-<div class="imgbox"><img src="svg-disks-dark.svg" /><span>svg-disks-dark.svg</span></div>
-<div class="imgbox"><img src="svg-disks.svg" /><span>svg-disks.svg</span></div>
-<div class="imgbox"><img src="svg-distribute.svg" /><span>svg-distribute.svg</span></div>
-<div class="imgbox"><img src="svg-docker.svg" /><span>svg-docker.svg</span></div>
-<div class="imgbox"><img src="svg-documentation-guides.svg" /><span>svg-documentation-guides.svg</span></div>
-<div class="imgbox"><img src="svg-documentation-learn-more.svg" /><span>svg-documentation-learn-more.svg</span></div>
-<div class="imgbox"><img src="svg-documentation-sheets.svg" /><span>svg-documentation-sheets.svg</span></div>
-<div class="imgbox"><img src="svg-documentation.svg" /><span>svg-documentation.svg</span></div>
-<div class="imgbox"><img src="svg-documentdb.svg" /><span>svg-documentdb.svg</span></div>
-<div class="imgbox"><img src="svg-dollar-circle.svg" /><span>svg-dollar-circle.svg</span></div>
-<div class="imgbox"><img src="svg-dot-net-core.svg" /><span>svg-dot-net-core.svg</span></div>
-<div class="imgbox"><img src="svg-dot-net.svg" /><span>svg-dot-net.svg</span></div>
-<div class="imgbox"><img src="svg-double-take-dr.svg" /><span>svg-double-take-dr.svg</span></div>
-<div class="imgbox"><img src="svg-download-icon.svg" /><span>svg-download-icon.svg</span></div>
-<div class="imgbox"><img src="svg-download-pdf.svg" /><span>svg-download-pdf.svg</span></div>
-<div class="imgbox"><img src="svg-dsvm.svg" /><span>svg-dsvm.svg</span></div>
-<div class="imgbox"><img src="svg-dumbbell.svg" /><span>svg-dumbbell.svg</span></div>
-<div class="imgbox"><img src="svg-dynamics.svg" /><span>svg-dynamics.svg</span></div>
-<div class="imgbox"><img src="svg-easily-manage.svg" /><span>svg-easily-manage.svg</span></div>
-<div class="imgbox"><img src="svg-email.svg" /><span>svg-email.svg</span></div>
-<div class="imgbox"><img src="svg-emotion-api.svg" /><span>svg-emotion-api.svg</span></div>
-<div class="imgbox"><img src="svg-energy-gauge.svg" /><span>svg-energy-gauge.svg</span></div>
-<div class="imgbox"><img src="svg-enterprise.svg" /><span>svg-enterprise.svg</span></div>
-<div class="imgbox"><img src="svg-evaluate-investment.svg" /><span>svg-evaluate-investment.svg</span></div>
-<div class="imgbox"><img src="svg-event-grid.svg" /><span>svg-event-grid.svg</span></div>
-<div class="imgbox"><img src="svg-event-hubs-mono.svg" /><span>svg-event-hubs-mono.svg</span></div>
-<div class="imgbox"><img src="svg-event-hubs.svg" /><span>svg-event-hubs.svg</span></div>
-<div class="imgbox"><img src="svg-event-tracking.svg" /><span>svg-event-tracking.svg</span></div>
-<div class="imgbox"><img src="svg-events-2.svg" /><span>svg-events-2.svg</span></div>
-<div class="imgbox"><img src="svg-events-dark.svg" /><span>svg-events-dark.svg</span></div>
-<div class="imgbox"><img src="svg-events.svg" /><span>svg-events.svg</span></div>
-<div class="imgbox"><img src="svg-explore.svg" /><span>svg-explore.svg</span></div>
-<div class="imgbox"><img src="svg-expressroute.svg" /><span>svg-expressroute.svg</span></div>
-<div class="imgbox"><img src="svg-face-api.svg" /><span>svg-face-api.svg</span></div>
-<div class="imgbox"><img src="svg-facebook-square-bw.svg" /><span>svg-facebook-square-bw.svg</span></div>
-<div class="imgbox"><img src="svg-facebook.svg" /><span>svg-facebook.svg</span></div>
-<div class="imgbox"><img src="svg-failure.svg" /><span>svg-failure.svg</span></div>
-<div class="imgbox"><img src="svg-fast-track.svg" /><span>svg-fast-track.svg</span></div>
-<div class="imgbox"><img src="svg-feedback-dark.svg" /><span>svg-feedback-dark.svg</span></div>
-<div class="imgbox"><img src="svg-files.svg" /><span>svg-files.svg</span></div>
-<div class="imgbox"><img src="svg-financial.svg" /><span>svg-financial.svg</span></div>
-<div class="imgbox"><img src="svg-flip-calendar.svg" /><span>svg-flip-calendar.svg</span></div>
-<div class="imgbox"><img src="svg-flow-chart.svg" /><span>svg-flow-chart.svg</span></div>
-<div class="imgbox"><img src="svg-flow.svg" /><span>svg-flow.svg</span></div>
-<div class="imgbox"><img src="svg-four-points-connected.svg" /><span>svg-four-points-connected.svg</span></div>
-<div class="imgbox"><img src="svg-four-servers.svg" /><span>svg-four-servers.svg</span></div>
-<div class="imgbox"><img src="svg-frequently-asked-questions.svg" /><span>svg-frequently-asked-questions.svg</span></div>
-<div class="imgbox"><img src="svg-frontdoor.svg" /><span>svg-frontdoor.svg</span></div>
-<div class="imgbox"><img src="svg-functions.svg" /><span>svg-functions.svg</span></div>
-<div class="imgbox"><img src="svg-gaming.svg" /><span>svg-gaming.svg</span></div>
-<div class="imgbox"><img src="svg-gear-check-blue.svg" /><span>svg-gear-check-blue.svg</span></div>
-<div class="imgbox"><img src="svg-gear-check.svg" /><span>svg-gear-check.svg</span></div>
-<div class="imgbox"><img src="svg-gear-turning.svg" /><span>svg-gear-turning.svg</span></div>
-<div class="imgbox"><img src="svg-gears-blue.svg" /><span>svg-gears-blue.svg</span></div>
-<div class="imgbox"><img src="svg-gears.svg" /><span>svg-gears.svg</span></div>
-<div class="imgbox"><img src="svg-genomics.svg" /><span>svg-genomics.svg</span></div>
-<div class="imgbox"><img src="svg-geocoding.svg" /><span>svg-geocoding.svg</span></div>
-<div class="imgbox"><img src="svg-geographic-coverage-mono.svg" /><span>svg-geographic-coverage-mono.svg</span></div>
-<div class="imgbox"><img src="svg-gesture.svg" /><span>svg-gesture.svg</span></div>
-<div class="imgbox"><img src="svg-get-started.svg" /><span>svg-get-started.svg</span></div>
-<div class="imgbox"><img src="svg-github-icon.svg" /><span>svg-github-icon.svg</span></div>
-<div class="imgbox"><img src="svg-global-increase.svg" /><span>svg-global-increase.svg</span></div>
-<div class="imgbox"><img src="svg-globe-check.svg" /><span>svg-globe-check.svg</span></div>
-<div class="imgbox"><img src="svg-globe-wrapped.svg" /><span>svg-globe-wrapped.svg</span></div>
-<div class="imgbox"><img src="svg-globe.svg" /><span>svg-globe.svg</span></div>
-<div class="imgbox"><img src="svg-go-logo.svg" /><span>svg-go-logo.svg</span></div>
-<div class="imgbox"><img src="svg-governance-dark.svg" /><span>svg-governance-dark.svg</span></div>
-<div class="imgbox"><img src="svg-governance.svg" /><span>svg-governance.svg</span></div>
-<div class="imgbox"><img src="svg-government-white-black.svg" /><span>svg-government-white-black.svg</span></div>
-<div class="imgbox"><img src="svg-government.svg" /><span>svg-government.svg</span></div>
-<div class="imgbox"><img src="svg-graduation-cap.svg" /><span>svg-graduation-cap.svg</span></div>
-<div class="imgbox"><img src="svg-graph-visualization.svg" /><span>svg-graph-visualization.svg</span></div>
-<div class="imgbox"><img src="svg-graph.svg" /><span>svg-graph.svg</span></div>
-<div class="imgbox"><img src="svg-grey-square-bullet.svg" /><span>svg-grey-square-bullet.svg</span></div>
-<div class="imgbox"><img src="svg-group-of-three.svg" /><span>svg-group-of-three.svg</span></div>
-<div class="imgbox"><img src="svg-growth-curve-circles.svg" /><span>svg-growth-curve-circles.svg</span></div>
-<div class="imgbox"><img src="svg-hdinsight-dark.svg" /><span>svg-hdinsight-dark.svg</span></div>
-<div class="imgbox"><img src="svg-hdinsight.svg" /><span>svg-hdinsight.svg</span></div>
-<div class="imgbox"><img src="svg-health-circle.svg" /><span>svg-health-circle.svg</span></div>
-<div class="imgbox"><img src="svg-health-error.svg" /><span>svg-health-error.svg</span></div>
-<div class="imgbox"><img src="svg-health-information.svg" /><span>svg-health-information.svg</span></div>
-<div class="imgbox"><img src="svg-health-warning.svg" /><span>svg-health-warning.svg</span></div>
-<div class="imgbox"><img src="svg-healthcare.svg" /><span>svg-healthcare.svg</span></div>
-<div class="imgbox"><img src="svg-heart.svg" /><span>svg-heart.svg</span></div>
-<div class="imgbox"><img src="svg-hockeyapp.svg" /><span>svg-hockeyapp.svg</span></div>
-<div class="imgbox"><img src="svg-home.svg" /><span>svg-home.svg</span></div>
-<div class="imgbox"><img src="svg-hybrid-cloud.svg" /><span>svg-hybrid-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-hybrid-deployment.svg" /><span>svg-hybrid-deployment.svg</span></div>
-<div class="imgbox"><img src="svg-hybrid-workloads.svg" /><span>svg-hybrid-workloads.svg</span></div>
-<div class="imgbox"><img src="svg-iaas.svg" /><span>svg-iaas.svg</span></div>
-<div class="imgbox"><img src="svg-identity.svg" /><span>svg-identity.svg</span></div>
-<div class="imgbox"><img src="svg-immediate.svg" /><span>svg-immediate.svg</span></div>
-<div class="imgbox"><img src="svg-import-export.svg" /><span>svg-import-export.svg</span></div>
-<div class="imgbox"><img src="svg-increase.svg" /><span>svg-increase.svg</span></div>
-<div class="imgbox"><img src="svg-infinity.svg" /><span>svg-infinity.svg</span></div>
-<div class="imgbox"><img src="svg-innovative-tools.svg" /><span>svg-innovative-tools.svg</span></div>
-<div class="imgbox"><img src="svg-input.svg" /><span>svg-input.svg</span></div>
-<div class="imgbox"><img src="svg-insights.svg" /><span>svg-insights.svg</span></div>
-<div class="imgbox"><img src="svg-iot-blue.svg" /><span>svg-iot-blue.svg</span></div>
-<div class="imgbox"><img src="svg-iot-central-alt.svg" /><span>svg-iot-central-alt.svg</span></div>
-<div class="imgbox"><img src="svg-iot-central.svg" /><span>svg-iot-central.svg</span></div>
-<div class="imgbox"><img src="svg-iot-edge-alt.svg" /><span>svg-iot-edge-alt.svg</span></div>
-<div class="imgbox"><img src="svg-iot-edge.svg" /><span>svg-iot-edge.svg</span></div>
-<div class="imgbox"><img src="svg-iot-hub-alt.svg" /><span>svg-iot-hub-alt.svg</span></div>
-<div class="imgbox"><img src="svg-iot-hub-large.svg" /><span>svg-iot-hub-large.svg</span></div>
-<div class="imgbox"><img src="svg-iot-hub-plain.svg" /><span>svg-iot-hub-plain.svg</span></div>
-<div class="imgbox"><img src="svg-iot-hub.svg" /><span>svg-iot-hub.svg</span></div>
-<div class="imgbox"><img src="svg-iot-solution-accelerators.svg" /><span>svg-iot-solution-accelerators.svg</span></div>
-<div class="imgbox"><img src="svg-ip-addresses.svg" /><span>svg-ip-addresses.svg</span></div>
-<div class="imgbox"><img src="svg-ip-to-location.svg" /><span>svg-ip-to-location.svg</span></div>
-<div class="imgbox"><img src="svg-java.svg" /><span>svg-java.svg</span></div>
-<div class="imgbox"><img src="svg-jenkins.svg" /><span>svg-jenkins.svg</span></div>
-<div class="imgbox"><img src="svg-jupytor-notebook.svg" /><span>svg-jupytor-notebook.svg</span></div>
-<div class="imgbox"><img src="svg-key-right-arrows.svg" /><span>svg-key-right-arrows.svg</span></div>
-<div class="imgbox"><img src="svg-key-vault.svg" /><span>svg-key-vault.svg</span></div>
-<div class="imgbox"><img src="svg-key.svg" /><span>svg-key.svg</span></div>
-<div class="imgbox"><img src="svg-knowledge-category-icon.svg" /><span>svg-knowledge-category-icon.svg</span></div>
-<div class="imgbox"><img src="svg-knowledge-category.svg" /><span>svg-knowledge-category.svg</span></div>
-<div class="imgbox"><img src="svg-knowledge-center.svg" /><span>svg-knowledge-center.svg</span></div>
-<div class="imgbox"><img src="svg-kubernetes-service.svg" /><span>svg-kubernetes-service.svg</span></div>
-<div class="imgbox"><img src="svg-kubernetes.svg" /><span>svg-kubernetes.svg</span></div>
-<div class="imgbox"><img src="svg-lab-services.svg" /><span>svg-lab-services.svg</span></div>
-<div class="imgbox"><img src="svg-lab.svg" /><span>svg-lab.svg</span></div>
-<div class="imgbox"><img src="svg-labs-icon.svg" /><span>svg-labs-icon.svg</span></div>
-<div class="imgbox"><img src="svg-language-category-icon.svg" /><span>svg-language-category-icon.svg</span></div>
-<div class="imgbox"><img src="svg-language-category.svg" /><span>svg-language-category.svg</span></div>
-<div class="imgbox"><img src="svg-language-understanding-intelligent-services-icon.svg" /><span>svg-language-understanding-intelligent-services-icon.svg</span></div>
-<div class="imgbox"><img src="svg-language-understanding-intelligent-services.svg" /><span>svg-language-understanding-intelligent-services.svg</span></div>
-<div class="imgbox"><img src="svg-laptop-with-clock.svg" /><span>svg-laptop-with-clock.svg</span></div>
-<div class="imgbox"><img src="svg-laptop.svg" /><span>svg-laptop.svg</span></div>
-<div class="imgbox"><img src="svg-learn-about-billing.svg" /><span>svg-learn-about-billing.svg</span></div>
-<div class="imgbox"><img src="svg-learn.svg" /><span>svg-learn.svg</span></div>
-<div class="imgbox"><img src="svg-left-arrow.svg" /><span>svg-left-arrow.svg</span></div>
-<div class="imgbox"><img src="svg-lightbulb-blue.svg" /><span>svg-lightbulb-blue.svg</span></div>
-<div class="imgbox"><img src="svg-lightbulb-grey.svg" /><span>svg-lightbulb-grey.svg</span></div>
-<div class="imgbox"><img src="svg-lightning.svg" /><span>svg-lightning.svg</span></div>
-<div class="imgbox"><img src="svg-line.svg" /><span>svg-line.svg</span></div>
-<div class="imgbox"><img src="svg-linguistic-analysis-api.svg" /><span>svg-linguistic-analysis-api.svg</span></div>
-<div class="imgbox"><img src="svg-linkedin.svg" /><span>svg-linkedin.svg</span></div>
-<div class="imgbox"><img src="svg-linux-web.svg" /><span>svg-linux-web.svg</span></div>
-<div class="imgbox"><img src="svg-linux.svg" /><span>svg-linux.svg</span></div>
-<div class="imgbox"><img src="svg-live.svg" /><span>svg-live.svg</span></div>
-<div class="imgbox"><img src="svg-load-balancer.svg" /><span>svg-load-balancer.svg</span></div>
-<div class="imgbox"><img src="svg-local-insights.svg" /><span>svg-local-insights.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-code.svg" /><span>svg-location-services-code.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-geo.svg" /><span>svg-location-services-geo.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-globe-blue.svg" /><span>svg-location-services-globe-blue.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-globe.svg" /><span>svg-location-services-globe.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-maps.svg" /><span>svg-location-services-maps.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-routing.svg" /><span>svg-location-services-routing.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-search.svg" /><span>svg-location-services-search.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-timezone.svg" /><span>svg-location-services-timezone.svg</span></div>
-<div class="imgbox"><img src="svg-location-services-traffic.svg" /><span>svg-location-services-traffic.svg</span></div>
-<div class="imgbox"><img src="svg-location.svg" /><span>svg-location.svg</span></div>
-<div class="imgbox"><img src="svg-lock-blue.svg" /><span>svg-lock-blue.svg</span></div>
-<div class="imgbox"><img src="svg-lock.svg" /><span>svg-lock.svg</span></div>
-<div class="imgbox"><img src="svg-log-analytics.svg" /><span>svg-log-analytics.svg</span></div>
-<div class="imgbox"><img src="svg-machine-learning-mono.svg" /><span>svg-machine-learning-mono.svg</span></div>
-<div class="imgbox"><img src="svg-machine-learning-server.svg" /><span>svg-machine-learning-server.svg</span></div>
-<div class="imgbox"><img src="svg-machine-learning-studio.svg" /><span>svg-machine-learning-studio.svg</span></div>
-<div class="imgbox"><img src="svg-machine-learning-workbench.svg" /><span>svg-machine-learning-workbench.svg</span></div>
-<div class="imgbox"><img src="svg-magnifying-glass.svg" /><span>svg-magnifying-glass.svg</span></div>
-<div class="imgbox"><img src="svg-manage.svg" /><span>svg-manage.svg</span></div>
-<div class="imgbox"><img src="svg-managed-disks.svg" /><span>svg-managed-disks.svg</span></div>
-<div class="imgbox"><img src="svg-managed-service.svg" /><span>svg-managed-service.svg</span></div>
-<div class="imgbox"><img src="svg-management-groups-alt.svg" /><span>svg-management-groups-alt.svg</span></div>
-<div class="imgbox"><img src="svg-management-groups.svg" /><span>svg-management-groups.svg</span></div>
-<div class="imgbox"><img src="svg-management-storage.svg" /><span>svg-management-storage.svg</span></div>
-<div class="imgbox"><img src="svg-maps.svg" /><span>svg-maps.svg</span></div>
-<div class="imgbox"><img src="svg-mariadb.svg" /><span>svg-mariadb.svg</span></div>
-<div class="imgbox"><img src="svg-markup-blue.svg" /><span>svg-markup-blue.svg</span></div>
-<div class="imgbox"><img src="svg-markup-grey.svg" /><span>svg-markup-grey.svg</span></div>
-<div class="imgbox"><img src="svg-markup.svg" /><span>svg-markup.svg</span></div>
-<div class="imgbox"><img src="svg-media-encoding.svg" /><span>svg-media-encoding.svg</span></div>
-<div class="imgbox"><img src="svg-media-entertainment.svg" /><span>svg-media-entertainment.svg</span></div>
-<div class="imgbox"><img src="svg-media-indexer.svg" /><span>svg-media-indexer.svg</span></div>
-<div class="imgbox"><img src="svg-media-ondemand.svg" /><span>svg-media-ondemand.svg</span></div>
-<div class="imgbox"><img src="svg-media-player.svg" /><span>svg-media-player.svg</span></div>
-<div class="imgbox"><img src="svg-media-protection.svg" /><span>svg-media-protection.svg</span></div>
-<div class="imgbox"><img src="svg-media-services.svg" /><span>svg-media-services.svg</span></div>
-<div class="imgbox"><img src="svg-megaphone.svg" /><span>svg-megaphone.svg</span></div>
-<div class="imgbox"><img src="svg-message.svg" /><span>svg-message.svg</span></div>
-<div class="imgbox"><img src="svg-meter.svg" /><span>svg-meter.svg</span></div>
-<div class="imgbox"><img src="svg-microservice.svg" /><span>svg-microservice.svg</span></div>
-<div class="imgbox"><img src="svg-microsoft-authenticator.svg" /><span>svg-microsoft-authenticator.svg</span></div>
-<div class="imgbox"><img src="svg-microsoft-azure.svg" /><span>svg-microsoft-azure.svg</span></div>
-<div class="imgbox"><img src="svg-microsoft.svg" /><span>svg-microsoft.svg</span></div>
-<div class="imgbox"><img src="svg-migrate-blocks.svg" /><span>svg-migrate-blocks.svg</span></div>
-<div class="imgbox"><img src="svg-migrate.svg" /><span>svg-migrate.svg</span></div>
-<div class="imgbox"><img src="svg-migration.svg" /><span>svg-migration.svg</span></div>
-<div class="imgbox"><img src="svg-minus-icon.svg" /><span>svg-minus-icon.svg</span></div>
-<div class="imgbox"><img src="svg-mongo-db.svg" /><span>svg-mongo-db.svg</span></div>
-<div class="imgbox"><img src="svg-monitor-chat.svg" /><span>svg-monitor-chat.svg</span></div>
-<div class="imgbox"><img src="svg-monitor.svg" /><span>svg-monitor.svg</span></div>
-<div class="imgbox"><img src="svg-msazure-logo.svg" /><span>svg-msazure-logo.svg</span></div>
-<div class="imgbox"><img src="svg-msoft.svg" /><span>svg-msoft.svg</span></div>
-<div class="imgbox"><img src="svg-multi-factor-authentication.svg" /><span>svg-multi-factor-authentication.svg</span></div>
-<div class="imgbox"><img src="svg-mutability.svg" /><span>svg-mutability.svg</span></div>
-<div class="imgbox"><img src="svg-mysql.svg" /><span>svg-mysql.svg</span></div>
-<div class="imgbox"><img src="svg-nav-featured.svg" /><span>svg-nav-featured.svg</span></div>
-<div class="imgbox"><img src="svg-nav-phone.svg" /><span>svg-nav-phone.svg</span></div>
-<div class="imgbox"><img src="svg-nav-search-close.svg" /><span>svg-nav-search-close.svg</span></div>
-<div class="imgbox"><img src="svg-nav-search.svg" /><span>svg-nav-search.svg</span></div>
-<div class="imgbox"><img src="svg-nested-circles-dots.svg" /><span>svg-nested-circles-dots.svg</span></div>
-<div class="imgbox"><img src="svg-netapp-color.svg" /><span>svg-netapp-color.svg</span></div>
-<div class="imgbox"><img src="svg-netapp.svg" /><span>svg-netapp.svg</span></div>
-<div class="imgbox"><img src="svg-network-watcher.svg" /><span>svg-network-watcher.svg</span></div>
-<div class="imgbox"><img src="svg-newsletter.svg" /><span>svg-newsletter.svg</span></div>
-<div class="imgbox"><img src="svg-newspaper.svg" /><span>svg-newspaper.svg</span></div>
-<div class="imgbox"><img src="svg-node-js.svg" /><span>svg-node-js.svg</span></div>
-<div class="imgbox"><img src="svg-nodes-blue.svg" /><span>svg-nodes-blue.svg</span></div>
-<div class="imgbox"><img src="svg-nodes-chain.svg" /><span>svg-nodes-chain.svg</span></div>
-<div class="imgbox"><img src="svg-nodes-grey.svg" /><span>svg-nodes-grey.svg</span></div>
-<div class="imgbox"><img src="svg-nodes.svg" /><span>svg-nodes.svg</span></div>
-<div class="imgbox"><img src="svg-notebook-pencil.svg" /><span>svg-notebook-pencil.svg</span></div>
-<div class="imgbox"><img src="svg-notification-hubs.svg" /><span>svg-notification-hubs.svg</span></div>
-<div class="imgbox"><img src="svg-notification.svg" /><span>svg-notification.svg</span></div>
-<div class="imgbox"><img src="svg-offline-sync.svg" /><span>svg-offline-sync.svg</span></div>
-<div class="imgbox"><img src="svg-only-pay.svg" /><span>svg-only-pay.svg</span></div>
-<div class="imgbox"><img src="svg-onpremise.svg" /><span>svg-onpremise.svg</span></div>
-<div class="imgbox"><img src="svg-open-folder.svg" /><span>svg-open-folder.svg</span></div>
-<div class="imgbox"><img src="svg-operation-management.svg" /><span>svg-operation-management.svg</span></div>
-<div class="imgbox"><img src="svg-paas-mono.svg" /><span>svg-paas-mono.svg</span></div>
-<div class="imgbox"><img src="svg-package.svg" /><span>svg-package.svg</span></div>
-<div class="imgbox"><img src="svg-partner.svg" /><span>svg-partner.svg</span></div>
-<div class="imgbox"><img src="svg-partners-people.svg" /><span>svg-partners-people.svg</span></div>
-<div class="imgbox"><img src="svg-payg-icon.svg" /><span>svg-payg-icon.svg</span></div>
-<div class="imgbox"><img src="svg-pencil.svg" /><span>svg-pencil.svg</span></div>
-<div class="imgbox"><img src="svg-people.svg" /><span>svg-people.svg</span></div>
-<div class="imgbox"><img src="svg-piggy-bank.svg" /><span>svg-piggy-bank.svg</span></div>
-<div class="imgbox"><img src="svg-play-square.svg" /><span>svg-play-square.svg</span></div>
-<div class="imgbox"><img src="svg-play.svg" /><span>svg-play.svg</span></div>
-<div class="imgbox"><img src="svg-plus-icon.svg" /><span>svg-plus-icon.svg</span></div>
-<div class="imgbox"><img src="svg-portal-alt.svg" /><span>svg-portal-alt.svg</span></div>
-<div class="imgbox"><img src="svg-portal.svg" /><span>svg-portal.svg</span></div>
-<div class="imgbox"><img src="svg-postgresql.svg" /><span>svg-postgresql.svg</span></div>
-<div class="imgbox"><img src="svg-power-bi.svg" /><span>svg-power-bi.svg</span></div>
-<div class="imgbox"><img src="svg-power-meter.svg" /><span>svg-power-meter.svg</span></div>
-<div class="imgbox"><img src="svg-powerapps.svg" /><span>svg-powerapps.svg</span></div>
-<div class="imgbox"><img src="svg-prebuilt-machine.svg" /><span>svg-prebuilt-machine.svg</span></div>
-<div class="imgbox"><img src="svg-premium-storage-alt.svg" /><span>svg-premium-storage-alt.svg</span></div>
-<div class="imgbox"><img src="svg-preview-monitoring.svg" /><span>svg-preview-monitoring.svg</span></div>
-<div class="imgbox"><img src="svg-private-cloud.svg" /><span>svg-private-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-product-details.svg" /><span>svg-product-details.svg</span></div>
-<div class="imgbox"><img src="svg-product-guide.svg" /><span>svg-product-guide.svg</span></div>
-<div class="imgbox"><img src="svg-productivity-graph.svg" /><span>svg-productivity-graph.svg</span></div>
-<div class="imgbox"><img src="svg-provider-partner.svg" /><span>svg-provider-partner.svg</span></div>
-<div class="imgbox"><img src="svg-public-cloud.svg" /><span>svg-public-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-python.svg" /><span>svg-python.svg</span></div>
-<div class="imgbox"><img src="svg-qna-maker-icon.svg" /><span>svg-qna-maker-icon.svg</span></div>
-<div class="imgbox"><img src="svg-qna-maker.svg" /><span>svg-qna-maker.svg</span></div>
-<div class="imgbox"><img src="svg-question-mark-grey.svg" /><span>svg-question-mark-grey.svg</span></div>
-<div class="imgbox"><img src="svg-queue-storage.svg" /><span>svg-queue-storage.svg</span></div>
-<div class="imgbox"><img src="svg-quick.svg" /><span>svg-quick.svg</span></div>
-<div class="imgbox"><img src="svg-random-icons.svg" /><span>svg-random-icons.svg</span></div>
-<div class="imgbox"><img src="svg-rbac-built-in-roles.svg" /><span>svg-rbac-built-in-roles.svg</span></div>
-<div class="imgbox"><img src="svg-recommendations.svg" /><span>svg-recommendations.svg</span></div>
-<div class="imgbox"><img src="svg-regional-availability-icon.svg" /><span>svg-regional-availability-icon.svg</span></div>
-<div class="imgbox"><img src="svg-related-sla.svg" /><span>svg-related-sla.svg</span></div>
-<div class="imgbox"><img src="svg-replica.svg" /><span>svg-replica.svg</span></div>
-<div class="imgbox"><img src="svg-reporting.svg" /><span>svg-reporting.svg</span></div>
-<div class="imgbox"><img src="svg-research.svg" /><span>svg-research.svg</span></div>
-<div class="imgbox"><img src="svg-resell-azure.svg" /><span>svg-resell-azure.svg</span></div>
-<div class="imgbox"><img src="svg-resource-graph-dark.svg" /><span>svg-resource-graph-dark.svg</span></div>
-<div class="imgbox"><img src="svg-resource-graph.svg" /><span>svg-resource-graph.svg</span></div>
-<div class="imgbox"><img src="svg-resource-group.svg" /><span>svg-resource-group.svg</span></div>
-<div class="imgbox"><img src="svg-resources-alt-dark.svg" /><span>svg-resources-alt-dark.svg</span></div>
-<div class="imgbox"><img src="svg-resources-alt.svg" /><span>svg-resources-alt.svg</span></div>
-<div class="imgbox"><img src="svg-retailers.svg" /><span>svg-retailers.svg</span></div>
-<div class="imgbox"><img src="svg-right-arrow-alt.svg" /><span>svg-right-arrow-alt.svg</span></div>
-<div class="imgbox"><img src="svg-right-arrow.svg" /><span>svg-right-arrow.svg</span></div>
-<div class="imgbox"><img src="svg-roadmap.svg" /><span>svg-roadmap.svg</span></div>
-<div class="imgbox"><img src="svg-rocket-cloud.svg" /><span>svg-rocket-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-rocket.svg" /><span>svg-rocket.svg</span></div>
-<div class="imgbox"><img src="svg-rocket2.svg" /><span>svg-rocket2.svg</span></div>
-<div class="imgbox"><img src="svg-routing.svg" /><span>svg-routing.svg</span></div>
-<div class="imgbox"><img src="svg-rss-alt.svg" /><span>svg-rss-alt.svg</span></div>
-<div class="imgbox"><img src="svg-rss.svg" /><span>svg-rss.svg</span></div>
-<div class="imgbox"><img src="svg-run.svg" /><span>svg-run.svg</span></div>
-<div class="imgbox"><img src="svg-saas.svg" /><span>svg-saas.svg</span></div>
-<div class="imgbox"><img src="svg-sap-hana-large-instance.svg" /><span>svg-sap-hana-large-instance.svg</span></div>
-<div class="imgbox"><img src="svg-scalability.svg" /><span>svg-scalability.svg</span></div>
-<div class="imgbox"><img src="svg-scalable.svg" /><span>svg-scalable.svg</span></div>
-<div class="imgbox"><img src="svg-scale-and-run.svg" /><span>svg-scale-and-run.svg</span></div>
-<div class="imgbox"><img src="svg-scale-graph.svg" /><span>svg-scale-graph.svg</span></div>
-<div class="imgbox"><img src="svg-scale.svg" /><span>svg-scale.svg</span></div>
-<div class="imgbox"><img src="svg-scheduler.svg" /><span>svg-scheduler.svg</span></div>
-<div class="imgbox"><img src="svg-script-file.svg" /><span>svg-script-file.svg</span></div>
-<div class="imgbox"><img src="svg-search-alt.svg" /><span>svg-search-alt.svg</span></div>
-<div class="imgbox"><img src="svg-search-api.svg" /><span>svg-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-search-category-icon.svg" /><span>svg-search-category-icon.svg</span></div>
-<div class="imgbox"><img src="svg-search-category.svg" /><span>svg-search-category.svg</span></div>
-<div class="imgbox"><img src="svg-search-files.svg" /><span>svg-search-files.svg</span></div>
-<div class="imgbox"><img src="svg-search.svg" /><span>svg-search.svg</span></div>
-<div class="imgbox"><img src="svg-secure.svg" /><span>svg-secure.svg</span></div>
-<div class="imgbox"><img src="svg-security-alt.svg" /><span>svg-security-alt.svg</span></div>
-<div class="imgbox"><img src="svg-security-center.svg" /><span>svg-security-center.svg</span></div>
-<div class="imgbox"><img src="svg-security-check.svg" /><span>svg-security-check.svg</span></div>
-<div class="imgbox"><img src="svg-security-practices.svg" /><span>svg-security-practices.svg</span></div>
-<div class="imgbox"><img src="svg-security.svg" /><span>svg-security.svg</span></div>
-<div class="imgbox"><img src="svg-self-paced-course.svg" /><span>svg-self-paced-course.svg</span></div>
-<div class="imgbox"><img src="svg-self-paced-lab.svg" /><span>svg-self-paced-lab.svg</span></div>
-<div class="imgbox"><img src="svg-server-blue.svg" /><span>svg-server-blue.svg</span></div>
-<div class="imgbox"><img src="svg-server-cloud.svg" /><span>svg-server-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-server.svg" /><span>svg-server.svg</span></div>
-<div class="imgbox"><img src="svg-serverfault.svg" /><span>svg-serverfault.svg</span></div>
-<div class="imgbox"><img src="svg-service-bus.svg" /><span>svg-service-bus.svg</span></div>
-<div class="imgbox"><img src="svg-service-fabric-mono.svg" /><span>svg-service-fabric-mono.svg</span></div>
-<div class="imgbox"><img src="svg-service-fabric.svg" /><span>svg-service-fabric.svg</span></div>
-<div class="imgbox"><img src="svg-service-health-white.svg" /><span>svg-service-health-white.svg</span></div>
-<div class="imgbox"><img src="svg-service-health.svg" /><span>svg-service-health.svg</span></div>
-<div class="imgbox"><img src="svg-service-management.svg" /><span>svg-service-management.svg</span></div>
-<div class="imgbox"><img src="svg-service-updates.svg" /><span>svg-service-updates.svg</span></div>
-<div class="imgbox"><img src="svg-set.svg" /><span>svg-set.svg</span></div>
-<div class="imgbox"><img src="svg-settings.svg" /><span>svg-settings.svg</span></div>
-<div class="imgbox"><img src="svg-shapes.svg" /><span>svg-shapes.svg</span></div>
-<div class="imgbox"><img src="svg-share.svg" /><span>svg-share.svg</span></div>
-<div class="imgbox"><img src="svg-sharepoint-server.svg" /><span>svg-sharepoint-server.svg</span></div>
-<div class="imgbox"><img src="svg-sharepoint.svg" /><span>svg-sharepoint.svg</span></div>
-<div class="imgbox"><img src="svg-shield-keyhole.svg" /><span>svg-shield-keyhole.svg</span></div>
-<div class="imgbox"><img src="svg-shield-unlock.svg" /><span>svg-shield-unlock.svg</span></div>
-<div class="imgbox"><img src="svg-shield-user.svg" /><span>svg-shield-user.svg</span></div>
-<div class="imgbox"><img src="svg-shopping.svg" /><span>svg-shopping.svg</span></div>
-<div class="imgbox"><img src="svg-sign-up.svg" /><span>svg-sign-up.svg</span></div>
-<div class="imgbox"><img src="svg-signalr-service-dark.svg" /><span>svg-signalr-service-dark.svg</span></div>
-<div class="imgbox"><img src="svg-signalr-service.svg" /><span>svg-signalr-service.svg</span></div>
-<div class="imgbox"><img src="svg-simplified-management.svg" /><span>svg-simplified-management.svg</span></div>
-<div class="imgbox"><img src="svg-site-recovery.svg" /><span>svg-site-recovery.svg</span></div>
-<div class="imgbox"><img src="svg-six-circle-hexagon.svg" /><span>svg-six-circle-hexagon.svg</span></div>
-<div class="imgbox"><img src="svg-slas.svg" /><span>svg-slas.svg</span></div>
-<div class="imgbox"><img src="svg-small-large-squares.svg" /><span>svg-small-large-squares.svg</span></div>
-<div class="imgbox"><img src="svg-social.svg" /><span>svg-social.svg</span></div>
-<div class="imgbox"><img src="svg-source-control.svg" /><span>svg-source-control.svg</span></div>
-<div class="imgbox"><img src="svg-speaker-recognition.svg" /><span>svg-speaker-recognition.svg</span></div>
-<div class="imgbox"><img src="svg-speech-api.svg" /><span>svg-speech-api.svg</span></div>
-<div class="imgbox"><img src="svg-speech-category-icon.svg" /><span>svg-speech-category-icon.svg</span></div>
-<div class="imgbox"><img src="svg-speech-category.svg" /><span>svg-speech-category.svg</span></div>
-<div class="imgbox"><img src="svg-speech-translation.svg" /><span>svg-speech-translation.svg</span></div>
-<div class="imgbox"><img src="svg-speed.svg" /><span>svg-speed.svg</span></div>
-<div class="imgbox"><img src="svg-spellcheck-api.svg" /><span>svg-spellcheck-api.svg</span></div>
-<div class="imgbox"><img src="svg-spinnaker-text.svg" /><span>svg-spinnaker-text.svg</span></div>
-<div class="imgbox"><img src="svg-spinning-arrows.svg" /><span>svg-spinning-arrows.svg</span></div>
-<div class="imgbox"><img src="svg-split-arrow-bullet.svg" /><span>svg-split-arrow-bullet.svg</span></div>
-<div class="imgbox"><img src="svg-sql-data-warehouse-dark.svg" /><span>svg-sql-data-warehouse-dark.svg</span></div>
-<div class="imgbox"><img src="svg-sql-data-warehouse.svg" /><span>svg-sql-data-warehouse.svg</span></div>
-<div class="imgbox"><img src="svg-sql-database-mono.svg" /><span>svg-sql-database-mono.svg</span></div>
-<div class="imgbox"><img src="svg-sql-database.svg" /><span>svg-sql-database.svg</span></div>
-<div class="imgbox"><img src="svg-sql-db.svg" /><span>svg-sql-db.svg</span></div>
-<div class="imgbox"><img src="svg-sql-server.svg" /><span>svg-sql-server.svg</span></div>
-<div class="imgbox"><img src="svg-sql.svg" /><span>svg-sql.svg</span></div>
-<div class="imgbox"><img src="svg-square-circle-parallel.svg" /><span>svg-square-circle-parallel.svg</span></div>
-<div class="imgbox"><img src="svg-square-circle-plus-white.svg" /><span>svg-square-circle-plus-white.svg</span></div>
-<div class="imgbox"><img src="svg-square-circle-plus.svg" /><span>svg-square-circle-plus.svg</span></div>
-<div class="imgbox"><img src="svg-square-gear-diamond-merge.svg" /><span>svg-square-gear-diamond-merge.svg</span></div>
-<div class="imgbox"><img src="svg-square-of-circles-magnify.svg" /><span>svg-square-of-circles-magnify.svg</span></div>
-<div class="imgbox"><img src="svg-square-of-circles.svg" /><span>svg-square-of-circles.svg</span></div>
-<div class="imgbox"><img src="svg-square-of-squares.svg" /><span>svg-square-of-squares.svg</span></div>
-<div class="imgbox"><img src="svg-stack-overflow.svg" /><span>svg-stack-overflow.svg</span></div>
-<div class="imgbox"><img src="svg-stacked-squares-plus.svg" /><span>svg-stacked-squares-plus.svg</span></div>
-<div class="imgbox"><img src="svg-storage-blobs.svg" /><span>svg-storage-blobs.svg</span></div>
-<div class="imgbox"><img src="svg-storage-files.svg" /><span>svg-storage-files.svg</span></div>
-<div class="imgbox"><img src="svg-storage-mono.svg" /><span>svg-storage-mono.svg</span></div>
-<div class="imgbox"><img src="svg-storage-queues.svg" /><span>svg-storage-queues.svg</span></div>
-<div class="imgbox"><img src="svg-storage-tables.svg" /><span>svg-storage-tables.svg</span></div>
-<div class="imgbox"><img src="svg-storage.svg" /><span>svg-storage.svg</span></div>
-<div class="imgbox"><img src="svg-storsimple.svg" /><span>svg-storsimple.svg</span></div>
-<div class="imgbox"><img src="svg-stream-analytics-mono.svg" /><span>svg-stream-analytics-mono.svg</span></div>
-<div class="imgbox"><img src="svg-stream-analytics.svg" /><span>svg-stream-analytics.svg</span></div>
-<div class="imgbox"><img src="svg-suite.svg" /><span>svg-suite.svg</span></div>
-<div class="imgbox"><img src="svg-support-blog-grey.svg" /><span>svg-support-blog-grey.svg</span></div>
-<div class="imgbox"><img src="svg-support-faq.svg" /><span>svg-support-faq.svg</span></div>
-<div class="imgbox"><img src="svg-surveillance.svg" /><span>svg-surveillance.svg</span></div>
-<div class="imgbox"><img src="svg-tables-mono.svg" /><span>svg-tables-mono.svg</span></div>
-<div class="imgbox"><img src="svg-target-deploy.svg" /><span>svg-target-deploy.svg</span></div>
-<div class="imgbox"><img src="svg-target-magnify.svg" /><span>svg-target-magnify.svg</span></div>
-<div class="imgbox"><img src="svg-tea.svg" /><span>svg-tea.svg</span></div>
-<div class="imgbox"><img src="svg-technical-capabilities.svg" /><span>svg-technical-capabilities.svg</span></div>
-<div class="imgbox"><img src="svg-templates-2.svg" /><span>svg-templates-2.svg</span></div>
-<div class="imgbox"><img src="svg-templates.svg" /><span>svg-templates.svg</span></div>
-<div class="imgbox"><img src="svg-terminal-prompt.svg" /><span>svg-terminal-prompt.svg</span></div>
-<div class="imgbox"><img src="svg-text-analytics-service.svg" /><span>svg-text-analytics-service.svg</span></div>
-<div class="imgbox"><img src="svg-text-analytics.svg" /><span>svg-text-analytics.svg</span></div>
-<div class="imgbox"><img src="svg-three-arrows.svg" /><span>svg-three-arrows.svg</span></div>
-<div class="imgbox"><img src="svg-three-computers-connected-one.svg" /><span>svg-three-computers-connected-one.svg</span></div>
-<div class="imgbox"><img src="svg-three-people.svg" /><span>svg-three-people.svg</span></div>
-<div class="imgbox"><img src="svg-time-series-insights-black.svg" /><span>svg-time-series-insights-black.svg</span></div>
-<div class="imgbox"><img src="svg-time-series-insights.svg" /><span>svg-time-series-insights.svg</span></div>
-<div class="imgbox"><img src="svg-time-zones.svg" /><span>svg-time-zones.svg</span></div>
-<div class="imgbox"><img src="svg-tools.svg" /><span>svg-tools.svg</span></div>
-<div class="imgbox"><img src="svg-tooltip.svg" /><span>svg-tooltip.svg</span></div>
-<div class="imgbox"><img src="svg-traffic-cone.svg" /><span>svg-traffic-cone.svg</span></div>
-<div class="imgbox"><img src="svg-traffic-manager-mono.svg" /><span>svg-traffic-manager-mono.svg</span></div>
-<div class="imgbox"><img src="svg-traffic-manager.svg" /><span>svg-traffic-manager.svg</span></div>
-<div class="imgbox"><img src="svg-training-videos.svg" /><span>svg-training-videos.svg</span></div>
-<div class="imgbox"><img src="svg-transfer-right-arrow.svg" /><span>svg-transfer-right-arrow.svg</span></div>
-<div class="imgbox"><img src="svg-translator-apis.svg" /><span>svg-translator-apis.svg</span></div>
-<div class="imgbox"><img src="svg-tutorial.svg" /><span>svg-tutorial.svg</span></div>
-<div class="imgbox"><img src="svg-twitter-alt.svg" /><span>svg-twitter-alt.svg</span></div>
-<div class="imgbox"><img src="svg-twitter-square.svg" /><span>svg-twitter-square.svg</span></div>
-<div class="imgbox"><img src="svg-twitter-white.svg" /><span>svg-twitter-white.svg</span></div>
-<div class="imgbox"><img src="svg-twitter.svg" /><span>svg-twitter.svg</span></div>
-<div class="imgbox"><img src="svg-two-gears.svg" /><span>svg-two-gears.svg</span></div>
-<div class="imgbox"><img src="svg-two-stacked-discs.svg" /><span>svg-two-stacked-discs.svg</span></div>
-<div class="imgbox"><img src="svg-up-right-arrow.svg" /><span>svg-up-right-arrow.svg</span></div>
-<div class="imgbox"><img src="svg-updates-dark.svg" /><span>svg-updates-dark.svg</span></div>
-<div class="imgbox"><img src="svg-upload.svg" /><span>svg-upload.svg</span></div>
-<div class="imgbox"><img src="svg-user-cloud.svg" /><span>svg-user-cloud.svg</span></div>
-<div class="imgbox"><img src="svg-users.svg" /><span>svg-users.svg</span></div>
-<div class="imgbox"><img src="svg-video-alt-dark.svg" /><span>svg-video-alt-dark.svg</span></div>
-<div class="imgbox"><img src="svg-video-camera.svg" /><span>svg-video-camera.svg</span></div>
-<div class="imgbox"><img src="svg-video-indexer.svg" /><span>svg-video-indexer.svg</span></div>
-<div class="imgbox"><img src="svg-video.svg" /><span>svg-video.svg</span></div>
-<div class="imgbox"><img src="svg-videos.svg" /><span>svg-videos.svg</span></div>
-<div class="imgbox"><img src="svg-view-ssml.svg" /><span>svg-view-ssml.svg</span></div>
-<div class="imgbox"><img src="svg-virtual-machine-scale-sets.svg" /><span>svg-virtual-machine-scale-sets.svg</span></div>
-<div class="imgbox"><img src="svg-virtual-machines-mono.svg" /><span>svg-virtual-machines-mono.svg</span></div>
-<div class="imgbox"><img src="svg-virtual-machines.svg" /><span>svg-virtual-machines.svg</span></div>
-<div class="imgbox"><img src="svg-virtual-network.svg" /><span>svg-virtual-network.svg</span></div>
-<div class="imgbox"><img src="svg-virtual-wan.svg" /><span>svg-virtual-wan.svg</span></div>
-<div class="imgbox"><img src="svg-vision-category-icon.svg" /><span>svg-vision-category-icon.svg</span></div>
-<div class="imgbox"><img src="svg-vision-category.svg" /><span>svg-vision-category.svg</span></div>
-<div class="imgbox"><img src="svg-visual-studio-alt.svg" /><span>svg-visual-studio-alt.svg</span></div>
-<div class="imgbox"><img src="svg-visual-studio-code.svg" /><span>svg-visual-studio-code.svg</span></div>
-<div class="imgbox"><img src="svg-visual-studio.svg" /><span>svg-visual-studio.svg</span></div>
-<div class="imgbox"><img src="svg-volume.svg" /><span>svg-volume.svg</span></div>
-<div class="imgbox"><img src="svg-vpn-gateway.svg" /><span>svg-vpn-gateway.svg</span></div>
-<div class="imgbox"><img src="svg-vs-code.svg" /><span>svg-vs-code.svg</span></div>
-<div class="imgbox"><img src="svg-vsts-white.svg" /><span>svg-vsts-white.svg</span></div>
-<div class="imgbox"><img src="svg-vsts.svg" /><span>svg-vsts.svg</span></div>
-<div class="imgbox"><img src="svg-watch-video.svg" /><span>svg-watch-video.svg</span></div>
-<div class="imgbox"><img src="svg-web-app-umbraco.svg" /><span>svg-web-app-umbraco.svg</span></div>
-<div class="imgbox"><img src="svg-web-app-wordpress.svg" /><span>svg-web-app-wordpress.svg</span></div>
-<div class="imgbox"><img src="svg-web-search-api.svg" /><span>svg-web-search-api.svg</span></div>
-<div class="imgbox"><img src="svg-webjobs.svg" /><span>svg-webjobs.svg</span></div>
-<div class="imgbox"><img src="svg-whitepaper-alt-dark.svg" /><span>svg-whitepaper-alt-dark.svg</span></div>
-<div class="imgbox"><img src="svg-whitepaper-black-white.svg" /><span>svg-whitepaper-black-white.svg</span></div>
-<div class="imgbox"><img src="svg-whitepaper-simple.svg" /><span>svg-whitepaper-simple.svg</span></div>
-<div class="imgbox"><img src="svg-whitepaper.svg" /><span>svg-whitepaper.svg</span></div>
-<div class="imgbox"><img src="svg-wiki.svg" /><span>svg-wiki.svg</span></div>
-<div class="imgbox"><img src="svg-windows-10-iot-core.svg" /><span>svg-windows-10-iot-core.svg</span></div>
-<div class="imgbox"><img src="svg-windows.svg" /><span>svg-windows.svg</span></div>
-<div class="imgbox"><img src="svg-work-how-you-want.svg" /><span>svg-work-how-you-want.svg</span></div>
-<div class="imgbox"><img src="svg-wrench-clipboard.svg" /><span>svg-wrench-clipboard.svg</span></div>
-<div class="imgbox"><img src="svg-wrench-gear.svg" /><span>svg-wrench-gear.svg</span></div>
-<div class="imgbox"><img src="svg-wrench.svg" /><span>svg-wrench.svg</span></div>
-<div class="imgbox"><img src="svg-xamarin.svg" /><span>svg-xamarin.svg</span></div>
-<div class="imgbox"><img src="svg-youtube.svg" /><span>svg-youtube.svg</span></div>
+<div class="top">
+<h1>Azure Patterns Collection</h1>
+<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span>
+<button onclick="toggleBg()">Change Background</button>
+</div>
+<div class="grid">
+<div id="svg-1.svg" class="imgbox"><img src="svg-1.svg" class="bg0"/><div class="label">svg-1.svg</div></div>
+<div id="svg-academic-knowledge-api.svg" class="imgbox"><img src="svg-academic-knowledge-api.svg" class="bg0"/><div class="label">svg-academic-knowledge-api.svg</div></div>
+<div id="svg-active-directory-black.svg" class="imgbox"><img src="svg-active-directory-black.svg" class="bg0"/><div class="label">svg-active-directory-black.svg</div></div>
+<div id="svg-active-directory.svg" class="imgbox"><img src="svg-active-directory.svg" class="bg0"/><div class="label">svg-active-directory.svg</div></div>
+<div id="svg-add-button.svg" class="imgbox"><img src="svg-add-button.svg" class="bg0"/><div class="label">svg-add-button.svg</div></div>
+<div id="svg-admin-support.svg" class="imgbox"><img src="svg-admin-support.svg" class="bg0"/><div class="label">svg-admin-support.svg</div></div>
+<div id="svg-advanced-functionality.svg" class="imgbox"><img src="svg-advanced-functionality.svg" class="bg0"/><div class="label">svg-advanced-functionality.svg</div></div>
+<div id="svg-advisor-blue.svg" class="imgbox"><img src="svg-advisor-blue.svg" class="bg0"/><div class="label">svg-advisor-blue.svg</div></div>
+<div id="svg-advisor.svg" class="imgbox"><img src="svg-advisor.svg" class="bg0"/><div class="label">svg-advisor.svg</div></div>
+<div id="svg-ai-models.svg" class="imgbox"><img src="svg-ai-models.svg" class="bg0"/><div class="label">svg-ai-models.svg</div></div>
+<div id="svg-ai.svg" class="imgbox"><img src="svg-ai.svg" class="bg0"/><div class="label">svg-ai.svg</div></div>
+<div id="svg-analysis-services.svg" class="imgbox"><img src="svg-analysis-services.svg" class="bg0"/><div class="label">svg-analysis-services.svg</div></div>
+<div id="svg-analytics.svg" class="imgbox"><img src="svg-analytics.svg" class="bg0"/><div class="label">svg-analytics.svg</div></div>
+<div id="svg-api-management-mono.svg" class="imgbox"><img src="svg-api-management-mono.svg" class="bg0"/><div class="label">svg-api-management-mono.svg</div></div>
+<div id="svg-api-management.svg" class="imgbox"><img src="svg-api-management.svg" class="bg0"/><div class="label">svg-api-management.svg</div></div>
+<div id="svg-app-center-mono.svg" class="imgbox"><img src="svg-app-center-mono.svg" class="bg0"/><div class="label">svg-app-center-mono.svg</div></div>
+<div id="svg-app-center.svg" class="imgbox"><img src="svg-app-center.svg" class="bg0"/><div class="label">svg-app-center.svg</div></div>
+<div id="svg-app-service-api.svg" class="imgbox"><img src="svg-app-service-api.svg" class="bg0"/><div class="label">svg-app-service-api.svg</div></div>
+<div id="svg-app-service-container.svg" class="imgbox"><img src="svg-app-service-container.svg" class="bg0"/><div class="label">svg-app-service-container.svg</div></div>
+<div id="svg-app-service-containers.svg" class="imgbox"><img src="svg-app-service-containers.svg" class="bg0"/><div class="label">svg-app-service-containers.svg</div></div>
+<div id="svg-app-service-logic.svg" class="imgbox"><img src="svg-app-service-logic.svg" class="bg0"/><div class="label">svg-app-service-logic.svg</div></div>
+<div id="svg-app-service-mobile.svg" class="imgbox"><img src="svg-app-service-mobile.svg" class="bg0"/><div class="label">svg-app-service-mobile.svg</div></div>
+<div id="svg-app-service-web-epi.svg" class="imgbox"><img src="svg-app-service-web-epi.svg" class="bg0"/><div class="label">svg-app-service-web-epi.svg</div></div>
+<div id="svg-app-service-web-orchard.svg" class="imgbox"><img src="svg-app-service-web-orchard.svg" class="bg0"/><div class="label">svg-app-service-web-orchard.svg</div></div>
+<div id="svg-app-service-web-sitecore.svg" class="imgbox"><img src="svg-app-service-web-sitecore.svg" class="bg0"/><div class="label">svg-app-service-web-sitecore.svg</div></div>
+<div id="svg-app-service-web.svg" class="imgbox"><img src="svg-app-service-web.svg" class="bg0"/><div class="label">svg-app-service-web.svg</div></div>
+<div id="svg-app-service.svg" class="imgbox"><img src="svg-app-service.svg" class="bg0"/><div class="label">svg-app-service.svg</div></div>
+<div id="svg-application-gateway.svg" class="imgbox"><img src="svg-application-gateway.svg" class="bg0"/><div class="label">svg-application-gateway.svg</div></div>
+<div id="svg-application-insights.svg" class="imgbox"><img src="svg-application-insights.svg" class="bg0"/><div class="label">svg-application-insights.svg</div></div>
+<div id="svg-application-resources.svg" class="imgbox"><img src="svg-application-resources.svg" class="bg0"/><div class="label">svg-application-resources.svg</div></div>
+<div id="svg-applications-and-data.svg" class="imgbox"><img src="svg-applications-and-data.svg" class="bg0"/><div class="label">svg-applications-and-data.svg</div></div>
+<div id="svg-arrow-in-bullseye.svg" class="imgbox"><img src="svg-arrow-in-bullseye.svg" class="bg0"/><div class="label">svg-arrow-in-bullseye.svg</div></div>
+<div id="svg-arrow-with-meter.svg" class="imgbox"><img src="svg-arrow-with-meter.svg" class="bg0"/><div class="label">svg-arrow-with-meter.svg</div></div>
+<div id="svg-audio-microphone.svg" class="imgbox"><img src="svg-audio-microphone.svg" class="bg0"/><div class="label">svg-audio-microphone.svg</div></div>
+<div id="svg-audio-play.svg" class="imgbox"><img src="svg-audio-play.svg" class="bg0"/><div class="label">svg-audio-play.svg</div></div>
+<div id="svg-audio-stop.svg" class="imgbox"><img src="svg-audio-stop.svg" class="bg0"/><div class="label">svg-audio-stop.svg</div></div>
+<div id="svg-authentic.svg" class="imgbox"><img src="svg-authentic.svg" class="bg0"/><div class="label">svg-authentic.svg</div></div>
+<div id="svg-automate.svg" class="imgbox"><img src="svg-automate.svg" class="bg0"/><div class="label">svg-automate.svg</div></div>
+<div id="svg-automation-blue.svg" class="imgbox"><img src="svg-automation-blue.svg" class="bg0"/><div class="label">svg-automation-blue.svg</div></div>
+<div id="svg-automation.svg" class="imgbox"><img src="svg-automation.svg" class="bg0"/><div class="label">svg-automation.svg</div></div>
+<div id="svg-autoscale.svg" class="imgbox"><img src="svg-autoscale.svg" class="bg0"/><div class="label">svg-autoscale.svg</div></div>
+<div id="svg-autosuggest-api.svg" class="imgbox"><img src="svg-autosuggest-api.svg" class="bg0"/><div class="label">svg-autosuggest-api.svg</div></div>
+<div id="svg-availability-set.svg" class="imgbox"><img src="svg-availability-set.svg" class="bg0"/><div class="label">svg-availability-set.svg</div></div>
+<div id="svg-avere-vfxt-dark.svg" class="imgbox"><img src="svg-avere-vfxt-dark.svg" class="bg0"/><div class="label">svg-avere-vfxt-dark.svg</div></div>
+<div id="svg-avere-vfxt.svg" class="imgbox"><img src="svg-avere-vfxt.svg" class="bg0"/><div class="label">svg-avere-vfxt.svg</div></div>
+<div id="svg-azure-cli.svg" class="imgbox"><img src="svg-azure-cli.svg" class="bg0"/><div class="label">svg-azure-cli.svg</div></div>
+<div id="svg-azure-cloud.svg" class="imgbox"><img src="svg-azure-cloud.svg" class="bg0"/><div class="label">svg-azure-cloud.svg</div></div>
+<div id="svg-azure-dedicated-hsm.svg" class="imgbox"><img src="svg-azure-dedicated-hsm.svg" class="bg0"/><div class="label">svg-azure-dedicated-hsm.svg</div></div>
+<div id="svg-azure-devops.svg" class="imgbox"><img src="svg-azure-devops.svg" class="bg0"/><div class="label">svg-azure-devops.svg</div></div>
+<div id="svg-azure-direct.svg" class="imgbox"><img src="svg-azure-direct.svg" class="bg0"/><div class="label">svg-azure-direct.svg</div></div>
+<div id="svg-azure-firewall.svg" class="imgbox"><img src="svg-azure-firewall.svg" class="bg0"/><div class="label">svg-azure-firewall.svg</div></div>
+<div id="svg-azure-maps.svg" class="imgbox"><img src="svg-azure-maps.svg" class="bg0"/><div class="label">svg-azure-maps.svg</div></div>
+<div id="svg-azure-migrate-dark.svg" class="imgbox"><img src="svg-azure-migrate-dark.svg" class="bg0"/><div class="label">svg-azure-migrate-dark.svg</div></div>
+<div id="svg-azure-migrate.svg" class="imgbox"><img src="svg-azure-migrate.svg" class="bg0"/><div class="label">svg-azure-migrate.svg</div></div>
+<div id="svg-azure-monitor.svg" class="imgbox"><img src="svg-azure-monitor.svg" class="bg0"/><div class="label">svg-azure-monitor.svg</div></div>
+<div id="svg-azure-policy-alt.svg" class="imgbox"><img src="svg-azure-policy-alt.svg" class="bg0"/><div class="label">svg-azure-policy-alt.svg</div></div>
+<div id="svg-azure-policy.svg" class="imgbox"><img src="svg-azure-policy.svg" class="bg0"/><div class="label">svg-azure-policy.svg</div></div>
+<div id="svg-azure-resource-group-blue.svg" class="imgbox"><img src="svg-azure-resource-group-blue.svg" class="bg0"/><div class="label">svg-azure-resource-group-blue.svg</div></div>
+<div id="svg-azure-resource-manager.svg" class="imgbox"><img src="svg-azure-resource-manager.svg" class="bg0"/><div class="label">svg-azure-resource-manager.svg</div></div>
+<div id="svg-azure.svg" class="imgbox"><img src="svg-azure.svg" class="bg0"/><div class="label">svg-azure.svg</div></div>
+<div id="svg-backup-dark.svg" class="imgbox"><img src="svg-backup-dark.svg" class="bg0"/><div class="label">svg-backup-dark.svg</div></div>
+<div id="svg-backup-one-cloud.svg" class="imgbox"><img src="svg-backup-one-cloud.svg" class="bg0"/><div class="label">svg-backup-one-cloud.svg</div></div>
+<div id="svg-backup-server.svg" class="imgbox"><img src="svg-backup-server.svg" class="bg0"/><div class="label">svg-backup-server.svg</div></div>
+<div id="svg-backup.svg" class="imgbox"><img src="svg-backup.svg" class="bg0"/><div class="label">svg-backup.svg</div></div>
+<div id="svg-backward.svg" class="imgbox"><img src="svg-backward.svg" class="bg0"/><div class="label">svg-backward.svg</div></div>
+<div id="svg-bar-chart.svg" class="imgbox"><img src="svg-bar-chart.svg" class="bg0"/><div class="label">svg-bar-chart.svg</div></div>
+<div id="svg-bar-graph.svg" class="imgbox"><img src="svg-bar-graph.svg" class="bg0"/><div class="label">svg-bar-graph.svg</div></div>
+<div id="svg-bargraph-with-dollar-sign.svg" class="imgbox"><img src="svg-bargraph-with-dollar-sign.svg" class="bg0"/><div class="label">svg-bargraph-with-dollar-sign.svg</div></div>
+<div id="svg-bars-with-star.svg" class="imgbox"><img src="svg-bars-with-star.svg" class="bg0"/><div class="label">svg-bars-with-star.svg</div></div>
+<div id="svg-batch-ai.svg" class="imgbox"><img src="svg-batch-ai.svg" class="bg0"/><div class="label">svg-batch-ai.svg</div></div>
+<div id="svg-batch.svg" class="imgbox"><img src="svg-batch.svg" class="bg0"/><div class="label">svg-batch.svg</div></div>
+<div id="svg-beaker.svg" class="imgbox"><img src="svg-beaker.svg" class="bg0"/><div class="label">svg-beaker.svg</div></div>
+<div id="svg-bell.svg" class="imgbox"><img src="svg-bell.svg" class="bg0"/><div class="label">svg-bell.svg</div></div>
+<div id="svg-big-data.svg" class="imgbox"><img src="svg-big-data.svg" class="bg0"/><div class="label">svg-big-data.svg</div></div>
+<div id="svg-big-small-meters-fill.svg" class="imgbox"><img src="svg-big-small-meters-fill.svg" class="bg0"/><div class="label">svg-big-small-meters-fill.svg</div></div>
+<div id="svg-billing-alert.svg" class="imgbox"><img src="svg-billing-alert.svg" class="bg0"/><div class="label">svg-billing-alert.svg</div></div>
+<div id="svg-billing-statement.svg" class="imgbox"><img src="svg-billing-statement.svg" class="bg0"/><div class="label">svg-billing-statement.svg</div></div>
+<div id="svg-bing-custom-search-api.svg" class="imgbox"><img src="svg-bing-custom-search-api.svg" class="bg0"/><div class="label">svg-bing-custom-search-api.svg</div></div>
+<div id="svg-bing-entity-search-api.svg" class="imgbox"><img src="svg-bing-entity-search-api.svg" class="bg0"/><div class="label">svg-bing-entity-search-api.svg</div></div>
+<div id="svg-bing-image-search-api.svg" class="imgbox"><img src="svg-bing-image-search-api.svg" class="bg0"/><div class="label">svg-bing-image-search-api.svg</div></div>
+<div id="svg-bing-local-business-search.svg" class="imgbox"><img src="svg-bing-local-business-search.svg" class="bg0"/><div class="label">svg-bing-local-business-search.svg</div></div>
+<div id="svg-bing-news-search-api.svg" class="imgbox"><img src="svg-bing-news-search-api.svg" class="bg0"/><div class="label">svg-bing-news-search-api.svg</div></div>
+<div id="svg-bing-video-search-api.svg" class="imgbox"><img src="svg-bing-video-search-api.svg" class="bg0"/><div class="label">svg-bing-video-search-api.svg</div></div>
+<div id="svg-bing-visual-search.svg" class="imgbox"><img src="svg-bing-visual-search.svg" class="bg0"/><div class="label">svg-bing-visual-search.svg</div></div>
+<div id="svg-biztalk-hybrid-connection.svg" class="imgbox"><img src="svg-biztalk-hybrid-connection.svg" class="bg0"/><div class="label">svg-biztalk-hybrid-connection.svg</div></div>
+<div id="svg-biztalk-services.svg" class="imgbox"><img src="svg-biztalk-services.svg" class="bg0"/><div class="label">svg-biztalk-services.svg</div></div>
+<div id="svg-blockchain-workbench.svg" class="imgbox"><img src="svg-blockchain-workbench.svg" class="bg0"/><div class="label">svg-blockchain-workbench.svg</div></div>
+<div id="svg-blog-alt-dark.svg" class="imgbox"><img src="svg-blog-alt-dark.svg" class="bg0"/><div class="label">svg-blog-alt-dark.svg</div></div>
+<div id="svg-blog-alt.svg" class="imgbox"><img src="svg-blog-alt.svg" class="bg0"/><div class="label">svg-blog-alt.svg</div></div>
+<div id="svg-blowhorn.svg" class="imgbox"><img src="svg-blowhorn.svg" class="bg0"/><div class="label">svg-blowhorn.svg</div></div>
+<div id="svg-blue-bell.svg" class="imgbox"><img src="svg-blue-bell.svg" class="bg0"/><div class="label">svg-blue-bell.svg</div></div>
+<div id="svg-blue-black-square.svg" class="imgbox"><img src="svg-blue-black-square.svg" class="bg0"/><div class="label">svg-blue-black-square.svg</div></div>
+<div id="svg-blue-gears-v2.svg" class="imgbox"><img src="svg-blue-gears-v2.svg" class="bg0"/><div class="label">svg-blue-gears-v2.svg</div></div>
+<div id="svg-blueprints-alt.svg" class="imgbox"><img src="svg-blueprints-alt.svg" class="bg0"/><div class="label">svg-blueprints-alt.svg</div></div>
+<div id="svg-blueprints.svg" class="imgbox"><img src="svg-blueprints.svg" class="bg0"/><div class="label">svg-blueprints.svg</div></div>
+<div id="svg-book-alt-dark.svg" class="imgbox"><img src="svg-book-alt-dark.svg" class="bg0"/><div class="label">svg-book-alt-dark.svg</div></div>
+<div id="svg-book-alt.svg" class="imgbox"><img src="svg-book-alt.svg" class="bg0"/><div class="label">svg-book-alt.svg</div></div>
+<div id="svg-book-grey.svg" class="imgbox"><img src="svg-book-grey.svg" class="bg0"/><div class="label">svg-book-grey.svg</div></div>
+<div id="svg-book-open-alt.svg" class="imgbox"><img src="svg-book-open-alt.svg" class="bg0"/><div class="label">svg-book-open-alt.svg</div></div>
+<div id="svg-book-open.svg" class="imgbox"><img src="svg-book-open.svg" class="bg0"/><div class="label">svg-book-open.svg</div></div>
+<div id="svg-book.svg" class="imgbox"><img src="svg-book.svg" class="bg0"/><div class="label">svg-book.svg</div></div>
+<div id="svg-bookmark.svg" class="imgbox"><img src="svg-bookmark.svg" class="bg0"/><div class="label">svg-bookmark.svg</div></div>
+<div id="svg-bot-framework.svg" class="imgbox"><img src="svg-bot-framework.svg" class="bg0"/><div class="label">svg-bot-framework.svg</div></div>
+<div id="svg-bot-service-icon.svg" class="imgbox"><img src="svg-bot-service-icon.svg" class="bg0"/><div class="label">svg-bot-service-icon.svg</div></div>
+<div id="svg-bot-service.svg" class="imgbox"><img src="svg-bot-service.svg" class="bg0"/><div class="label">svg-bot-service.svg</div></div>
+<div id="svg-broadcast.svg" class="imgbox"><img src="svg-broadcast.svg" class="bg0"/><div class="label">svg-broadcast.svg</div></div>
+<div id="svg-bubbles.svg" class="imgbox"><img src="svg-bubbles.svg" class="bg0"/><div class="label">svg-bubbles.svg</div></div>
+<div id="svg-bug-grey.svg" class="imgbox"><img src="svg-bug-grey.svg" class="bg0"/><div class="label">svg-bug-grey.svg</div></div>
+<div id="svg-build-partner.svg" class="imgbox"><img src="svg-build-partner.svg" class="bg0"/><div class="label">svg-build-partner.svg</div></div>
+<div id="svg-build.svg" class="imgbox"><img src="svg-build.svg" class="bg0"/><div class="label">svg-build.svg</div></div>
+<div id="svg-buildings.svg" class="imgbox"><img src="svg-buildings.svg" class="bg0"/><div class="label">svg-buildings.svg</div></div>
+<div id="svg-built-in-security.svg" class="imgbox"><img src="svg-built-in-security.svg" class="bg0"/><div class="label">svg-built-in-security.svg</div></div>
+<div id="svg-business-health.svg" class="imgbox"><img src="svg-business-health.svg" class="bg0"/><div class="label">svg-business-health.svg</div></div>
+<div id="svg-business-intelligence.svg" class="imgbox"><img src="svg-business-intelligence.svg" class="bg0"/><div class="label">svg-business-intelligence.svg</div></div>
+<div id="svg-cache.svg" class="imgbox"><img src="svg-cache.svg" class="bg0"/><div class="label">svg-cache.svg</div></div>
+<div id="svg-caching.svg" class="imgbox"><img src="svg-caching.svg" class="bg0"/><div class="label">svg-caching.svg</div></div>
+<div id="svg-calculator-collapse.svg" class="imgbox"><img src="svg-calculator-collapse.svg" class="bg0"/><div class="label">svg-calculator-collapse.svg</div></div>
+<div id="svg-calculator-copy.svg" class="imgbox"><img src="svg-calculator-copy.svg" class="bg0"/><div class="label">svg-calculator-copy.svg</div></div>
+<div id="svg-calculator-delete.svg" class="imgbox"><img src="svg-calculator-delete.svg" class="bg0"/><div class="label">svg-calculator-delete.svg</div></div>
+<div id="svg-calculator-document.svg" class="imgbox"><img src="svg-calculator-document.svg" class="bg0"/><div class="label">svg-calculator-document.svg</div></div>
+<div id="svg-calculator-error.svg" class="imgbox"><img src="svg-calculator-error.svg" class="bg0"/><div class="label">svg-calculator-error.svg</div></div>
+<div id="svg-calculator-excel.svg" class="imgbox"><img src="svg-calculator-excel.svg" class="bg0"/><div class="label">svg-calculator-excel.svg</div></div>
+<div id="svg-calculator-expand.svg" class="imgbox"><img src="svg-calculator-expand.svg" class="bg0"/><div class="label">svg-calculator-expand.svg</div></div>
+<div id="svg-calculator-information.svg" class="imgbox"><img src="svg-calculator-information.svg" class="bg0"/><div class="label">svg-calculator-information.svg</div></div>
+<div id="svg-calculator-invite.svg" class="imgbox"><img src="svg-calculator-invite.svg" class="bg0"/><div class="label">svg-calculator-invite.svg</div></div>
+<div id="svg-calculator-note-information.svg" class="imgbox"><img src="svg-calculator-note-information.svg" class="bg0"/><div class="label">svg-calculator-note-information.svg</div></div>
+<div id="svg-calculator-pricing-details.svg" class="imgbox"><img src="svg-calculator-pricing-details.svg" class="bg0"/><div class="label">svg-calculator-pricing-details.svg</div></div>
+<div id="svg-calculator-save-as.svg" class="imgbox"><img src="svg-calculator-save-as.svg" class="bg0"/><div class="label">svg-calculator-save-as.svg</div></div>
+<div id="svg-calculator-save.svg" class="imgbox"><img src="svg-calculator-save.svg" class="bg0"/><div class="label">svg-calculator-save.svg</div></div>
+<div id="svg-calculator-share.svg" class="imgbox"><img src="svg-calculator-share.svg" class="bg0"/><div class="label">svg-calculator-share.svg</div></div>
+<div id="svg-calculator.svg" class="imgbox"><img src="svg-calculator.svg" class="bg0"/><div class="label">svg-calculator.svg</div></div>
+<div id="svg-calendar-alt-blue.svg" class="imgbox"><img src="svg-calendar-alt-blue.svg" class="bg0"/><div class="label">svg-calendar-alt-blue.svg</div></div>
+<div id="svg-calendar-alt.svg" class="imgbox"><img src="svg-calendar-alt.svg" class="bg0"/><div class="label">svg-calendar-alt.svg</div></div>
+<div id="svg-calendar-blue.svg" class="imgbox"><img src="svg-calendar-blue.svg" class="bg0"/><div class="label">svg-calendar-blue.svg</div></div>
+<div id="svg-calendar.svg" class="imgbox"><img src="svg-calendar.svg" class="bg0"/><div class="label">svg-calendar.svg</div></div>
+<div id="svg-cancel-cloud.svg" class="imgbox"><img src="svg-cancel-cloud.svg" class="bg0"/><div class="label">svg-cancel-cloud.svg</div></div>
+<div id="svg-case-studies.svg" class="imgbox"><img src="svg-case-studies.svg" class="bg0"/><div class="label">svg-case-studies.svg</div></div>
+<div id="svg-cdn-mono.svg" class="imgbox"><img src="svg-cdn-mono.svg" class="bg0"/><div class="label">svg-cdn-mono.svg</div></div>
+<div id="svg-cdn.svg" class="imgbox"><img src="svg-cdn.svg" class="bg0"/><div class="label">svg-cdn.svg</div></div>
+<div id="svg-certificate.svg" class="imgbox"><img src="svg-certificate.svg" class="bg0"/><div class="label">svg-certificate.svg</div></div>
+<div id="svg-chat-wrench.svg" class="imgbox"><img src="svg-chat-wrench.svg" class="bg0"/><div class="label">svg-chat-wrench.svg</div></div>
+<div id="svg-check-box.svg" class="imgbox"><img src="svg-check-box.svg" class="bg0"/><div class="label">svg-check-box.svg</div></div>
+<div id="svg-check-circle.svg" class="imgbox"><img src="svg-check-circle.svg" class="bg0"/><div class="label">svg-check-circle.svg</div></div>
+<div id="svg-check-green.svg" class="imgbox"><img src="svg-check-green.svg" class="bg0"/><div class="label">svg-check-green.svg</div></div>
+<div id="svg-check-white.svg" class="imgbox"><img src="svg-check-white.svg" class="bg0"/><div class="label">svg-check-white.svg</div></div>
+<div id="svg-check.svg" class="imgbox"><img src="svg-check.svg" class="bg0"/><div class="label">svg-check.svg</div></div>
+<div id="svg-checkmark-alt.svg" class="imgbox"><img src="svg-checkmark-alt.svg" class="bg0"/><div class="label">svg-checkmark-alt.svg</div></div>
+<div id="svg-checkmark.svg" class="imgbox"><img src="svg-checkmark.svg" class="bg0"/><div class="label">svg-checkmark.svg</div></div>
+<div id="svg-choose.svg" class="imgbox"><img src="svg-choose.svg" class="bg0"/><div class="label">svg-choose.svg</div></div>
+<div id="svg-circle-cloud.svg" class="imgbox"><img src="svg-circle-cloud.svg" class="bg0"/><div class="label">svg-circle-cloud.svg</div></div>
+<div id="svg-circle-lightning.svg" class="imgbox"><img src="svg-circle-lightning.svg" class="bg0"/><div class="label">svg-circle-lightning.svg</div></div>
+<div id="svg-circle-location.svg" class="imgbox"><img src="svg-circle-location.svg" class="bg0"/><div class="label">svg-circle-location.svg</div></div>
+<div id="svg-circles-ramp-blue.svg" class="imgbox"><img src="svg-circles-ramp-blue.svg" class="bg0"/><div class="label">svg-circles-ramp-blue.svg</div></div>
+<div id="svg-circles-ramp.svg" class="imgbox"><img src="svg-circles-ramp.svg" class="bg0"/><div class="label">svg-circles-ramp.svg</div></div>
+<div id="svg-clock-grey.svg" class="imgbox"><img src="svg-clock-grey.svg" class="bg0"/><div class="label">svg-clock-grey.svg</div></div>
+<div id="svg-clock-moving.svg" class="imgbox"><img src="svg-clock-moving.svg" class="bg0"/><div class="label">svg-clock-moving.svg</div></div>
+<div id="svg-clock2.svg" class="imgbox"><img src="svg-clock2.svg" class="bg0"/><div class="label">svg-clock2.svg</div></div>
+<div id="svg-cloud-blue.svg" class="imgbox"><img src="svg-cloud-blue.svg" class="bg0"/><div class="label">svg-cloud-blue.svg</div></div>
+<div id="svg-cloud-circle-key.svg" class="imgbox"><img src="svg-cloud-circle-key.svg" class="bg0"/><div class="label">svg-cloud-circle-key.svg</div></div>
+<div id="svg-cloud-circle-video.svg" class="imgbox"><img src="svg-cloud-circle-video.svg" class="bg0"/><div class="label">svg-cloud-circle-video.svg</div></div>
+<div id="svg-cloud-lock.svg" class="imgbox"><img src="svg-cloud-lock.svg" class="bg0"/><div class="label">svg-cloud-lock.svg</div></div>
+<div id="svg-cloud-server.svg" class="imgbox"><img src="svg-cloud-server.svg" class="bg0"/><div class="label">svg-cloud-server.svg</div></div>
+<div id="svg-cloud-services-blue.svg" class="imgbox"><img src="svg-cloud-services-blue.svg" class="bg0"/><div class="label">svg-cloud-services-blue.svg</div></div>
+<div id="svg-cloud-services-outline.svg" class="imgbox"><img src="svg-cloud-services-outline.svg" class="bg0"/><div class="label">svg-cloud-services-outline.svg</div></div>
+<div id="svg-cloud-services.svg" class="imgbox"><img src="svg-cloud-services.svg" class="bg0"/><div class="label">svg-cloud-services.svg</div></div>
+<div id="svg-cloud-shell.svg" class="imgbox"><img src="svg-cloud-shell.svg" class="bg0"/><div class="label">svg-cloud-shell.svg</div></div>
+<div id="svg-cloud-unlock.svg" class="imgbox"><img src="svg-cloud-unlock.svg" class="bg0"/><div class="label">svg-cloud-unlock.svg</div></div>
+<div id="svg-cloud.svg" class="imgbox"><img src="svg-cloud.svg" class="bg0"/><div class="label">svg-cloud.svg</div></div>
+<div id="svg-cms.svg" class="imgbox"><img src="svg-cms.svg" class="bg0"/><div class="label">svg-cms.svg</div></div>
+<div id="svg-code-blue.svg" class="imgbox"><img src="svg-code-blue.svg" class="bg0"/><div class="label">svg-code-blue.svg</div></div>
+<div id="svg-code-checkmark.svg" class="imgbox"><img src="svg-code-checkmark.svg" class="bg0"/><div class="label">svg-code-checkmark.svg</div></div>
+<div id="svg-code-grey.svg" class="imgbox"><img src="svg-code-grey.svg" class="bg0"/><div class="label">svg-code-grey.svg</div></div>
+<div id="svg-code-samples.svg" class="imgbox"><img src="svg-code-samples.svg" class="bg0"/><div class="label">svg-code-samples.svg</div></div>
+<div id="svg-code.svg" class="imgbox"><img src="svg-code.svg" class="bg0"/><div class="label">svg-code.svg</div></div>
+<div id="svg-cognitive-services-labs.svg" class="imgbox"><img src="svg-cognitive-services-labs.svg" class="bg0"/><div class="label">svg-cognitive-services-labs.svg</div></div>
+<div id="svg-cognitive-services.svg" class="imgbox"><img src="svg-cognitive-services.svg" class="bg0"/><div class="label">svg-cognitive-services.svg</div></div>
+<div id="svg-common-data-service.svg" class="imgbox"><img src="svg-common-data-service.svg" class="bg0"/><div class="label">svg-common-data-service.svg</div></div>
+<div id="svg-computer-vision-service.svg" class="imgbox"><img src="svg-computer-vision-service.svg" class="bg0"/><div class="label">svg-computer-vision-service.svg</div></div>
+<div id="svg-computer-vision.svg" class="imgbox"><img src="svg-computer-vision.svg" class="bg0"/><div class="label">svg-computer-vision.svg</div></div>
+<div id="svg-confidential-compute.svg" class="imgbox"><img src="svg-confidential-compute.svg" class="bg0"/><div class="label">svg-confidential-compute.svg</div></div>
+<div id="svg-connect.svg" class="imgbox"><img src="svg-connect.svg" class="bg0"/><div class="label">svg-connect.svg</div></div>
+<div id="svg-consultants.svg" class="imgbox"><img src="svg-consultants.svg" class="bg0"/><div class="label">svg-consultants.svg</div></div>
+<div id="svg-consulting-service.svg" class="imgbox"><img src="svg-consulting-service.svg" class="bg0"/><div class="label">svg-consulting-service.svg</div></div>
+<div id="svg-container-instances.svg" class="imgbox"><img src="svg-container-instances.svg" class="bg0"/><div class="label">svg-container-instances.svg</div></div>
+<div id="svg-container-registry.svg" class="imgbox"><img src="svg-container-registry.svg" class="bg0"/><div class="label">svg-container-registry.svg</div></div>
+<div id="svg-container-service-mono.svg" class="imgbox"><img src="svg-container-service-mono.svg" class="bg0"/><div class="label">svg-container-service-mono.svg</div></div>
+<div id="svg-content-moderator.svg" class="imgbox"><img src="svg-content-moderator.svg" class="bg0"/><div class="label">svg-content-moderator.svg</div></div>
+<div id="svg-convert-square-circle.svg" class="imgbox"><img src="svg-convert-square-circle.svg" class="bg0"/><div class="label">svg-convert-square-circle.svg</div></div>
+<div id="svg-copy-to-clipboard.svg" class="imgbox"><img src="svg-copy-to-clipboard.svg" class="bg0"/><div class="label">svg-copy-to-clipboard.svg</div></div>
+<div id="svg-cortana-intelligence.svg" class="imgbox"><img src="svg-cortana-intelligence.svg" class="bg0"/><div class="label">svg-cortana-intelligence.svg</div></div>
+<div id="svg-cosmos-db.svg" class="imgbox"><img src="svg-cosmos-db.svg" class="bg0"/><div class="label">svg-cosmos-db.svg</div></div>
+<div id="svg-cosmosdb-mono.svg" class="imgbox"><img src="svg-cosmosdb-mono.svg" class="bg0"/><div class="label">svg-cosmosdb-mono.svg</div></div>
+<div id="svg-cost-management-alt.svg" class="imgbox"><img src="svg-cost-management-alt.svg" class="bg0"/><div class="label">svg-cost-management-alt.svg</div></div>
+<div id="svg-cost-management.svg" class="imgbox"><img src="svg-cost-management.svg" class="bg0"/><div class="label">svg-cost-management.svg</div></div>
+<div id="svg-create.svg" class="imgbox"><img src="svg-create.svg" class="bg0"/><div class="label">svg-create.svg</div></div>
+<div id="svg-credit-check.svg" class="imgbox"><img src="svg-credit-check.svg" class="bg0"/><div class="label">svg-credit-check.svg</div></div>
+<div id="svg-curly-brackets-gear.svg" class="imgbox"><img src="svg-curly-brackets-gear.svg" class="bg0"/><div class="label">svg-curly-brackets-gear.svg</div></div>
+<div id="svg-curly-brackets.svg" class="imgbox"><img src="svg-curly-brackets.svg" class="bg0"/><div class="label">svg-curly-brackets.svg</div></div>
+<div id="svg-currency-graph.svg" class="imgbox"><img src="svg-currency-graph.svg" class="bg0"/><div class="label">svg-currency-graph.svg</div></div>
+<div id="svg-curved-arrows.svg" class="imgbox"><img src="svg-curved-arrows.svg" class="bg0"/><div class="label">svg-curved-arrows.svg</div></div>
+<div id="svg-custom-speech-service.svg" class="imgbox"><img src="svg-custom-speech-service.svg" class="bg0"/><div class="label">svg-custom-speech-service.svg</div></div>
+<div id="svg-custom-vision-service.svg" class="imgbox"><img src="svg-custom-vision-service.svg" class="bg0"/><div class="label">svg-custom-vision-service.svg</div></div>
+<div id="svg-dashboard-dark.svg" class="imgbox"><img src="svg-dashboard-dark.svg" class="bg0"/><div class="label">svg-dashboard-dark.svg</div></div>
+<div id="svg-data-catalog.svg" class="imgbox"><img src="svg-data-catalog.svg" class="bg0"/><div class="label">svg-data-catalog.svg</div></div>
+<div id="svg-data-city.svg" class="imgbox"><img src="svg-data-city.svg" class="bg0"/><div class="label">svg-data-city.svg</div></div>
+<div id="svg-data-cloud.svg" class="imgbox"><img src="svg-data-cloud.svg" class="bg0"/><div class="label">svg-data-cloud.svg</div></div>
+<div id="svg-data-factory.svg" class="imgbox"><img src="svg-data-factory.svg" class="bg0"/><div class="label">svg-data-factory.svg</div></div>
+<div id="svg-data-graph.svg" class="imgbox"><img src="svg-data-graph.svg" class="bg0"/><div class="label">svg-data-graph.svg</div></div>
+<div id="svg-data-lake.svg" class="imgbox"><img src="svg-data-lake.svg" class="bg0"/><div class="label">svg-data-lake.svg</div></div>
+<div id="svg-data-sheet.svg" class="imgbox"><img src="svg-data-sheet.svg" class="bg0"/><div class="label">svg-data-sheet.svg</div></div>
+<div id="svg-data-transfers.svg" class="imgbox"><img src="svg-data-transfers.svg" class="bg0"/><div class="label">svg-data-transfers.svg</div></div>
+<div id="svg-data-warehouse-mono.svg" class="imgbox"><img src="svg-data-warehouse-mono.svg" class="bg0"/><div class="label">svg-data-warehouse-mono.svg</div></div>
+<div id="svg-data-warehouse.svg" class="imgbox"><img src="svg-data-warehouse.svg" class="bg0"/><div class="label">svg-data-warehouse.svg</div></div>
+<div id="svg-database-cloud.svg" class="imgbox"><img src="svg-database-cloud.svg" class="bg0"/><div class="label">svg-database-cloud.svg</div></div>
+<div id="svg-database-migration.svg" class="imgbox"><img src="svg-database-migration.svg" class="bg0"/><div class="label">svg-database-migration.svg</div></div>
+<div id="svg-database.svg" class="imgbox"><img src="svg-database.svg" class="bg0"/><div class="label">svg-database.svg</div></div>
+<div id="svg-databox-data-dark.svg" class="imgbox"><img src="svg-databox-data-dark.svg" class="bg0"/><div class="label">svg-databox-data-dark.svg</div></div>
+<div id="svg-databox-data.svg" class="imgbox"><img src="svg-databox-data.svg" class="bg0"/><div class="label">svg-databox-data.svg</div></div>
+<div id="svg-databox-edge.svg" class="imgbox"><img src="svg-databox-edge.svg" class="bg0"/><div class="label">svg-databox-edge.svg</div></div>
+<div id="svg-databox-gateway.svg" class="imgbox"><img src="svg-databox-gateway.svg" class="bg0"/><div class="label">svg-databox-gateway.svg</div></div>
+<div id="svg-databox.svg" class="imgbox"><img src="svg-databox.svg" class="bg0"/><div class="label">svg-databox.svg</div></div>
+<div id="svg-databricks.svg" class="imgbox"><img src="svg-databricks.svg" class="bg0"/><div class="label">svg-databricks.svg</div></div>
+<div id="svg-datacenter.svg" class="imgbox"><img src="svg-datacenter.svg" class="bg0"/><div class="label">svg-datacenter.svg</div></div>
+<div id="svg-ddos-protection-dark.svg" class="imgbox"><img src="svg-ddos-protection-dark.svg" class="bg0"/><div class="label">svg-ddos-protection-dark.svg</div></div>
+<div id="svg-ddos-protection.svg" class="imgbox"><img src="svg-ddos-protection.svg" class="bg0"/><div class="label">svg-ddos-protection.svg</div></div>
+<div id="svg-decentralized-identity.svg" class="imgbox"><img src="svg-decentralized-identity.svg" class="bg0"/><div class="label">svg-decentralized-identity.svg</div></div>
+<div id="svg-decrypt.svg" class="imgbox"><img src="svg-decrypt.svg" class="bg0"/><div class="label">svg-decrypt.svg</div></div>
+<div id="svg-deploy-alternative.svg" class="imgbox"><img src="svg-deploy-alternative.svg" class="bg0"/><div class="label">svg-deploy-alternative.svg</div></div>
+<div id="svg-develop.svg" class="imgbox"><img src="svg-develop.svg" class="bg0"/><div class="label">svg-develop.svg</div></div>
+<div id="svg-device-provisioning.svg" class="imgbox"><img src="svg-device-provisioning.svg" class="bg0"/><div class="label">svg-device-provisioning.svg</div></div>
+<div id="svg-devops-add-packages.svg" class="imgbox"><img src="svg-devops-add-packages.svg" class="bg0"/><div class="label">svg-devops-add-packages.svg</div></div>
+<div id="svg-devops-advanced-workflows.svg" class="imgbox"><img src="svg-devops-advanced-workflows.svg" class="bg0"/><div class="label">svg-devops-advanced-workflows.svg</div></div>
+<div id="svg-devops-capture-data.svg" class="imgbox"><img src="svg-devops-capture-data.svg" class="bg0"/><div class="label">svg-devops-capture-data.svg</div></div>
+<div id="svg-devops-code-search.svg" class="imgbox"><img src="svg-devops-code-search.svg" class="bg0"/><div class="label">svg-devops-code-search.svg</div></div>
+<div id="svg-devops-connected.svg" class="imgbox"><img src="svg-devops-connected.svg" class="bg0"/><div class="label">svg-devops-connected.svg</div></div>
+<div id="svg-devops-containers-kubernetes.svg" class="imgbox"><img src="svg-devops-containers-kubernetes.svg" class="bg0"/><div class="label">svg-devops-containers-kubernetes.svg</div></div>
+<div id="svg-devops-deploy-cloud.svg" class="imgbox"><img src="svg-devops-deploy-cloud.svg" class="bg0"/><div class="label">svg-devops-deploy-cloud.svg</div></div>
+<div id="svg-devops-extensible.svg" class="imgbox"><img src="svg-devops-extensible.svg" class="bg0"/><div class="label">svg-devops-extensible.svg</div></div>
+<div id="svg-devops-git-client.svg" class="imgbox"><img src="svg-devops-git-client.svg" class="bg0"/><div class="label">svg-devops-git-client.svg</div></div>
+<div id="svg-devops-language-platform.svg" class="imgbox"><img src="svg-devops-language-platform.svg" class="bg0"/><div class="label">svg-devops-language-platform.svg</div></div>
+<div id="svg-devops-open-source.svg" class="imgbox"><img src="svg-devops-open-source.svg" class="bg0"/><div class="label">svg-devops-open-source.svg</div></div>
+<div id="svg-devops-package-types.svg" class="imgbox"><img src="svg-devops-package-types.svg" class="bg0"/><div class="label">svg-devops-package-types.svg</div></div>
+<div id="svg-devops-project-insights.svg" class="imgbox"><img src="svg-devops-project-insights.svg" class="bg0"/><div class="label">svg-devops-project-insights.svg</div></div>
+<div id="svg-devops-scrum.svg" class="imgbox"><img src="svg-devops-scrum.svg" class="bg0"/><div class="label">svg-devops-scrum.svg</div></div>
+<div id="svg-devops-share-code.svg" class="imgbox"><img src="svg-devops-share-code.svg" class="bg0"/><div class="label">svg-devops-share-code.svg</div></div>
+<div id="svg-devops-test.svg" class="imgbox"><img src="svg-devops-test.svg" class="bg0"/><div class="label">svg-devops-test.svg</div></div>
+<div id="svg-devops-traceability.svg" class="imgbox"><img src="svg-devops-traceability.svg" class="bg0"/><div class="label">svg-devops-traceability.svg</div></div>
+<div id="svg-devops-web-hooks.svg" class="imgbox"><img src="svg-devops-web-hooks.svg" class="bg0"/><div class="label">svg-devops-web-hooks.svg</div></div>
+<div id="svg-devtest-lab.svg" class="imgbox"><img src="svg-devtest-lab.svg" class="bg0"/><div class="label">svg-devtest-lab.svg</div></div>
+<div id="svg-digital-twins.svg" class="imgbox"><img src="svg-digital-twins.svg" class="bg0"/><div class="label">svg-digital-twins.svg</div></div>
+<div id="svg-discrete-manufacturing.svg" class="imgbox"><img src="svg-discrete-manufacturing.svg" class="bg0"/><div class="label">svg-discrete-manufacturing.svg</div></div>
+<div id="svg-disks-dark.svg" class="imgbox"><img src="svg-disks-dark.svg" class="bg0"/><div class="label">svg-disks-dark.svg</div></div>
+<div id="svg-disks.svg" class="imgbox"><img src="svg-disks.svg" class="bg0"/><div class="label">svg-disks.svg</div></div>
+<div id="svg-distribute.svg" class="imgbox"><img src="svg-distribute.svg" class="bg0"/><div class="label">svg-distribute.svg</div></div>
+<div id="svg-docker.svg" class="imgbox"><img src="svg-docker.svg" class="bg0"/><div class="label">svg-docker.svg</div></div>
+<div id="svg-documentation-guides.svg" class="imgbox"><img src="svg-documentation-guides.svg" class="bg0"/><div class="label">svg-documentation-guides.svg</div></div>
+<div id="svg-documentation-learn-more.svg" class="imgbox"><img src="svg-documentation-learn-more.svg" class="bg0"/><div class="label">svg-documentation-learn-more.svg</div></div>
+<div id="svg-documentation-sheets.svg" class="imgbox"><img src="svg-documentation-sheets.svg" class="bg0"/><div class="label">svg-documentation-sheets.svg</div></div>
+<div id="svg-documentation.svg" class="imgbox"><img src="svg-documentation.svg" class="bg0"/><div class="label">svg-documentation.svg</div></div>
+<div id="svg-documentdb.svg" class="imgbox"><img src="svg-documentdb.svg" class="bg0"/><div class="label">svg-documentdb.svg</div></div>
+<div id="svg-dollar-circle.svg" class="imgbox"><img src="svg-dollar-circle.svg" class="bg0"/><div class="label">svg-dollar-circle.svg</div></div>
+<div id="svg-dot-net-core.svg" class="imgbox"><img src="svg-dot-net-core.svg" class="bg0"/><div class="label">svg-dot-net-core.svg</div></div>
+<div id="svg-dot-net.svg" class="imgbox"><img src="svg-dot-net.svg" class="bg0"/><div class="label">svg-dot-net.svg</div></div>
+<div id="svg-double-take-dr.svg" class="imgbox"><img src="svg-double-take-dr.svg" class="bg0"/><div class="label">svg-double-take-dr.svg</div></div>
+<div id="svg-download-icon.svg" class="imgbox"><img src="svg-download-icon.svg" class="bg0"/><div class="label">svg-download-icon.svg</div></div>
+<div id="svg-download-pdf.svg" class="imgbox"><img src="svg-download-pdf.svg" class="bg0"/><div class="label">svg-download-pdf.svg</div></div>
+<div id="svg-dsvm.svg" class="imgbox"><img src="svg-dsvm.svg" class="bg0"/><div class="label">svg-dsvm.svg</div></div>
+<div id="svg-dumbbell.svg" class="imgbox"><img src="svg-dumbbell.svg" class="bg0"/><div class="label">svg-dumbbell.svg</div></div>
+<div id="svg-dynamics.svg" class="imgbox"><img src="svg-dynamics.svg" class="bg0"/><div class="label">svg-dynamics.svg</div></div>
+<div id="svg-easily-manage.svg" class="imgbox"><img src="svg-easily-manage.svg" class="bg0"/><div class="label">svg-easily-manage.svg</div></div>
+<div id="svg-email.svg" class="imgbox"><img src="svg-email.svg" class="bg0"/><div class="label">svg-email.svg</div></div>
+<div id="svg-emotion-api.svg" class="imgbox"><img src="svg-emotion-api.svg" class="bg0"/><div class="label">svg-emotion-api.svg</div></div>
+<div id="svg-energy-gauge.svg" class="imgbox"><img src="svg-energy-gauge.svg" class="bg0"/><div class="label">svg-energy-gauge.svg</div></div>
+<div id="svg-enterprise.svg" class="imgbox"><img src="svg-enterprise.svg" class="bg0"/><div class="label">svg-enterprise.svg</div></div>
+<div id="svg-evaluate-investment.svg" class="imgbox"><img src="svg-evaluate-investment.svg" class="bg0"/><div class="label">svg-evaluate-investment.svg</div></div>
+<div id="svg-event-grid.svg" class="imgbox"><img src="svg-event-grid.svg" class="bg0"/><div class="label">svg-event-grid.svg</div></div>
+<div id="svg-event-hubs-mono.svg" class="imgbox"><img src="svg-event-hubs-mono.svg" class="bg0"/><div class="label">svg-event-hubs-mono.svg</div></div>
+<div id="svg-event-hubs.svg" class="imgbox"><img src="svg-event-hubs.svg" class="bg0"/><div class="label">svg-event-hubs.svg</div></div>
+<div id="svg-event-tracking.svg" class="imgbox"><img src="svg-event-tracking.svg" class="bg0"/><div class="label">svg-event-tracking.svg</div></div>
+<div id="svg-events-2.svg" class="imgbox"><img src="svg-events-2.svg" class="bg0"/><div class="label">svg-events-2.svg</div></div>
+<div id="svg-events-dark.svg" class="imgbox"><img src="svg-events-dark.svg" class="bg0"/><div class="label">svg-events-dark.svg</div></div>
+<div id="svg-events.svg" class="imgbox"><img src="svg-events.svg" class="bg0"/><div class="label">svg-events.svg</div></div>
+<div id="svg-explore.svg" class="imgbox"><img src="svg-explore.svg" class="bg0"/><div class="label">svg-explore.svg</div></div>
+<div id="svg-expressroute.svg" class="imgbox"><img src="svg-expressroute.svg" class="bg0"/><div class="label">svg-expressroute.svg</div></div>
+<div id="svg-face-api.svg" class="imgbox"><img src="svg-face-api.svg" class="bg0"/><div class="label">svg-face-api.svg</div></div>
+<div id="svg-facebook-square-bw.svg" class="imgbox"><img src="svg-facebook-square-bw.svg" class="bg0"/><div class="label">svg-facebook-square-bw.svg</div></div>
+<div id="svg-facebook.svg" class="imgbox"><img src="svg-facebook.svg" class="bg0"/><div class="label">svg-facebook.svg</div></div>
+<div id="svg-failure.svg" class="imgbox"><img src="svg-failure.svg" class="bg0"/><div class="label">svg-failure.svg</div></div>
+<div id="svg-fast-track.svg" class="imgbox"><img src="svg-fast-track.svg" class="bg0"/><div class="label">svg-fast-track.svg</div></div>
+<div id="svg-feedback-dark.svg" class="imgbox"><img src="svg-feedback-dark.svg" class="bg0"/><div class="label">svg-feedback-dark.svg</div></div>
+<div id="svg-files.svg" class="imgbox"><img src="svg-files.svg" class="bg0"/><div class="label">svg-files.svg</div></div>
+<div id="svg-financial.svg" class="imgbox"><img src="svg-financial.svg" class="bg0"/><div class="label">svg-financial.svg</div></div>
+<div id="svg-flip-calendar.svg" class="imgbox"><img src="svg-flip-calendar.svg" class="bg0"/><div class="label">svg-flip-calendar.svg</div></div>
+<div id="svg-flow-chart.svg" class="imgbox"><img src="svg-flow-chart.svg" class="bg0"/><div class="label">svg-flow-chart.svg</div></div>
+<div id="svg-flow.svg" class="imgbox"><img src="svg-flow.svg" class="bg0"/><div class="label">svg-flow.svg</div></div>
+<div id="svg-four-points-connected.svg" class="imgbox"><img src="svg-four-points-connected.svg" class="bg0"/><div class="label">svg-four-points-connected.svg</div></div>
+<div id="svg-four-servers.svg" class="imgbox"><img src="svg-four-servers.svg" class="bg0"/><div class="label">svg-four-servers.svg</div></div>
+<div id="svg-frequently-asked-questions.svg" class="imgbox"><img src="svg-frequently-asked-questions.svg" class="bg0"/><div class="label">svg-frequently-asked-questions.svg</div></div>
+<div id="svg-frontdoor.svg" class="imgbox"><img src="svg-frontdoor.svg" class="bg0"/><div class="label">svg-frontdoor.svg</div></div>
+<div id="svg-functions.svg" class="imgbox"><img src="svg-functions.svg" class="bg0"/><div class="label">svg-functions.svg</div></div>
+<div id="svg-gaming.svg" class="imgbox"><img src="svg-gaming.svg" class="bg0"/><div class="label">svg-gaming.svg</div></div>
+<div id="svg-gear-check-blue.svg" class="imgbox"><img src="svg-gear-check-blue.svg" class="bg0"/><div class="label">svg-gear-check-blue.svg</div></div>
+<div id="svg-gear-check.svg" class="imgbox"><img src="svg-gear-check.svg" class="bg0"/><div class="label">svg-gear-check.svg</div></div>
+<div id="svg-gear-turning.svg" class="imgbox"><img src="svg-gear-turning.svg" class="bg0"/><div class="label">svg-gear-turning.svg</div></div>
+<div id="svg-gears-blue.svg" class="imgbox"><img src="svg-gears-blue.svg" class="bg0"/><div class="label">svg-gears-blue.svg</div></div>
+<div id="svg-gears.svg" class="imgbox"><img src="svg-gears.svg" class="bg0"/><div class="label">svg-gears.svg</div></div>
+<div id="svg-genomics.svg" class="imgbox"><img src="svg-genomics.svg" class="bg0"/><div class="label">svg-genomics.svg</div></div>
+<div id="svg-geocoding.svg" class="imgbox"><img src="svg-geocoding.svg" class="bg0"/><div class="label">svg-geocoding.svg</div></div>
+<div id="svg-geographic-coverage-mono.svg" class="imgbox"><img src="svg-geographic-coverage-mono.svg" class="bg0"/><div class="label">svg-geographic-coverage-mono.svg</div></div>
+<div id="svg-gesture.svg" class="imgbox"><img src="svg-gesture.svg" class="bg0"/><div class="label">svg-gesture.svg</div></div>
+<div id="svg-get-started.svg" class="imgbox"><img src="svg-get-started.svg" class="bg0"/><div class="label">svg-get-started.svg</div></div>
+<div id="svg-github-icon.svg" class="imgbox"><img src="svg-github-icon.svg" class="bg0"/><div class="label">svg-github-icon.svg</div></div>
+<div id="svg-global-increase.svg" class="imgbox"><img src="svg-global-increase.svg" class="bg0"/><div class="label">svg-global-increase.svg</div></div>
+<div id="svg-globe-check.svg" class="imgbox"><img src="svg-globe-check.svg" class="bg0"/><div class="label">svg-globe-check.svg</div></div>
+<div id="svg-globe-wrapped.svg" class="imgbox"><img src="svg-globe-wrapped.svg" class="bg0"/><div class="label">svg-globe-wrapped.svg</div></div>
+<div id="svg-globe.svg" class="imgbox"><img src="svg-globe.svg" class="bg0"/><div class="label">svg-globe.svg</div></div>
+<div id="svg-go-logo.svg" class="imgbox"><img src="svg-go-logo.svg" class="bg0"/><div class="label">svg-go-logo.svg</div></div>
+<div id="svg-governance-dark.svg" class="imgbox"><img src="svg-governance-dark.svg" class="bg0"/><div class="label">svg-governance-dark.svg</div></div>
+<div id="svg-governance.svg" class="imgbox"><img src="svg-governance.svg" class="bg0"/><div class="label">svg-governance.svg</div></div>
+<div id="svg-government-white-black.svg" class="imgbox"><img src="svg-government-white-black.svg" class="bg0"/><div class="label">svg-government-white-black.svg</div></div>
+<div id="svg-government.svg" class="imgbox"><img src="svg-government.svg" class="bg0"/><div class="label">svg-government.svg</div></div>
+<div id="svg-graduation-cap.svg" class="imgbox"><img src="svg-graduation-cap.svg" class="bg0"/><div class="label">svg-graduation-cap.svg</div></div>
+<div id="svg-graph-visualization.svg" class="imgbox"><img src="svg-graph-visualization.svg" class="bg0"/><div class="label">svg-graph-visualization.svg</div></div>
+<div id="svg-graph.svg" class="imgbox"><img src="svg-graph.svg" class="bg0"/><div class="label">svg-graph.svg</div></div>
+<div id="svg-grey-square-bullet.svg" class="imgbox"><img src="svg-grey-square-bullet.svg" class="bg0"/><div class="label">svg-grey-square-bullet.svg</div></div>
+<div id="svg-group-of-three.svg" class="imgbox"><img src="svg-group-of-three.svg" class="bg0"/><div class="label">svg-group-of-three.svg</div></div>
+<div id="svg-growth-curve-circles.svg" class="imgbox"><img src="svg-growth-curve-circles.svg" class="bg0"/><div class="label">svg-growth-curve-circles.svg</div></div>
+<div id="svg-hdinsight-dark.svg" class="imgbox"><img src="svg-hdinsight-dark.svg" class="bg0"/><div class="label">svg-hdinsight-dark.svg</div></div>
+<div id="svg-hdinsight.svg" class="imgbox"><img src="svg-hdinsight.svg" class="bg0"/><div class="label">svg-hdinsight.svg</div></div>
+<div id="svg-health-circle.svg" class="imgbox"><img src="svg-health-circle.svg" class="bg0"/><div class="label">svg-health-circle.svg</div></div>
+<div id="svg-health-error.svg" class="imgbox"><img src="svg-health-error.svg" class="bg0"/><div class="label">svg-health-error.svg</div></div>
+<div id="svg-health-information.svg" class="imgbox"><img src="svg-health-information.svg" class="bg0"/><div class="label">svg-health-information.svg</div></div>
+<div id="svg-health-warning.svg" class="imgbox"><img src="svg-health-warning.svg" class="bg0"/><div class="label">svg-health-warning.svg</div></div>
+<div id="svg-healthcare.svg" class="imgbox"><img src="svg-healthcare.svg" class="bg0"/><div class="label">svg-healthcare.svg</div></div>
+<div id="svg-heart.svg" class="imgbox"><img src="svg-heart.svg" class="bg0"/><div class="label">svg-heart.svg</div></div>
+<div id="svg-hockeyapp.svg" class="imgbox"><img src="svg-hockeyapp.svg" class="bg0"/><div class="label">svg-hockeyapp.svg</div></div>
+<div id="svg-home.svg" class="imgbox"><img src="svg-home.svg" class="bg0"/><div class="label">svg-home.svg</div></div>
+<div id="svg-hybrid-cloud.svg" class="imgbox"><img src="svg-hybrid-cloud.svg" class="bg0"/><div class="label">svg-hybrid-cloud.svg</div></div>
+<div id="svg-hybrid-deployment.svg" class="imgbox"><img src="svg-hybrid-deployment.svg" class="bg0"/><div class="label">svg-hybrid-deployment.svg</div></div>
+<div id="svg-hybrid-workloads.svg" class="imgbox"><img src="svg-hybrid-workloads.svg" class="bg0"/><div class="label">svg-hybrid-workloads.svg</div></div>
+<div id="svg-iaas.svg" class="imgbox"><img src="svg-iaas.svg" class="bg0"/><div class="label">svg-iaas.svg</div></div>
+<div id="svg-identity.svg" class="imgbox"><img src="svg-identity.svg" class="bg0"/><div class="label">svg-identity.svg</div></div>
+<div id="svg-immediate.svg" class="imgbox"><img src="svg-immediate.svg" class="bg0"/><div class="label">svg-immediate.svg</div></div>
+<div id="svg-import-export.svg" class="imgbox"><img src="svg-import-export.svg" class="bg0"/><div class="label">svg-import-export.svg</div></div>
+<div id="svg-increase.svg" class="imgbox"><img src="svg-increase.svg" class="bg0"/><div class="label">svg-increase.svg</div></div>
+<div id="svg-infinity.svg" class="imgbox"><img src="svg-infinity.svg" class="bg0"/><div class="label">svg-infinity.svg</div></div>
+<div id="svg-innovative-tools.svg" class="imgbox"><img src="svg-innovative-tools.svg" class="bg0"/><div class="label">svg-innovative-tools.svg</div></div>
+<div id="svg-input.svg" class="imgbox"><img src="svg-input.svg" class="bg0"/><div class="label">svg-input.svg</div></div>
+<div id="svg-insights.svg" class="imgbox"><img src="svg-insights.svg" class="bg0"/><div class="label">svg-insights.svg</div></div>
+<div id="svg-iot-blue.svg" class="imgbox"><img src="svg-iot-blue.svg" class="bg0"/><div class="label">svg-iot-blue.svg</div></div>
+<div id="svg-iot-central-alt.svg" class="imgbox"><img src="svg-iot-central-alt.svg" class="bg0"/><div class="label">svg-iot-central-alt.svg</div></div>
+<div id="svg-iot-central.svg" class="imgbox"><img src="svg-iot-central.svg" class="bg0"/><div class="label">svg-iot-central.svg</div></div>
+<div id="svg-iot-edge-alt.svg" class="imgbox"><img src="svg-iot-edge-alt.svg" class="bg0"/><div class="label">svg-iot-edge-alt.svg</div></div>
+<div id="svg-iot-edge.svg" class="imgbox"><img src="svg-iot-edge.svg" class="bg0"/><div class="label">svg-iot-edge.svg</div></div>
+<div id="svg-iot-hub-alt.svg" class="imgbox"><img src="svg-iot-hub-alt.svg" class="bg0"/><div class="label">svg-iot-hub-alt.svg</div></div>
+<div id="svg-iot-hub-large.svg" class="imgbox"><img src="svg-iot-hub-large.svg" class="bg0"/><div class="label">svg-iot-hub-large.svg</div></div>
+<div id="svg-iot-hub-plain.svg" class="imgbox"><img src="svg-iot-hub-plain.svg" class="bg0"/><div class="label">svg-iot-hub-plain.svg</div></div>
+<div id="svg-iot-hub.svg" class="imgbox"><img src="svg-iot-hub.svg" class="bg0"/><div class="label">svg-iot-hub.svg</div></div>
+<div id="svg-iot-solution-accelerators.svg" class="imgbox"><img src="svg-iot-solution-accelerators.svg" class="bg0"/><div class="label">svg-iot-solution-accelerators.svg</div></div>
+<div id="svg-ip-addresses.svg" class="imgbox"><img src="svg-ip-addresses.svg" class="bg0"/><div class="label">svg-ip-addresses.svg</div></div>
+<div id="svg-ip-to-location.svg" class="imgbox"><img src="svg-ip-to-location.svg" class="bg0"/><div class="label">svg-ip-to-location.svg</div></div>
+<div id="svg-java.svg" class="imgbox"><img src="svg-java.svg" class="bg0"/><div class="label">svg-java.svg</div></div>
+<div id="svg-jenkins.svg" class="imgbox"><img src="svg-jenkins.svg" class="bg0"/><div class="label">svg-jenkins.svg</div></div>
+<div id="svg-jupytor-notebook.svg" class="imgbox"><img src="svg-jupytor-notebook.svg" class="bg0"/><div class="label">svg-jupytor-notebook.svg</div></div>
+<div id="svg-key-right-arrows.svg" class="imgbox"><img src="svg-key-right-arrows.svg" class="bg0"/><div class="label">svg-key-right-arrows.svg</div></div>
+<div id="svg-key-vault.svg" class="imgbox"><img src="svg-key-vault.svg" class="bg0"/><div class="label">svg-key-vault.svg</div></div>
+<div id="svg-key.svg" class="imgbox"><img src="svg-key.svg" class="bg0"/><div class="label">svg-key.svg</div></div>
+<div id="svg-knowledge-category-icon.svg" class="imgbox"><img src="svg-knowledge-category-icon.svg" class="bg0"/><div class="label">svg-knowledge-category-icon.svg</div></div>
+<div id="svg-knowledge-category.svg" class="imgbox"><img src="svg-knowledge-category.svg" class="bg0"/><div class="label">svg-knowledge-category.svg</div></div>
+<div id="svg-knowledge-center.svg" class="imgbox"><img src="svg-knowledge-center.svg" class="bg0"/><div class="label">svg-knowledge-center.svg</div></div>
+<div id="svg-kubernetes-service.svg" class="imgbox"><img src="svg-kubernetes-service.svg" class="bg0"/><div class="label">svg-kubernetes-service.svg</div></div>
+<div id="svg-kubernetes.svg" class="imgbox"><img src="svg-kubernetes.svg" class="bg0"/><div class="label">svg-kubernetes.svg</div></div>
+<div id="svg-lab-services.svg" class="imgbox"><img src="svg-lab-services.svg" class="bg0"/><div class="label">svg-lab-services.svg</div></div>
+<div id="svg-lab.svg" class="imgbox"><img src="svg-lab.svg" class="bg0"/><div class="label">svg-lab.svg</div></div>
+<div id="svg-labs-icon.svg" class="imgbox"><img src="svg-labs-icon.svg" class="bg0"/><div class="label">svg-labs-icon.svg</div></div>
+<div id="svg-language-category-icon.svg" class="imgbox"><img src="svg-language-category-icon.svg" class="bg0"/><div class="label">svg-language-category-icon.svg</div></div>
+<div id="svg-language-category.svg" class="imgbox"><img src="svg-language-category.svg" class="bg0"/><div class="label">svg-language-category.svg</div></div>
+<div id="svg-language-understanding-intelligent-services-icon.svg" class="imgbox"><img src="svg-language-understanding-intelligent-services-icon.svg" class="bg0"/><div class="label">svg-language-understanding-intelligent-services-icon.svg</div></div>
+<div id="svg-language-understanding-intelligent-services.svg" class="imgbox"><img src="svg-language-understanding-intelligent-services.svg" class="bg0"/><div class="label">svg-language-understanding-intelligent-services.svg</div></div>
+<div id="svg-laptop-with-clock.svg" class="imgbox"><img src="svg-laptop-with-clock.svg" class="bg0"/><div class="label">svg-laptop-with-clock.svg</div></div>
+<div id="svg-laptop.svg" class="imgbox"><img src="svg-laptop.svg" class="bg0"/><div class="label">svg-laptop.svg</div></div>
+<div id="svg-learn-about-billing.svg" class="imgbox"><img src="svg-learn-about-billing.svg" class="bg0"/><div class="label">svg-learn-about-billing.svg</div></div>
+<div id="svg-learn.svg" class="imgbox"><img src="svg-learn.svg" class="bg0"/><div class="label">svg-learn.svg</div></div>
+<div id="svg-left-arrow.svg" class="imgbox"><img src="svg-left-arrow.svg" class="bg0"/><div class="label">svg-left-arrow.svg</div></div>
+<div id="svg-lightbulb-blue.svg" class="imgbox"><img src="svg-lightbulb-blue.svg" class="bg0"/><div class="label">svg-lightbulb-blue.svg</div></div>
+<div id="svg-lightbulb-grey.svg" class="imgbox"><img src="svg-lightbulb-grey.svg" class="bg0"/><div class="label">svg-lightbulb-grey.svg</div></div>
+<div id="svg-lightning.svg" class="imgbox"><img src="svg-lightning.svg" class="bg0"/><div class="label">svg-lightning.svg</div></div>
+<div id="svg-line.svg" class="imgbox"><img src="svg-line.svg" class="bg0"/><div class="label">svg-line.svg</div></div>
+<div id="svg-linguistic-analysis-api.svg" class="imgbox"><img src="svg-linguistic-analysis-api.svg" class="bg0"/><div class="label">svg-linguistic-analysis-api.svg</div></div>
+<div id="svg-linkedin.svg" class="imgbox"><img src="svg-linkedin.svg" class="bg0"/><div class="label">svg-linkedin.svg</div></div>
+<div id="svg-linux-web.svg" class="imgbox"><img src="svg-linux-web.svg" class="bg0"/><div class="label">svg-linux-web.svg</div></div>
+<div id="svg-linux.svg" class="imgbox"><img src="svg-linux.svg" class="bg0"/><div class="label">svg-linux.svg</div></div>
+<div id="svg-live.svg" class="imgbox"><img src="svg-live.svg" class="bg0"/><div class="label">svg-live.svg</div></div>
+<div id="svg-load-balancer.svg" class="imgbox"><img src="svg-load-balancer.svg" class="bg0"/><div class="label">svg-load-balancer.svg</div></div>
+<div id="svg-local-insights.svg" class="imgbox"><img src="svg-local-insights.svg" class="bg0"/><div class="label">svg-local-insights.svg</div></div>
+<div id="svg-location-services-code.svg" class="imgbox"><img src="svg-location-services-code.svg" class="bg0"/><div class="label">svg-location-services-code.svg</div></div>
+<div id="svg-location-services-geo.svg" class="imgbox"><img src="svg-location-services-geo.svg" class="bg0"/><div class="label">svg-location-services-geo.svg</div></div>
+<div id="svg-location-services-globe-blue.svg" class="imgbox"><img src="svg-location-services-globe-blue.svg" class="bg0"/><div class="label">svg-location-services-globe-blue.svg</div></div>
+<div id="svg-location-services-globe.svg" class="imgbox"><img src="svg-location-services-globe.svg" class="bg0"/><div class="label">svg-location-services-globe.svg</div></div>
+<div id="svg-location-services-maps.svg" class="imgbox"><img src="svg-location-services-maps.svg" class="bg0"/><div class="label">svg-location-services-maps.svg</div></div>
+<div id="svg-location-services-routing.svg" class="imgbox"><img src="svg-location-services-routing.svg" class="bg0"/><div class="label">svg-location-services-routing.svg</div></div>
+<div id="svg-location-services-search.svg" class="imgbox"><img src="svg-location-services-search.svg" class="bg0"/><div class="label">svg-location-services-search.svg</div></div>
+<div id="svg-location-services-timezone.svg" class="imgbox"><img src="svg-location-services-timezone.svg" class="bg0"/><div class="label">svg-location-services-timezone.svg</div></div>
+<div id="svg-location-services-traffic.svg" class="imgbox"><img src="svg-location-services-traffic.svg" class="bg0"/><div class="label">svg-location-services-traffic.svg</div></div>
+<div id="svg-location.svg" class="imgbox"><img src="svg-location.svg" class="bg0"/><div class="label">svg-location.svg</div></div>
+<div id="svg-lock-blue.svg" class="imgbox"><img src="svg-lock-blue.svg" class="bg0"/><div class="label">svg-lock-blue.svg</div></div>
+<div id="svg-lock.svg" class="imgbox"><img src="svg-lock.svg" class="bg0"/><div class="label">svg-lock.svg</div></div>
+<div id="svg-log-analytics.svg" class="imgbox"><img src="svg-log-analytics.svg" class="bg0"/><div class="label">svg-log-analytics.svg</div></div>
+<div id="svg-machine-learning-mono.svg" class="imgbox"><img src="svg-machine-learning-mono.svg" class="bg0"/><div class="label">svg-machine-learning-mono.svg</div></div>
+<div id="svg-machine-learning-server.svg" class="imgbox"><img src="svg-machine-learning-server.svg" class="bg0"/><div class="label">svg-machine-learning-server.svg</div></div>
+<div id="svg-machine-learning-studio.svg" class="imgbox"><img src="svg-machine-learning-studio.svg" class="bg0"/><div class="label">svg-machine-learning-studio.svg</div></div>
+<div id="svg-machine-learning-workbench.svg" class="imgbox"><img src="svg-machine-learning-workbench.svg" class="bg0"/><div class="label">svg-machine-learning-workbench.svg</div></div>
+<div id="svg-magnifying-glass.svg" class="imgbox"><img src="svg-magnifying-glass.svg" class="bg0"/><div class="label">svg-magnifying-glass.svg</div></div>
+<div id="svg-manage.svg" class="imgbox"><img src="svg-manage.svg" class="bg0"/><div class="label">svg-manage.svg</div></div>
+<div id="svg-managed-disks.svg" class="imgbox"><img src="svg-managed-disks.svg" class="bg0"/><div class="label">svg-managed-disks.svg</div></div>
+<div id="svg-managed-service.svg" class="imgbox"><img src="svg-managed-service.svg" class="bg0"/><div class="label">svg-managed-service.svg</div></div>
+<div id="svg-management-groups-alt.svg" class="imgbox"><img src="svg-management-groups-alt.svg" class="bg0"/><div class="label">svg-management-groups-alt.svg</div></div>
+<div id="svg-management-groups.svg" class="imgbox"><img src="svg-management-groups.svg" class="bg0"/><div class="label">svg-management-groups.svg</div></div>
+<div id="svg-management-storage.svg" class="imgbox"><img src="svg-management-storage.svg" class="bg0"/><div class="label">svg-management-storage.svg</div></div>
+<div id="svg-maps.svg" class="imgbox"><img src="svg-maps.svg" class="bg0"/><div class="label">svg-maps.svg</div></div>
+<div id="svg-mariadb.svg" class="imgbox"><img src="svg-mariadb.svg" class="bg0"/><div class="label">svg-mariadb.svg</div></div>
+<div id="svg-markup-blue.svg" class="imgbox"><img src="svg-markup-blue.svg" class="bg0"/><div class="label">svg-markup-blue.svg</div></div>
+<div id="svg-markup-grey.svg" class="imgbox"><img src="svg-markup-grey.svg" class="bg0"/><div class="label">svg-markup-grey.svg</div></div>
+<div id="svg-markup.svg" class="imgbox"><img src="svg-markup.svg" class="bg0"/><div class="label">svg-markup.svg</div></div>
+<div id="svg-media-encoding.svg" class="imgbox"><img src="svg-media-encoding.svg" class="bg0"/><div class="label">svg-media-encoding.svg</div></div>
+<div id="svg-media-entertainment.svg" class="imgbox"><img src="svg-media-entertainment.svg" class="bg0"/><div class="label">svg-media-entertainment.svg</div></div>
+<div id="svg-media-indexer.svg" class="imgbox"><img src="svg-media-indexer.svg" class="bg0"/><div class="label">svg-media-indexer.svg</div></div>
+<div id="svg-media-ondemand.svg" class="imgbox"><img src="svg-media-ondemand.svg" class="bg0"/><div class="label">svg-media-ondemand.svg</div></div>
+<div id="svg-media-player.svg" class="imgbox"><img src="svg-media-player.svg" class="bg0"/><div class="label">svg-media-player.svg</div></div>
+<div id="svg-media-protection.svg" class="imgbox"><img src="svg-media-protection.svg" class="bg0"/><div class="label">svg-media-protection.svg</div></div>
+<div id="svg-media-services.svg" class="imgbox"><img src="svg-media-services.svg" class="bg0"/><div class="label">svg-media-services.svg</div></div>
+<div id="svg-megaphone.svg" class="imgbox"><img src="svg-megaphone.svg" class="bg0"/><div class="label">svg-megaphone.svg</div></div>
+<div id="svg-message.svg" class="imgbox"><img src="svg-message.svg" class="bg0"/><div class="label">svg-message.svg</div></div>
+<div id="svg-meter.svg" class="imgbox"><img src="svg-meter.svg" class="bg0"/><div class="label">svg-meter.svg</div></div>
+<div id="svg-microservice.svg" class="imgbox"><img src="svg-microservice.svg" class="bg0"/><div class="label">svg-microservice.svg</div></div>
+<div id="svg-microsoft-authenticator.svg" class="imgbox"><img src="svg-microsoft-authenticator.svg" class="bg0"/><div class="label">svg-microsoft-authenticator.svg</div></div>
+<div id="svg-microsoft-azure.svg" class="imgbox"><img src="svg-microsoft-azure.svg" class="bg0"/><div class="label">svg-microsoft-azure.svg</div></div>
+<div id="svg-microsoft.svg" class="imgbox"><img src="svg-microsoft.svg" class="bg0"/><div class="label">svg-microsoft.svg</div></div>
+<div id="svg-migrate-blocks.svg" class="imgbox"><img src="svg-migrate-blocks.svg" class="bg0"/><div class="label">svg-migrate-blocks.svg</div></div>
+<div id="svg-migrate.svg" class="imgbox"><img src="svg-migrate.svg" class="bg0"/><div class="label">svg-migrate.svg</div></div>
+<div id="svg-migration.svg" class="imgbox"><img src="svg-migration.svg" class="bg0"/><div class="label">svg-migration.svg</div></div>
+<div id="svg-minus-icon.svg" class="imgbox"><img src="svg-minus-icon.svg" class="bg0"/><div class="label">svg-minus-icon.svg</div></div>
+<div id="svg-mongo-db.svg" class="imgbox"><img src="svg-mongo-db.svg" class="bg0"/><div class="label">svg-mongo-db.svg</div></div>
+<div id="svg-monitor-chat.svg" class="imgbox"><img src="svg-monitor-chat.svg" class="bg0"/><div class="label">svg-monitor-chat.svg</div></div>
+<div id="svg-monitor.svg" class="imgbox"><img src="svg-monitor.svg" class="bg0"/><div class="label">svg-monitor.svg</div></div>
+<div id="svg-msazure-logo.svg" class="imgbox"><img src="svg-msazure-logo.svg" class="bg0"/><div class="label">svg-msazure-logo.svg</div></div>
+<div id="svg-msoft.svg" class="imgbox"><img src="svg-msoft.svg" class="bg0"/><div class="label">svg-msoft.svg</div></div>
+<div id="svg-multi-factor-authentication.svg" class="imgbox"><img src="svg-multi-factor-authentication.svg" class="bg0"/><div class="label">svg-multi-factor-authentication.svg</div></div>
+<div id="svg-mutability.svg" class="imgbox"><img src="svg-mutability.svg" class="bg0"/><div class="label">svg-mutability.svg</div></div>
+<div id="svg-mysql.svg" class="imgbox"><img src="svg-mysql.svg" class="bg0"/><div class="label">svg-mysql.svg</div></div>
+<div id="svg-nav-featured.svg" class="imgbox"><img src="svg-nav-featured.svg" class="bg0"/><div class="label">svg-nav-featured.svg</div></div>
+<div id="svg-nav-phone.svg" class="imgbox"><img src="svg-nav-phone.svg" class="bg0"/><div class="label">svg-nav-phone.svg</div></div>
+<div id="svg-nav-search-close.svg" class="imgbox"><img src="svg-nav-search-close.svg" class="bg0"/><div class="label">svg-nav-search-close.svg</div></div>
+<div id="svg-nav-search.svg" class="imgbox"><img src="svg-nav-search.svg" class="bg0"/><div class="label">svg-nav-search.svg</div></div>
+<div id="svg-nested-circles-dots.svg" class="imgbox"><img src="svg-nested-circles-dots.svg" class="bg0"/><div class="label">svg-nested-circles-dots.svg</div></div>
+<div id="svg-netapp-color.svg" class="imgbox"><img src="svg-netapp-color.svg" class="bg0"/><div class="label">svg-netapp-color.svg</div></div>
+<div id="svg-netapp.svg" class="imgbox"><img src="svg-netapp.svg" class="bg0"/><div class="label">svg-netapp.svg</div></div>
+<div id="svg-network-watcher.svg" class="imgbox"><img src="svg-network-watcher.svg" class="bg0"/><div class="label">svg-network-watcher.svg</div></div>
+<div id="svg-newsletter.svg" class="imgbox"><img src="svg-newsletter.svg" class="bg0"/><div class="label">svg-newsletter.svg</div></div>
+<div id="svg-newspaper.svg" class="imgbox"><img src="svg-newspaper.svg" class="bg0"/><div class="label">svg-newspaper.svg</div></div>
+<div id="svg-node-js.svg" class="imgbox"><img src="svg-node-js.svg" class="bg0"/><div class="label">svg-node-js.svg</div></div>
+<div id="svg-nodes-blue.svg" class="imgbox"><img src="svg-nodes-blue.svg" class="bg0"/><div class="label">svg-nodes-blue.svg</div></div>
+<div id="svg-nodes-chain.svg" class="imgbox"><img src="svg-nodes-chain.svg" class="bg0"/><div class="label">svg-nodes-chain.svg</div></div>
+<div id="svg-nodes-grey.svg" class="imgbox"><img src="svg-nodes-grey.svg" class="bg0"/><div class="label">svg-nodes-grey.svg</div></div>
+<div id="svg-nodes.svg" class="imgbox"><img src="svg-nodes.svg" class="bg0"/><div class="label">svg-nodes.svg</div></div>
+<div id="svg-notebook-pencil.svg" class="imgbox"><img src="svg-notebook-pencil.svg" class="bg0"/><div class="label">svg-notebook-pencil.svg</div></div>
+<div id="svg-notification-hubs.svg" class="imgbox"><img src="svg-notification-hubs.svg" class="bg0"/><div class="label">svg-notification-hubs.svg</div></div>
+<div id="svg-notification.svg" class="imgbox"><img src="svg-notification.svg" class="bg0"/><div class="label">svg-notification.svg</div></div>
+<div id="svg-offline-sync.svg" class="imgbox"><img src="svg-offline-sync.svg" class="bg0"/><div class="label">svg-offline-sync.svg</div></div>
+<div id="svg-only-pay.svg" class="imgbox"><img src="svg-only-pay.svg" class="bg0"/><div class="label">svg-only-pay.svg</div></div>
+<div id="svg-onpremise.svg" class="imgbox"><img src="svg-onpremise.svg" class="bg0"/><div class="label">svg-onpremise.svg</div></div>
+<div id="svg-open-folder.svg" class="imgbox"><img src="svg-open-folder.svg" class="bg0"/><div class="label">svg-open-folder.svg</div></div>
+<div id="svg-operation-management.svg" class="imgbox"><img src="svg-operation-management.svg" class="bg0"/><div class="label">svg-operation-management.svg</div></div>
+<div id="svg-paas-mono.svg" class="imgbox"><img src="svg-paas-mono.svg" class="bg0"/><div class="label">svg-paas-mono.svg</div></div>
+<div id="svg-package.svg" class="imgbox"><img src="svg-package.svg" class="bg0"/><div class="label">svg-package.svg</div></div>
+<div id="svg-partner.svg" class="imgbox"><img src="svg-partner.svg" class="bg0"/><div class="label">svg-partner.svg</div></div>
+<div id="svg-partners-people.svg" class="imgbox"><img src="svg-partners-people.svg" class="bg0"/><div class="label">svg-partners-people.svg</div></div>
+<div id="svg-payg-icon.svg" class="imgbox"><img src="svg-payg-icon.svg" class="bg0"/><div class="label">svg-payg-icon.svg</div></div>
+<div id="svg-pencil.svg" class="imgbox"><img src="svg-pencil.svg" class="bg0"/><div class="label">svg-pencil.svg</div></div>
+<div id="svg-people.svg" class="imgbox"><img src="svg-people.svg" class="bg0"/><div class="label">svg-people.svg</div></div>
+<div id="svg-piggy-bank.svg" class="imgbox"><img src="svg-piggy-bank.svg" class="bg0"/><div class="label">svg-piggy-bank.svg</div></div>
+<div id="svg-play-square.svg" class="imgbox"><img src="svg-play-square.svg" class="bg0"/><div class="label">svg-play-square.svg</div></div>
+<div id="svg-play.svg" class="imgbox"><img src="svg-play.svg" class="bg0"/><div class="label">svg-play.svg</div></div>
+<div id="svg-plus-icon.svg" class="imgbox"><img src="svg-plus-icon.svg" class="bg0"/><div class="label">svg-plus-icon.svg</div></div>
+<div id="svg-portal-alt.svg" class="imgbox"><img src="svg-portal-alt.svg" class="bg0"/><div class="label">svg-portal-alt.svg</div></div>
+<div id="svg-portal.svg" class="imgbox"><img src="svg-portal.svg" class="bg0"/><div class="label">svg-portal.svg</div></div>
+<div id="svg-postgresql.svg" class="imgbox"><img src="svg-postgresql.svg" class="bg0"/><div class="label">svg-postgresql.svg</div></div>
+<div id="svg-power-bi.svg" class="imgbox"><img src="svg-power-bi.svg" class="bg0"/><div class="label">svg-power-bi.svg</div></div>
+<div id="svg-power-meter.svg" class="imgbox"><img src="svg-power-meter.svg" class="bg0"/><div class="label">svg-power-meter.svg</div></div>
+<div id="svg-powerapps.svg" class="imgbox"><img src="svg-powerapps.svg" class="bg0"/><div class="label">svg-powerapps.svg</div></div>
+<div id="svg-prebuilt-machine.svg" class="imgbox"><img src="svg-prebuilt-machine.svg" class="bg0"/><div class="label">svg-prebuilt-machine.svg</div></div>
+<div id="svg-premium-storage-alt.svg" class="imgbox"><img src="svg-premium-storage-alt.svg" class="bg0"/><div class="label">svg-premium-storage-alt.svg</div></div>
+<div id="svg-preview-monitoring.svg" class="imgbox"><img src="svg-preview-monitoring.svg" class="bg0"/><div class="label">svg-preview-monitoring.svg</div></div>
+<div id="svg-private-cloud.svg" class="imgbox"><img src="svg-private-cloud.svg" class="bg0"/><div class="label">svg-private-cloud.svg</div></div>
+<div id="svg-product-details.svg" class="imgbox"><img src="svg-product-details.svg" class="bg0"/><div class="label">svg-product-details.svg</div></div>
+<div id="svg-product-guide.svg" class="imgbox"><img src="svg-product-guide.svg" class="bg0"/><div class="label">svg-product-guide.svg</div></div>
+<div id="svg-productivity-graph.svg" class="imgbox"><img src="svg-productivity-graph.svg" class="bg0"/><div class="label">svg-productivity-graph.svg</div></div>
+<div id="svg-provider-partner.svg" class="imgbox"><img src="svg-provider-partner.svg" class="bg0"/><div class="label">svg-provider-partner.svg</div></div>
+<div id="svg-public-cloud.svg" class="imgbox"><img src="svg-public-cloud.svg" class="bg0"/><div class="label">svg-public-cloud.svg</div></div>
+<div id="svg-python.svg" class="imgbox"><img src="svg-python.svg" class="bg0"/><div class="label">svg-python.svg</div></div>
+<div id="svg-qna-maker-icon.svg" class="imgbox"><img src="svg-qna-maker-icon.svg" class="bg0"/><div class="label">svg-qna-maker-icon.svg</div></div>
+<div id="svg-qna-maker.svg" class="imgbox"><img src="svg-qna-maker.svg" class="bg0"/><div class="label">svg-qna-maker.svg</div></div>
+<div id="svg-question-mark-grey.svg" class="imgbox"><img src="svg-question-mark-grey.svg" class="bg0"/><div class="label">svg-question-mark-grey.svg</div></div>
+<div id="svg-queue-storage.svg" class="imgbox"><img src="svg-queue-storage.svg" class="bg0"/><div class="label">svg-queue-storage.svg</div></div>
+<div id="svg-quick.svg" class="imgbox"><img src="svg-quick.svg" class="bg0"/><div class="label">svg-quick.svg</div></div>
+<div id="svg-random-icons.svg" class="imgbox"><img src="svg-random-icons.svg" class="bg0"/><div class="label">svg-random-icons.svg</div></div>
+<div id="svg-rbac-built-in-roles.svg" class="imgbox"><img src="svg-rbac-built-in-roles.svg" class="bg0"/><div class="label">svg-rbac-built-in-roles.svg</div></div>
+<div id="svg-recommendations.svg" class="imgbox"><img src="svg-recommendations.svg" class="bg0"/><div class="label">svg-recommendations.svg</div></div>
+<div id="svg-regional-availability-icon.svg" class="imgbox"><img src="svg-regional-availability-icon.svg" class="bg0"/><div class="label">svg-regional-availability-icon.svg</div></div>
+<div id="svg-related-sla.svg" class="imgbox"><img src="svg-related-sla.svg" class="bg0"/><div class="label">svg-related-sla.svg</div></div>
+<div id="svg-replica.svg" class="imgbox"><img src="svg-replica.svg" class="bg0"/><div class="label">svg-replica.svg</div></div>
+<div id="svg-reporting.svg" class="imgbox"><img src="svg-reporting.svg" class="bg0"/><div class="label">svg-reporting.svg</div></div>
+<div id="svg-research.svg" class="imgbox"><img src="svg-research.svg" class="bg0"/><div class="label">svg-research.svg</div></div>
+<div id="svg-resell-azure.svg" class="imgbox"><img src="svg-resell-azure.svg" class="bg0"/><div class="label">svg-resell-azure.svg</div></div>
+<div id="svg-resource-graph-dark.svg" class="imgbox"><img src="svg-resource-graph-dark.svg" class="bg0"/><div class="label">svg-resource-graph-dark.svg</div></div>
+<div id="svg-resource-graph.svg" class="imgbox"><img src="svg-resource-graph.svg" class="bg0"/><div class="label">svg-resource-graph.svg</div></div>
+<div id="svg-resource-group.svg" class="imgbox"><img src="svg-resource-group.svg" class="bg0"/><div class="label">svg-resource-group.svg</div></div>
+<div id="svg-resources-alt-dark.svg" class="imgbox"><img src="svg-resources-alt-dark.svg" class="bg0"/><div class="label">svg-resources-alt-dark.svg</div></div>
+<div id="svg-resources-alt.svg" class="imgbox"><img src="svg-resources-alt.svg" class="bg0"/><div class="label">svg-resources-alt.svg</div></div>
+<div id="svg-retailers.svg" class="imgbox"><img src="svg-retailers.svg" class="bg0"/><div class="label">svg-retailers.svg</div></div>
+<div id="svg-right-arrow-alt.svg" class="imgbox"><img src="svg-right-arrow-alt.svg" class="bg0"/><div class="label">svg-right-arrow-alt.svg</div></div>
+<div id="svg-right-arrow.svg" class="imgbox"><img src="svg-right-arrow.svg" class="bg0"/><div class="label">svg-right-arrow.svg</div></div>
+<div id="svg-roadmap.svg" class="imgbox"><img src="svg-roadmap.svg" class="bg0"/><div class="label">svg-roadmap.svg</div></div>
+<div id="svg-rocket-cloud.svg" class="imgbox"><img src="svg-rocket-cloud.svg" class="bg0"/><div class="label">svg-rocket-cloud.svg</div></div>
+<div id="svg-rocket.svg" class="imgbox"><img src="svg-rocket.svg" class="bg0"/><div class="label">svg-rocket.svg</div></div>
+<div id="svg-rocket2.svg" class="imgbox"><img src="svg-rocket2.svg" class="bg0"/><div class="label">svg-rocket2.svg</div></div>
+<div id="svg-routing.svg" class="imgbox"><img src="svg-routing.svg" class="bg0"/><div class="label">svg-routing.svg</div></div>
+<div id="svg-rss-alt.svg" class="imgbox"><img src="svg-rss-alt.svg" class="bg0"/><div class="label">svg-rss-alt.svg</div></div>
+<div id="svg-rss.svg" class="imgbox"><img src="svg-rss.svg" class="bg0"/><div class="label">svg-rss.svg</div></div>
+<div id="svg-run.svg" class="imgbox"><img src="svg-run.svg" class="bg0"/><div class="label">svg-run.svg</div></div>
+<div id="svg-saas.svg" class="imgbox"><img src="svg-saas.svg" class="bg0"/><div class="label">svg-saas.svg</div></div>
+<div id="svg-sap-hana-large-instance.svg" class="imgbox"><img src="svg-sap-hana-large-instance.svg" class="bg0"/><div class="label">svg-sap-hana-large-instance.svg</div></div>
+<div id="svg-scalability.svg" class="imgbox"><img src="svg-scalability.svg" class="bg0"/><div class="label">svg-scalability.svg</div></div>
+<div id="svg-scalable.svg" class="imgbox"><img src="svg-scalable.svg" class="bg0"/><div class="label">svg-scalable.svg</div></div>
+<div id="svg-scale-and-run.svg" class="imgbox"><img src="svg-scale-and-run.svg" class="bg0"/><div class="label">svg-scale-and-run.svg</div></div>
+<div id="svg-scale-graph.svg" class="imgbox"><img src="svg-scale-graph.svg" class="bg0"/><div class="label">svg-scale-graph.svg</div></div>
+<div id="svg-scale.svg" class="imgbox"><img src="svg-scale.svg" class="bg0"/><div class="label">svg-scale.svg</div></div>
+<div id="svg-scheduler.svg" class="imgbox"><img src="svg-scheduler.svg" class="bg0"/><div class="label">svg-scheduler.svg</div></div>
+<div id="svg-script-file.svg" class="imgbox"><img src="svg-script-file.svg" class="bg0"/><div class="label">svg-script-file.svg</div></div>
+<div id="svg-search-alt.svg" class="imgbox"><img src="svg-search-alt.svg" class="bg0"/><div class="label">svg-search-alt.svg</div></div>
+<div id="svg-search-api.svg" class="imgbox"><img src="svg-search-api.svg" class="bg0"/><div class="label">svg-search-api.svg</div></div>
+<div id="svg-search-category-icon.svg" class="imgbox"><img src="svg-search-category-icon.svg" class="bg0"/><div class="label">svg-search-category-icon.svg</div></div>
+<div id="svg-search-category.svg" class="imgbox"><img src="svg-search-category.svg" class="bg0"/><div class="label">svg-search-category.svg</div></div>
+<div id="svg-search-files.svg" class="imgbox"><img src="svg-search-files.svg" class="bg0"/><div class="label">svg-search-files.svg</div></div>
+<div id="svg-search.svg" class="imgbox"><img src="svg-search.svg" class="bg0"/><div class="label">svg-search.svg</div></div>
+<div id="svg-secure.svg" class="imgbox"><img src="svg-secure.svg" class="bg0"/><div class="label">svg-secure.svg</div></div>
+<div id="svg-security-alt.svg" class="imgbox"><img src="svg-security-alt.svg" class="bg0"/><div class="label">svg-security-alt.svg</div></div>
+<div id="svg-security-center.svg" class="imgbox"><img src="svg-security-center.svg" class="bg0"/><div class="label">svg-security-center.svg</div></div>
+<div id="svg-security-check.svg" class="imgbox"><img src="svg-security-check.svg" class="bg0"/><div class="label">svg-security-check.svg</div></div>
+<div id="svg-security-practices.svg" class="imgbox"><img src="svg-security-practices.svg" class="bg0"/><div class="label">svg-security-practices.svg</div></div>
+<div id="svg-security.svg" class="imgbox"><img src="svg-security.svg" class="bg0"/><div class="label">svg-security.svg</div></div>
+<div id="svg-self-paced-course.svg" class="imgbox"><img src="svg-self-paced-course.svg" class="bg0"/><div class="label">svg-self-paced-course.svg</div></div>
+<div id="svg-self-paced-lab.svg" class="imgbox"><img src="svg-self-paced-lab.svg" class="bg0"/><div class="label">svg-self-paced-lab.svg</div></div>
+<div id="svg-server-blue.svg" class="imgbox"><img src="svg-server-blue.svg" class="bg0"/><div class="label">svg-server-blue.svg</div></div>
+<div id="svg-server-cloud.svg" class="imgbox"><img src="svg-server-cloud.svg" class="bg0"/><div class="label">svg-server-cloud.svg</div></div>
+<div id="svg-server.svg" class="imgbox"><img src="svg-server.svg" class="bg0"/><div class="label">svg-server.svg</div></div>
+<div id="svg-serverfault.svg" class="imgbox"><img src="svg-serverfault.svg" class="bg0"/><div class="label">svg-serverfault.svg</div></div>
+<div id="svg-service-bus.svg" class="imgbox"><img src="svg-service-bus.svg" class="bg0"/><div class="label">svg-service-bus.svg</div></div>
+<div id="svg-service-fabric-mono.svg" class="imgbox"><img src="svg-service-fabric-mono.svg" class="bg0"/><div class="label">svg-service-fabric-mono.svg</div></div>
+<div id="svg-service-fabric.svg" class="imgbox"><img src="svg-service-fabric.svg" class="bg0"/><div class="label">svg-service-fabric.svg</div></div>
+<div id="svg-service-health-white.svg" class="imgbox"><img src="svg-service-health-white.svg" class="bg0"/><div class="label">svg-service-health-white.svg</div></div>
+<div id="svg-service-health.svg" class="imgbox"><img src="svg-service-health.svg" class="bg0"/><div class="label">svg-service-health.svg</div></div>
+<div id="svg-service-management.svg" class="imgbox"><img src="svg-service-management.svg" class="bg0"/><div class="label">svg-service-management.svg</div></div>
+<div id="svg-service-updates.svg" class="imgbox"><img src="svg-service-updates.svg" class="bg0"/><div class="label">svg-service-updates.svg</div></div>
+<div id="svg-set.svg" class="imgbox"><img src="svg-set.svg" class="bg0"/><div class="label">svg-set.svg</div></div>
+<div id="svg-settings.svg" class="imgbox"><img src="svg-settings.svg" class="bg0"/><div class="label">svg-settings.svg</div></div>
+<div id="svg-shapes.svg" class="imgbox"><img src="svg-shapes.svg" class="bg0"/><div class="label">svg-shapes.svg</div></div>
+<div id="svg-share.svg" class="imgbox"><img src="svg-share.svg" class="bg0"/><div class="label">svg-share.svg</div></div>
+<div id="svg-sharepoint-server.svg" class="imgbox"><img src="svg-sharepoint-server.svg" class="bg0"/><div class="label">svg-sharepoint-server.svg</div></div>
+<div id="svg-sharepoint.svg" class="imgbox"><img src="svg-sharepoint.svg" class="bg0"/><div class="label">svg-sharepoint.svg</div></div>
+<div id="svg-shield-keyhole.svg" class="imgbox"><img src="svg-shield-keyhole.svg" class="bg0"/><div class="label">svg-shield-keyhole.svg</div></div>
+<div id="svg-shield-unlock.svg" class="imgbox"><img src="svg-shield-unlock.svg" class="bg0"/><div class="label">svg-shield-unlock.svg</div></div>
+<div id="svg-shield-user.svg" class="imgbox"><img src="svg-shield-user.svg" class="bg0"/><div class="label">svg-shield-user.svg</div></div>
+<div id="svg-shopping.svg" class="imgbox"><img src="svg-shopping.svg" class="bg0"/><div class="label">svg-shopping.svg</div></div>
+<div id="svg-sign-up.svg" class="imgbox"><img src="svg-sign-up.svg" class="bg0"/><div class="label">svg-sign-up.svg</div></div>
+<div id="svg-signalr-service-dark.svg" class="imgbox"><img src="svg-signalr-service-dark.svg" class="bg0"/><div class="label">svg-signalr-service-dark.svg</div></div>
+<div id="svg-signalr-service.svg" class="imgbox"><img src="svg-signalr-service.svg" class="bg0"/><div class="label">svg-signalr-service.svg</div></div>
+<div id="svg-simplified-management.svg" class="imgbox"><img src="svg-simplified-management.svg" class="bg0"/><div class="label">svg-simplified-management.svg</div></div>
+<div id="svg-site-recovery.svg" class="imgbox"><img src="svg-site-recovery.svg" class="bg0"/><div class="label">svg-site-recovery.svg</div></div>
+<div id="svg-six-circle-hexagon.svg" class="imgbox"><img src="svg-six-circle-hexagon.svg" class="bg0"/><div class="label">svg-six-circle-hexagon.svg</div></div>
+<div id="svg-slas.svg" class="imgbox"><img src="svg-slas.svg" class="bg0"/><div class="label">svg-slas.svg</div></div>
+<div id="svg-small-large-squares.svg" class="imgbox"><img src="svg-small-large-squares.svg" class="bg0"/><div class="label">svg-small-large-squares.svg</div></div>
+<div id="svg-social.svg" class="imgbox"><img src="svg-social.svg" class="bg0"/><div class="label">svg-social.svg</div></div>
+<div id="svg-source-control.svg" class="imgbox"><img src="svg-source-control.svg" class="bg0"/><div class="label">svg-source-control.svg</div></div>
+<div id="svg-speaker-recognition.svg" class="imgbox"><img src="svg-speaker-recognition.svg" class="bg0"/><div class="label">svg-speaker-recognition.svg</div></div>
+<div id="svg-speech-api.svg" class="imgbox"><img src="svg-speech-api.svg" class="bg0"/><div class="label">svg-speech-api.svg</div></div>
+<div id="svg-speech-category-icon.svg" class="imgbox"><img src="svg-speech-category-icon.svg" class="bg0"/><div class="label">svg-speech-category-icon.svg</div></div>
+<div id="svg-speech-category.svg" class="imgbox"><img src="svg-speech-category.svg" class="bg0"/><div class="label">svg-speech-category.svg</div></div>
+<div id="svg-speech-translation.svg" class="imgbox"><img src="svg-speech-translation.svg" class="bg0"/><div class="label">svg-speech-translation.svg</div></div>
+<div id="svg-speed.svg" class="imgbox"><img src="svg-speed.svg" class="bg0"/><div class="label">svg-speed.svg</div></div>
+<div id="svg-spellcheck-api.svg" class="imgbox"><img src="svg-spellcheck-api.svg" class="bg0"/><div class="label">svg-spellcheck-api.svg</div></div>
+<div id="svg-spinnaker-text.svg" class="imgbox"><img src="svg-spinnaker-text.svg" class="bg0"/><div class="label">svg-spinnaker-text.svg</div></div>
+<div id="svg-spinning-arrows.svg" class="imgbox"><img src="svg-spinning-arrows.svg" class="bg0"/><div class="label">svg-spinning-arrows.svg</div></div>
+<div id="svg-split-arrow-bullet.svg" class="imgbox"><img src="svg-split-arrow-bullet.svg" class="bg0"/><div class="label">svg-split-arrow-bullet.svg</div></div>
+<div id="svg-sql-data-warehouse-dark.svg" class="imgbox"><img src="svg-sql-data-warehouse-dark.svg" class="bg0"/><div class="label">svg-sql-data-warehouse-dark.svg</div></div>
+<div id="svg-sql-data-warehouse.svg" class="imgbox"><img src="svg-sql-data-warehouse.svg" class="bg0"/><div class="label">svg-sql-data-warehouse.svg</div></div>
+<div id="svg-sql-database-mono.svg" class="imgbox"><img src="svg-sql-database-mono.svg" class="bg0"/><div class="label">svg-sql-database-mono.svg</div></div>
+<div id="svg-sql-database.svg" class="imgbox"><img src="svg-sql-database.svg" class="bg0"/><div class="label">svg-sql-database.svg</div></div>
+<div id="svg-sql-db.svg" class="imgbox"><img src="svg-sql-db.svg" class="bg0"/><div class="label">svg-sql-db.svg</div></div>
+<div id="svg-sql-server.svg" class="imgbox"><img src="svg-sql-server.svg" class="bg0"/><div class="label">svg-sql-server.svg</div></div>
+<div id="svg-sql.svg" class="imgbox"><img src="svg-sql.svg" class="bg0"/><div class="label">svg-sql.svg</div></div>
+<div id="svg-square-circle-parallel.svg" class="imgbox"><img src="svg-square-circle-parallel.svg" class="bg0"/><div class="label">svg-square-circle-parallel.svg</div></div>
+<div id="svg-square-circle-plus-white.svg" class="imgbox"><img src="svg-square-circle-plus-white.svg" class="bg0"/><div class="label">svg-square-circle-plus-white.svg</div></div>
+<div id="svg-square-circle-plus.svg" class="imgbox"><img src="svg-square-circle-plus.svg" class="bg0"/><div class="label">svg-square-circle-plus.svg</div></div>
+<div id="svg-square-gear-diamond-merge.svg" class="imgbox"><img src="svg-square-gear-diamond-merge.svg" class="bg0"/><div class="label">svg-square-gear-diamond-merge.svg</div></div>
+<div id="svg-square-of-circles-magnify.svg" class="imgbox"><img src="svg-square-of-circles-magnify.svg" class="bg0"/><div class="label">svg-square-of-circles-magnify.svg</div></div>
+<div id="svg-square-of-circles.svg" class="imgbox"><img src="svg-square-of-circles.svg" class="bg0"/><div class="label">svg-square-of-circles.svg</div></div>
+<div id="svg-square-of-squares.svg" class="imgbox"><img src="svg-square-of-squares.svg" class="bg0"/><div class="label">svg-square-of-squares.svg</div></div>
+<div id="svg-stack-overflow.svg" class="imgbox"><img src="svg-stack-overflow.svg" class="bg0"/><div class="label">svg-stack-overflow.svg</div></div>
+<div id="svg-stacked-squares-plus.svg" class="imgbox"><img src="svg-stacked-squares-plus.svg" class="bg0"/><div class="label">svg-stacked-squares-plus.svg</div></div>
+<div id="svg-storage-blobs.svg" class="imgbox"><img src="svg-storage-blobs.svg" class="bg0"/><div class="label">svg-storage-blobs.svg</div></div>
+<div id="svg-storage-files.svg" class="imgbox"><img src="svg-storage-files.svg" class="bg0"/><div class="label">svg-storage-files.svg</div></div>
+<div id="svg-storage-mono.svg" class="imgbox"><img src="svg-storage-mono.svg" class="bg0"/><div class="label">svg-storage-mono.svg</div></div>
+<div id="svg-storage-queues.svg" class="imgbox"><img src="svg-storage-queues.svg" class="bg0"/><div class="label">svg-storage-queues.svg</div></div>
+<div id="svg-storage-tables.svg" class="imgbox"><img src="svg-storage-tables.svg" class="bg0"/><div class="label">svg-storage-tables.svg</div></div>
+<div id="svg-storage.svg" class="imgbox"><img src="svg-storage.svg" class="bg0"/><div class="label">svg-storage.svg</div></div>
+<div id="svg-storsimple.svg" class="imgbox"><img src="svg-storsimple.svg" class="bg0"/><div class="label">svg-storsimple.svg</div></div>
+<div id="svg-stream-analytics-mono.svg" class="imgbox"><img src="svg-stream-analytics-mono.svg" class="bg0"/><div class="label">svg-stream-analytics-mono.svg</div></div>
+<div id="svg-stream-analytics.svg" class="imgbox"><img src="svg-stream-analytics.svg" class="bg0"/><div class="label">svg-stream-analytics.svg</div></div>
+<div id="svg-suite.svg" class="imgbox"><img src="svg-suite.svg" class="bg0"/><div class="label">svg-suite.svg</div></div>
+<div id="svg-support-blog-grey.svg" class="imgbox"><img src="svg-support-blog-grey.svg" class="bg0"/><div class="label">svg-support-blog-grey.svg</div></div>
+<div id="svg-support-faq.svg" class="imgbox"><img src="svg-support-faq.svg" class="bg0"/><div class="label">svg-support-faq.svg</div></div>
+<div id="svg-surveillance.svg" class="imgbox"><img src="svg-surveillance.svg" class="bg0"/><div class="label">svg-surveillance.svg</div></div>
+<div id="svg-tables-mono.svg" class="imgbox"><img src="svg-tables-mono.svg" class="bg0"/><div class="label">svg-tables-mono.svg</div></div>
+<div id="svg-target-deploy.svg" class="imgbox"><img src="svg-target-deploy.svg" class="bg0"/><div class="label">svg-target-deploy.svg</div></div>
+<div id="svg-target-magnify.svg" class="imgbox"><img src="svg-target-magnify.svg" class="bg0"/><div class="label">svg-target-magnify.svg</div></div>
+<div id="svg-tea.svg" class="imgbox"><img src="svg-tea.svg" class="bg0"/><div class="label">svg-tea.svg</div></div>
+<div id="svg-technical-capabilities.svg" class="imgbox"><img src="svg-technical-capabilities.svg" class="bg0"/><div class="label">svg-technical-capabilities.svg</div></div>
+<div id="svg-templates-2.svg" class="imgbox"><img src="svg-templates-2.svg" class="bg0"/><div class="label">svg-templates-2.svg</div></div>
+<div id="svg-templates.svg" class="imgbox"><img src="svg-templates.svg" class="bg0"/><div class="label">svg-templates.svg</div></div>
+<div id="svg-terminal-prompt.svg" class="imgbox"><img src="svg-terminal-prompt.svg" class="bg0"/><div class="label">svg-terminal-prompt.svg</div></div>
+<div id="svg-text-analytics-service.svg" class="imgbox"><img src="svg-text-analytics-service.svg" class="bg0"/><div class="label">svg-text-analytics-service.svg</div></div>
+<div id="svg-text-analytics.svg" class="imgbox"><img src="svg-text-analytics.svg" class="bg0"/><div class="label">svg-text-analytics.svg</div></div>
+<div id="svg-three-arrows.svg" class="imgbox"><img src="svg-three-arrows.svg" class="bg0"/><div class="label">svg-three-arrows.svg</div></div>
+<div id="svg-three-computers-connected-one.svg" class="imgbox"><img src="svg-three-computers-connected-one.svg" class="bg0"/><div class="label">svg-three-computers-connected-one.svg</div></div>
+<div id="svg-three-people.svg" class="imgbox"><img src="svg-three-people.svg" class="bg0"/><div class="label">svg-three-people.svg</div></div>
+<div id="svg-time-series-insights-black.svg" class="imgbox"><img src="svg-time-series-insights-black.svg" class="bg0"/><div class="label">svg-time-series-insights-black.svg</div></div>
+<div id="svg-time-series-insights.svg" class="imgbox"><img src="svg-time-series-insights.svg" class="bg0"/><div class="label">svg-time-series-insights.svg</div></div>
+<div id="svg-time-zones.svg" class="imgbox"><img src="svg-time-zones.svg" class="bg0"/><div class="label">svg-time-zones.svg</div></div>
+<div id="svg-tools.svg" class="imgbox"><img src="svg-tools.svg" class="bg0"/><div class="label">svg-tools.svg</div></div>
+<div id="svg-tooltip.svg" class="imgbox"><img src="svg-tooltip.svg" class="bg0"/><div class="label">svg-tooltip.svg</div></div>
+<div id="svg-traffic-cone.svg" class="imgbox"><img src="svg-traffic-cone.svg" class="bg0"/><div class="label">svg-traffic-cone.svg</div></div>
+<div id="svg-traffic-manager-mono.svg" class="imgbox"><img src="svg-traffic-manager-mono.svg" class="bg0"/><div class="label">svg-traffic-manager-mono.svg</div></div>
+<div id="svg-traffic-manager.svg" class="imgbox"><img src="svg-traffic-manager.svg" class="bg0"/><div class="label">svg-traffic-manager.svg</div></div>
+<div id="svg-training-videos.svg" class="imgbox"><img src="svg-training-videos.svg" class="bg0"/><div class="label">svg-training-videos.svg</div></div>
+<div id="svg-transfer-right-arrow.svg" class="imgbox"><img src="svg-transfer-right-arrow.svg" class="bg0"/><div class="label">svg-transfer-right-arrow.svg</div></div>
+<div id="svg-translator-apis.svg" class="imgbox"><img src="svg-translator-apis.svg" class="bg0"/><div class="label">svg-translator-apis.svg</div></div>
+<div id="svg-tutorial.svg" class="imgbox"><img src="svg-tutorial.svg" class="bg0"/><div class="label">svg-tutorial.svg</div></div>
+<div id="svg-twitter-alt.svg" class="imgbox"><img src="svg-twitter-alt.svg" class="bg0"/><div class="label">svg-twitter-alt.svg</div></div>
+<div id="svg-twitter-square.svg" class="imgbox"><img src="svg-twitter-square.svg" class="bg0"/><div class="label">svg-twitter-square.svg</div></div>
+<div id="svg-twitter-white.svg" class="imgbox"><img src="svg-twitter-white.svg" class="bg0"/><div class="label">svg-twitter-white.svg</div></div>
+<div id="svg-twitter.svg" class="imgbox"><img src="svg-twitter.svg" class="bg0"/><div class="label">svg-twitter.svg</div></div>
+<div id="svg-two-gears.svg" class="imgbox"><img src="svg-two-gears.svg" class="bg0"/><div class="label">svg-two-gears.svg</div></div>
+<div id="svg-two-stacked-discs.svg" class="imgbox"><img src="svg-two-stacked-discs.svg" class="bg0"/><div class="label">svg-two-stacked-discs.svg</div></div>
+<div id="svg-up-right-arrow.svg" class="imgbox"><img src="svg-up-right-arrow.svg" class="bg0"/><div class="label">svg-up-right-arrow.svg</div></div>
+<div id="svg-updates-dark.svg" class="imgbox"><img src="svg-updates-dark.svg" class="bg0"/><div class="label">svg-updates-dark.svg</div></div>
+<div id="svg-upload.svg" class="imgbox"><img src="svg-upload.svg" class="bg0"/><div class="label">svg-upload.svg</div></div>
+<div id="svg-user-cloud.svg" class="imgbox"><img src="svg-user-cloud.svg" class="bg0"/><div class="label">svg-user-cloud.svg</div></div>
+<div id="svg-users.svg" class="imgbox"><img src="svg-users.svg" class="bg0"/><div class="label">svg-users.svg</div></div>
+<div id="svg-video-alt-dark.svg" class="imgbox"><img src="svg-video-alt-dark.svg" class="bg0"/><div class="label">svg-video-alt-dark.svg</div></div>
+<div id="svg-video-camera.svg" class="imgbox"><img src="svg-video-camera.svg" class="bg0"/><div class="label">svg-video-camera.svg</div></div>
+<div id="svg-video-indexer.svg" class="imgbox"><img src="svg-video-indexer.svg" class="bg0"/><div class="label">svg-video-indexer.svg</div></div>
+<div id="svg-video.svg" class="imgbox"><img src="svg-video.svg" class="bg0"/><div class="label">svg-video.svg</div></div>
+<div id="svg-videos.svg" class="imgbox"><img src="svg-videos.svg" class="bg0"/><div class="label">svg-videos.svg</div></div>
+<div id="svg-view-ssml.svg" class="imgbox"><img src="svg-view-ssml.svg" class="bg0"/><div class="label">svg-view-ssml.svg</div></div>
+<div id="svg-virtual-machine-scale-sets.svg" class="imgbox"><img src="svg-virtual-machine-scale-sets.svg" class="bg0"/><div class="label">svg-virtual-machine-scale-sets.svg</div></div>
+<div id="svg-virtual-machines-mono.svg" class="imgbox"><img src="svg-virtual-machines-mono.svg" class="bg0"/><div class="label">svg-virtual-machines-mono.svg</div></div>
+<div id="svg-virtual-machines.svg" class="imgbox"><img src="svg-virtual-machines.svg" class="bg0"/><div class="label">svg-virtual-machines.svg</div></div>
+<div id="svg-virtual-network.svg" class="imgbox"><img src="svg-virtual-network.svg" class="bg0"/><div class="label">svg-virtual-network.svg</div></div>
+<div id="svg-virtual-wan.svg" class="imgbox"><img src="svg-virtual-wan.svg" class="bg0"/><div class="label">svg-virtual-wan.svg</div></div>
+<div id="svg-vision-category-icon.svg" class="imgbox"><img src="svg-vision-category-icon.svg" class="bg0"/><div class="label">svg-vision-category-icon.svg</div></div>
+<div id="svg-vision-category.svg" class="imgbox"><img src="svg-vision-category.svg" class="bg0"/><div class="label">svg-vision-category.svg</div></div>
+<div id="svg-visual-studio-alt.svg" class="imgbox"><img src="svg-visual-studio-alt.svg" class="bg0"/><div class="label">svg-visual-studio-alt.svg</div></div>
+<div id="svg-visual-studio-code.svg" class="imgbox"><img src="svg-visual-studio-code.svg" class="bg0"/><div class="label">svg-visual-studio-code.svg</div></div>
+<div id="svg-visual-studio.svg" class="imgbox"><img src="svg-visual-studio.svg" class="bg0"/><div class="label">svg-visual-studio.svg</div></div>
+<div id="svg-volume.svg" class="imgbox"><img src="svg-volume.svg" class="bg0"/><div class="label">svg-volume.svg</div></div>
+<div id="svg-vpn-gateway.svg" class="imgbox"><img src="svg-vpn-gateway.svg" class="bg0"/><div class="label">svg-vpn-gateway.svg</div></div>
+<div id="svg-vs-code.svg" class="imgbox"><img src="svg-vs-code.svg" class="bg0"/><div class="label">svg-vs-code.svg</div></div>
+<div id="svg-vsts-white.svg" class="imgbox"><img src="svg-vsts-white.svg" class="bg0"/><div class="label">svg-vsts-white.svg</div></div>
+<div id="svg-vsts.svg" class="imgbox"><img src="svg-vsts.svg" class="bg0"/><div class="label">svg-vsts.svg</div></div>
+<div id="svg-watch-video.svg" class="imgbox"><img src="svg-watch-video.svg" class="bg0"/><div class="label">svg-watch-video.svg</div></div>
+<div id="svg-web-app-umbraco.svg" class="imgbox"><img src="svg-web-app-umbraco.svg" class="bg0"/><div class="label">svg-web-app-umbraco.svg</div></div>
+<div id="svg-web-app-wordpress.svg" class="imgbox"><img src="svg-web-app-wordpress.svg" class="bg0"/><div class="label">svg-web-app-wordpress.svg</div></div>
+<div id="svg-web-search-api.svg" class="imgbox"><img src="svg-web-search-api.svg" class="bg0"/><div class="label">svg-web-search-api.svg</div></div>
+<div id="svg-webjobs.svg" class="imgbox"><img src="svg-webjobs.svg" class="bg0"/><div class="label">svg-webjobs.svg</div></div>
+<div id="svg-whitepaper-alt-dark.svg" class="imgbox"><img src="svg-whitepaper-alt-dark.svg" class="bg0"/><div class="label">svg-whitepaper-alt-dark.svg</div></div>
+<div id="svg-whitepaper-black-white.svg" class="imgbox"><img src="svg-whitepaper-black-white.svg" class="bg0"/><div class="label">svg-whitepaper-black-white.svg</div></div>
+<div id="svg-whitepaper-simple.svg" class="imgbox"><img src="svg-whitepaper-simple.svg" class="bg0"/><div class="label">svg-whitepaper-simple.svg</div></div>
+<div id="svg-whitepaper.svg" class="imgbox"><img src="svg-whitepaper.svg" class="bg0"/><div class="label">svg-whitepaper.svg</div></div>
+<div id="svg-wiki.svg" class="imgbox"><img src="svg-wiki.svg" class="bg0"/><div class="label">svg-wiki.svg</div></div>
+<div id="svg-windows-10-iot-core.svg" class="imgbox"><img src="svg-windows-10-iot-core.svg" class="bg0"/><div class="label">svg-windows-10-iot-core.svg</div></div>
+<div id="svg-windows.svg" class="imgbox"><img src="svg-windows.svg" class="bg0"/><div class="label">svg-windows.svg</div></div>
+<div id="svg-work-how-you-want.svg" class="imgbox"><img src="svg-work-how-you-want.svg" class="bg0"/><div class="label">svg-work-how-you-want.svg</div></div>
+<div id="svg-wrench-clipboard.svg" class="imgbox"><img src="svg-wrench-clipboard.svg" class="bg0"/><div class="label">svg-wrench-clipboard.svg</div></div>
+<div id="svg-wrench-gear.svg" class="imgbox"><img src="svg-wrench-gear.svg" class="bg0"/><div class="label">svg-wrench-gear.svg</div></div>
+<div id="svg-wrench.svg" class="imgbox"><img src="svg-wrench.svg" class="bg0"/><div class="label">svg-wrench.svg</div></div>
+<div id="svg-xamarin.svg" class="imgbox"><img src="svg-xamarin.svg" class="bg0"/><div class="label">svg-xamarin.svg</div></div>
+<div id="svg-youtube.svg" class="imgbox"><img src="svg-youtube.svg" class="bg0"/><div class="label">svg-youtube.svg</div></div>
+
+</div>
+<script>
+var bg = 0;
+function toggleBg() {
+  bg++
+  if(bg > 2) bg = 0;
+  for(let img of document.getElementsByTagName("img")) {
+    img.className = `bg${bg}`;
+  }
+}
+
+function search() {
+  let q = document.getElementById('finder').value.trim().toLowerCase()
+  if(q.length <= 0) {
+    for(let imgbox of document.getElementsByClassName("imgbox")) {
+      imgbox.style.display = "inline-block"
+    }
+  }
+  for(let imgbox of document.getElementsByClassName("imgbox")) {
+    imgbox.style.display = "inline-block"
+    if(!imgbox.id.includes(q)) {
+      imgbox.style.display = "none"
+    }
+  }
+}
+
+</script>
 </body></html>

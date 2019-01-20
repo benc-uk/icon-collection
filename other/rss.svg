@@ -1,8 +1,8 @@
-<svg>
-                                <symbol id="svg-rss" viewBox="0 0 50 50">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                               
     <rect x="0" fill="#ea8335" width="50" height="50"></rect>
     <path fill="#FFFFFF" d="M31.5,41.3h-5.6c0-9.5-7.7-17.2-17.2-17.2v-5.6C21.3,18.5,31.5,28.7,31.5,41.3z"></path>
     <path fill="#FFFFFF" d="M41.3,41.3h-5.6c0-14.9-12.2-27-27-27V8.7C26.7,8.7,41.3,23.3,41.3,41.3z"></path>
     <circle fill="#FFFFFF" cx="14.2" cy="35.8" r="5.5"></circle>
-</symbol>
+
                             </svg>
