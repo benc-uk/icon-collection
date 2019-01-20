@@ -1,6 +1,6 @@
 remote_theme: benc-uk/theme-msdark
 title: Azure Icon Collection
-favicon: http://benc-uk.github.io/icon-collection/azure-dotcom/blockchain.svg
+favicon: favicon.png
 buttons:
   - text: Download All
     href: https://github.com/benc-uk/icon-collection/archive/master.zip

@@ -1,6 +1,6 @@
 
 <head><title>Azure Docs</title>
-<script src="http://pablojs.com/downloads/pablo.min.js"></script>
+<link rel="icon" type="image/png" href="../favicon.png">
 </head>
 <style>
 body {
@@ -44,7 +44,6 @@ h1 {
   top: 0;
   background-color: #aaa;
   padding: 1rem;
-  padding-top: 0;
   box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
 }
 .top button {
@@ -74,10 +73,18 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   width: 100%;
 }
+h1 {
+  display:inline;
+}
+.home {
+  font-size: 3rem;
+  text-decoration: none
+}
 </style>
 <body>
 <div class="top">
-<h1>Azure Docs</h1>
+<a href=".." class="home">⮤</a> &nbsp; <h1>Azure Docs</h1>
+<br/><br/>
 <span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
 <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
 <button onclick="toggleBg()">Change Background</button>
