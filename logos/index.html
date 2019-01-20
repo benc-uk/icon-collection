@@ -1,203 +1,266 @@
-
-<head><title>Logos & Brands</title>
-<link rel="icon" type="image/png" href="../favicon.png">
+<html>
+<head>
+  <title>Logos &amp; Brands</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial;
+      background-color: #aaa;
+      padding: 0;
+      margin: 0;
+    }
+    .bg-0 {
+      background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
+    }
+    .bg-1 {
+      background-color: #333;
+    }
+    .bg-2 {
+      background-color: #fff;
+    }
+    .imgbox img { 
+      width: 10.5rem;
+      height: 10.5rem;
+      object-fit: contain;
+      cursor: pointer;
+    }
+    .imgbox {
+      margin: 0.6rem;
+      padding: 0.5rem;
+      text-align: center;
+      width: 12rem;
+      height: 12rem;
+      background-color: #e0e0e0;
+    }
+    h1 {
+      font-size: 2.6rem;
+    }
+    .find, .find input {
+      font-size: 1.5rem;
+    }
+    .top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color: #aaa;
+      padding: 1rem;
+      box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+    }
+    .top button {
+      float: right; 
+      position: relative; 
+      top: -2rem; 
+      font-size: 1.5rem;
+    }
+    .pngbox {
+      position: absolute; 
+      top: 2rem; 
+      right: 1rem;
+      font-size: 1.5rem;
+    }
+    input[type="checkbox"] {
+      width: 1.6em;
+      height: 1.6em;
+    }
+    .label {
+      height: 2.5em;
+      line-height: 1em;
+      overflow: hidden;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    h1 {
+      display:inline;
+    }
+    .home {
+      font-size: 3rem;
+      text-decoration: none
+    }
+  </style>  
 </head>
-<style>
-body {
-  font-family: 'Segoe UI', Arial;
-  background-color: #aaa;
-  padding: 0;
-  margin: 0;
-}
-.bg0 {
-  background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
-}
-.bg1 {
-  background-color: #333;
-}
-.bg2 {
-  background-color: #fff;
-}
-.imgbox img { 
-  width: 10.5rem;
-  height: 10.5rem;
-  object-fit: contain;
-  cursor: pointer;
-}
-.imgbox {
-  margin: 0.6rem;
-  padding: 0.5rem;
-  text-align: center;
-  width: 12rem;
-  height: 12rem;
-  background-color: #e0e0e0;
-}
-h1 {
-  font-size: 2.6rem;
-}
-.find, .find input {
-  font-size: 1.5rem;
-}
-.top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #aaa;
-  padding: 1rem;
-  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
-}
-.top button {
-  float: right; 
-  position: relative; 
-  top: -2rem; 
-  font-size: 1.5rem;
-}
-.pngbox {
-  position: absolute; 
-  top: 2rem; 
-  right: 1rem;
-  font-size: 1.5rem;
-}
-input[type="checkbox"] {
-  width: 1.6em;
-  height: 1.6em;
-}
-.label {
-  height: 2.5em;
-  line-height: 1em;
-  overflow: hidden;
-  font-size: 0.9rem;
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-h1 {
-  display:inline;
-}
-.home {
-  font-size: 3rem;
-  text-decoration: none
-}
-</style>
+
 <body>
-<div class="top">
-<a href=".." class="home">⮤</a> &nbsp; <h1>Logos & Brands</h1>
-<br/><br/>
-<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
-<div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
-<button onclick="toggleBg()">Change Background</button>
-</div>
-<div class="grid">
-<div id="android.svg" class="imgbox"><img src="android.svg" class="bg0" onclick="download('android.svg', this)"/><div class="label">android.svg</div></div>
-<div id="angular.svg" class="imgbox"><img src="angular.svg" class="bg0" onclick="download('angular.svg', this)"/><div class="label">angular.svg</div></div>
-<div id="ansible.svg" class="imgbox"><img src="ansible.svg" class="bg0" onclick="download('ansible.svg', this)"/><div class="label">ansible.svg</div></div>
-<div id="apache.svg" class="imgbox"><img src="apache.svg" class="bg0" onclick="download('apache.svg', this)"/><div class="label">apache.svg</div></div>
-<div id="azure-logo.svg" class="imgbox"><img src="azure-logo.svg" class="bg0" onclick="download('azure-logo.svg', this)"/><div class="label">azure-logo.svg</div></div>
-<div id="azure-offical.svg" class="imgbox"><img src="azure-offical.svg" class="bg0" onclick="download('azure-offical.svg', this)"/><div class="label">azure-offical.svg</div></div>
-<div id="bash.svg" class="imgbox"><img src="bash.svg" class="bg0" onclick="download('bash.svg', this)"/><div class="label">bash.svg</div></div>
-<div id="bit-bucket.svg" class="imgbox"><img src="bit-bucket.svg" class="bg0" onclick="download('bit-bucket.svg', this)"/><div class="label">bit-bucket.svg</div></div>
-<div id="chef-logo.svg" class="imgbox"><img src="chef-logo.svg" class="bg0" onclick="download('chef-logo.svg', this)"/><div class="label">chef-logo.svg</div></div>
-<div id="chef.svg" class="imgbox"><img src="chef.svg" class="bg0" onclick="download('chef.svg', this)"/><div class="label">chef.svg</div></div>
-<div id="csharp.svg" class="imgbox"><img src="csharp.svg" class="bg0" onclick="download('csharp.svg', this)"/><div class="label">csharp.svg</div></div>
-<div id="docker-icon-wh.svg" class="imgbox"><img src="docker-icon-wh.svg" class="bg0" onclick="download('docker-icon-wh.svg', this)"/><div class="label">docker-icon-wh.svg</div></div>
-<div id="docker-icon.svg" class="imgbox"><img src="docker-icon.svg" class="bg0" onclick="download('docker-icon.svg', this)"/><div class="label">docker-icon.svg</div></div>
-<div id="docker-mono.svg" class="imgbox"><img src="docker-mono.svg" class="bg0" onclick="download('docker-mono.svg', this)"/><div class="label">docker-mono.svg</div></div>
-<div id="docker-whale.svg" class="imgbox"><img src="docker-whale.svg" class="bg0" onclick="download('docker-whale.svg', this)"/><div class="label">docker-whale.svg</div></div>
-<div id="dotnetcore.svg" class="imgbox"><img src="dotnetcore.svg" class="bg0" onclick="download('dotnetcore.svg', this)"/><div class="label">dotnetcore.svg</div></div>
-<div id="dynamics.svg" class="imgbox"><img src="dynamics.svg" class="bg0" onclick="download('dynamics.svg', this)"/><div class="label">dynamics.svg</div></div>
-<div id="eclipse.svg" class="imgbox"><img src="eclipse.svg" class="bg0" onclick="download('eclipse.svg', this)"/><div class="label">eclipse.svg</div></div>
-<div id="flask.svg" class="imgbox"><img src="flask.svg" class="bg0" onclick="download('flask.svg', this)"/><div class="label">flask.svg</div></div>
-<div id="git.svg" class="imgbox"><img src="git.svg" class="bg0" onclick="download('git.svg', this)"/><div class="label">git.svg</div></div>
-<div id="github.svg" class="imgbox"><img src="github.svg" class="bg0" onclick="download('github.svg', this)"/><div class="label">github.svg</div></div>
-<div id="gradle.svg" class="imgbox"><img src="gradle.svg" class="bg0" onclick="download('gradle.svg', this)"/><div class="label">gradle.svg</div></div>
-<div id="helm-logo.svg" class="imgbox"><img src="helm-logo.svg" class="bg0" onclick="download('helm-logo.svg', this)"/><div class="label">helm-logo.svg</div></div>
-<div id="java.svg" class="imgbox"><img src="java.svg" class="bg0" onclick="download('java.svg', this)"/><div class="label">java.svg</div></div>
-<div id="jenkins.svg" class="imgbox"><img src="jenkins.svg" class="bg0" onclick="download('jenkins.svg', this)"/><div class="label">jenkins.svg</div></div>
-<div id="jfrog.svg" class="imgbox"><img src="jfrog.svg" class="bg0" onclick="download('jfrog.svg', this)"/><div class="label">jfrog.svg</div></div>
-<div id="kube.svg" class="imgbox"><img src="kube.svg" class="bg0" onclick="download('kube.svg', this)"/><div class="label">kube.svg</div></div>
-<div id="linkedin.svg" class="imgbox"><img src="linkedin.svg" class="bg0" onclick="download('linkedin.svg', this)"/><div class="label">linkedin.svg</div></div>
-<div id="linux-tux-colour.svg" class="imgbox"><img src="linux-tux-colour.svg" class="bg0" onclick="download('linux-tux-colour.svg', this)"/><div class="label">linux-tux-colour.svg</div></div>
-<div id="linux-tux-mono.svg" class="imgbox"><img src="linux-tux-mono.svg" class="bg0" onclick="download('linux-tux-mono.svg', this)"/><div class="label">linux-tux-mono.svg</div></div>
-<div id="microsoft-logo.svg" class="imgbox"><img src="microsoft-logo.svg" class="bg0" onclick="download('microsoft-logo.svg', this)"/><div class="label">microsoft-logo.svg</div></div>
-<div id="microsoft.svg" class="imgbox"><img src="microsoft.svg" class="bg0" onclick="download('microsoft.svg', this)"/><div class="label">microsoft.svg</div></div>
-<div id="ms-sq.svg" class="imgbox"><img src="ms-sq.svg" class="bg0" onclick="download('ms-sq.svg', this)"/><div class="label">ms-sq.svg</div></div>
-<div id="ms.svg" class="imgbox"><img src="ms.svg" class="bg0" onclick="download('ms.svg', this)"/><div class="label">ms.svg</div></div>
-<div id="nodejs-2.svg" class="imgbox"><img src="nodejs-2.svg" class="bg0" onclick="download('nodejs-2.svg', this)"/><div class="label">nodejs-2.svg</div></div>
-<div id="nodejs-3.svg" class="imgbox"><img src="nodejs-3.svg" class="bg0" onclick="download('nodejs-3.svg', this)"/><div class="label">nodejs-3.svg</div></div>
-<div id="nodejs.svg" class="imgbox"><img src="nodejs.svg" class="bg0" onclick="download('nodejs.svg', this)"/><div class="label">nodejs.svg</div></div>
-<div id="octopus-deploy.svg" class="imgbox"><img src="octopus-deploy.svg" class="bg0" onclick="download('octopus-deploy.svg', this)"/><div class="label">octopus-deploy.svg</div></div>
-<div id="powerbi-mono-black.svg" class="imgbox"><img src="powerbi-mono-black.svg" class="bg0" onclick="download('powerbi-mono-black.svg', this)"/><div class="label">powerbi-mono-black.svg</div></div>
-<div id="puppet.svg" class="imgbox"><img src="puppet.svg" class="bg0" onclick="download('puppet.svg', this)"/><div class="label">puppet.svg</div></div>
-<div id="python-colour.svg" class="imgbox"><img src="python-colour.svg" class="bg0" onclick="download('python-colour.svg', this)"/><div class="label">python-colour.svg</div></div>
-<div id="python-mono.svg" class="imgbox"><img src="python-mono.svg" class="bg0" onclick="download('python-mono.svg', this)"/><div class="label">python-mono.svg</div></div>
-<div id="red-hat.svg" class="imgbox"><img src="red-hat.svg" class="bg0" onclick="download('red-hat.svg', this)"/><div class="label">red-hat.svg</div></div>
-<div id="ruby mono.svg" class="imgbox"><img src="ruby mono.svg" class="bg0" onclick="download('ruby mono.svg', this)"/><div class="label">ruby mono.svg</div></div>
-<div id="ruby.svg" class="imgbox"><img src="ruby.svg" class="bg0" onclick="download('ruby.svg', this)"/><div class="label">ruby.svg</div></div>
-<div id="saltstack.svg" class="imgbox"><img src="saltstack.svg" class="bg0" onclick="download('saltstack.svg', this)"/><div class="label">saltstack.svg</div></div>
-<div id="sap.svg" class="imgbox"><img src="sap.svg" class="bg0" onclick="download('sap.svg', this)"/><div class="label">sap.svg</div></div>
-<div id="slack.svg" class="imgbox"><img src="slack.svg" class="bg0" onclick="download('slack.svg', this)"/><div class="label">slack.svg</div></div>
-<div id="suse.svg" class="imgbox"><img src="suse.svg" class="bg0" onclick="download('suse.svg', this)"/><div class="label">suse.svg</div></div>
-<div id="terraform.svg" class="imgbox"><img src="terraform.svg" class="bg0" onclick="download('terraform.svg', this)"/><div class="label">terraform.svg</div></div>
-<div id="trello.svg" class="imgbox"><img src="trello.svg" class="bg0" onclick="download('trello.svg', this)"/><div class="label">trello.svg</div></div>
-<div id="twitter-square.svg" class="imgbox"><img src="twitter-square.svg" class="bg0" onclick="download('twitter-square.svg', this)"/><div class="label">twitter-square.svg</div></div>
-<div id="ubuntu.svg" class="imgbox"><img src="ubuntu.svg" class="bg0" onclick="download('ubuntu.svg', this)"/><div class="label">ubuntu.svg</div></div>
-<div id="vuejs.svg" class="imgbox"><img src="vuejs.svg" class="bg0" onclick="download('vuejs.svg', this)"/><div class="label">vuejs.svg</div></div>
-<div id="windows.svg" class="imgbox"><img src="windows.svg" class="bg0" onclick="download('windows.svg', this)"/><div class="label">windows.svg</div></div>
-<div id="youtube.svg" class="imgbox"><img src="youtube.svg" class="bg0" onclick="download('youtube.svg', this)"/><div class="label">youtube.svg</div></div>
 
-</div>
-<script>
-var bg = 0;
-function toggleBg() {
-  bg++
-  if(bg > 2) bg = 0;
-  for(let img of document.getElementsByTagName("img")) {
-    img.className = `bg${bg}`;
-  }
-}
+  <div class="top">
+    <a href=".." class="home">&#129093;</a> &nbsp; <h1>Logos &amp; Brands</h1>
+    <br/><br/>
+    <span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
+    <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
+    <button onclick="toggleBg()">Change Background</button>
+  </div>
 
-function search() {
-  let q = document.getElementById('finder').value.trim().toLowerCase()
-  if(q.length <= 0) {
-    for(let imgbox of document.getElementsByClassName("imgbox")) {
-      imgbox.style.display = "inline-block"
+  <div class="grid">
+    
+      <div id="android.svg" class="imgbox"><img src="android.svg" class="bg0" onclick="download('android.svg', this)"/><div class="label">android.svg</div></div>
+    
+      <div id="angular.svg" class="imgbox"><img src="angular.svg" class="bg0" onclick="download('angular.svg', this)"/><div class="label">angular.svg</div></div>
+    
+      <div id="ansible.svg" class="imgbox"><img src="ansible.svg" class="bg0" onclick="download('ansible.svg', this)"/><div class="label">ansible.svg</div></div>
+    
+      <div id="apache.svg" class="imgbox"><img src="apache.svg" class="bg0" onclick="download('apache.svg', this)"/><div class="label">apache.svg</div></div>
+    
+      <div id="azure-logo.svg" class="imgbox"><img src="azure-logo.svg" class="bg0" onclick="download('azure-logo.svg', this)"/><div class="label">azure-logo.svg</div></div>
+    
+      <div id="azure-offical.svg" class="imgbox"><img src="azure-offical.svg" class="bg0" onclick="download('azure-offical.svg', this)"/><div class="label">azure-offical.svg</div></div>
+    
+      <div id="bash.svg" class="imgbox"><img src="bash.svg" class="bg0" onclick="download('bash.svg', this)"/><div class="label">bash.svg</div></div>
+    
+      <div id="bit-bucket.svg" class="imgbox"><img src="bit-bucket.svg" class="bg0" onclick="download('bit-bucket.svg', this)"/><div class="label">bit-bucket.svg</div></div>
+    
+      <div id="chef-logo.svg" class="imgbox"><img src="chef-logo.svg" class="bg0" onclick="download('chef-logo.svg', this)"/><div class="label">chef-logo.svg</div></div>
+    
+      <div id="chef.svg" class="imgbox"><img src="chef.svg" class="bg0" onclick="download('chef.svg', this)"/><div class="label">chef.svg</div></div>
+    
+      <div id="csharp.svg" class="imgbox"><img src="csharp.svg" class="bg0" onclick="download('csharp.svg', this)"/><div class="label">csharp.svg</div></div>
+    
+      <div id="docker-icon-wh.svg" class="imgbox"><img src="docker-icon-wh.svg" class="bg0" onclick="download('docker-icon-wh.svg', this)"/><div class="label">docker-icon-wh.svg</div></div>
+    
+      <div id="docker-icon.svg" class="imgbox"><img src="docker-icon.svg" class="bg0" onclick="download('docker-icon.svg', this)"/><div class="label">docker-icon.svg</div></div>
+    
+      <div id="docker-mono.svg" class="imgbox"><img src="docker-mono.svg" class="bg0" onclick="download('docker-mono.svg', this)"/><div class="label">docker-mono.svg</div></div>
+    
+      <div id="docker-whale.svg" class="imgbox"><img src="docker-whale.svg" class="bg0" onclick="download('docker-whale.svg', this)"/><div class="label">docker-whale.svg</div></div>
+    
+      <div id="dotnetcore.svg" class="imgbox"><img src="dotnetcore.svg" class="bg0" onclick="download('dotnetcore.svg', this)"/><div class="label">dotnetcore.svg</div></div>
+    
+      <div id="dynamics.svg" class="imgbox"><img src="dynamics.svg" class="bg0" onclick="download('dynamics.svg', this)"/><div class="label">dynamics.svg</div></div>
+    
+      <div id="eclipse.svg" class="imgbox"><img src="eclipse.svg" class="bg0" onclick="download('eclipse.svg', this)"/><div class="label">eclipse.svg</div></div>
+    
+      <div id="flask.svg" class="imgbox"><img src="flask.svg" class="bg0" onclick="download('flask.svg', this)"/><div class="label">flask.svg</div></div>
+    
+      <div id="git.svg" class="imgbox"><img src="git.svg" class="bg0" onclick="download('git.svg', this)"/><div class="label">git.svg</div></div>
+    
+      <div id="github.svg" class="imgbox"><img src="github.svg" class="bg0" onclick="download('github.svg', this)"/><div class="label">github.svg</div></div>
+    
+      <div id="gradle.svg" class="imgbox"><img src="gradle.svg" class="bg0" onclick="download('gradle.svg', this)"/><div class="label">gradle.svg</div></div>
+    
+      <div id="helm-logo.svg" class="imgbox"><img src="helm-logo.svg" class="bg0" onclick="download('helm-logo.svg', this)"/><div class="label">helm-logo.svg</div></div>
+    
+      <div id="java.svg" class="imgbox"><img src="java.svg" class="bg0" onclick="download('java.svg', this)"/><div class="label">java.svg</div></div>
+    
+      <div id="jenkins.svg" class="imgbox"><img src="jenkins.svg" class="bg0" onclick="download('jenkins.svg', this)"/><div class="label">jenkins.svg</div></div>
+    
+      <div id="jfrog.svg" class="imgbox"><img src="jfrog.svg" class="bg0" onclick="download('jfrog.svg', this)"/><div class="label">jfrog.svg</div></div>
+    
+      <div id="kube.svg" class="imgbox"><img src="kube.svg" class="bg0" onclick="download('kube.svg', this)"/><div class="label">kube.svg</div></div>
+    
+      <div id="linkedin.svg" class="imgbox"><img src="linkedin.svg" class="bg0" onclick="download('linkedin.svg', this)"/><div class="label">linkedin.svg</div></div>
+    
+      <div id="linux-tux-colour.svg" class="imgbox"><img src="linux-tux-colour.svg" class="bg0" onclick="download('linux-tux-colour.svg', this)"/><div class="label">linux-tux-colour.svg</div></div>
+    
+      <div id="linux-tux-mono.svg" class="imgbox"><img src="linux-tux-mono.svg" class="bg0" onclick="download('linux-tux-mono.svg', this)"/><div class="label">linux-tux-mono.svg</div></div>
+    
+      <div id="microsoft-logo.svg" class="imgbox"><img src="microsoft-logo.svg" class="bg0" onclick="download('microsoft-logo.svg', this)"/><div class="label">microsoft-logo.svg</div></div>
+    
+      <div id="microsoft.svg" class="imgbox"><img src="microsoft.svg" class="bg0" onclick="download('microsoft.svg', this)"/><div class="label">microsoft.svg</div></div>
+    
+      <div id="ms-sq.svg" class="imgbox"><img src="ms-sq.svg" class="bg0" onclick="download('ms-sq.svg', this)"/><div class="label">ms-sq.svg</div></div>
+    
+      <div id="ms.svg" class="imgbox"><img src="ms.svg" class="bg0" onclick="download('ms.svg', this)"/><div class="label">ms.svg</div></div>
+    
+      <div id="nodejs-2.svg" class="imgbox"><img src="nodejs-2.svg" class="bg0" onclick="download('nodejs-2.svg', this)"/><div class="label">nodejs-2.svg</div></div>
+    
+      <div id="nodejs-3.svg" class="imgbox"><img src="nodejs-3.svg" class="bg0" onclick="download('nodejs-3.svg', this)"/><div class="label">nodejs-3.svg</div></div>
+    
+      <div id="nodejs.svg" class="imgbox"><img src="nodejs.svg" class="bg0" onclick="download('nodejs.svg', this)"/><div class="label">nodejs.svg</div></div>
+    
+      <div id="octopus-deploy.svg" class="imgbox"><img src="octopus-deploy.svg" class="bg0" onclick="download('octopus-deploy.svg', this)"/><div class="label">octopus-deploy.svg</div></div>
+    
+      <div id="powerbi-mono-black.svg" class="imgbox"><img src="powerbi-mono-black.svg" class="bg0" onclick="download('powerbi-mono-black.svg', this)"/><div class="label">powerbi-mono-black.svg</div></div>
+    
+      <div id="puppet.svg" class="imgbox"><img src="puppet.svg" class="bg0" onclick="download('puppet.svg', this)"/><div class="label">puppet.svg</div></div>
+    
+      <div id="python-colour.svg" class="imgbox"><img src="python-colour.svg" class="bg0" onclick="download('python-colour.svg', this)"/><div class="label">python-colour.svg</div></div>
+    
+      <div id="python-mono.svg" class="imgbox"><img src="python-mono.svg" class="bg0" onclick="download('python-mono.svg', this)"/><div class="label">python-mono.svg</div></div>
+    
+      <div id="red-hat.svg" class="imgbox"><img src="red-hat.svg" class="bg0" onclick="download('red-hat.svg', this)"/><div class="label">red-hat.svg</div></div>
+    
+      <div id="ruby mono.svg" class="imgbox"><img src="ruby mono.svg" class="bg0" onclick="download('ruby mono.svg', this)"/><div class="label">ruby mono.svg</div></div>
+    
+      <div id="ruby.svg" class="imgbox"><img src="ruby.svg" class="bg0" onclick="download('ruby.svg', this)"/><div class="label">ruby.svg</div></div>
+    
+      <div id="saltstack.svg" class="imgbox"><img src="saltstack.svg" class="bg0" onclick="download('saltstack.svg', this)"/><div class="label">saltstack.svg</div></div>
+    
+      <div id="sap.svg" class="imgbox"><img src="sap.svg" class="bg0" onclick="download('sap.svg', this)"/><div class="label">sap.svg</div></div>
+    
+      <div id="slack.svg" class="imgbox"><img src="slack.svg" class="bg0" onclick="download('slack.svg', this)"/><div class="label">slack.svg</div></div>
+    
+      <div id="suse.svg" class="imgbox"><img src="suse.svg" class="bg0" onclick="download('suse.svg', this)"/><div class="label">suse.svg</div></div>
+    
+      <div id="terraform.svg" class="imgbox"><img src="terraform.svg" class="bg0" onclick="download('terraform.svg', this)"/><div class="label">terraform.svg</div></div>
+    
+      <div id="trello.svg" class="imgbox"><img src="trello.svg" class="bg0" onclick="download('trello.svg', this)"/><div class="label">trello.svg</div></div>
+    
+      <div id="twitter-square.svg" class="imgbox"><img src="twitter-square.svg" class="bg0" onclick="download('twitter-square.svg', this)"/><div class="label">twitter-square.svg</div></div>
+    
+      <div id="ubuntu.svg" class="imgbox"><img src="ubuntu.svg" class="bg0" onclick="download('ubuntu.svg', this)"/><div class="label">ubuntu.svg</div></div>
+    
+      <div id="vuejs.svg" class="imgbox"><img src="vuejs.svg" class="bg0" onclick="download('vuejs.svg', this)"/><div class="label">vuejs.svg</div></div>
+    
+      <div id="windows.svg" class="imgbox"><img src="windows.svg" class="bg0" onclick="download('windows.svg', this)"/><div class="label">windows.svg</div></div>
+    
+      <div id="youtube.svg" class="imgbox"><img src="youtube.svg" class="bg0" onclick="download('youtube.svg', this)"/><div class="label">youtube.svg</div></div>
+    
+  </div>
+
+  <script>
+    var bgSetting = 0;
+
+    function toggleBg() {
+      bgSetting++
+      if(bgSetting > 2) bgSetting = 0;
+      for(let img of document.getElementsByTagName("img")) {
+        img.className = `bg-${bgSetting}`;
+      }
     }
-  }
-  for(let imgbox of document.getElementsByClassName("imgbox")) {
-    imgbox.style.display = "inline-block"
-    if(!imgbox.id.includes(q)) {
-      imgbox.style.display = "none"
+    
+    function search() {
+      let query = document.getElementById('finder').value.trim().toLowerCase()
+      if(query.length <= 0) {
+        for(let imgbox of document.getElementsByClassName("imgbox")) {
+          imgbox.style.display = "inline-block"
+        }
+      }
+      for(let imgbox of document.getElementsByClassName("imgbox")) {
+        imgbox.style.display = "inline-block"
+        if(!imgbox.id.includes(query)) {
+          imgbox.style.display = "none"
+        }
+      }
     }
-  }
-}
-
-function download(f, e) {
-  var downloadPNG = document.getElementById("pngcheck").checked;
-  if(downloadPNG) {
-    var data = getBase64Image(e);
-    let a = document.createElement('a')
-    a.href = "data:application/octet-stream;base64," + data
-    a.download = f.replace('.svg', '.png')
-    a.click()
-  } else {
-    let a = document.createElement('a')
-    a.href = f
-    a.download = f
-    a.click()
-  }
-}
-
-function getBase64Image(img) {
-  var canvas = document.createElement("canvas");
-  canvas.width = img.naturalWidth;
-  canvas.height = img.naturalHeight;
-  console.log(canvas.width , canvas.height)
-  var ctx = canvas.getContext("2d");
-  ctx.drawImage(img, 0, 0);
-  var dataURL = canvas.toDataURL("image/png");
-  return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-}
-</script>
-</body></html>
+    
+    function download(f, e) {
+      if(document.getElementById("pngcheck").checked) {
+        var data = getBase64Image(e);
+        let a = document.createElement('a')
+        a.href = "data:application/octet-stream;base64," + data
+        a.download = f.replace('.svg', '.png')
+        a.click()
+      } else {
+        let a = document.createElement('a')
+        a.href = f
+        a.download = f
+        a.click()
+      }
+    }
+    
+    // Actual magic
+    function getBase64Image(img) {
+      var canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      console.log(canvas.width , canvas.height)
+      var ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      var dataURL = canvas.toDataURL("image/png");
+      return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+    }
+  </script>
+</body>
+</html>

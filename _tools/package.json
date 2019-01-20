@@ -9,6 +9,7 @@
   "author": "Ben Coleman",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.6.1",
     "jsdom": "^13.1.0",
     "request": "^2.88.0"
   }

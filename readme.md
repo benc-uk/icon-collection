@@ -1,6 +1,8 @@
 # SVG Icon Collection
 This is a collection of various technical icons, glyphs, logos and other imagery all in SVG format. The icons are mainly Azure related but there are various other brands and logos plus abstract/generic symbols.
 
+All files are run through [SVGO](https://github.com/svg/svgo) to clean them up and optimize them 
+
 Icons refreshed/updated: Jan 2019
 
 # Ownership & Copyright

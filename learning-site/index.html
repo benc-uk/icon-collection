@@ -1,273 +1,406 @@
-
-<head><title>Microsoft Learning Site</title>
-<link rel="icon" type="image/png" href="../favicon.png">
+<html>
+<head>
+  <title>Microsoft Learning Site</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial;
+      background-color: #aaa;
+      padding: 0;
+      margin: 0;
+    }
+    .bg-0 {
+      background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
+    }
+    .bg-1 {
+      background-color: #333;
+    }
+    .bg-2 {
+      background-color: #fff;
+    }
+    .imgbox img { 
+      width: 10.5rem;
+      height: 10.5rem;
+      object-fit: contain;
+      cursor: pointer;
+    }
+    .imgbox {
+      margin: 0.6rem;
+      padding: 0.5rem;
+      text-align: center;
+      width: 12rem;
+      height: 12rem;
+      background-color: #e0e0e0;
+    }
+    h1 {
+      font-size: 2.6rem;
+    }
+    .find, .find input {
+      font-size: 1.5rem;
+    }
+    .top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color: #aaa;
+      padding: 1rem;
+      box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+    }
+    .top button {
+      float: right; 
+      position: relative; 
+      top: -2rem; 
+      font-size: 1.5rem;
+    }
+    .pngbox {
+      position: absolute; 
+      top: 2rem; 
+      right: 1rem;
+      font-size: 1.5rem;
+    }
+    input[type="checkbox"] {
+      width: 1.6em;
+      height: 1.6em;
+    }
+    .label {
+      height: 2.5em;
+      line-height: 1em;
+      overflow: hidden;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    h1 {
+      display:inline;
+    }
+    .home {
+      font-size: 3rem;
+      text-decoration: none
+    }
+  </style>  
 </head>
-<style>
-body {
-  font-family: 'Segoe UI', Arial;
-  background-color: #aaa;
-  padding: 0;
-  margin: 0;
-}
-.bg0 {
-  background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
-}
-.bg1 {
-  background-color: #333;
-}
-.bg2 {
-  background-color: #fff;
-}
-.imgbox img { 
-  width: 10.5rem;
-  height: 10.5rem;
-  object-fit: contain;
-  cursor: pointer;
-}
-.imgbox {
-  margin: 0.6rem;
-  padding: 0.5rem;
-  text-align: center;
-  width: 12rem;
-  height: 12rem;
-  background-color: #e0e0e0;
-}
-h1 {
-  font-size: 2.6rem;
-}
-.find, .find input {
-  font-size: 1.5rem;
-}
-.top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #aaa;
-  padding: 1rem;
-  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
-}
-.top button {
-  float: right; 
-  position: relative; 
-  top: -2rem; 
-  font-size: 1.5rem;
-}
-.pngbox {
-  position: absolute; 
-  top: 2rem; 
-  right: 1rem;
-  font-size: 1.5rem;
-}
-input[type="checkbox"] {
-  width: 1.6em;
-  height: 1.6em;
-}
-.label {
-  height: 2.5em;
-  line-height: 1em;
-  overflow: hidden;
-  font-size: 0.9rem;
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-h1 {
-  display:inline;
-}
-.home {
-  font-size: 3rem;
-  text-decoration: none
-}
-</style>
+
 <body>
-<div class="top">
-<a href=".." class="home">⮤</a> &nbsp; <h1>Microsoft Learning Site</h1>
-<br/><br/>
-<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
-<div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
-<button onclick="toggleBg()">Change Background</button>
-</div>
-<div class="grid">
-<div id="svg (1).svg" class="imgbox"><img src="svg (1).svg" class="bg0" onclick="download('svg (1).svg', this)"/><div class="label">svg (1).svg</div></div>
-<div id="svg (10).svg" class="imgbox"><img src="svg (10).svg" class="bg0" onclick="download('svg (10).svg', this)"/><div class="label">svg (10).svg</div></div>
-<div id="svg (100).svg" class="imgbox"><img src="svg (100).svg" class="bg0" onclick="download('svg (100).svg', this)"/><div class="label">svg (100).svg</div></div>
-<div id="svg (101).svg" class="imgbox"><img src="svg (101).svg" class="bg0" onclick="download('svg (101).svg', this)"/><div class="label">svg (101).svg</div></div>
-<div id="svg (102).svg" class="imgbox"><img src="svg (102).svg" class="bg0" onclick="download('svg (102).svg', this)"/><div class="label">svg (102).svg</div></div>
-<div id="svg (103).svg" class="imgbox"><img src="svg (103).svg" class="bg0" onclick="download('svg (103).svg', this)"/><div class="label">svg (103).svg</div></div>
-<div id="svg (104).svg" class="imgbox"><img src="svg (104).svg" class="bg0" onclick="download('svg (104).svg', this)"/><div class="label">svg (104).svg</div></div>
-<div id="svg (105).svg" class="imgbox"><img src="svg (105).svg" class="bg0" onclick="download('svg (105).svg', this)"/><div class="label">svg (105).svg</div></div>
-<div id="svg (106).svg" class="imgbox"><img src="svg (106).svg" class="bg0" onclick="download('svg (106).svg', this)"/><div class="label">svg (106).svg</div></div>
-<div id="svg (107).svg" class="imgbox"><img src="svg (107).svg" class="bg0" onclick="download('svg (107).svg', this)"/><div class="label">svg (107).svg</div></div>
-<div id="svg (108).svg" class="imgbox"><img src="svg (108).svg" class="bg0" onclick="download('svg (108).svg', this)"/><div class="label">svg (108).svg</div></div>
-<div id="svg (109).svg" class="imgbox"><img src="svg (109).svg" class="bg0" onclick="download('svg (109).svg', this)"/><div class="label">svg (109).svg</div></div>
-<div id="svg (11).svg" class="imgbox"><img src="svg (11).svg" class="bg0" onclick="download('svg (11).svg', this)"/><div class="label">svg (11).svg</div></div>
-<div id="svg (110).svg" class="imgbox"><img src="svg (110).svg" class="bg0" onclick="download('svg (110).svg', this)"/><div class="label">svg (110).svg</div></div>
-<div id="svg (111).svg" class="imgbox"><img src="svg (111).svg" class="bg0" onclick="download('svg (111).svg', this)"/><div class="label">svg (111).svg</div></div>
-<div id="svg (112).svg" class="imgbox"><img src="svg (112).svg" class="bg0" onclick="download('svg (112).svg', this)"/><div class="label">svg (112).svg</div></div>
-<div id="svg (113).svg" class="imgbox"><img src="svg (113).svg" class="bg0" onclick="download('svg (113).svg', this)"/><div class="label">svg (113).svg</div></div>
-<div id="svg (114).svg" class="imgbox"><img src="svg (114).svg" class="bg0" onclick="download('svg (114).svg', this)"/><div class="label">svg (114).svg</div></div>
-<div id="svg (115).svg" class="imgbox"><img src="svg (115).svg" class="bg0" onclick="download('svg (115).svg', this)"/><div class="label">svg (115).svg</div></div>
-<div id="svg (116).svg" class="imgbox"><img src="svg (116).svg" class="bg0" onclick="download('svg (116).svg', this)"/><div class="label">svg (116).svg</div></div>
-<div id="svg (117).svg" class="imgbox"><img src="svg (117).svg" class="bg0" onclick="download('svg (117).svg', this)"/><div class="label">svg (117).svg</div></div>
-<div id="svg (118).svg" class="imgbox"><img src="svg (118).svg" class="bg0" onclick="download('svg (118).svg', this)"/><div class="label">svg (118).svg</div></div>
-<div id="svg (119).svg" class="imgbox"><img src="svg (119).svg" class="bg0" onclick="download('svg (119).svg', this)"/><div class="label">svg (119).svg</div></div>
-<div id="svg (12).svg" class="imgbox"><img src="svg (12).svg" class="bg0" onclick="download('svg (12).svg', this)"/><div class="label">svg (12).svg</div></div>
-<div id="svg (120).svg" class="imgbox"><img src="svg (120).svg" class="bg0" onclick="download('svg (120).svg', this)"/><div class="label">svg (120).svg</div></div>
-<div id="svg (121).svg" class="imgbox"><img src="svg (121).svg" class="bg0" onclick="download('svg (121).svg', this)"/><div class="label">svg (121).svg</div></div>
-<div id="svg (122).svg" class="imgbox"><img src="svg (122).svg" class="bg0" onclick="download('svg (122).svg', this)"/><div class="label">svg (122).svg</div></div>
-<div id="svg (123).svg" class="imgbox"><img src="svg (123).svg" class="bg0" onclick="download('svg (123).svg', this)"/><div class="label">svg (123).svg</div></div>
-<div id="svg (124).svg" class="imgbox"><img src="svg (124).svg" class="bg0" onclick="download('svg (124).svg', this)"/><div class="label">svg (124).svg</div></div>
-<div id="svg (125).svg" class="imgbox"><img src="svg (125).svg" class="bg0" onclick="download('svg (125).svg', this)"/><div class="label">svg (125).svg</div></div>
-<div id="svg (126).svg" class="imgbox"><img src="svg (126).svg" class="bg0" onclick="download('svg (126).svg', this)"/><div class="label">svg (126).svg</div></div>
-<div id="svg (13).svg" class="imgbox"><img src="svg (13).svg" class="bg0" onclick="download('svg (13).svg', this)"/><div class="label">svg (13).svg</div></div>
-<div id="svg (14).svg" class="imgbox"><img src="svg (14).svg" class="bg0" onclick="download('svg (14).svg', this)"/><div class="label">svg (14).svg</div></div>
-<div id="svg (15).svg" class="imgbox"><img src="svg (15).svg" class="bg0" onclick="download('svg (15).svg', this)"/><div class="label">svg (15).svg</div></div>
-<div id="svg (16).svg" class="imgbox"><img src="svg (16).svg" class="bg0" onclick="download('svg (16).svg', this)"/><div class="label">svg (16).svg</div></div>
-<div id="svg (17).svg" class="imgbox"><img src="svg (17).svg" class="bg0" onclick="download('svg (17).svg', this)"/><div class="label">svg (17).svg</div></div>
-<div id="svg (18).svg" class="imgbox"><img src="svg (18).svg" class="bg0" onclick="download('svg (18).svg', this)"/><div class="label">svg (18).svg</div></div>
-<div id="svg (19).svg" class="imgbox"><img src="svg (19).svg" class="bg0" onclick="download('svg (19).svg', this)"/><div class="label">svg (19).svg</div></div>
-<div id="svg (2).svg" class="imgbox"><img src="svg (2).svg" class="bg0" onclick="download('svg (2).svg', this)"/><div class="label">svg (2).svg</div></div>
-<div id="svg (20).svg" class="imgbox"><img src="svg (20).svg" class="bg0" onclick="download('svg (20).svg', this)"/><div class="label">svg (20).svg</div></div>
-<div id="svg (21).svg" class="imgbox"><img src="svg (21).svg" class="bg0" onclick="download('svg (21).svg', this)"/><div class="label">svg (21).svg</div></div>
-<div id="svg (22).svg" class="imgbox"><img src="svg (22).svg" class="bg0" onclick="download('svg (22).svg', this)"/><div class="label">svg (22).svg</div></div>
-<div id="svg (23).svg" class="imgbox"><img src="svg (23).svg" class="bg0" onclick="download('svg (23).svg', this)"/><div class="label">svg (23).svg</div></div>
-<div id="svg (24).svg" class="imgbox"><img src="svg (24).svg" class="bg0" onclick="download('svg (24).svg', this)"/><div class="label">svg (24).svg</div></div>
-<div id="svg (25).svg" class="imgbox"><img src="svg (25).svg" class="bg0" onclick="download('svg (25).svg', this)"/><div class="label">svg (25).svg</div></div>
-<div id="svg (26).svg" class="imgbox"><img src="svg (26).svg" class="bg0" onclick="download('svg (26).svg', this)"/><div class="label">svg (26).svg</div></div>
-<div id="svg (27).svg" class="imgbox"><img src="svg (27).svg" class="bg0" onclick="download('svg (27).svg', this)"/><div class="label">svg (27).svg</div></div>
-<div id="svg (28).svg" class="imgbox"><img src="svg (28).svg" class="bg0" onclick="download('svg (28).svg', this)"/><div class="label">svg (28).svg</div></div>
-<div id="svg (29).svg" class="imgbox"><img src="svg (29).svg" class="bg0" onclick="download('svg (29).svg', this)"/><div class="label">svg (29).svg</div></div>
-<div id="svg (3).svg" class="imgbox"><img src="svg (3).svg" class="bg0" onclick="download('svg (3).svg', this)"/><div class="label">svg (3).svg</div></div>
-<div id="svg (30).svg" class="imgbox"><img src="svg (30).svg" class="bg0" onclick="download('svg (30).svg', this)"/><div class="label">svg (30).svg</div></div>
-<div id="svg (31).svg" class="imgbox"><img src="svg (31).svg" class="bg0" onclick="download('svg (31).svg', this)"/><div class="label">svg (31).svg</div></div>
-<div id="svg (32).svg" class="imgbox"><img src="svg (32).svg" class="bg0" onclick="download('svg (32).svg', this)"/><div class="label">svg (32).svg</div></div>
-<div id="svg (33).svg" class="imgbox"><img src="svg (33).svg" class="bg0" onclick="download('svg (33).svg', this)"/><div class="label">svg (33).svg</div></div>
-<div id="svg (34).svg" class="imgbox"><img src="svg (34).svg" class="bg0" onclick="download('svg (34).svg', this)"/><div class="label">svg (34).svg</div></div>
-<div id="svg (35).svg" class="imgbox"><img src="svg (35).svg" class="bg0" onclick="download('svg (35).svg', this)"/><div class="label">svg (35).svg</div></div>
-<div id="svg (36).svg" class="imgbox"><img src="svg (36).svg" class="bg0" onclick="download('svg (36).svg', this)"/><div class="label">svg (36).svg</div></div>
-<div id="svg (37).svg" class="imgbox"><img src="svg (37).svg" class="bg0" onclick="download('svg (37).svg', this)"/><div class="label">svg (37).svg</div></div>
-<div id="svg (38).svg" class="imgbox"><img src="svg (38).svg" class="bg0" onclick="download('svg (38).svg', this)"/><div class="label">svg (38).svg</div></div>
-<div id="svg (39).svg" class="imgbox"><img src="svg (39).svg" class="bg0" onclick="download('svg (39).svg', this)"/><div class="label">svg (39).svg</div></div>
-<div id="svg (4).svg" class="imgbox"><img src="svg (4).svg" class="bg0" onclick="download('svg (4).svg', this)"/><div class="label">svg (4).svg</div></div>
-<div id="svg (40).svg" class="imgbox"><img src="svg (40).svg" class="bg0" onclick="download('svg (40).svg', this)"/><div class="label">svg (40).svg</div></div>
-<div id="svg (41).svg" class="imgbox"><img src="svg (41).svg" class="bg0" onclick="download('svg (41).svg', this)"/><div class="label">svg (41).svg</div></div>
-<div id="svg (42).svg" class="imgbox"><img src="svg (42).svg" class="bg0" onclick="download('svg (42).svg', this)"/><div class="label">svg (42).svg</div></div>
-<div id="svg (43).svg" class="imgbox"><img src="svg (43).svg" class="bg0" onclick="download('svg (43).svg', this)"/><div class="label">svg (43).svg</div></div>
-<div id="svg (44).svg" class="imgbox"><img src="svg (44).svg" class="bg0" onclick="download('svg (44).svg', this)"/><div class="label">svg (44).svg</div></div>
-<div id="svg (45).svg" class="imgbox"><img src="svg (45).svg" class="bg0" onclick="download('svg (45).svg', this)"/><div class="label">svg (45).svg</div></div>
-<div id="svg (46).svg" class="imgbox"><img src="svg (46).svg" class="bg0" onclick="download('svg (46).svg', this)"/><div class="label">svg (46).svg</div></div>
-<div id="svg (47).svg" class="imgbox"><img src="svg (47).svg" class="bg0" onclick="download('svg (47).svg', this)"/><div class="label">svg (47).svg</div></div>
-<div id="svg (48).svg" class="imgbox"><img src="svg (48).svg" class="bg0" onclick="download('svg (48).svg', this)"/><div class="label">svg (48).svg</div></div>
-<div id="svg (49).svg" class="imgbox"><img src="svg (49).svg" class="bg0" onclick="download('svg (49).svg', this)"/><div class="label">svg (49).svg</div></div>
-<div id="svg (5).svg" class="imgbox"><img src="svg (5).svg" class="bg0" onclick="download('svg (5).svg', this)"/><div class="label">svg (5).svg</div></div>
-<div id="svg (50).svg" class="imgbox"><img src="svg (50).svg" class="bg0" onclick="download('svg (50).svg', this)"/><div class="label">svg (50).svg</div></div>
-<div id="svg (51).svg" class="imgbox"><img src="svg (51).svg" class="bg0" onclick="download('svg (51).svg', this)"/><div class="label">svg (51).svg</div></div>
-<div id="svg (52).svg" class="imgbox"><img src="svg (52).svg" class="bg0" onclick="download('svg (52).svg', this)"/><div class="label">svg (52).svg</div></div>
-<div id="svg (53).svg" class="imgbox"><img src="svg (53).svg" class="bg0" onclick="download('svg (53).svg', this)"/><div class="label">svg (53).svg</div></div>
-<div id="svg (54).svg" class="imgbox"><img src="svg (54).svg" class="bg0" onclick="download('svg (54).svg', this)"/><div class="label">svg (54).svg</div></div>
-<div id="svg (55).svg" class="imgbox"><img src="svg (55).svg" class="bg0" onclick="download('svg (55).svg', this)"/><div class="label">svg (55).svg</div></div>
-<div id="svg (56).svg" class="imgbox"><img src="svg (56).svg" class="bg0" onclick="download('svg (56).svg', this)"/><div class="label">svg (56).svg</div></div>
-<div id="svg (57).svg" class="imgbox"><img src="svg (57).svg" class="bg0" onclick="download('svg (57).svg', this)"/><div class="label">svg (57).svg</div></div>
-<div id="svg (58).svg" class="imgbox"><img src="svg (58).svg" class="bg0" onclick="download('svg (58).svg', this)"/><div class="label">svg (58).svg</div></div>
-<div id="svg (59).svg" class="imgbox"><img src="svg (59).svg" class="bg0" onclick="download('svg (59).svg', this)"/><div class="label">svg (59).svg</div></div>
-<div id="svg (6).svg" class="imgbox"><img src="svg (6).svg" class="bg0" onclick="download('svg (6).svg', this)"/><div class="label">svg (6).svg</div></div>
-<div id="svg (60).svg" class="imgbox"><img src="svg (60).svg" class="bg0" onclick="download('svg (60).svg', this)"/><div class="label">svg (60).svg</div></div>
-<div id="svg (61).svg" class="imgbox"><img src="svg (61).svg" class="bg0" onclick="download('svg (61).svg', this)"/><div class="label">svg (61).svg</div></div>
-<div id="svg (62).svg" class="imgbox"><img src="svg (62).svg" class="bg0" onclick="download('svg (62).svg', this)"/><div class="label">svg (62).svg</div></div>
-<div id="svg (63).svg" class="imgbox"><img src="svg (63).svg" class="bg0" onclick="download('svg (63).svg', this)"/><div class="label">svg (63).svg</div></div>
-<div id="svg (64).svg" class="imgbox"><img src="svg (64).svg" class="bg0" onclick="download('svg (64).svg', this)"/><div class="label">svg (64).svg</div></div>
-<div id="svg (65).svg" class="imgbox"><img src="svg (65).svg" class="bg0" onclick="download('svg (65).svg', this)"/><div class="label">svg (65).svg</div></div>
-<div id="svg (66).svg" class="imgbox"><img src="svg (66).svg" class="bg0" onclick="download('svg (66).svg', this)"/><div class="label">svg (66).svg</div></div>
-<div id="svg (67).svg" class="imgbox"><img src="svg (67).svg" class="bg0" onclick="download('svg (67).svg', this)"/><div class="label">svg (67).svg</div></div>
-<div id="svg (68).svg" class="imgbox"><img src="svg (68).svg" class="bg0" onclick="download('svg (68).svg', this)"/><div class="label">svg (68).svg</div></div>
-<div id="svg (69).svg" class="imgbox"><img src="svg (69).svg" class="bg0" onclick="download('svg (69).svg', this)"/><div class="label">svg (69).svg</div></div>
-<div id="svg (7).svg" class="imgbox"><img src="svg (7).svg" class="bg0" onclick="download('svg (7).svg', this)"/><div class="label">svg (7).svg</div></div>
-<div id="svg (70).svg" class="imgbox"><img src="svg (70).svg" class="bg0" onclick="download('svg (70).svg', this)"/><div class="label">svg (70).svg</div></div>
-<div id="svg (71).svg" class="imgbox"><img src="svg (71).svg" class="bg0" onclick="download('svg (71).svg', this)"/><div class="label">svg (71).svg</div></div>
-<div id="svg (72).svg" class="imgbox"><img src="svg (72).svg" class="bg0" onclick="download('svg (72).svg', this)"/><div class="label">svg (72).svg</div></div>
-<div id="svg (73).svg" class="imgbox"><img src="svg (73).svg" class="bg0" onclick="download('svg (73).svg', this)"/><div class="label">svg (73).svg</div></div>
-<div id="svg (74).svg" class="imgbox"><img src="svg (74).svg" class="bg0" onclick="download('svg (74).svg', this)"/><div class="label">svg (74).svg</div></div>
-<div id="svg (75).svg" class="imgbox"><img src="svg (75).svg" class="bg0" onclick="download('svg (75).svg', this)"/><div class="label">svg (75).svg</div></div>
-<div id="svg (76).svg" class="imgbox"><img src="svg (76).svg" class="bg0" onclick="download('svg (76).svg', this)"/><div class="label">svg (76).svg</div></div>
-<div id="svg (77).svg" class="imgbox"><img src="svg (77).svg" class="bg0" onclick="download('svg (77).svg', this)"/><div class="label">svg (77).svg</div></div>
-<div id="svg (78).svg" class="imgbox"><img src="svg (78).svg" class="bg0" onclick="download('svg (78).svg', this)"/><div class="label">svg (78).svg</div></div>
-<div id="svg (79).svg" class="imgbox"><img src="svg (79).svg" class="bg0" onclick="download('svg (79).svg', this)"/><div class="label">svg (79).svg</div></div>
-<div id="svg (8).svg" class="imgbox"><img src="svg (8).svg" class="bg0" onclick="download('svg (8).svg', this)"/><div class="label">svg (8).svg</div></div>
-<div id="svg (80).svg" class="imgbox"><img src="svg (80).svg" class="bg0" onclick="download('svg (80).svg', this)"/><div class="label">svg (80).svg</div></div>
-<div id="svg (81).svg" class="imgbox"><img src="svg (81).svg" class="bg0" onclick="download('svg (81).svg', this)"/><div class="label">svg (81).svg</div></div>
-<div id="svg (82).svg" class="imgbox"><img src="svg (82).svg" class="bg0" onclick="download('svg (82).svg', this)"/><div class="label">svg (82).svg</div></div>
-<div id="svg (83).svg" class="imgbox"><img src="svg (83).svg" class="bg0" onclick="download('svg (83).svg', this)"/><div class="label">svg (83).svg</div></div>
-<div id="svg (84).svg" class="imgbox"><img src="svg (84).svg" class="bg0" onclick="download('svg (84).svg', this)"/><div class="label">svg (84).svg</div></div>
-<div id="svg (85).svg" class="imgbox"><img src="svg (85).svg" class="bg0" onclick="download('svg (85).svg', this)"/><div class="label">svg (85).svg</div></div>
-<div id="svg (86).svg" class="imgbox"><img src="svg (86).svg" class="bg0" onclick="download('svg (86).svg', this)"/><div class="label">svg (86).svg</div></div>
-<div id="svg (87).svg" class="imgbox"><img src="svg (87).svg" class="bg0" onclick="download('svg (87).svg', this)"/><div class="label">svg (87).svg</div></div>
-<div id="svg (88).svg" class="imgbox"><img src="svg (88).svg" class="bg0" onclick="download('svg (88).svg', this)"/><div class="label">svg (88).svg</div></div>
-<div id="svg (89).svg" class="imgbox"><img src="svg (89).svg" class="bg0" onclick="download('svg (89).svg', this)"/><div class="label">svg (89).svg</div></div>
-<div id="svg (9).svg" class="imgbox"><img src="svg (9).svg" class="bg0" onclick="download('svg (9).svg', this)"/><div class="label">svg (9).svg</div></div>
-<div id="svg (90).svg" class="imgbox"><img src="svg (90).svg" class="bg0" onclick="download('svg (90).svg', this)"/><div class="label">svg (90).svg</div></div>
-<div id="svg (91).svg" class="imgbox"><img src="svg (91).svg" class="bg0" onclick="download('svg (91).svg', this)"/><div class="label">svg (91).svg</div></div>
-<div id="svg (92).svg" class="imgbox"><img src="svg (92).svg" class="bg0" onclick="download('svg (92).svg', this)"/><div class="label">svg (92).svg</div></div>
-<div id="svg (93).svg" class="imgbox"><img src="svg (93).svg" class="bg0" onclick="download('svg (93).svg', this)"/><div class="label">svg (93).svg</div></div>
-<div id="svg (94).svg" class="imgbox"><img src="svg (94).svg" class="bg0" onclick="download('svg (94).svg', this)"/><div class="label">svg (94).svg</div></div>
-<div id="svg (95).svg" class="imgbox"><img src="svg (95).svg" class="bg0" onclick="download('svg (95).svg', this)"/><div class="label">svg (95).svg</div></div>
-<div id="svg (96).svg" class="imgbox"><img src="svg (96).svg" class="bg0" onclick="download('svg (96).svg', this)"/><div class="label">svg (96).svg</div></div>
-<div id="svg (97).svg" class="imgbox"><img src="svg (97).svg" class="bg0" onclick="download('svg (97).svg', this)"/><div class="label">svg (97).svg</div></div>
-<div id="svg (98).svg" class="imgbox"><img src="svg (98).svg" class="bg0" onclick="download('svg (98).svg', this)"/><div class="label">svg (98).svg</div></div>
-<div id="svg (99).svg" class="imgbox"><img src="svg (99).svg" class="bg0" onclick="download('svg (99).svg', this)"/><div class="label">svg (99).svg</div></div>
 
-</div>
-<script>
-var bg = 0;
-function toggleBg() {
-  bg++
-  if(bg > 2) bg = 0;
-  for(let img of document.getElementsByTagName("img")) {
-    img.className = `bg${bg}`;
-  }
-}
+  <div class="top">
+    <a href=".." class="home">&#129093;</a> &nbsp; <h1>Microsoft Learning Site</h1>
+    <br/><br/>
+    <span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
+    <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
+    <button onclick="toggleBg()">Change Background</button>
+  </div>
 
-function search() {
-  let q = document.getElementById('finder').value.trim().toLowerCase()
-  if(q.length <= 0) {
-    for(let imgbox of document.getElementsByClassName("imgbox")) {
-      imgbox.style.display = "inline-block"
+  <div class="grid">
+    
+      <div id="svg (1).svg" class="imgbox"><img src="svg (1).svg" class="bg0" onclick="download('svg (1).svg', this)"/><div class="label">svg (1).svg</div></div>
+    
+      <div id="svg (10).svg" class="imgbox"><img src="svg (10).svg" class="bg0" onclick="download('svg (10).svg', this)"/><div class="label">svg (10).svg</div></div>
+    
+      <div id="svg (100).svg" class="imgbox"><img src="svg (100).svg" class="bg0" onclick="download('svg (100).svg', this)"/><div class="label">svg (100).svg</div></div>
+    
+      <div id="svg (101).svg" class="imgbox"><img src="svg (101).svg" class="bg0" onclick="download('svg (101).svg', this)"/><div class="label">svg (101).svg</div></div>
+    
+      <div id="svg (102).svg" class="imgbox"><img src="svg (102).svg" class="bg0" onclick="download('svg (102).svg', this)"/><div class="label">svg (102).svg</div></div>
+    
+      <div id="svg (103).svg" class="imgbox"><img src="svg (103).svg" class="bg0" onclick="download('svg (103).svg', this)"/><div class="label">svg (103).svg</div></div>
+    
+      <div id="svg (104).svg" class="imgbox"><img src="svg (104).svg" class="bg0" onclick="download('svg (104).svg', this)"/><div class="label">svg (104).svg</div></div>
+    
+      <div id="svg (105).svg" class="imgbox"><img src="svg (105).svg" class="bg0" onclick="download('svg (105).svg', this)"/><div class="label">svg (105).svg</div></div>
+    
+      <div id="svg (106).svg" class="imgbox"><img src="svg (106).svg" class="bg0" onclick="download('svg (106).svg', this)"/><div class="label">svg (106).svg</div></div>
+    
+      <div id="svg (107).svg" class="imgbox"><img src="svg (107).svg" class="bg0" onclick="download('svg (107).svg', this)"/><div class="label">svg (107).svg</div></div>
+    
+      <div id="svg (108).svg" class="imgbox"><img src="svg (108).svg" class="bg0" onclick="download('svg (108).svg', this)"/><div class="label">svg (108).svg</div></div>
+    
+      <div id="svg (109).svg" class="imgbox"><img src="svg (109).svg" class="bg0" onclick="download('svg (109).svg', this)"/><div class="label">svg (109).svg</div></div>
+    
+      <div id="svg (11).svg" class="imgbox"><img src="svg (11).svg" class="bg0" onclick="download('svg (11).svg', this)"/><div class="label">svg (11).svg</div></div>
+    
+      <div id="svg (110).svg" class="imgbox"><img src="svg (110).svg" class="bg0" onclick="download('svg (110).svg', this)"/><div class="label">svg (110).svg</div></div>
+    
+      <div id="svg (111).svg" class="imgbox"><img src="svg (111).svg" class="bg0" onclick="download('svg (111).svg', this)"/><div class="label">svg (111).svg</div></div>
+    
+      <div id="svg (112).svg" class="imgbox"><img src="svg (112).svg" class="bg0" onclick="download('svg (112).svg', this)"/><div class="label">svg (112).svg</div></div>
+    
+      <div id="svg (113).svg" class="imgbox"><img src="svg (113).svg" class="bg0" onclick="download('svg (113).svg', this)"/><div class="label">svg (113).svg</div></div>
+    
+      <div id="svg (114).svg" class="imgbox"><img src="svg (114).svg" class="bg0" onclick="download('svg (114).svg', this)"/><div class="label">svg (114).svg</div></div>
+    
+      <div id="svg (115).svg" class="imgbox"><img src="svg (115).svg" class="bg0" onclick="download('svg (115).svg', this)"/><div class="label">svg (115).svg</div></div>
+    
+      <div id="svg (116).svg" class="imgbox"><img src="svg (116).svg" class="bg0" onclick="download('svg (116).svg', this)"/><div class="label">svg (116).svg</div></div>
+    
+      <div id="svg (117).svg" class="imgbox"><img src="svg (117).svg" class="bg0" onclick="download('svg (117).svg', this)"/><div class="label">svg (117).svg</div></div>
+    
+      <div id="svg (118).svg" class="imgbox"><img src="svg (118).svg" class="bg0" onclick="download('svg (118).svg', this)"/><div class="label">svg (118).svg</div></div>
+    
+      <div id="svg (119).svg" class="imgbox"><img src="svg (119).svg" class="bg0" onclick="download('svg (119).svg', this)"/><div class="label">svg (119).svg</div></div>
+    
+      <div id="svg (12).svg" class="imgbox"><img src="svg (12).svg" class="bg0" onclick="download('svg (12).svg', this)"/><div class="label">svg (12).svg</div></div>
+    
+      <div id="svg (120).svg" class="imgbox"><img src="svg (120).svg" class="bg0" onclick="download('svg (120).svg', this)"/><div class="label">svg (120).svg</div></div>
+    
+      <div id="svg (121).svg" class="imgbox"><img src="svg (121).svg" class="bg0" onclick="download('svg (121).svg', this)"/><div class="label">svg (121).svg</div></div>
+    
+      <div id="svg (122).svg" class="imgbox"><img src="svg (122).svg" class="bg0" onclick="download('svg (122).svg', this)"/><div class="label">svg (122).svg</div></div>
+    
+      <div id="svg (123).svg" class="imgbox"><img src="svg (123).svg" class="bg0" onclick="download('svg (123).svg', this)"/><div class="label">svg (123).svg</div></div>
+    
+      <div id="svg (124).svg" class="imgbox"><img src="svg (124).svg" class="bg0" onclick="download('svg (124).svg', this)"/><div class="label">svg (124).svg</div></div>
+    
+      <div id="svg (125).svg" class="imgbox"><img src="svg (125).svg" class="bg0" onclick="download('svg (125).svg', this)"/><div class="label">svg (125).svg</div></div>
+    
+      <div id="svg (126).svg" class="imgbox"><img src="svg (126).svg" class="bg0" onclick="download('svg (126).svg', this)"/><div class="label">svg (126).svg</div></div>
+    
+      <div id="svg (13).svg" class="imgbox"><img src="svg (13).svg" class="bg0" onclick="download('svg (13).svg', this)"/><div class="label">svg (13).svg</div></div>
+    
+      <div id="svg (14).svg" class="imgbox"><img src="svg (14).svg" class="bg0" onclick="download('svg (14).svg', this)"/><div class="label">svg (14).svg</div></div>
+    
+      <div id="svg (15).svg" class="imgbox"><img src="svg (15).svg" class="bg0" onclick="download('svg (15).svg', this)"/><div class="label">svg (15).svg</div></div>
+    
+      <div id="svg (16).svg" class="imgbox"><img src="svg (16).svg" class="bg0" onclick="download('svg (16).svg', this)"/><div class="label">svg (16).svg</div></div>
+    
+      <div id="svg (17).svg" class="imgbox"><img src="svg (17).svg" class="bg0" onclick="download('svg (17).svg', this)"/><div class="label">svg (17).svg</div></div>
+    
+      <div id="svg (18).svg" class="imgbox"><img src="svg (18).svg" class="bg0" onclick="download('svg (18).svg', this)"/><div class="label">svg (18).svg</div></div>
+    
+      <div id="svg (19).svg" class="imgbox"><img src="svg (19).svg" class="bg0" onclick="download('svg (19).svg', this)"/><div class="label">svg (19).svg</div></div>
+    
+      <div id="svg (2).svg" class="imgbox"><img src="svg (2).svg" class="bg0" onclick="download('svg (2).svg', this)"/><div class="label">svg (2).svg</div></div>
+    
+      <div id="svg (20).svg" class="imgbox"><img src="svg (20).svg" class="bg0" onclick="download('svg (20).svg', this)"/><div class="label">svg (20).svg</div></div>
+    
+      <div id="svg (21).svg" class="imgbox"><img src="svg (21).svg" class="bg0" onclick="download('svg (21).svg', this)"/><div class="label">svg (21).svg</div></div>
+    
+      <div id="svg (22).svg" class="imgbox"><img src="svg (22).svg" class="bg0" onclick="download('svg (22).svg', this)"/><div class="label">svg (22).svg</div></div>
+    
+      <div id="svg (23).svg" class="imgbox"><img src="svg (23).svg" class="bg0" onclick="download('svg (23).svg', this)"/><div class="label">svg (23).svg</div></div>
+    
+      <div id="svg (24).svg" class="imgbox"><img src="svg (24).svg" class="bg0" onclick="download('svg (24).svg', this)"/><div class="label">svg (24).svg</div></div>
+    
+      <div id="svg (25).svg" class="imgbox"><img src="svg (25).svg" class="bg0" onclick="download('svg (25).svg', this)"/><div class="label">svg (25).svg</div></div>
+    
+      <div id="svg (26).svg" class="imgbox"><img src="svg (26).svg" class="bg0" onclick="download('svg (26).svg', this)"/><div class="label">svg (26).svg</div></div>
+    
+      <div id="svg (27).svg" class="imgbox"><img src="svg (27).svg" class="bg0" onclick="download('svg (27).svg', this)"/><div class="label">svg (27).svg</div></div>
+    
+      <div id="svg (28).svg" class="imgbox"><img src="svg (28).svg" class="bg0" onclick="download('svg (28).svg', this)"/><div class="label">svg (28).svg</div></div>
+    
+      <div id="svg (29).svg" class="imgbox"><img src="svg (29).svg" class="bg0" onclick="download('svg (29).svg', this)"/><div class="label">svg (29).svg</div></div>
+    
+      <div id="svg (3).svg" class="imgbox"><img src="svg (3).svg" class="bg0" onclick="download('svg (3).svg', this)"/><div class="label">svg (3).svg</div></div>
+    
+      <div id="svg (30).svg" class="imgbox"><img src="svg (30).svg" class="bg0" onclick="download('svg (30).svg', this)"/><div class="label">svg (30).svg</div></div>
+    
+      <div id="svg (31).svg" class="imgbox"><img src="svg (31).svg" class="bg0" onclick="download('svg (31).svg', this)"/><div class="label">svg (31).svg</div></div>
+    
+      <div id="svg (32).svg" class="imgbox"><img src="svg (32).svg" class="bg0" onclick="download('svg (32).svg', this)"/><div class="label">svg (32).svg</div></div>
+    
+      <div id="svg (33).svg" class="imgbox"><img src="svg (33).svg" class="bg0" onclick="download('svg (33).svg', this)"/><div class="label">svg (33).svg</div></div>
+    
+      <div id="svg (34).svg" class="imgbox"><img src="svg (34).svg" class="bg0" onclick="download('svg (34).svg', this)"/><div class="label">svg (34).svg</div></div>
+    
+      <div id="svg (35).svg" class="imgbox"><img src="svg (35).svg" class="bg0" onclick="download('svg (35).svg', this)"/><div class="label">svg (35).svg</div></div>
+    
+      <div id="svg (36).svg" class="imgbox"><img src="svg (36).svg" class="bg0" onclick="download('svg (36).svg', this)"/><div class="label">svg (36).svg</div></div>
+    
+      <div id="svg (37).svg" class="imgbox"><img src="svg (37).svg" class="bg0" onclick="download('svg (37).svg', this)"/><div class="label">svg (37).svg</div></div>
+    
+      <div id="svg (38).svg" class="imgbox"><img src="svg (38).svg" class="bg0" onclick="download('svg (38).svg', this)"/><div class="label">svg (38).svg</div></div>
+    
+      <div id="svg (39).svg" class="imgbox"><img src="svg (39).svg" class="bg0" onclick="download('svg (39).svg', this)"/><div class="label">svg (39).svg</div></div>
+    
+      <div id="svg (4).svg" class="imgbox"><img src="svg (4).svg" class="bg0" onclick="download('svg (4).svg', this)"/><div class="label">svg (4).svg</div></div>
+    
+      <div id="svg (40).svg" class="imgbox"><img src="svg (40).svg" class="bg0" onclick="download('svg (40).svg', this)"/><div class="label">svg (40).svg</div></div>
+    
+      <div id="svg (41).svg" class="imgbox"><img src="svg (41).svg" class="bg0" onclick="download('svg (41).svg', this)"/><div class="label">svg (41).svg</div></div>
+    
+      <div id="svg (42).svg" class="imgbox"><img src="svg (42).svg" class="bg0" onclick="download('svg (42).svg', this)"/><div class="label">svg (42).svg</div></div>
+    
+      <div id="svg (43).svg" class="imgbox"><img src="svg (43).svg" class="bg0" onclick="download('svg (43).svg', this)"/><div class="label">svg (43).svg</div></div>
+    
+      <div id="svg (44).svg" class="imgbox"><img src="svg (44).svg" class="bg0" onclick="download('svg (44).svg', this)"/><div class="label">svg (44).svg</div></div>
+    
+      <div id="svg (45).svg" class="imgbox"><img src="svg (45).svg" class="bg0" onclick="download('svg (45).svg', this)"/><div class="label">svg (45).svg</div></div>
+    
+      <div id="svg (46).svg" class="imgbox"><img src="svg (46).svg" class="bg0" onclick="download('svg (46).svg', this)"/><div class="label">svg (46).svg</div></div>
+    
+      <div id="svg (47).svg" class="imgbox"><img src="svg (47).svg" class="bg0" onclick="download('svg (47).svg', this)"/><div class="label">svg (47).svg</div></div>
+    
+      <div id="svg (48).svg" class="imgbox"><img src="svg (48).svg" class="bg0" onclick="download('svg (48).svg', this)"/><div class="label">svg (48).svg</div></div>
+    
+      <div id="svg (49).svg" class="imgbox"><img src="svg (49).svg" class="bg0" onclick="download('svg (49).svg', this)"/><div class="label">svg (49).svg</div></div>
+    
+      <div id="svg (5).svg" class="imgbox"><img src="svg (5).svg" class="bg0" onclick="download('svg (5).svg', this)"/><div class="label">svg (5).svg</div></div>
+    
+      <div id="svg (50).svg" class="imgbox"><img src="svg (50).svg" class="bg0" onclick="download('svg (50).svg', this)"/><div class="label">svg (50).svg</div></div>
+    
+      <div id="svg (51).svg" class="imgbox"><img src="svg (51).svg" class="bg0" onclick="download('svg (51).svg', this)"/><div class="label">svg (51).svg</div></div>
+    
+      <div id="svg (52).svg" class="imgbox"><img src="svg (52).svg" class="bg0" onclick="download('svg (52).svg', this)"/><div class="label">svg (52).svg</div></div>
+    
+      <div id="svg (53).svg" class="imgbox"><img src="svg (53).svg" class="bg0" onclick="download('svg (53).svg', this)"/><div class="label">svg (53).svg</div></div>
+    
+      <div id="svg (54).svg" class="imgbox"><img src="svg (54).svg" class="bg0" onclick="download('svg (54).svg', this)"/><div class="label">svg (54).svg</div></div>
+    
+      <div id="svg (55).svg" class="imgbox"><img src="svg (55).svg" class="bg0" onclick="download('svg (55).svg', this)"/><div class="label">svg (55).svg</div></div>
+    
+      <div id="svg (56).svg" class="imgbox"><img src="svg (56).svg" class="bg0" onclick="download('svg (56).svg', this)"/><div class="label">svg (56).svg</div></div>
+    
+      <div id="svg (57).svg" class="imgbox"><img src="svg (57).svg" class="bg0" onclick="download('svg (57).svg', this)"/><div class="label">svg (57).svg</div></div>
+    
+      <div id="svg (58).svg" class="imgbox"><img src="svg (58).svg" class="bg0" onclick="download('svg (58).svg', this)"/><div class="label">svg (58).svg</div></div>
+    
+      <div id="svg (59).svg" class="imgbox"><img src="svg (59).svg" class="bg0" onclick="download('svg (59).svg', this)"/><div class="label">svg (59).svg</div></div>
+    
+      <div id="svg (6).svg" class="imgbox"><img src="svg (6).svg" class="bg0" onclick="download('svg (6).svg', this)"/><div class="label">svg (6).svg</div></div>
+    
+      <div id="svg (60).svg" class="imgbox"><img src="svg (60).svg" class="bg0" onclick="download('svg (60).svg', this)"/><div class="label">svg (60).svg</div></div>
+    
+      <div id="svg (61).svg" class="imgbox"><img src="svg (61).svg" class="bg0" onclick="download('svg (61).svg', this)"/><div class="label">svg (61).svg</div></div>
+    
+      <div id="svg (62).svg" class="imgbox"><img src="svg (62).svg" class="bg0" onclick="download('svg (62).svg', this)"/><div class="label">svg (62).svg</div></div>
+    
+      <div id="svg (63).svg" class="imgbox"><img src="svg (63).svg" class="bg0" onclick="download('svg (63).svg', this)"/><div class="label">svg (63).svg</div></div>
+    
+      <div id="svg (64).svg" class="imgbox"><img src="svg (64).svg" class="bg0" onclick="download('svg (64).svg', this)"/><div class="label">svg (64).svg</div></div>
+    
+      <div id="svg (65).svg" class="imgbox"><img src="svg (65).svg" class="bg0" onclick="download('svg (65).svg', this)"/><div class="label">svg (65).svg</div></div>
+    
+      <div id="svg (66).svg" class="imgbox"><img src="svg (66).svg" class="bg0" onclick="download('svg (66).svg', this)"/><div class="label">svg (66).svg</div></div>
+    
+      <div id="svg (67).svg" class="imgbox"><img src="svg (67).svg" class="bg0" onclick="download('svg (67).svg', this)"/><div class="label">svg (67).svg</div></div>
+    
+      <div id="svg (68).svg" class="imgbox"><img src="svg (68).svg" class="bg0" onclick="download('svg (68).svg', this)"/><div class="label">svg (68).svg</div></div>
+    
+      <div id="svg (69).svg" class="imgbox"><img src="svg (69).svg" class="bg0" onclick="download('svg (69).svg', this)"/><div class="label">svg (69).svg</div></div>
+    
+      <div id="svg (7).svg" class="imgbox"><img src="svg (7).svg" class="bg0" onclick="download('svg (7).svg', this)"/><div class="label">svg (7).svg</div></div>
+    
+      <div id="svg (70).svg" class="imgbox"><img src="svg (70).svg" class="bg0" onclick="download('svg (70).svg', this)"/><div class="label">svg (70).svg</div></div>
+    
+      <div id="svg (71).svg" class="imgbox"><img src="svg (71).svg" class="bg0" onclick="download('svg (71).svg', this)"/><div class="label">svg (71).svg</div></div>
+    
+      <div id="svg (72).svg" class="imgbox"><img src="svg (72).svg" class="bg0" onclick="download('svg (72).svg', this)"/><div class="label">svg (72).svg</div></div>
+    
+      <div id="svg (73).svg" class="imgbox"><img src="svg (73).svg" class="bg0" onclick="download('svg (73).svg', this)"/><div class="label">svg (73).svg</div></div>
+    
+      <div id="svg (74).svg" class="imgbox"><img src="svg (74).svg" class="bg0" onclick="download('svg (74).svg', this)"/><div class="label">svg (74).svg</div></div>
+    
+      <div id="svg (75).svg" class="imgbox"><img src="svg (75).svg" class="bg0" onclick="download('svg (75).svg', this)"/><div class="label">svg (75).svg</div></div>
+    
+      <div id="svg (76).svg" class="imgbox"><img src="svg (76).svg" class="bg0" onclick="download('svg (76).svg', this)"/><div class="label">svg (76).svg</div></div>
+    
+      <div id="svg (77).svg" class="imgbox"><img src="svg (77).svg" class="bg0" onclick="download('svg (77).svg', this)"/><div class="label">svg (77).svg</div></div>
+    
+      <div id="svg (78).svg" class="imgbox"><img src="svg (78).svg" class="bg0" onclick="download('svg (78).svg', this)"/><div class="label">svg (78).svg</div></div>
+    
+      <div id="svg (79).svg" class="imgbox"><img src="svg (79).svg" class="bg0" onclick="download('svg (79).svg', this)"/><div class="label">svg (79).svg</div></div>
+    
+      <div id="svg (8).svg" class="imgbox"><img src="svg (8).svg" class="bg0" onclick="download('svg (8).svg', this)"/><div class="label">svg (8).svg</div></div>
+    
+      <div id="svg (80).svg" class="imgbox"><img src="svg (80).svg" class="bg0" onclick="download('svg (80).svg', this)"/><div class="label">svg (80).svg</div></div>
+    
+      <div id="svg (81).svg" class="imgbox"><img src="svg (81).svg" class="bg0" onclick="download('svg (81).svg', this)"/><div class="label">svg (81).svg</div></div>
+    
+      <div id="svg (82).svg" class="imgbox"><img src="svg (82).svg" class="bg0" onclick="download('svg (82).svg', this)"/><div class="label">svg (82).svg</div></div>
+    
+      <div id="svg (83).svg" class="imgbox"><img src="svg (83).svg" class="bg0" onclick="download('svg (83).svg', this)"/><div class="label">svg (83).svg</div></div>
+    
+      <div id="svg (84).svg" class="imgbox"><img src="svg (84).svg" class="bg0" onclick="download('svg (84).svg', this)"/><div class="label">svg (84).svg</div></div>
+    
+      <div id="svg (85).svg" class="imgbox"><img src="svg (85).svg" class="bg0" onclick="download('svg (85).svg', this)"/><div class="label">svg (85).svg</div></div>
+    
+      <div id="svg (86).svg" class="imgbox"><img src="svg (86).svg" class="bg0" onclick="download('svg (86).svg', this)"/><div class="label">svg (86).svg</div></div>
+    
+      <div id="svg (87).svg" class="imgbox"><img src="svg (87).svg" class="bg0" onclick="download('svg (87).svg', this)"/><div class="label">svg (87).svg</div></div>
+    
+      <div id="svg (88).svg" class="imgbox"><img src="svg (88).svg" class="bg0" onclick="download('svg (88).svg', this)"/><div class="label">svg (88).svg</div></div>
+    
+      <div id="svg (89).svg" class="imgbox"><img src="svg (89).svg" class="bg0" onclick="download('svg (89).svg', this)"/><div class="label">svg (89).svg</div></div>
+    
+      <div id="svg (9).svg" class="imgbox"><img src="svg (9).svg" class="bg0" onclick="download('svg (9).svg', this)"/><div class="label">svg (9).svg</div></div>
+    
+      <div id="svg (90).svg" class="imgbox"><img src="svg (90).svg" class="bg0" onclick="download('svg (90).svg', this)"/><div class="label">svg (90).svg</div></div>
+    
+      <div id="svg (91).svg" class="imgbox"><img src="svg (91).svg" class="bg0" onclick="download('svg (91).svg', this)"/><div class="label">svg (91).svg</div></div>
+    
+      <div id="svg (92).svg" class="imgbox"><img src="svg (92).svg" class="bg0" onclick="download('svg (92).svg', this)"/><div class="label">svg (92).svg</div></div>
+    
+      <div id="svg (93).svg" class="imgbox"><img src="svg (93).svg" class="bg0" onclick="download('svg (93).svg', this)"/><div class="label">svg (93).svg</div></div>
+    
+      <div id="svg (94).svg" class="imgbox"><img src="svg (94).svg" class="bg0" onclick="download('svg (94).svg', this)"/><div class="label">svg (94).svg</div></div>
+    
+      <div id="svg (95).svg" class="imgbox"><img src="svg (95).svg" class="bg0" onclick="download('svg (95).svg', this)"/><div class="label">svg (95).svg</div></div>
+    
+      <div id="svg (96).svg" class="imgbox"><img src="svg (96).svg" class="bg0" onclick="download('svg (96).svg', this)"/><div class="label">svg (96).svg</div></div>
+    
+      <div id="svg (97).svg" class="imgbox"><img src="svg (97).svg" class="bg0" onclick="download('svg (97).svg', this)"/><div class="label">svg (97).svg</div></div>
+    
+      <div id="svg (98).svg" class="imgbox"><img src="svg (98).svg" class="bg0" onclick="download('svg (98).svg', this)"/><div class="label">svg (98).svg</div></div>
+    
+      <div id="svg (99).svg" class="imgbox"><img src="svg (99).svg" class="bg0" onclick="download('svg (99).svg', this)"/><div class="label">svg (99).svg</div></div>
+    
+  </div>
+
+  <script>
+    var bgSetting = 0;
+
+    function toggleBg() {
+      bgSetting++
+      if(bgSetting > 2) bgSetting = 0;
+      for(let img of document.getElementsByTagName("img")) {
+        img.className = `bg-${bgSetting}`;
+      }
     }
-  }
-  for(let imgbox of document.getElementsByClassName("imgbox")) {
-    imgbox.style.display = "inline-block"
-    if(!imgbox.id.includes(q)) {
-      imgbox.style.display = "none"
+    
+    function search() {
+      let query = document.getElementById('finder').value.trim().toLowerCase()
+      if(query.length <= 0) {
+        for(let imgbox of document.getElementsByClassName("imgbox")) {
+          imgbox.style.display = "inline-block"
+        }
+      }
+      for(let imgbox of document.getElementsByClassName("imgbox")) {
+        imgbox.style.display = "inline-block"
+        if(!imgbox.id.includes(query)) {
+          imgbox.style.display = "none"
+        }
+      }
     }
-  }
-}
-
-function download(f, e) {
-  var downloadPNG = document.getElementById("pngcheck").checked;
-  if(downloadPNG) {
-    var data = getBase64Image(e);
-    let a = document.createElement('a')
-    a.href = "data:application/octet-stream;base64," + data
-    a.download = f.replace('.svg', '.png')
-    a.click()
-  } else {
-    let a = document.createElement('a')
-    a.href = f
-    a.download = f
-    a.click()
-  }
-}
-
-function getBase64Image(img) {
-  var canvas = document.createElement("canvas");
-  canvas.width = img.naturalWidth;
-  canvas.height = img.naturalHeight;
-  console.log(canvas.width , canvas.height)
-  var ctx = canvas.getContext("2d");
-  ctx.drawImage(img, 0, 0);
-  var dataURL = canvas.toDataURL("image/png");
-  return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-}
-</script>
-</body></html>
+    
+    function download(f, e) {
+      if(document.getElementById("pngcheck").checked) {
+        var data = getBase64Image(e);
+        let a = document.createElement('a')
+        a.href = "data:application/octet-stream;base64," + data
+        a.download = f.replace('.svg', '.png')
+        a.click()
+      } else {
+        let a = document.createElement('a')
+        a.href = f
+        a.download = f
+        a.click()
+      }
+    }
+    
+    // Actual magic
+    function getBase64Image(img) {
+      var canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      console.log(canvas.width , canvas.height)
+      var ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      var dataURL = canvas.toDataURL("image/png");
+      return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+    }
+  </script>
+</body>
+</html>

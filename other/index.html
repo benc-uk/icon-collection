@@ -1,172 +1,204 @@
-
-<head><title>Other Icons</title>
-<link rel="icon" type="image/png" href="../favicon.png">
+<html>
+<head>
+  <title>Other Icons</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial;
+      background-color: #aaa;
+      padding: 0;
+      margin: 0;
+    }
+    .bg-0 {
+      background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
+    }
+    .bg-1 {
+      background-color: #333;
+    }
+    .bg-2 {
+      background-color: #fff;
+    }
+    .imgbox img { 
+      width: 10.5rem;
+      height: 10.5rem;
+      object-fit: contain;
+      cursor: pointer;
+    }
+    .imgbox {
+      margin: 0.6rem;
+      padding: 0.5rem;
+      text-align: center;
+      width: 12rem;
+      height: 12rem;
+      background-color: #e0e0e0;
+    }
+    h1 {
+      font-size: 2.6rem;
+    }
+    .find, .find input {
+      font-size: 1.5rem;
+    }
+    .top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color: #aaa;
+      padding: 1rem;
+      box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+    }
+    .top button {
+      float: right; 
+      position: relative; 
+      top: -2rem; 
+      font-size: 1.5rem;
+    }
+    .pngbox {
+      position: absolute; 
+      top: 2rem; 
+      right: 1rem;
+      font-size: 1.5rem;
+    }
+    input[type="checkbox"] {
+      width: 1.6em;
+      height: 1.6em;
+    }
+    .label {
+      height: 2.5em;
+      line-height: 1em;
+      overflow: hidden;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    h1 {
+      display:inline;
+    }
+    .home {
+      font-size: 3rem;
+      text-decoration: none
+    }
+  </style>  
 </head>
-<style>
-body {
-  font-family: 'Segoe UI', Arial;
-  background-color: #aaa;
-  padding: 0;
-  margin: 0;
-}
-.bg0 {
-  background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
-}
-.bg1 {
-  background-color: #333;
-}
-.bg2 {
-  background-color: #fff;
-}
-.imgbox img { 
-  width: 10.5rem;
-  height: 10.5rem;
-  object-fit: contain;
-  cursor: pointer;
-}
-.imgbox {
-  margin: 0.6rem;
-  padding: 0.5rem;
-  text-align: center;
-  width: 12rem;
-  height: 12rem;
-  background-color: #e0e0e0;
-}
-h1 {
-  font-size: 2.6rem;
-}
-.find, .find input {
-  font-size: 1.5rem;
-}
-.top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #aaa;
-  padding: 1rem;
-  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
-}
-.top button {
-  float: right; 
-  position: relative; 
-  top: -2rem; 
-  font-size: 1.5rem;
-}
-.pngbox {
-  position: absolute; 
-  top: 2rem; 
-  right: 1rem;
-  font-size: 1.5rem;
-}
-input[type="checkbox"] {
-  width: 1.6em;
-  height: 1.6em;
-}
-.label {
-  height: 2.5em;
-  line-height: 1em;
-  overflow: hidden;
-  font-size: 0.9rem;
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-h1 {
-  display:inline;
-}
-.home {
-  font-size: 3rem;
-  text-decoration: none
-}
-</style>
+
 <body>
-<div class="top">
-<a href=".." class="home">⮤</a> &nbsp; <h1>Other Icons</h1>
-<br/><br/>
-<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
-<div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
-<button onclick="toggleBg()">Change Background</button>
-</div>
-<div class="grid">
-<div id="Kudu.svg" class="imgbox"><img src="Kudu.svg" class="bg0" onclick="download('Kudu.svg', this)"/><div class="label">Kudu.svg</div></div>
-<div id="aks-blue.svg" class="imgbox"><img src="aks-blue.svg" class="bg0" onclick="download('aks-blue.svg', this)"/><div class="label">aks-blue.svg</div></div>
-<div id="app-center-colour.svg" class="imgbox"><img src="app-center-colour.svg" class="bg0" onclick="download('app-center-colour.svg', this)"/><div class="label">app-center-colour.svg</div></div>
-<div id="app-center.svg" class="imgbox"><img src="app-center.svg" class="bg0" onclick="download('app-center.svg', this)"/><div class="label">app-center.svg</div></div>
-<div id="azure ml.svg" class="imgbox"><img src="azure ml.svg" class="bg0" onclick="download('azure ml.svg', this)"/><div class="label">azure ml.svg</div></div>
-<div id="cloud-security.svg" class="imgbox"><img src="cloud-security.svg" class="bg0" onclick="download('cloud-security.svg', this)"/><div class="label">cloud-security.svg</div></div>
-<div id="connector.svg" class="imgbox"><img src="connector.svg" class="bg0" onclick="download('connector.svg', this)"/><div class="label">connector.svg</div></div>
-<div id="container-insights.svg" class="imgbox"><img src="container-insights.svg" class="bg0" onclick="download('container-insights.svg', this)"/><div class="label">container-insights.svg</div></div>
-<div id="container-mon.svg" class="imgbox"><img src="container-mon.svg" class="bg0" onclick="download('container-mon.svg', this)"/><div class="label">container-mon.svg</div></div>
-<div id="container.svg" class="imgbox"><img src="container.svg" class="bg0" onclick="download('container.svg', this)"/><div class="label">container.svg</div></div>
-<div id="containerinstances-mono.svg" class="imgbox"><img src="containerinstances-mono.svg" class="bg0" onclick="download('containerinstances-mono.svg', this)"/><div class="label">containerinstances-mono.svg</div></div>
-<div id="cubes.svg" class="imgbox"><img src="cubes.svg" class="bg0" onclick="download('cubes.svg', this)"/><div class="label">cubes.svg</div></div>
-<div id="designer.svg" class="imgbox"><img src="designer.svg" class="bg0" onclick="download('designer.svg', this)"/><div class="label">designer.svg</div></div>
-<div id="devops-boards.svg" class="imgbox"><img src="devops-boards.svg" class="bg0" onclick="download('devops-boards.svg', this)"/><div class="label">devops-boards.svg</div></div>
-<div id="devops-pipelines.svg" class="imgbox"><img src="devops-pipelines.svg" class="bg0" onclick="download('devops-pipelines.svg', this)"/><div class="label">devops-pipelines.svg</div></div>
-<div id="devops-repos.svg" class="imgbox"><img src="devops-repos.svg" class="bg0" onclick="download('devops-repos.svg', this)"/><div class="label">devops-repos.svg</div></div>
-<div id="devops-testplans.svg" class="imgbox"><img src="devops-testplans.svg" class="bg0" onclick="download('devops-testplans.svg', this)"/><div class="label">devops-testplans.svg</div></div>
-<div id="devopsiconartifacts96.svg" class="imgbox"><img src="devopsiconartifacts96.svg" class="bg0" onclick="download('devopsiconartifacts96.svg', this)"/><div class="label">devopsiconartifacts96.svg</div></div>
-<div id="event-grid-topic.svg" class="imgbox"><img src="event-grid-topic.svg" class="bg0" onclick="download('event-grid-topic.svg', this)"/><div class="label">event-grid-topic.svg</div></div>
-<div id="machine-learning-diagram.svg" class="imgbox"><img src="machine-learning-diagram.svg" class="bg0" onclick="download('machine-learning-diagram.svg', this)"/><div class="label">machine-learning-diagram.svg</div></div>
-<div id="pickle.svg" class="imgbox"><img src="pickle.svg" class="bg0" onclick="download('pickle.svg', this)"/><div class="label">pickle.svg</div></div>
-<div id="resource-explorer.svg" class="imgbox"><img src="resource-explorer.svg" class="bg0" onclick="download('resource-explorer.svg', this)"/><div class="label">resource-explorer.svg</div></div>
-<div id="rss.svg" class="imgbox"><img src="rss.svg" class="bg0" onclick="download('rss.svg', this)"/><div class="label">rss.svg</div></div>
-<div id="shield.svg" class="imgbox"><img src="shield.svg" class="bg0" onclick="download('shield.svg', this)"/><div class="label">shield.svg</div></div>
-<div id="xcode.svg" class="imgbox"><img src="xcode.svg" class="bg0" onclick="download('xcode.svg', this)"/><div class="label">xcode.svg</div></div>
 
-</div>
-<script>
-var bg = 0;
-function toggleBg() {
-  bg++
-  if(bg > 2) bg = 0;
-  for(let img of document.getElementsByTagName("img")) {
-    img.className = `bg${bg}`;
-  }
-}
+  <div class="top">
+    <a href=".." class="home">&#129093;</a> &nbsp; <h1>Other Icons</h1>
+    <br/><br/>
+    <span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
+    <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
+    <button onclick="toggleBg()">Change Background</button>
+  </div>
 
-function search() {
-  let q = document.getElementById('finder').value.trim().toLowerCase()
-  if(q.length <= 0) {
-    for(let imgbox of document.getElementsByClassName("imgbox")) {
-      imgbox.style.display = "inline-block"
+  <div class="grid">
+    
+      <div id="Kudu.svg" class="imgbox"><img src="Kudu.svg" class="bg0" onclick="download('Kudu.svg', this)"/><div class="label">Kudu.svg</div></div>
+    
+      <div id="aks-blue.svg" class="imgbox"><img src="aks-blue.svg" class="bg0" onclick="download('aks-blue.svg', this)"/><div class="label">aks-blue.svg</div></div>
+    
+      <div id="app-center-colour.svg" class="imgbox"><img src="app-center-colour.svg" class="bg0" onclick="download('app-center-colour.svg', this)"/><div class="label">app-center-colour.svg</div></div>
+    
+      <div id="app-center.svg" class="imgbox"><img src="app-center.svg" class="bg0" onclick="download('app-center.svg', this)"/><div class="label">app-center.svg</div></div>
+    
+      <div id="azure ml.svg" class="imgbox"><img src="azure ml.svg" class="bg0" onclick="download('azure ml.svg', this)"/><div class="label">azure ml.svg</div></div>
+    
+      <div id="cloud-security.svg" class="imgbox"><img src="cloud-security.svg" class="bg0" onclick="download('cloud-security.svg', this)"/><div class="label">cloud-security.svg</div></div>
+    
+      <div id="connector.svg" class="imgbox"><img src="connector.svg" class="bg0" onclick="download('connector.svg', this)"/><div class="label">connector.svg</div></div>
+    
+      <div id="container-insights.svg" class="imgbox"><img src="container-insights.svg" class="bg0" onclick="download('container-insights.svg', this)"/><div class="label">container-insights.svg</div></div>
+    
+      <div id="container-mon.svg" class="imgbox"><img src="container-mon.svg" class="bg0" onclick="download('container-mon.svg', this)"/><div class="label">container-mon.svg</div></div>
+    
+      <div id="container.svg" class="imgbox"><img src="container.svg" class="bg0" onclick="download('container.svg', this)"/><div class="label">container.svg</div></div>
+    
+      <div id="containerinstances-mono.svg" class="imgbox"><img src="containerinstances-mono.svg" class="bg0" onclick="download('containerinstances-mono.svg', this)"/><div class="label">containerinstances-mono.svg</div></div>
+    
+      <div id="cubes.svg" class="imgbox"><img src="cubes.svg" class="bg0" onclick="download('cubes.svg', this)"/><div class="label">cubes.svg</div></div>
+    
+      <div id="designer.svg" class="imgbox"><img src="designer.svg" class="bg0" onclick="download('designer.svg', this)"/><div class="label">designer.svg</div></div>
+    
+      <div id="devops-boards.svg" class="imgbox"><img src="devops-boards.svg" class="bg0" onclick="download('devops-boards.svg', this)"/><div class="label">devops-boards.svg</div></div>
+    
+      <div id="devops-pipelines.svg" class="imgbox"><img src="devops-pipelines.svg" class="bg0" onclick="download('devops-pipelines.svg', this)"/><div class="label">devops-pipelines.svg</div></div>
+    
+      <div id="devops-repos.svg" class="imgbox"><img src="devops-repos.svg" class="bg0" onclick="download('devops-repos.svg', this)"/><div class="label">devops-repos.svg</div></div>
+    
+      <div id="devops-testplans.svg" class="imgbox"><img src="devops-testplans.svg" class="bg0" onclick="download('devops-testplans.svg', this)"/><div class="label">devops-testplans.svg</div></div>
+    
+      <div id="devopsiconartifacts96.svg" class="imgbox"><img src="devopsiconartifacts96.svg" class="bg0" onclick="download('devopsiconartifacts96.svg', this)"/><div class="label">devopsiconartifacts96.svg</div></div>
+    
+      <div id="event-grid-topic.svg" class="imgbox"><img src="event-grid-topic.svg" class="bg0" onclick="download('event-grid-topic.svg', this)"/><div class="label">event-grid-topic.svg</div></div>
+    
+      <div id="machine-learning-diagram.svg" class="imgbox"><img src="machine-learning-diagram.svg" class="bg0" onclick="download('machine-learning-diagram.svg', this)"/><div class="label">machine-learning-diagram.svg</div></div>
+    
+      <div id="pickle.svg" class="imgbox"><img src="pickle.svg" class="bg0" onclick="download('pickle.svg', this)"/><div class="label">pickle.svg</div></div>
+    
+      <div id="resource-explorer.svg" class="imgbox"><img src="resource-explorer.svg" class="bg0" onclick="download('resource-explorer.svg', this)"/><div class="label">resource-explorer.svg</div></div>
+    
+      <div id="rss.svg" class="imgbox"><img src="rss.svg" class="bg0" onclick="download('rss.svg', this)"/><div class="label">rss.svg</div></div>
+    
+      <div id="shield.svg" class="imgbox"><img src="shield.svg" class="bg0" onclick="download('shield.svg', this)"/><div class="label">shield.svg</div></div>
+    
+      <div id="xcode.svg" class="imgbox"><img src="xcode.svg" class="bg0" onclick="download('xcode.svg', this)"/><div class="label">xcode.svg</div></div>
+    
+  </div>
+
+  <script>
+    var bgSetting = 0;
+
+    function toggleBg() {
+      bgSetting++
+      if(bgSetting > 2) bgSetting = 0;
+      for(let img of document.getElementsByTagName("img")) {
+        img.className = `bg-${bgSetting}`;
+      }
     }
-  }
-  for(let imgbox of document.getElementsByClassName("imgbox")) {
-    imgbox.style.display = "inline-block"
-    if(!imgbox.id.includes(q)) {
-      imgbox.style.display = "none"
+    
+    function search() {
+      let query = document.getElementById('finder').value.trim().toLowerCase()
+      if(query.length <= 0) {
+        for(let imgbox of document.getElementsByClassName("imgbox")) {
+          imgbox.style.display = "inline-block"
+        }
+      }
+      for(let imgbox of document.getElementsByClassName("imgbox")) {
+        imgbox.style.display = "inline-block"
+        if(!imgbox.id.includes(query)) {
+          imgbox.style.display = "none"
+        }
+      }
     }
-  }
-}
-
-function download(f, e) {
-  var downloadPNG = document.getElementById("pngcheck").checked;
-  if(downloadPNG) {
-    var data = getBase64Image(e);
-    let a = document.createElement('a')
-    a.href = "data:application/octet-stream;base64," + data
-    a.download = f.replace('.svg', '.png')
-    a.click()
-  } else {
-    let a = document.createElement('a')
-    a.href = f
-    a.download = f
-    a.click()
-  }
-}
-
-function getBase64Image(img) {
-  var canvas = document.createElement("canvas");
-  canvas.width = img.naturalWidth;
-  canvas.height = img.naturalHeight;
-  console.log(canvas.width , canvas.height)
-  var ctx = canvas.getContext("2d");
-  ctx.drawImage(img, 0, 0);
-  var dataURL = canvas.toDataURL("image/png");
-  return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-}
-</script>
-</body></html>
+    
+    function download(f, e) {
+      if(document.getElementById("pngcheck").checked) {
+        var data = getBase64Image(e);
+        let a = document.createElement('a')
+        a.href = "data:application/octet-stream;base64," + data
+        a.download = f.replace('.svg', '.png')
+        a.click()
+      } else {
+        let a = document.createElement('a')
+        a.href = f
+        a.download = f
+        a.click()
+      }
+    }
+    
+    // Actual magic
+    function getBase64Image(img) {
+      var canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      console.log(canvas.width , canvas.height)
+      var ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      var dataURL = canvas.toDataURL("image/png");
+      return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+    }
+  </script>
+</body>
+</html>

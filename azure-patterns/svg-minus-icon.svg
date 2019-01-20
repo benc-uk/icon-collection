@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                
-                            
-    <path fill="#00ABEC" d="M15,0c8.3,0,15,6.7,15,15c0,8.3-6.7,15-15,15C6.7,30,0,23.3,0,15C0,6.7,6.7,0,15,0 M15,1.9 C7.8,1.9,1.9,7.8,1.9,15c0,7.2,5.9,13.1,13.1,13.1c7.2,0,13.1-5.9,13.1-13.1C28.1,7.8,22.2,1.9,15,1.9"></path>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-    <rect x="7" y="13.8" fill="#00ABEC" width="16" height="2.4"></rect>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path fill="#00ABEC" d="M15 0c8.3 0 15 6.7 15 15s-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0m0 1.9C7.8 1.9 1.9 7.8 1.9 15c0 7.2 5.9 13.1 13.1 13.1 7.2 0 13.1-5.9 13.1-13.1 0-7.2-5.9-13.1-13.1-13.1"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/><path fill="#00ABEC" d="M7 13.8h16v2.4H7z"/></svg>

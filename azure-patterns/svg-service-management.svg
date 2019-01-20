@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-                                
-                            
-    <rect fill="#A0A1A2" width="11.7" height="11.5"></rect>
-    <rect x="16.1" fill="#A0A1A2" width="11.7" height="11.5"></rect>
-    <rect x="32.3" fill="#A0A1A2" width="11.7" height="11.5"></rect>
-    <rect y="16.1" fill="#A0A1A2" width="27.9" height="11.5"></rect>
-    <rect x="32.3" y="16.1" fill="#A0A1A2" width="11.7" height="11.5"></rect>
-    <rect y="32.3" fill="#A0A1A2" width="44" height="11.7"></rect>
-    <path fill="#0072C6" d="M45.8,16.5c0,4.7-3.8,8.6-8.6,8.6s-8.6-3.8-8.6-8.6c0-4.7,3.8-8.6,8.6-8.6S45.8,11.8,45.8,16.5"></path>
-    <polygon fill="#0072C6" points="43.5,28.3 37.2,37.1 30.9,28.3 24.4,28.3 24.4,50 50,50 50,28.3 "></polygon>
-    <path opacity="0.2" fill="#FFFFFF" d="M28.6,16.5c0,4.7,3.8,8.6,8.6,8.6c0.3,0,0.6-0.1,0.9-0.1l2.1-16.5c-0.9-0.3-1.9-0.6-3-0.6 C32.4,7.9,28.6,11.8,28.6,16.5"></path>
-    <polygon opacity="0.2" fill="#FFFFFF" points="30.9,28.3 24.4,28.3 24.4,50 35,50 36.7,36.4 "></polygon>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill="#A0A1A2" d="M0 0h11.7v11.5H0zM16.1 0h11.7v11.5H16.1zM32.3 0H44v11.5H32.3zM0 16.1h27.9v11.5H0zM32.3 16.1H44v11.5H32.3zM0 32.3h44V44H0z"/><path fill="#0072C6" d="M45.8 16.5c0 4.7-3.8 8.6-8.6 8.6s-8.6-3.8-8.6-8.6c0-4.7 3.8-8.6 8.6-8.6s8.6 3.9 8.6 8.6M43.5 28.3l-6.3 8.8-6.3-8.8h-6.5V50H50V28.3z"/><path opacity=".2" fill="#FFF" d="M28.6 16.5c0 4.7 3.8 8.6 8.6 8.6.3 0 .6-.1.9-.1l2.1-16.5c-.9-.3-1.9-.6-3-.6-4.8 0-8.6 3.9-8.6 8.6M30.9 28.3h-6.5V50H35l1.7-13.6z"/></svg>

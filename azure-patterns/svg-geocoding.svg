@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630">
-                                
-                            
-  <rect fill="none" width="630" height="630"></rect>
-  <polygon fill="#0078d4" points="600 150 270 150 270 30 150 30 150 150 30 150 30 270 150 270 150 600 270 600 270 270 600 270 600 150"></polygon>
-  <path d="M570,360V569.94H360V360H570m30-30H330V599.94H600V330Z"></path>
-  <rect fill="#50e6ff" x="330" y="30" width="270" height="60"></rect>
-  <rect fill="#50e6ff" x="30" y="30" width="60" height="60"></rect>
-  <rect fill="#50e6ff" x="30" y="330" width="60" height="270"></rect>
-  <circle fill="#0078d4" cx="464.56" cy="465.15" r="60"></circle>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630"><path fill="none" d="M0 0h630v630H0z"/><path fill="#0078d4" d="M600 150H270V30H150v120H30v120h120v330h120V270h330V150z"/><path d="M570 360v209.94H360V360h210m30-30H330v269.94h270V330z"/><path fill="#50e6ff" d="M330 30h270v60H330zM30 30h60v60H30zM30 330h60v270H30z"/><circle fill="#0078d4" cx="464.56" cy="465.15" r="60"/></svg>

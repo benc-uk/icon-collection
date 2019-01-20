@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630">
-                                
-                            
-  <rect width="630" height="630" fill="none" stroke="#fff" stroke-miterlimit="10"></rect>
-  <polygon points="420.33 137.83 377.91 180.26 515.15 317.5 383.91 448.74 426.33 491.17 600 317.5 420.33 137.83"></polygon>
-  <polygon fill="#0078d4" points="252.09 180.26 209.67 137.83 72.43 275.07 30 317.5 203.67 491.17 246.09 448.74 114.85 317.5 252.09 180.26"></polygon>
-  <circle fill="#0078d4" cx="260" cy="370" r="30"></circle>
-  <circle fill="#50e6ff" cx="314.99" cy="315.01" r="30"></circle>
-  <circle cx="369.97" cy="260.03" r="30"></circle>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630"><path fill="none" stroke="#fff" stroke-miterlimit="10" d="M0 0h630v630H0z"/><path d="M420.33 137.83l-42.42 42.43L515.15 317.5 383.91 448.74l42.42 42.43L600 317.5 420.33 137.83z"/><path fill="#0078d4" d="M252.09 180.26l-42.42-42.43L72.43 275.07 30 317.5l173.67 173.67 42.42-42.43L114.85 317.5l137.24-137.24z"/><circle fill="#0078d4" cx="260" cy="370" r="30"/><circle fill="#50e6ff" cx="314.99" cy="315.01" r="30"/><circle cx="369.97" cy="260.03" r="30"/></svg>

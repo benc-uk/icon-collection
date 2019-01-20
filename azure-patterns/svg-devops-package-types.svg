@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
-                                
-                            
-    <rect width="80" height="80" fill="black" fill-opacity="0"></rect>
-    <circle cx="40" cy="40" r="40" fill="#CB2E6D" fill-opacity="0.05"></circle>
-    <path d="M55 36.25H53.125V53.125H26.875V36.25H25V26.875H55V36.25ZM51.25 36.25H28.75V51.25H51.25V36.25ZM53.125 28.75H26.875V34.375H53.125V28.75ZM40 45.625H30.625V43.75H40V45.625ZM30.625 49.375V47.5H38.125V49.375H30.625Z" fill="#CB2E6D"></path>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path fill="none" d="M0 0h80v80H0z"/><circle cx="40" cy="40" r="40" fill="#CB2E6D" fill-opacity=".05"/><path d="M55 36.25h-1.875v16.875h-26.25V36.25H25v-9.375h30v9.375zm-3.75 0h-22.5v15h22.5v-15zm1.875-7.5h-26.25v5.625h26.25V28.75zM40 45.625h-9.375V43.75H40v1.875zm-9.375 3.75V47.5h7.5v1.875h-7.5z" fill="#CB2E6D"/></svg>

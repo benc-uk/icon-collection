@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
-                                
-                            
-    <rect width="28" height="28" fill="#515252"></rect>
-    <rect x="5.527" y="9.223" width="16.802" height="10.245" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.639"></rect>
-    <polyline points="22.428 9.904 13.928 15.947 5.428 9.904" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.639"></polyline>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path fill="#515252" d="M0 0h28v28H0z"/><path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.639" d="M5.527 9.223h16.802v10.245H5.527z"/><path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.639" d="M22.428 9.904l-8.5 6.043-8.5-6.043"/></svg>

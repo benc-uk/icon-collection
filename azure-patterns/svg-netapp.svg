@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23">
-                                
-                            
-    <polygon points="0 -0.0002 0 22.7708 10.187 22.7708 10.187 9.3748 17.125 9.3748 17.125 22.7708 27.333 22.7708 27.333 -0.0002" stroke="none" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd"></polygon>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23"><path fill="#FFF" fill-rule="evenodd" d="M0 0v22.77h10.187V9.376h6.938V22.77h10.208V0z"/></svg>

@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 50">
-                                
-                            
-    <polygon points="42 6.8 37.2 2 35.2 0 35 0 0 0 0 50 44 50 44 9 44 8.8 42 6.8" fill="#59b4d9"></polygon>
-    <polygon points="35 2 2 2 2 48 42 48 42 9 35 9 35 2" fill="#fff" opacity="0.8" style="isolation: isolate"></polygon>
-    <path d="M14.607,31.13,4.915,26.474v-1.15l9.692-5.058v2.062L7.52,25.844v.043l7.087,3.191Z" fill="#59b4d9"></path>
-    <path d="M26.871,16.63,19.35,34.776H17.06L24.549,16.63Z" fill="#59b4d9"></path>
-    <path d="M39.233,26.409l-9.692,4.656V29.014l7.1-3.158v-.065l-7.1-3.517V20.212l9.692,5.047Z" fill="#59b4d9"></path>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 50"><path fill="#59b4d9" d="M42 6.8L37.2 2l-2-2H0v50h44V8.8l-2-2z"/><path fill="#fff" opacity=".8" style="isolation:isolate" d="M35 2H2v46h40V9h-7V2z"/><path d="M14.607 31.13l-9.692-4.656v-1.15l9.692-5.058v2.062L7.52 25.844v.043l7.087 3.191zM26.871 16.63L19.35 34.776h-2.29l7.489-18.146zM39.233 26.409l-9.692 4.656v-2.051l7.1-3.158v-.065l-7.1-3.517v-2.062l9.692 5.047z" fill="#59b4d9"/></svg>

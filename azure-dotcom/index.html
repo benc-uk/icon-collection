@@ -1,158 +1,176 @@
-
-<head><title>Azure.com Various</title>
-<link rel="icon" type="image/png" href="../favicon.png">
+<html>
+<head>
+  <title>Azure.com Various</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial;
+      background-color: #aaa;
+      padding: 0;
+      margin: 0;
+    }
+    .bg-0 {
+      background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
+    }
+    .bg-1 {
+      background-color: #333;
+    }
+    .bg-2 {
+      background-color: #fff;
+    }
+    .imgbox img { 
+      width: 10.5rem;
+      height: 10.5rem;
+      object-fit: contain;
+      cursor: pointer;
+    }
+    .imgbox {
+      margin: 0.6rem;
+      padding: 0.5rem;
+      text-align: center;
+      width: 12rem;
+      height: 12rem;
+      background-color: #e0e0e0;
+    }
+    h1 {
+      font-size: 2.6rem;
+    }
+    .find, .find input {
+      font-size: 1.5rem;
+    }
+    .top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color: #aaa;
+      padding: 1rem;
+      box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
+    }
+    .top button {
+      float: right; 
+      position: relative; 
+      top: -2rem; 
+      font-size: 1.5rem;
+    }
+    .pngbox {
+      position: absolute; 
+      top: 2rem; 
+      right: 1rem;
+      font-size: 1.5rem;
+    }
+    input[type="checkbox"] {
+      width: 1.6em;
+      height: 1.6em;
+    }
+    .label {
+      height: 2.5em;
+      line-height: 1em;
+      overflow: hidden;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    h1 {
+      display:inline;
+    }
+    .home {
+      font-size: 3rem;
+      text-decoration: none
+    }
+  </style>  
 </head>
-<style>
-body {
-  font-family: 'Segoe UI', Arial;
-  background-color: #aaa;
-  padding: 0;
-  margin: 0;
-}
-.bg0 {
-  background-image: url("https://github.com/benc-uk/icon-collection/raw/master/_tools/background.png")
-}
-.bg1 {
-  background-color: #333;
-}
-.bg2 {
-  background-color: #fff;
-}
-.imgbox img { 
-  width: 10.5rem;
-  height: 10.5rem;
-  object-fit: contain;
-  cursor: pointer;
-}
-.imgbox {
-  margin: 0.6rem;
-  padding: 0.5rem;
-  text-align: center;
-  width: 12rem;
-  height: 12rem;
-  background-color: #e0e0e0;
-}
-h1 {
-  font-size: 2.6rem;
-}
-.find, .find input {
-  font-size: 1.5rem;
-}
-.top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #aaa;
-  padding: 1rem;
-  box-shadow: 0px 5px 18px 3px rgba(0,0,0,0.59);
-}
-.top button {
-  float: right; 
-  position: relative; 
-  top: -2rem; 
-  font-size: 1.5rem;
-}
-.pngbox {
-  position: absolute; 
-  top: 2rem; 
-  right: 1rem;
-  font-size: 1.5rem;
-}
-input[type="checkbox"] {
-  width: 1.6em;
-  height: 1.6em;
-}
-.label {
-  height: 2.5em;
-  line-height: 1em;
-  overflow: hidden;
-  font-size: 0.9rem;
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-h1 {
-  display:inline;
-}
-.home {
-  font-size: 3rem;
-  text-decoration: none
-}
-</style>
+
 <body>
-<div class="top">
-<a href=".." class="home">⮤</a> &nbsp; <h1>Azure.com Various</h1>
-<br/><br/>
-<span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
-<div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
-<button onclick="toggleBg()">Change Background</button>
-</div>
-<div class="grid">
-<div id="backup-archive.svg" class="imgbox"><img src="backup-archive.svg" class="bg0" onclick="download('backup-archive.svg', this)"/><div class="label">backup-archive.svg</div></div>
-<div id="blockchain.svg" class="imgbox"><img src="blockchain.svg" class="bg0" onclick="download('blockchain.svg', this)"/><div class="label">blockchain.svg</div></div>
-<div id="digital-marketing.svg" class="imgbox"><img src="digital-marketing.svg" class="bg0" onclick="download('digital-marketing.svg', this)"/><div class="label">digital-marketing.svg</div></div>
-<div id="e-commerce.svg" class="imgbox"><img src="e-commerce.svg" class="bg0" onclick="download('e-commerce.svg', this)"/><div class="label">e-commerce.svg</div></div>
-<div id="high-performance-computing.svg" class="imgbox"><img src="high-performance-computing.svg" class="bg0" onclick="download('high-performance-computing.svg', this)"/><div class="label">high-performance-computing.svg</div></div>
-<div id="hybrid-cloud-app.svg" class="imgbox"><img src="hybrid-cloud-app.svg" class="bg0" onclick="download('hybrid-cloud-app.svg', this)"/><div class="label">hybrid-cloud-app.svg</div></div>
-<div id="internet-of-things.svg" class="imgbox"><img src="internet-of-things.svg" class="bg0" onclick="download('internet-of-things.svg', this)"/><div class="label">internet-of-things.svg</div></div>
-<div id="lob-applications.svg" class="imgbox"><img src="lob-applications.svg" class="bg0" onclick="download('lob-applications.svg', this)"/><div class="label">lob-applications.svg</div></div>
-<div id="saas.svg" class="imgbox"><img src="saas.svg" class="bg0" onclick="download('saas.svg', this)"/><div class="label">saas.svg</div></div>
-<div id="serverless.svg" class="imgbox"><img src="serverless.svg" class="bg0" onclick="download('serverless.svg', this)"/><div class="label">serverless.svg</div></div>
-<div id="solutions.svg" class="imgbox"><img src="solutions.svg" class="bg0" onclick="download('solutions.svg', this)"/><div class="label">solutions.svg</div></div>
 
-</div>
-<script>
-var bg = 0;
-function toggleBg() {
-  bg++
-  if(bg > 2) bg = 0;
-  for(let img of document.getElementsByTagName("img")) {
-    img.className = `bg${bg}`;
-  }
-}
+  <div class="top">
+    <a href=".." class="home">&#129093;</a> &nbsp; <h1>Azure.com Various</h1>
+    <br/><br/>
+    <span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
+    <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
+    <button onclick="toggleBg()">Change Background</button>
+  </div>
 
-function search() {
-  let q = document.getElementById('finder').value.trim().toLowerCase()
-  if(q.length <= 0) {
-    for(let imgbox of document.getElementsByClassName("imgbox")) {
-      imgbox.style.display = "inline-block"
+  <div class="grid">
+    
+      <div id="backup-archive.svg" class="imgbox"><img src="backup-archive.svg" class="bg0" onclick="download('backup-archive.svg', this)"/><div class="label">backup-archive.svg</div></div>
+    
+      <div id="blockchain.svg" class="imgbox"><img src="blockchain.svg" class="bg0" onclick="download('blockchain.svg', this)"/><div class="label">blockchain.svg</div></div>
+    
+      <div id="digital-marketing.svg" class="imgbox"><img src="digital-marketing.svg" class="bg0" onclick="download('digital-marketing.svg', this)"/><div class="label">digital-marketing.svg</div></div>
+    
+      <div id="e-commerce.svg" class="imgbox"><img src="e-commerce.svg" class="bg0" onclick="download('e-commerce.svg', this)"/><div class="label">e-commerce.svg</div></div>
+    
+      <div id="high-performance-computing.svg" class="imgbox"><img src="high-performance-computing.svg" class="bg0" onclick="download('high-performance-computing.svg', this)"/><div class="label">high-performance-computing.svg</div></div>
+    
+      <div id="hybrid-cloud-app.svg" class="imgbox"><img src="hybrid-cloud-app.svg" class="bg0" onclick="download('hybrid-cloud-app.svg', this)"/><div class="label">hybrid-cloud-app.svg</div></div>
+    
+      <div id="internet-of-things.svg" class="imgbox"><img src="internet-of-things.svg" class="bg0" onclick="download('internet-of-things.svg', this)"/><div class="label">internet-of-things.svg</div></div>
+    
+      <div id="lob-applications.svg" class="imgbox"><img src="lob-applications.svg" class="bg0" onclick="download('lob-applications.svg', this)"/><div class="label">lob-applications.svg</div></div>
+    
+      <div id="saas.svg" class="imgbox"><img src="saas.svg" class="bg0" onclick="download('saas.svg', this)"/><div class="label">saas.svg</div></div>
+    
+      <div id="serverless.svg" class="imgbox"><img src="serverless.svg" class="bg0" onclick="download('serverless.svg', this)"/><div class="label">serverless.svg</div></div>
+    
+      <div id="solutions.svg" class="imgbox"><img src="solutions.svg" class="bg0" onclick="download('solutions.svg', this)"/><div class="label">solutions.svg</div></div>
+    
+  </div>
+
+  <script>
+    var bgSetting = 0;
+
+    function toggleBg() {
+      bgSetting++
+      if(bgSetting > 2) bgSetting = 0;
+      for(let img of document.getElementsByTagName("img")) {
+        img.className = `bg-${bgSetting}`;
+      }
     }
-  }
-  for(let imgbox of document.getElementsByClassName("imgbox")) {
-    imgbox.style.display = "inline-block"
-    if(!imgbox.id.includes(q)) {
-      imgbox.style.display = "none"
+    
+    function search() {
+      let query = document.getElementById('finder').value.trim().toLowerCase()
+      if(query.length <= 0) {
+        for(let imgbox of document.getElementsByClassName("imgbox")) {
+          imgbox.style.display = "inline-block"
+        }
+      }
+      for(let imgbox of document.getElementsByClassName("imgbox")) {
+        imgbox.style.display = "inline-block"
+        if(!imgbox.id.includes(query)) {
+          imgbox.style.display = "none"
+        }
+      }
     }
-  }
-}
-
-function download(f, e) {
-  var downloadPNG = document.getElementById("pngcheck").checked;
-  if(downloadPNG) {
-    var data = getBase64Image(e);
-    let a = document.createElement('a')
-    a.href = "data:application/octet-stream;base64," + data
-    a.download = f.replace('.svg', '.png')
-    a.click()
-  } else {
-    let a = document.createElement('a')
-    a.href = f
-    a.download = f
-    a.click()
-  }
-}
-
-function getBase64Image(img) {
-  var canvas = document.createElement("canvas");
-  canvas.width = img.naturalWidth;
-  canvas.height = img.naturalHeight;
-  console.log(canvas.width , canvas.height)
-  var ctx = canvas.getContext("2d");
-  ctx.drawImage(img, 0, 0);
-  var dataURL = canvas.toDataURL("image/png");
-  return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-}
-</script>
-</body></html>
+    
+    function download(f, e) {
+      if(document.getElementById("pngcheck").checked) {
+        var data = getBase64Image(e);
+        let a = document.createElement('a')
+        a.href = "data:application/octet-stream;base64," + data
+        a.download = f.replace('.svg', '.png')
+        a.click()
+      } else {
+        let a = document.createElement('a')
+        a.href = f
+        a.download = f
+        a.click()
+      }
+    }
+    
+    // Actual magic
+    function getBase64Image(img) {
+      var canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      console.log(canvas.width , canvas.height)
+      var ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      var dataURL = canvas.toDataURL("image/png");
+      return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+    }
+  </script>
+</body>
+</html>

@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 42">
-                                
-                            
-  <polygon points="40.129 42 47.999 42 47.999 0 40.129 0"></polygon>
-  <polygon points="13.119 42 20.989 42 20.989 28.696 13.119 28.696"></polygon>
-  <polygon points="0 42 7.871 42 7.871 35.193 0 35.193"></polygon>
-  <polygon points="26.855 42 34.726 42 34.726 15.314 26.855 15.314"></polygon>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 42"><path d="M40.129 42h7.87V0h-7.87zM13.119 42h7.87V28.696h-7.87zM0 42h7.871v-6.807H0zM26.855 42h7.871V15.314h-7.871z"/></svg>
