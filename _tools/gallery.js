@@ -3,22 +3,22 @@
 const fs = require('fs');
 
 var DIR = process.argv[2];
-if(!DIR) {
-  console.log(`### ERROR! No directory provided!`);
-  console.log(`Usage: node gallery.js {directory REQUIRED}`);
+var TITLE = process.argv[3] || "Gallery";
+if(!DIR || !TITLE) {
+  console.log(`### ERROR! No directory and/or title provided!`);
+  console.log(`Usage: node gallery.js {directory} {title}`);
   process.exit(1);
 }
 
 outHtml = `
-<head><title>Gallery</title></head>
+<head><title>${TITLE}</title></head>
 <style>
 body {
   font-family: 'Segoe UI', Arial;
   font-size: 15px;
-  background-color: #eee;
+  background-color: #aaa;
 }
 img { 
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -30,7 +30,7 @@ img {
   width: 12rem;
   
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #e0e0e0;
 }
 </style>
 <body>
@@ -40,7 +40,7 @@ for(let f of files) {
   if(!f.endsWith(".svg")) continue;
   //console.log(f);
   //<br/><span>${f}<span><br/>
-  outHtml += `<div class="imgbox"><img src="${f}"/><span>${f}</span></div>\n`
+  outHtml += `<div class="imgbox"><img src="${f}" /><span>${f}</span></div>\n`
 }
 
 outHtml += "</body></html>"

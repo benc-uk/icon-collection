@@ -34,6 +34,7 @@ request.get(BASEURL, (err, resp, body) => {
   // Load and parse into a virtual DOM document
   var doc = new JSDOM(body).window.document;
   let count = 0;
+  var viewBox = null;
 
   // Process inline SVGs
   var svgs = doc.getElementsByTagName('svg');
@@ -49,6 +50,8 @@ request.get(BASEURL, (err, resp, body) => {
       if(href.startsWith('#')) {
         name = href.substring(1);
         let symbol = doc.getElementById(href.substring(1));
+        viewBox = symbol.getAttribute('viewBox');
+        //console.log(viewbox);
         
         // Remove the <use> node and insert the contents of the referred symbol
         svg.removeChild(use);
@@ -66,7 +69,8 @@ request.get(BASEURL, (err, resp, body) => {
     }
 
     console.log(`### - ${name} (Inline SVG)`)
-    let svgContent = `<svg xmlns="http://www.w3.org/2000/svg">${svg.innerHTML}</svg>`;
+    let viewBoxAttr = viewBox ? `viewBox="${viewBox}"` : "";
+    let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" ${viewBoxAttr}>${svg.innerHTML}</svg>`;
     fs.writeFileSync(`${OUTPUT}/${name}.svg`, svgContent)
   }
 
