@@ -22,15 +22,8 @@ Scraped from main Azure docs site, all major Azure services are in here plus a c
 #### [Logos & Brands](logos)
 Various product, company & programing language logos, fetched from various sources online
 
-#### [Azure Various](azure-dotcom)
-Extra icons taken from pages on the azure.com site, but overlaps removed 
-
-#### [Microsoft Learning Site](learning-site)
-More conceptual and illustration type images taken from https://docs.microsoft.com/en-us/learn/browse
-
 #### [Other Icons](other)
-There's several Azure icons which can't be found anywhere else (e.g. Azure DevOps) and some taken from the Azure portal
-
+Many other Azure & Microsoft icons sourced from various places; Azure.com pages, Azure Docs git repo, Azure portal etc. These shouldn't overlap with the other sets
 
 # Scraping & Other Tools
 Various Node.js and bash scripts used for scraping, converting and generating the gallery pages are contained in the `_tools` folder. These are provided as-is with minimal documentation. Here be dragons.
