@@ -11,7 +11,7 @@ All files have been sourced and scraped from the public internet and various Mic
 
 
 # Icon Galleries
-To view the icons, thumbnail gallery pages indexing each of the main sets is provided.  
+To view the icons, thumbnail gallery pages for each of the main sets is provided. The gallery pages also allow you to search the icons, view them on a range of light & dark backgrounds and also download the icon in SVG or PNG format.  
 Note. These galleries only work when viewing this repo from GitHub pages here https://code.benco.io/icon-collection/
 
 #### [Azure Patterns Collection](azure-patterns)
