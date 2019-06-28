@@ -4,9 +4,11 @@ All files are run through [SVGO](https://github.com/svg/svgo) to clean them up a
 
 **Icons refreshed/updated: June 28th 2019**
 
+- Added "Microsoft Azure Cloud and AI Symbol / Icon Set - SVG" as "official"
 - Azure Docs collection refreshed with a few new services
 - Azure Patterns Collection has nearly 200 new icons
 - Azure ML icons and App Config added to 'Other'
+- Several logos added to logo set
 
 
 # Ownership & Copyright
@@ -21,7 +23,7 @@ Note. These galleries only work when viewing this repo from GitHub pages here ht
 ## Core Azure Sets
 
 #### [Azure Patterns Collection](azure-patterns)
-Probably the best place to start, 900+ icons including all Azure services, this has been scraped from https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/ 
+Probably the best place to start, 900+ icons including all Azure services, this has been scraped from https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/ This is made public, as part of the "Sundog" Azure.com design system
 
 #### [Azure Docs](azure-docs)
 Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. In many places this overlaps with the above set, but is a bit more focused on core Azure services making it easier to find what you are looking for.
@@ -29,7 +31,6 @@ Scraped from main Azure docs site, all major Azure services are in here plus a c
 #### [Microsoft 'Official' Set](official)
 This is the official "Microsoft Azure Cloud and AI Symbol / Icon Set - SVG" dated 15/05/2019 fetched from [here](https://www.microsoft.com/en-gb/download/details.aspx?id=41937). This has many overlaps with the other sets, but also contains many unique icons. It's included here in entirety for completeness
 
----
 
 ## Other Sets
 
@@ -39,9 +40,21 @@ Various product, company & programing language logos, hand picked & fetched from
 #### [Other Icons](other)
 Many other Azure & Microsoft icons sourced from various places; Azure.com pages, Azure Docs git repo, Azure portal etc. Most of these are hand picked or moved here manually, these shouldn't overlap with the other sets, but may do
 
-#### [Kubernetes Icons (EXTERNAL)](https://github.com/kubernetes/community/tree/master/icons)
-Not part of this icon set, but linked here as a useful external resource.  
-These are the official Kubernetes icons for all the resource types; pods, nodes, namespaces, etc etc. Available as PNG, SVG and in labeled and unlabeled forms
+## Links to Other Collections
+These are not part of this icon set, but linked to here as a useful external resources 
+
+##### [Kubernetes Icons ⇗](https://github.com/kubernetes/community/tree/master/icons)
+The official Kubernetes icons for all the resource types; pods, nodes, namespaces, etc etc. Available as PNG, SVG and in labeled and unlabeled forms
+
+##### [CNCF Logos ⇗](https://github.com/cncf/artwork)
+Logos and icons for CNCF and CNCF projects
+
+##### [Simpleicons.org ⇗](https://simpleicons.org/)
+Free SVG mono-coloured icons for popular brands
+
+##### [Font Awesome ⇗](https://fontawesome.com/icons?d=gallery&m=free)
+Huge set of over 5,000 icons, free set of over 1,500 which can be downloaded as SVG
+
 
 ---
 
