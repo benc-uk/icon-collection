@@ -2,7 +2,11 @@ This is a collection of various technical icons, glyphs, logos and other imagery
 
 All files are run through [SVGO](https://github.com/svg/svgo) to clean them up and optimize them 
 
-Icons refreshed/updated: June 28th 2019
+**Icons refreshed/updated: June 28th 2019**
+
+- Azure Docs collection refreshed with a few new services
+- Azure Patterns Collection has nearly 200 new icons
+- Azure ML icons and App Config added to 'Other'
 
 
 # Ownership & Copyright
