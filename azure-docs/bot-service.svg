@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384"><defs><style>.cls-3{fill:#fff}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path fill="#3a96dd" d="M0 0h384v384H0z"/><circle cx="192" cy="192" r="128" fill="#0063b1"/><circle class="cls-3" cx="172" cy="192" r="12"/><circle class="cls-3" cx="212" cy="192" r="12"/><path class="cls-3" d="M221.44 261.07h-90.51a8 8 0 0 1-8-8v-90.51h16v82.51h82.51zm39.63-39.63h-16v-82.51h-82.51v-16h90.51a8 8 0 0 1 8 8z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path fill="#3a96dd" d="M0 0h384v384H0z"/>
+            <circle cx="192" cy="192" r="128" fill="#0063b1"/>
+            <circle class="cls-3" cx="172" cy="192" r="12"/>
+            <circle class="cls-3" cx="212" cy="192" r="12"/>
+            <path class="cls-3" d="M221.44 261.07h-90.51a8 8 0 01-8-8v-90.51h16v82.51h82.51zm39.63-39.63h-16v-82.51h-82.51v-16h90.51a8 8 0 018 8z"/>
+        </g>
+    </g>
+</svg>

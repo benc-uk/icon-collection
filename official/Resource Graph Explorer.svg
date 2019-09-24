@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M5.45 11.263l3.1-2.527 22 26.999-3.1 2.526z" class="msportalfx-svg-c03" fill="#a0a1a2"/><path d="M7 8h33v4H7z" class="msportalfx-svg-c03" fill="#a0a1a2"/><circle cx="7" cy="10" r="6.9" class="msportalfx-svg-c17" fill="#804998"/><circle opacity=".2" cx="7" cy="10" r="6.9" class="msportalfx-svg-c01" fill="#fff"/><circle cx="40" cy="10" r="8.9" class="msportalfx-svg-c17" fill="#804998"/><circle opacity=".1" cx="40" cy="10" r="8.9" class="msportalfx-svg-c01" fill="#fff"/><circle cx="29" cy="37" r="11.9" class="msportalfx-svg-c17" fill="#804998"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <path d="M5.45 11.263l3.1-2.527 22 26.999-3.1 2.526z" class="msportalfx-svg-c03" fill="#a0a1a2"/>
+    <path d="M7 8h33v4H7z" class="msportalfx-svg-c03" fill="#a0a1a2"/>
+    <circle cx="7" cy="10" r="6.9" class="msportalfx-svg-c17" fill="#804998"/>
+    <circle opacity=".2" cx="7" cy="10" r="6.9" class="msportalfx-svg-c01" fill="#fff"/>
+    <circle cx="40" cy="10" r="8.9" class="msportalfx-svg-c17" fill="#804998"/>
+    <circle opacity=".1" cx="40" cy="10" r="8.9" class="msportalfx-svg-c01" fill="#fff"/>
+    <circle cx="29" cy="37" r="11.9" class="msportalfx-svg-c17" fill="#804998"/>
+</svg>

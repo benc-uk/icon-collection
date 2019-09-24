@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M3.167 13h22.667v4H3.167zm5 10h25.667v4H8.167zm-5 10h22.667v4H3.167z" class="msportalfx-svg-c19" fill="#0072c6"/><circle cx="4" cy="35" r="3.9" class="msportalfx-svg-c13" fill="#b8d432"/><ellipse transform="rotate(-45.001 4 15)" cx="4" cy="15" rx="3.9" ry="3.9" class="msportalfx-svg-c13" fill="#b8d432"/><ellipse transform="rotate(-45.001 9 25)" cx="9" cy="25" rx="3.9" ry="3.9" class="msportalfx-svg-c15" fill="#59b4d9"/><path d="M24 20V10l8 5zm0 20V30l8 5zm8-10V20l8 5zm17.2 8.6h-4.8c-.5 0-.8.3-.8.8v4H7V50h42.2c.5 0 .8-.3.8-.8v-9.8c0-.5-.3-.8-.8-.8zM49.281 0H7v6.7h36.381v4.2c0 .5.3.8 1 .8h4.8c.5 0 .8-.3.8-.8V.9c.1-.6-.2-.9-.7-.9z" class="msportalfx-svg-c19" fill="#0072c6"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <path d="M3.167 13h22.667v4H3.167zm5 10h25.667v4H8.167zm-5 10h22.667v4H3.167z" class="msportalfx-svg-c19" fill="#0072c6"/>
+    <circle cx="4" cy="35" r="3.9" class="msportalfx-svg-c13" fill="#b8d432"/>
+    <circle transform="rotate(-45.001 4 15)" cx="4" cy="15" class="msportalfx-svg-c13" fill="#b8d432" r="3.9"/>
+    <circle transform="rotate(-45.001 9 25)" cx="9" cy="25" class="msportalfx-svg-c15" fill="#59b4d9" r="3.9"/>
+    <path d="M24 20V10l8 5zm0 20V30l8 5zm8-10V20l8 5zm17.2 8.6h-4.8c-.5 0-.8.3-.8.8v4H7V50h42.2c.5 0 .8-.3.8-.8v-9.8c0-.5-.3-.8-.8-.8zM49.281 0H7v6.7h36.381v4.2c0 .5.3.8 1 .8h4.8c.5 0 .8-.3.8-.8V.9c.1-.6-.2-.9-.7-.9z" class="msportalfx-svg-c19" fill="#0072c6"/>
+</svg>

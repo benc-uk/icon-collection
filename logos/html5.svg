@@ -1,1 +1,13 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-3{fill:#e6e6e6}.cls-4{fill:#f16529}.cls-5{fill:#fff}</style></defs><path fill="#e44d26" d="M4.42 0h56.16l-5.05 57.55L32.38 64 9.39 57.63 4.42 0z"/><path fill="none" d="M23.96 26H33v-7h-9.71l.67 7z"/><path class="cls-3" d="M33 44.77l-7.99-2.25-.46-5.52H17.4l.6 11 15 4.07v-7.34.04zM23.96 26l-.67-7H33v-7H15.56l1.9 21H33v-7h-9.04z"/><path class="cls-4" d="M33 5v7h17.55l-.62 7H33v7h15.98l-1.75 21.27L33 51.15v7.28l18.08-5.1L55.42 5H33z"/><path class="cls-4" d="M41.56 33H33v11.22l7.7-2.06.86-9.16z"/><path class="cls-5" d="M49.93 19l.62-7H33v7h16.93zM49.04 26H33v7h8.43l-.84 9.03L33 45v7.24L47 48l2.04-22z"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-4{fill:#f16529}
+        </style>
+    </defs>
+    <path fill="#e44d26" d="M4.42 0h56.16l-5.05 57.55L32.38 64 9.39 57.63 4.42 0z"/>
+    <path fill="none" d="M23.96 26H33v-7h-9.71l.67 7z"/>
+    <path d="M33 44.77l-7.99-2.25-.46-5.52H17.4l.6 11 15 4.07v-7.34.04zM23.96 26l-.67-7H33v-7H15.56l1.9 21H33v-7h-9.04z" fill="#e6e6e6"/>
+    <path class="cls-4" d="M33 5v7h17.55l-.62 7H33v7h15.98l-1.75 21.27L33 51.15v7.28l18.08-5.1L55.42 5H33z"/>
+    <path class="cls-4" d="M41.56 33H33v11.22l7.7-2.06.86-9.16z"/>
+    <path d="M49.93 19l.62-7H33v7h16.93zm-.89 7H33v7h8.43l-.84 9.03L33 45v7.24L47 48l2.04-22z" fill="#fff"/>
+</svg>

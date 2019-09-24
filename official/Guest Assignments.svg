@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M44 7.8L39.2 3l-2-2H4v48h42V9.8z" class="msportalfx-svg-c15" fill="#59b4d9"/><path opacity=".8" d="M37 3H6v44h38V10h-7z" class="msportalfx-svg-c01" fill="#fff"/><path d="M29.347 28.611c-1.176 1.029-2.721 1.691-4.412 1.691s-3.235-.662-4.412-1.691l-.662 13.235 5-5.074 5 5.074-.514-13.235z" class="msportalfx-svg-c08" fill="#ba141a"/><ellipse cx="25.025" cy="23" rx="7.875" ry="7.9" class="msportalfx-svg-c09" fill="#dd5900"/><ellipse cx="25.025" cy="23" rx="5.974" ry="5.993" class="msportalfx-svg-c10" fill="#ff8c00"/><path opacity=".15" d="M19.391 28.653c-3.055-3.065-3.055-8.104 0-11.169s8.078-3.065 11.133 0L19.391 28.653z" class="msportalfx-svg-c01" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <path d="M44 7.8L39.2 3l-2-2H4v48h42V9.8z" class="msportalfx-svg-c15" fill="#59b4d9"/>
+    <path opacity=".8" d="M37 3H6v44h38V10h-7z" class="msportalfx-svg-c01" fill="#fff"/>
+    <path d="M29.347 28.611c-1.176 1.029-2.721 1.691-4.412 1.691s-3.235-.662-4.412-1.691l-.662 13.235 5-5.074 5 5.074-.514-13.235z" class="msportalfx-svg-c08" fill="#ba141a"/>
+    <ellipse cx="25.025" cy="23" rx="7.875" ry="7.9" class="msportalfx-svg-c09" fill="#dd5900"/>
+    <ellipse cx="25.025" cy="23" rx="5.974" ry="5.993" class="msportalfx-svg-c10" fill="#ff8c00"/>
+    <path opacity=".15" d="M19.391 28.653c-3.055-3.065-3.055-8.104 0-11.169s8.078-3.065 11.133 0L19.391 28.653z" class="msportalfx-svg-c01" fill="#fff"/>
+</svg>

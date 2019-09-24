@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M47 33v14H9v-6h20v-8h18zM33 11H19v8h14v-8zM19 1H1v10h18V1zm0 18H7v8h12v-8zm-8 10H3v6h8v-6z" class="msportalfx-svg-c19" fill="#0072c6"/><path d="M47 17v14H29v-6h10v-8h8zM27 33h-8v6h8v-6z" class="msportalfx-svg-c01" fill="#fff"/><path d="M37 15v8H27v8H17v8H7v8.5A1.5 1.5 0 0 0 8.5 49h39a1.5 1.5 0 0 0 1.5-1.5V15H37zm-8 10h8v6h-8v-6zm8 14h-8v-6h8v6zm-18-6h8v6h-8v-6zm-2 14H9v-6h8v6zm10 0h-8v-6h8v6zm10 0h-8v-6h8v6zm10 0h-8v-6h8v6zm0-8h-8v-6h8v6zm0-8h-8v-6h8v6zm-8-8v-6h8v6h-8z" class="msportalfx-svg-c03" fill="#a0a1a2"/><path d="M49 15H37V9h10.5a1.5 1.5 0 0 1 1.5 1.5V15z" class="msportalfx-svg-c04" fill="#7a7a7a"/><path opacity=".1" d="M1 1h18v10H1z" class="msportalfx-svg-c01" fill="#fff"/><path opacity=".1" d="M37 19V9h10L37 19zM27 29l6-6h-6v6zm-10 2v8l8-8h-8zM7 39v10l10-10H7zm26-20H19v-8h14v8zm-14-8H1V1h18v10zm0 16H7v-8h12v8zm-8 8H3v-6h8v6z" class="msportalfx-svg-c01" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <path d="M47 33v14H9v-6h20v-8h18zM33 11H19v8h14v-8zM19 1H1v10h18V1zm0 18H7v8h12v-8zm-8 10H3v6h8v-6z" class="msportalfx-svg-c19" fill="#0072c6"/>
+    <path d="M47 17v14H29v-6h10v-8h8zM27 33h-8v6h8v-6z" class="msportalfx-svg-c01" fill="#fff"/>
+    <path d="M37 15v8H27v8H17v8H7v8.5A1.5 1.5 0 008.5 49h39a1.5 1.5 0 001.5-1.5V15H37zm-8 10h8v6h-8v-6zm8 14h-8v-6h8v6zm-18-6h8v6h-8v-6zm-2 14H9v-6h8v6zm10 0h-8v-6h8v6zm10 0h-8v-6h8v6zm10 0h-8v-6h8v6zm0-8h-8v-6h8v6zm0-8h-8v-6h8v6zm-8-8v-6h8v6h-8z" class="msportalfx-svg-c03" fill="#a0a1a2"/>
+    <path d="M49 15H37V9h10.5a1.5 1.5 0 011.5 1.5V15z" class="msportalfx-svg-c04" fill="#7a7a7a"/>
+    <path opacity=".1" d="M1 1h18v10H1z" class="msportalfx-svg-c01" fill="#fff"/>
+    <path opacity=".1" d="M37 19V9h10L37 19zM27 29l6-6h-6v6zm-10 2v8l8-8h-8zM7 39v10l10-10H7zm26-20H19v-8h14v8zm-14-8H1V1h18v10zm0 16H7v-8h12v8zm-8 8H3v-6h8v6z" class="msportalfx-svg-c01" fill="#fff"/>
+</svg>

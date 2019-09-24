@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path fill="#A0A1A2" d="M5.45 11.263l3.1-2.527 22 26.999-3.1 2.526z"/><path fill="#A0A1A2" d="M7 8h33v4H7z"/><circle fill="#804998" cx="7" cy="10" r="6.9"/><circle opacity=".2" fill="#FFF" cx="7" cy="10" r="6.9"/><circle fill="#804998" cx="40" cy="10" r="8.9"/><circle opacity=".1" fill="#FFF" cx="40" cy="10" r="8.9"/><circle fill="#804998" cx="29" cy="37" r="11.9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+    <path fill="#A0A1A2" d="M5.45 11.263l3.1-2.527 22 26.999-3.1 2.526z"/>
+    <path fill="#A0A1A2" d="M7 8h33v4H7z"/>
+    <circle fill="#804998" cx="7" cy="10" r="6.9"/>
+    <circle opacity=".2" fill="#FFF" cx="7" cy="10" r="6.9"/>
+    <circle fill="#804998" cx="40" cy="10" r="8.9"/>
+    <circle opacity=".1" fill="#FFF" cx="40" cy="10" r="8.9"/>
+    <circle fill="#804998" cx="29" cy="37" r="11.9"/>
+</svg>

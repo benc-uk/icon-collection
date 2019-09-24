@@ -1,1 +1,11 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="50" height="50" xml:space="preserve"><style>.st0{fill:#0072c6}.st2{fill:#59b4d9}</style><path class="st0" d="M.8 0C.3 0 0 .3 0 .8v10c0 .5.3.8.8.8h5c.5 0 .8-.3.8-.8V6.7h36.7v4.2c0 .5.3.8 1 .8h4.8c.5 0 .8-.3.8-.8V.9c.1-.6-.2-.9-.7-.9H.8zM49.2 50c.5 0 .8-.3.8-.8v-9.8c0-.5-.3-.8-.8-.8h-4.8c-.5 0-.8.3-.8.8v4H6.7v-4.2c0-.5-.3-.8-1-.8H.8c-.5 0-.8.3-.8 1v9.8c0 .5.3.8.8.8h48.4z"/><path transform="rotate(-32 30.209 25)" class="st0" d="M29 15.2h2.5v19.7H29z"/><path transform="rotate(-57.999 20.028 25.001)" class="st0" d="M10.2 23.8h19.7v2.5H10.2z"/><circle cx="25" cy="16.7" r="5.4" fill="#b8d432"/><circle class="st2" cx="14.6" cy="33.3" r="5.4"/><circle class="st2" cx="35.4" cy="33.3" r="5.4"/></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="50" height="50" xml:space="preserve">
+    <style>
+        .st0{fill:#0072c6}.st2{fill:#59b4d9}
+    </style>
+    <path class="st0" d="M.8 0C.3 0 0 .3 0 .8v10c0 .5.3.8.8.8h5c.5 0 .8-.3.8-.8V6.7h36.7v4.2c0 .5.3.8 1 .8h4.8c.5 0 .8-.3.8-.8V.9c.1-.6-.2-.9-.7-.9H.8zm48.4 50c.5 0 .8-.3.8-.8v-9.8c0-.5-.3-.8-.8-.8h-4.8c-.5 0-.8.3-.8.8v4H6.7v-4.2c0-.5-.3-.8-1-.8H.8c-.5 0-.8.3-.8 1v9.8c0 .5.3.8.8.8h48.4z"/>
+    <path transform="rotate(-32 30.209 25)" class="st0" d="M29 15.2h2.5v19.7H29z"/>
+    <path transform="rotate(-57.999 20.028 25.001)" class="st0" d="M10.2 23.8h19.7v2.5H10.2z"/>
+    <circle cx="25" cy="16.7" r="5.4" fill="#b8d432"/>
+    <circle class="st2" cx="14.6" cy="33.3" r="5.4"/>
+    <circle class="st2" cx="35.4" cy="33.3" r="5.4"/>
+</svg>

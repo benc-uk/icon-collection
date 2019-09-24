@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path fill="#3E3E3E" d="M44 50H6a6 6 0 0 1-6-6V4h50v40a6 6 0 0 1-6 6z"/><path fill="#FFF" d="M4 19h42v12H4z"/><path opacity=".85" fill="#804998" d="M4 19h42v12H4z"/><path fill="#FFF" d="M4 34h42v12H4z"/><path opacity=".5" fill="#59B4D9" d="M4 34h42v12H4z"/><path fill="#59B4D9" d="M4 4h42v12H4z"/><path opacity=".25" fill="#FFF" d="M4 19h42v2H4z"/><path opacity=".2" fill="#FFF" d="M4 4h42v2H4z"/><path opacity=".4" fill="#FFF" d="M4 34h42v2H4z"/><path opacity=".15" fill="#FFF" d="M6 50h2.696L40.081 4H0v40a6 6 0 0 0 6 6z"/><path fill="#59B4D9" d="M12.909 24.8a.899.899 0 0 0 .892-.795L15.994 3a.898.898 0 0 0-.892-1h-4.386a.897.897 0 0 0-.891 1.001l2.193 21.005a.897.897 0 0 0 .891.794z"/><path opacity=".6" fill="#FFF" d="M12.823 24L10.607 2.8h4.605L12.996 24z"/><path opacity=".6" fill="#FFF" d="M12.823 24L10.607 2.8h2.302l.087 21.2z"/><path fill="#59B4D9" d="M39 29c.57 0 1.049-.427 1.115-.993l2.741-24.756A1.122 1.122 0 0 0 41.741 2h-5.482c-.671 0-1.191.584-1.115 1.251l2.741 24.756c.066.566.545.993 1.115.993z"/><path opacity=".6" fill="#FFF" d="M38.892 28l-2.77-25h5.756l-2.77 25z"/><path fill="#59B4D9" d="M32.636 24.8a.899.899 0 0 0 .892-.795L35.72 3.001A.897.897 0 0 0 34.829 2h-4.386a.898.898 0 0 0-.892 1.001l2.193 21.005a.898.898 0 0 0 .892.794z"/><path opacity=".6" fill="#FFF" d="M30.557 3h4.159l-2.08 19.915L30.557 3z"/><path opacity=".6" fill="#FFF" d="M30.557 3h2.079v19.915L30.557 3zM38.892 28l-2.77-25H39l.108 25z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+    <path fill="#3E3E3E" d="M44 50H6a6 6 0 01-6-6V4h50v40a6 6 0 01-6 6z"/>
+    <path fill="#FFF" d="M4 19h42v12H4z"/>
+    <path opacity=".85" fill="#804998" d="M4 19h42v12H4z"/>
+    <path fill="#FFF" d="M4 34h42v12H4z"/>
+    <path opacity=".5" fill="#59B4D9" d="M4 34h42v12H4z"/>
+    <path fill="#59B4D9" d="M4 4h42v12H4z"/>
+    <path opacity=".25" fill="#FFF" d="M4 19h42v2H4z"/>
+    <path opacity=".2" fill="#FFF" d="M4 4h42v2H4z"/>
+    <path opacity=".4" fill="#FFF" d="M4 34h42v2H4z"/>
+    <path opacity=".15" fill="#FFF" d="M6 50h2.696L40.081 4H0v40a6 6 0 006 6z"/>
+    <path fill="#59B4D9" d="M12.909 24.8a.899.899 0 00.892-.795L15.994 3a.898.898 0 00-.892-1h-4.386a.897.897 0 00-.891 1.001l2.193 21.005a.897.897 0 00.891.794z"/>
+    <path opacity=".6" fill="#FFF" d="M12.823 24L10.607 2.8h4.605L12.996 24z"/>
+    <path opacity=".6" fill="#FFF" d="M12.823 24L10.607 2.8h2.302l.087 21.2z"/>
+    <path fill="#59B4D9" d="M39 29c.57 0 1.049-.427 1.115-.993l2.741-24.756A1.122 1.122 0 0041.741 2h-5.482c-.671 0-1.191.584-1.115 1.251l2.741 24.756c.066.566.545.993 1.115.993z"/>
+    <path opacity=".6" fill="#FFF" d="M38.892 28l-2.77-25h5.756l-2.77 25z"/>
+    <path fill="#59B4D9" d="M32.636 24.8a.899.899 0 00.892-.795L35.72 3.001A.897.897 0 0034.829 2h-4.386a.898.898 0 00-.892 1.001l2.193 21.005a.898.898 0 00.892.794z"/>
+    <path opacity=".6" fill="#FFF" d="M30.557 3h4.159l-2.08 19.915L30.557 3z"/>
+    <path opacity=".6" fill="#FFF" d="M30.557 3h2.079v19.915L30.557 3zm8.335 25l-2.77-25H39l.108 25z"/>
+</svg>

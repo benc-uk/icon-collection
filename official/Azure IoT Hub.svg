@@ -1,1 +1,15 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="32" height="32" viewBox="-783 985 32 32" xml:space="preserve"><style>.st0{fill:#b8d432}.st1{fill:#0072c6}.st2{fill:#006dd6}</style><path transform="rotate(-125.107 -766.167 994.793)" class="st0" d="M-772.3 994h12.3v1.6h-12.3z"/><path transform="scale(-1) rotate(60.212 1733.638 1309.748)" class="st0" d="M-765.7 1004.4h12.6v1.6h-12.6z"/><path transform="rotate(-94.746 -770.289 1000.472) scale(1.00003)" class="st0" d="M-771.1 992.8h1.6v15.3h-1.6z"/><path transform="rotate(-148.926 -765.301 1004.316)" class="st0" d="M-766.1 999.1h1.6v10.4h-1.6z"/><path class="st1" d="M-751.5 985h-8.1c-.3 0-.5.2-.5.6v2.9c0 .3.2.5.5.5h4.6v4.5c0 .3.2.5.6.5h2.9c.3 0 .5-.2.5-.5v-8c0-.3-.2-.5-.5-.5zM-782.5 1016.9h8.1c.3 0 .5-.2.5-.6v-2.9c0-.3-.2-.5-.5-.5h-4.6v-4.5c0-.3-.2-.5-.6-.5h-2.9c-.3 0-.5.2-.5.5v8c0 .3.2.5.5.5z"/><circle class="st2" cx="-769.6" cy="989.9" r="3.1"/><circle class="st2" cx="-762.5" cy="999.9" r="3.7"/><circle class="st2" cx="-756.3" cy="1010.9" r="2.9"/><circle class="st2" cx="-767.8" cy="1008.9" r="2.5"/><circle class="st2" cx="-777.9" cy="1001.3" r="2.5"/></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="32" height="32" viewBox="-783 985 32 32" xml:space="preserve">
+    <style>
+        .st0{fill:#b8d432}.st2{fill:#006dd6}
+    </style>
+    <path transform="rotate(-125.107 -766.167 994.793)" class="st0" d="M-772.3 994h12.3v1.6h-12.3z"/>
+    <path transform="rotate(-119.788 -759.418 1005.197)" class="st0" d="M-765.7 1004.4h12.6v1.6h-12.6z"/>
+    <path transform="rotate(-94.746 -770.289 1000.472) scale(1.00003)" class="st0" d="M-771.1 992.8h1.6v15.3h-1.6z"/>
+    <path transform="rotate(-148.926 -765.301 1004.316)" class="st0" d="M-766.1 999.1h1.6v10.4h-1.6z"/>
+    <path d="M-751.5 985h-8.1c-.3 0-.5.2-.5.6v2.9c0 .3.2.5.5.5h4.6v4.5c0 .3.2.5.6.5h2.9c.3 0 .5-.2.5-.5v-8c0-.3-.2-.5-.5-.5zm-31 31.9h8.1c.3 0 .5-.2.5-.6v-2.9c0-.3-.2-.5-.5-.5h-4.6v-4.5c0-.3-.2-.5-.6-.5h-2.9c-.3 0-.5.2-.5.5v8c0 .3.2.5.5.5z" fill="#0072c6"/>
+    <circle class="st2" cx="-769.6" cy="989.9" r="3.1"/>
+    <circle class="st2" cx="-762.5" cy="999.9" r="3.7"/>
+    <circle class="st2" cx="-756.3" cy="1010.9" r="2.9"/>
+    <circle class="st2" cx="-767.8" cy="1008.9" r="2.5"/>
+    <circle class="st2" cx="-777.9" cy="1001.3" r="2.5"/>
+</svg>

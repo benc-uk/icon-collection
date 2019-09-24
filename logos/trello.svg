@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 30.72 30.72" preserveAspectRatio="xMidYMid"><defs><linearGradient x1="128" y1="0" x2="128" y2="256" id="a" gradientUnits="userSpaceOnUse" gradientTransform="translate(3.39 3.466) scale(.09216)"><stop stop-color="#0091E6" offset="0%"/><stop stop-color="#0079BF" offset="100%"/></linearGradient></defs><rect width="23.593" height="23.593" rx="2.304" x="3.39" y="3.466" fill="url(#a)"/><rect x="16.72" y="6.533" width="7.196" height="10.322" rx="1.106" fill="#fff"/><rect x="6.457" y="6.533" width="7.196" height="16.22" rx="1.106" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 30.72 30.72" preserveAspectRatio="xMidYMid">
+    <defs>
+        <linearGradient x1="128" y1="0" x2="128" y2="256" id="a" gradientUnits="userSpaceOnUse" gradientTransform="translate(3.39 3.466) scale(.09216)">
+            <stop stop-color="#0091E6" offset="0%"/>
+            <stop stop-color="#0079BF" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <rect width="23.593" height="23.593" rx="2.304" x="3.39" y="3.466" fill="url(#a)"/>
+    <rect x="16.72" y="6.533" width="7.196" height="10.322" rx="1.106" fill="#fff"/>
+    <rect x="6.457" y="6.533" width="7.196" height="16.22" rx="1.106" fill="#fff"/>
+</svg>
