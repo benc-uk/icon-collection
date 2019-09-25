@@ -1,4 +1,4 @@
-<svg viewBox="0 0 16 16" data-type="1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-type="1">
     <path d="M9.023 1.497L6.96.629.397 3.394l2.311 1.018zm2.506 1.053L5.172 5.498l1.764.776 6.74-2.821z" class="msportalfx-svg-c16" fill="#3999c6"/>
     <path d="M10.106 12.196a3.228 3.228 0 013.816-3.173v-5.14l-6.68 2.909v8.579l3.375-1.437a3.21 3.21 0 01-.51-1.738z" class="msportalfx-svg-c15" fill="#59b4d9"/>
     <path d="M10.106 12.196a3.228 3.228 0 013.816-3.173v-5.14l-6.68 2.909v8.579l3.375-1.437a3.21 3.21 0 01-.51-1.738z" opacity=".5" class="msportalfx-svg-c01" fill="#fff"/>
