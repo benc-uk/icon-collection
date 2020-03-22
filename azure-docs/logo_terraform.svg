@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg3720" width="60.15" height="60.15">
-    <defs id="defs3682">
-        <style id="style3680">
-            .cls-1{fill:#5c4ee5;fill-rule:evenodd}
-        </style>
-    </defs>
-    <g id="Layer_2" data-name="Layer 2">
-        <g id="Logo">
-            <path class="cls-1" id="polygon3706" fill="#5c4ee5" fill-rule="evenodd" d="M34.6 39.13l-16.4-9.47V10.72l16.4 9.48z"/>
-            <path id="polygon3708" fill="#4040b2" fill-rule="evenodd" d="M52.8 29.67V10.72L36.4 20.2v18.93z"/>
-            <path class="cls-1" id="polygon3710" fill="#5c4ee5" fill-rule="evenodd" d="M16.4 28.56V9.62L0 .15v18.94z"/>
-            <path class="cls-1" id="polygon3712" fill="#5c4ee5" fill-rule="evenodd" d="M34.6 41.34v-.13l-16.4-9.47v18.94l16.4 9.47z"/>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg3720" width="60.15" height="60.15"><defs id="defs3682"><style id="style3680">.cls-1{fill:#5c4ee5;fill-rule:evenodd}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Logo"><path class="cls-1" id="polygon3706" fill="#5c4ee5" fill-rule="evenodd" d="M34.6 39.13l-16.4-9.47V10.72l16.4 9.48z"/><path id="polygon3708" fill="#4040b2" fill-rule="evenodd" d="M52.8 29.67V10.72L36.4 20.2v18.93z"/><path class="cls-1" id="polygon3710" fill="#5c4ee5" fill-rule="evenodd" d="M16.4 28.56V9.62L0 .15v18.94z"/><path class="cls-1" id="polygon3712" fill="#5c4ee5" fill-rule="evenodd" d="M34.6 41.34v-.13l-16.4-9.47v18.94l16.4 9.47z"/></g></g></svg>

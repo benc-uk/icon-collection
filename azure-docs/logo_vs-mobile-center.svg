@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-    <defs>
-        <style>
-            .cls-1{fill:#cb2e6d}
-        </style>
-    </defs>
-    <g id="Names">
-        <g id="iconBg">
-            <path class="cls-1" d="M48 0v55L0 47.84 48 64l16-6.66V6.66z"/>
-            <path class="cls-1" d="M31.2 14.52l-10.4 6.92V11.26h-.24l-5.5-1.69L4 18.64v4.25l7.16 4.66L4 32.21v4.25l11.06 9.09 5.74-1.71V33.66l10.4 6.92 8.8-2.71V17.23zm-23.76 6l7-4.9v8.62zm7 10.43v8.62l-7-4.9zM32 33.17l-11.32-5.62L32 21.93z"/>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#cb2e6d}</style></defs><g id="Names"><g id="iconBg"><path class="cls-1" d="M48 0v55L0 47.84 48 64l16-6.66V6.66z"/><path class="cls-1" d="M31.2 14.52l-10.4 6.92V11.26h-.24l-5.5-1.69L4 18.64v4.25l7.16 4.66L4 32.21v4.25l11.06 9.09 5.74-1.71V33.66l10.4 6.92 8.8-2.71V17.23zm-23.76 6l7-4.9v8.62zm7 10.43v8.62l-7-4.9zM32 33.17l-11.32-5.62L32 21.93z"/></g></g></svg>

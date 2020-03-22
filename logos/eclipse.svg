@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" version="1.0">
     <defs>
+        <linearGradient id="g">
+            <stop offset="0" stop-color="#fff" stop-opacity=".635"/>
+            <stop offset=".5" stop-color="#fff" stop-opacity=".208"/>
+            <stop offset="1" stop-color="#424289" stop-opacity=".075"/>
+        </linearGradient>
         <linearGradient id="b">
             <stop offset="0" stop-color="#04034e"/>
             <stop offset="1" stop-color="#7575b9"/>
         </linearGradient>
-        <linearGradient xlink:href="#g" id="i" gradientUnits="userSpaceOnUse" x1="104.635" y1="46.964" x2="30.034" y2="46.964"/>
         <linearGradient id="e">
             <stop offset="0" stop-color="#c98cbb"/>
             <stop offset="1" stop-color="#a9b7da"/>
@@ -21,21 +25,17 @@
             <stop offset="0" stop-color="#c98cbb"/>
             <stop offset="1" stop-color="#a9b7da"/>
         </linearGradient>
-        <linearGradient id="g">
+        <linearGradient id="a">
             <stop offset="0" stop-color="#04034e"/>
             <stop offset="1" stop-color="#c98cbb"/>
         </linearGradient>
-        <linearGradient id="a">
-            <stop offset="0" stop-color="#fff" stop-opacity=".635"/>
-            <stop offset=".5" stop-color="#fff" stop-opacity=".208"/>
-            <stop offset="1" stop-color="#424289" stop-opacity=".075"/>
-        </linearGradient>
+        <linearGradient xlink:href="#a" id="i" gradientUnits="userSpaceOnUse" x1="104.635" y1="46.964" x2="30.034" y2="46.964"/>
         <linearGradient xlink:href="#b" id="h" gradientUnits="userSpaceOnUse" x1="68.214" y1="63.929" x2="37.321" y2="30"/>
         <linearGradient xlink:href="#c" id="m" gradientUnits="userSpaceOnUse" x1="50.381" y1="47.093" x2="95.397" y2="46.776" gradientTransform="translate(-47.51 -22.197)"/>
         <linearGradient xlink:href="#d" id="l" gradientUnits="userSpaceOnUse" x1="50.381" y1="47.093" x2="95.397" y2="46.776" gradientTransform="translate(-47.51 -22.197)"/>
         <linearGradient xlink:href="#e" id="k" gradientUnits="userSpaceOnUse" x1="50.381" y1="47.093" x2="95.397" y2="46.776" gradientTransform="translate(-47.51 -22.197)"/>
         <linearGradient xlink:href="#f" id="j" gradientUnits="userSpaceOnUse" x1="50.381" y1="47.093" x2="95.397" y2="46.776" gradientTransform="translate(-47.51 -22.197)"/>
-        <radialGradient xlink:href="#a" id="n" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.51392 .95323 -.9143 .49294 19.917 -11.5)" cx="15.701" cy="15.071" fx="15.701" fy="15.071" r="13.885"/>
+        <radialGradient xlink:href="#g" id="n" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.51392 .95323 -.9143 .49294 19.917 -11.5)" cx="15.701" cy="15.071" fx="15.701" fy="15.071" r="13.885"/>
     </defs>
     <path transform="matrix(.9311 0 0 .94201 -23.732 -20.241)" d="M75.357 46.964a23.125 22.857 0 110-.134" fill="url(#h)"/>
     <path d="M23 2.47C11.114 2.47 1.468 12.114 1.468 24c0 11.886 9.646 21.532 21.532 21.532.265 0 .518-.022.78-.032C12.41 44.923 3.376 35.515 3.376 24c0-11.514 9.034-20.922 20.406-21.5-.262-.009-.517-.03-.781-.03z" fill="url(#i)"/>

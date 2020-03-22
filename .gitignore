@@ -79,3 +79,5 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+_tools/azure*
+

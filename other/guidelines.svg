@@ -19,9 +19,6 @@
         <path class="cls-5" d="M43 31h9"/>
         <circle class="cls-4" cx="38" cy="41" r="2"/>
         <path class="cls-5" d="M43 41h9"/>
-        <g>
-            <path class="cls-6" d="M15 22l11-11m0 11L15 11"/>
-        </g>
-        <path class="cls-6" d="M52 9.5L40.5 21l-4.75-4.75"/>
+        <path class="cls-6" d="M15 22l11-11m0 11L15 11M52 9.5L40.5 21l-4.75-4.75"/>
     </g>
 </svg>

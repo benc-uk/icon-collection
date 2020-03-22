@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
     <style>
-        .st7,.st8{display:inline;stroke-miterlimit:10;fill:#fff200;stroke:#231f20;stroke-width:.5}.st8{fill:#fff;stroke:#e6e7e8;stroke-width:.25}
     </style>
     <g id="titles">
         <path d="M20 66.387c0-4.22-3-5.22-6-5.22s-6 2-6 6c0 6 3.387 6.833 8 6.833h59m-49-7.833h49M56 4v14h13.001" fill="none" stroke="#6e6e6e" stroke-width="3" stroke-miterlimit="10"/>

@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-    <g data-name="Layer 2">
-        <g data-name="Layer 1">
-            <path fill="#0063b1" d="M0 0h48v48H0z"/>
-            <g data-name="Layer 2">
-                <path d="M40.47 5H35.4v2.53h5.07v5.07H43V5h-2.53zM5 7.53v5.07h2.53V7.53h5.07V5H5v2.53zM7.53 43h5.07v-2.53H7.53V35.4H5V43h2.53zM43 40.47V35.4h-2.53v5.07H35.4V43H43v-2.53zM26.13 16.4A5.47 5.47 0 0130 25.74a5.43 5.43 0 01-7 .59l-.74-.54-.53-.79a5.48 5.48 0 014.4-8.64m0-2.53a8 8 0 00-6.51 12.66l-5.75 5.72 1.88 1.88 5.72-5.75a8 8 0 104.66-14.51z" fill="#fff" data-name="Layer 1-2"/>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-2{fill:#fff}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path fill="#0063b1" d="M0 0h48v48H0z"/><g id="Layer_2-2" data-name="Layer 2"><g id="Layer_1-2-2" data-name="Layer 1-2"><path class="cls-2" d="M40.47 5H35.4v2.53h5.07v5.07H43V5h-2.53zM5 7.53v5.07h2.53V7.53h5.07V5H5v2.53zM7.53 43h5.07v-2.53H7.53V35.4H5V43h2.53zM43 40.47V35.4h-2.53v5.07H35.4V43H43v-2.53zM26.13 16.4A5.47 5.47 0 0130 25.74a5.43 5.43 0 01-7 .59l-.74-.54-.53-.79a5.48 5.48 0 014.4-8.64m0-2.53a8 8 0 00-6.51 12.66l-5.75 5.72 1.88 1.88 5.72-5.75a8 8 0 104.66-14.51z"/></g></g></g></g></svg>

@@ -34,12 +34,21 @@ request.get(BASEURL, (err, resp, body) => {
   // Load and parse into a virtual DOM document
   var doc = new JSDOM(body).window.document;
   let count = 0;
-  var viewBox = null;
+  //var viewBox = null;
 
   // Process inline SVGs
   var svgs = doc.getElementsByTagName('svg');
   for(let svg of svgs) {
+    var viewBox = null;
     var name = `svg-${++count}`;
+
+    if(svg.getAttribute('data-slug-id')) {
+      name = svg.getAttribute('data-slug-id')
+    }
+
+    if(svg.getAttribute('viewBox')) {
+      viewBox = svg.getAttribute('viewBox');
+    }
 
     // If the SVG has <use> we need to handle that
     uses = svg.getElementsByTagName('use')
@@ -69,7 +78,7 @@ request.get(BASEURL, (err, resp, body) => {
     }
 
     console.log(`### - ${name} (Inline SVG)`)
-    let viewBoxAttr = viewBox ? `viewBox="${viewBox}"` : "";
+    let viewBoxAttr = viewBox ? `viewBox="${viewBox}"` : '';
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" ${viewBoxAttr}>${svg.innerHTML}</svg>`;
     fs.writeFileSync(`${OUTPUT}/${name}.svg`, svgContent)
   }

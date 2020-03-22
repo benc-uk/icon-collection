@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="270" viewBox="0 0 253.125 253.125" overflow="visible">
     <defs>
+        <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="194.895" y1="153.558" x2="141.028" y2="117.409">
+            <stop offset="0" stop-color="#871101"/>
+            <stop offset="0" stop-color="#871101"/>
+            <stop offset=".99" stop-color="#911209"/>
+            <stop offset="1" stop-color="#911209"/>
+        </linearGradient>
         <linearGradient id="j" gradientUnits="userSpaceOnUse" x1="-18.556" y1="155.105" x2="135.015" y2="-2.809" gradientTransform="translate(27.96 26.887)">
             <stop offset="0" stop-color="#bd0012"/>
             <stop offset="0" stop-color="#bd0012"/>
@@ -11,13 +17,6 @@
             <stop offset=".72" stop-color="#b31301"/>
             <stop offset=".99" stop-color="#e82609"/>
             <stop offset="1" stop-color="#e82609"/>
-        </linearGradient>
-        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="174.074" y1="215.549" x2="132.276" y2="141.753">
-            <stop offset="0" stop-color="#fb7655"/>
-            <stop offset="0" stop-color="#fb7655"/>
-            <stop offset=".41" stop-color="#e42b1e"/>
-            <stop offset=".99" stop-color="#900"/>
-            <stop offset="1" stop-color="#900"/>
         </linearGradient>
         <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="151.795" y1="217.785" x2="97.93" y2="181.638">
             <stop offset="0" stop-color="#871101"/>
@@ -63,11 +62,12 @@
             <stop offset=".99" stop-color="#bf190b"/>
             <stop offset="1" stop-color="#bf190b"/>
         </linearGradient>
-        <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="194.895" y1="153.558" x2="141.028" y2="117.409">
-            <stop offset="0" stop-color="#871101"/>
-            <stop offset="0" stop-color="#871101"/>
-            <stop offset=".99" stop-color="#911209"/>
-            <stop offset="1" stop-color="#911209"/>
+        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="174.074" y1="215.549" x2="132.276" y2="141.753">
+            <stop offset="0" stop-color="#fb7655"/>
+            <stop offset="0" stop-color="#fb7655"/>
+            <stop offset=".41" stop-color="#e42b1e"/>
+            <stop offset=".99" stop-color="#900"/>
+            <stop offset="1" stop-color="#900"/>
         </linearGradient>
         <linearGradient id="k" gradientUnits="userSpaceOnUse" x1="99.075" y1="171.033" x2="52.818" y2="159.617" gradientTransform="translate(27.96 26.887)">
             <stop offset="0" stop-color="#8c0c01"/>
