@@ -88,7 +88,7 @@
   <div class="top">
     <a href=".." class="home">&#129093;</a> &nbsp; <h1><%= title %></h1>
     <br/><br/>
-    <span class="find">Finder: <input onkeyup="search()" id="finder"><br></span> 
+    <span class="find">Finder: <input onkeyup="search()" id="finder">&nbsp; Icons: <span id="count">...</span><br> </span> 
     <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
     <button onclick="toggleBg()">Change Background</button>
   </div>
@@ -151,6 +151,12 @@
       var dataURL = canvas.toDataURL("image/png");
       return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
     }
+    
+    function updateCount() {
+      document.querySelector('#count').innerHTML = ''+document.querySelectorAll(".imgbox").length
+    }
+
+    updateCount()
   </script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <title>Icon-404-SplitAvailable</title>
+  <g id="bc4b49bb-3ec9-4169-af4d-b4de656b0938">
+    <g>
+      <circle cx="6" cy="2.48" r="1.43"/>
+      <circle cx="14.04" cy="1.76" r="1.43"/>
+      <circle cx="1.51" cy="6.99" r="1.43"/>
+      <circle cx="9.66" cy="6.2" r="1.43"/>
+      <polygon points="1.68 7.17 1.33 6.81 6 2.12 9.66 5.84 13.86 1.58 14.21 1.94 9.66 6.56 6 2.84 1.68 7.17"/>
+      <circle cx="6.46" cy="9.73" r="1.43"/>
+      <circle cx="14.49" cy="9.01" r="1.43"/>
+      <circle cx="1.96" cy="14.24" r="1.43"/>
+      <circle cx="10.12" cy="13.45" r="1.43"/>
+      <polygon points="2.14 14.42 1.78 14.06 6.46 9.37 10.12 13.09 14.31 8.83 14.68 9.19 10.12 13.81 6.46 10.09 2.14 14.42"/>
+    </g>
+  </g>
+</svg>

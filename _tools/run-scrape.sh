@@ -1,7 +1,7 @@
 #!/bin/bash
-#node scrape.js https://docs.microsoft.com/en-gb/azure/
-#node scrape.js https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/
-node scrape.js https://azure.microsoft.com/en-us/solutions/
+node scrape.js https://docs.microsoft.com/en-gb/azure/
+node scrape.js https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/
+#node scrape.js https://azure.microsoft.com/en-us/solutions/
 
 # node scrape.js https://azure.microsoft.com/en-us/overview/azure-vs-aws
 # node scrape.js https://azure.microsoft.com/en-us/overview/ai-platform
