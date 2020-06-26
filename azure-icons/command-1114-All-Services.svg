@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <title>Icon-command-1114Artboard 2</title>
-  <g id="a62c83fd-8a8d-490b-8ece-7b09f5569cea">
-    <g>
-      <path d="M5,1H16V2H5ZM5,6V5h9V6Zm7,3v1H5V9ZM5,14V13h9v1Z"/>
-      <rect y="1" width="2" height="2"/>
-      <rect y="5" width="2" height="2"/>
-      <rect y="9" width="2" height="2"/>
-      <rect y="13" width="2" height="2"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M5 1h11v1H5zm0 5V5h9v1zm7 3v1H5V9zm-7 5v-1h9v1zM0 1h2v2H0zM0 5h2v2H0zM0 9h2v2H0zM0 13h2v2H0z"/></svg>

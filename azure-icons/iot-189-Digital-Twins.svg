@@ -1,17 +1,1 @@
-<svg id="ab2d5500-714e-4746-b4c8-238edb01e118" xmlns="http://www.w3.org/2000/svg"  width="18" height="18" viewBox="0 0 18 18">
-  <defs>
-    <linearGradient id="b6330a0f-b440-44dd-96c1-4d0883103b6e" x1="6.59" y1="12.5" x2="6.59" y2="3.27" gradientTransform="translate(0.59 12.59) rotate(-90)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1989b2"/>
-      <stop offset="0.35" stop-color="#31a4ca"/>
-      <stop offset="0.76" stop-color="#48bee0"/>
-      <stop offset="1" stop-color="#50c7e8"/>
-    </linearGradient>
-  </defs>
-  <title>Icon-iot-189</title>
-  <rect x="0.59" y="1.18" width="12" height="9.65" rx="0.77" transform="translate(12.59 -0.59) rotate(90)" fill="url(#b6330a0f-b440-44dd-96c1-4d0883103b6e)"/>
-  <path d="M15.62,6H11.41v5.52a.47.47,0,0,1-.48.48H6.59v5.38A.61.61,0,0,0,7.2,18h8.42a.62.62,0,0,0,.62-.62V6.62A.62.62,0,0,0,15.62,6Z" fill="#50e6ff"/>
-  <g>
-    <path d="M11.41,11.52V6H7.07a.47.47,0,0,0-.48.48V12h4.34A.48.48,0,0,0,11.41,11.52Z" fill="#32bedd"/>
-    <path d="M11.41,11.52V6H7.07a.47.47,0,0,0-.48.48V12h4.34A.48.48,0,0,0,11.41,11.52Z" fill="#32bedd" opacity="0.55"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><defs><linearGradient id="a" x1="6.59" y1="12.5" x2="6.59" y2="3.27" gradientTransform="rotate(-90 6.59 6)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1989b2"/><stop offset=".35" stop-color="#31a4ca"/><stop offset=".76" stop-color="#48bee0"/><stop offset="1" stop-color="#50c7e8"/></linearGradient></defs><rect x=".59" y="1.18" width="12" height="9.65" rx=".77" transform="rotate(90 6.59 6)" fill="url(#a)"/><path d="M15.62 6h-4.21v5.52a.47.47 0 01-.48.48H6.59v5.38a.61.61 0 00.61.62h8.42a.62.62 0 00.62-.62V6.62a.62.62 0 00-.62-.62z" fill="#50e6ff"/><g fill="#32bedd"><path d="M11.41 11.52V6H7.07a.47.47 0 00-.48.48V12h4.34a.48.48 0 00.48-.48z"/><path d="M11.41 11.52V6H7.07a.47.47 0 00-.48.48V12h4.34a.48.48 0 00.48-.48z" opacity=".55"/></g></svg>
