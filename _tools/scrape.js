@@ -1,47 +1,64 @@
 #!/usr/bin/node
 
 const fs = require('fs');
-const request = require('request');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+const fetch = require('node-fetch');
+const SVGO = require('svgo');
 
-var BASEURL = process.argv[2];
-if(!BASEURL) {
+const svgo = new SVGO(); //{js2svg: { pretty: true }});
+
+// Sort out input params
+const baseURL = process.argv[2];
+if(!baseURL) {
   console.log(`### ERROR! No base URL provided!`);
-  console.log(`Usage: node scrape.js {URL to scrape REQUIRED}`);
+  console.log(`Usage: node scrape.js {url}`);
   process.exit(1);
 }
 
-OUTPUT = BASEURL.replace(/http:\/\/|https:\/\//g, "");
-OUTPUT = OUTPUT.replace(/\//g, '_');
-OUTPUT = OUTPUT.trim();
-if(OUTPUT.endsWith('_')) OUTPUT = OUTPUT.substring(0, OUTPUT.length - 1)
+// Construct a output dir from the URL
+let outputDir = baseURL.replace(/http:\/\/|https:\/\//g, "");
+outputDir = outputDir.replace(/\//g, '_');
+outputDir = outputDir.trim();
+if(outputDir.endsWith('_')) outputDir = outputDir.substring(0, outputDir.length - 1)
 
+// Create output dir
 try {
-  fs.mkdirSync(OUTPUT, {recursive: true})
+  fs.mkdirSync(outputDir, {recursive: true})
 } catch(e) {}
 
-console.log(`### Scraping icons from ${BASEURL} ...`);
+console.log(`### Scraping icons from ${baseURL} ...`);
+runScrape(baseURL);
 
-// Fetch page HTML from server
-request.get(BASEURL, (err, resp, body) => {
-
-  if(err) {
-    console.log(`### ERROR! Loading page - ${err}`);
-    return;
+//
+// Main scraping function
+//
+async function runScrape(url) {
+  // Load the page / base URL
+  let resp = await fetch(url);
+  if(!resp.ok) {
+    console.log(`### Failed to fetch ${url}`);
+    process.exit(1)
   }
 
-  // Load and parse into a virtual DOM document
+  // Get page body (HTML)
+  let body = await resp.text()
+
+  // Load and parse page into a virtual DOM document
   var doc = new JSDOM(body).window.document;
   let count = 0;
-  //var viewBox = null;
 
+  //
   // Process inline SVGs
+  //
   var svgs = doc.getElementsByTagName('svg');
   for(let svg of svgs) {
     var viewBox = null;
+    
+    // Default name if we can't get anything better 
     var name = `svg-${++count}`;
 
+    // If there's a slug-id we can use that as a
     if(svg.getAttribute('data-slug-id')) {
       name = svg.getAttribute('data-slug-id')
     }
@@ -60,7 +77,6 @@ request.get(BASEURL, (err, resp, body) => {
         name = href.substring(1);
         let symbol = doc.getElementById(href.substring(1));
         viewBox = symbol.getAttribute('viewBox');
-        //console.log(viewbox);
         
         // Remove the <use> node and insert the contents of the referred symbol
         svg.removeChild(use);
@@ -77,13 +93,16 @@ request.get(BASEURL, (err, resp, body) => {
       continue;
     }
 
-    console.log(`### - ${name} (Inline SVG)`)
+    console.log(`### Inline - ${name}`)
     let viewBoxAttr = viewBox ? `viewBox="${viewBox}"` : '';
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" ${viewBoxAttr}>${svg.innerHTML}</svg>`;
-    fs.writeFileSync(`${OUTPUT}/${name}.svg`, svgContent)
+    svgContent = (await svgo.optimize(svgContent)).data
+    fs.writeFileSync(`${outputDir}/${name}.svg`, svgContent)
   }
 
-  // Process images
+  //
+  // Process img tags
+  //
   var images = doc.getElementsByTagName('img');
   for(let img of images) {
     let src = img.getAttribute('src');
@@ -92,17 +111,17 @@ request.get(BASEURL, (err, resp, body) => {
       let fileName = src.split('/');
       fileName = fileName[fileName.length - 1];
       if(fileName.endsWith('.jpeg') || fileName.endsWith('.jpg')) continue;
-      console.log(`### - ${fileName}`);      
+      if(fileName.endsWith('.png') || fileName.endsWith('.png')) continue;
+            
+      // Make a fetchable URL (it might be a fragment or a path)
+      const url = new URL(src, baseURL)
+      console.log(`### Linked - ${url.href}`);
 
-      if (src.startsWith('//')) src = 'https:' + src;
-      if (!src.startsWith('http')) src = BASEURL + "/" + src;
-      
-      // Fetch image file and write to disk
-      request.get(src)
-      .pipe(fs.createWriteStream(`${OUTPUT}/${fileName}`))
-      .on('error', err => {
-        console.log(`### ERROR! Unable to fetch: ${err}`);
-      })  
+      // fetch optimize and save
+      let imgResp = await fetch(url.href)
+      let svgContent = await imgResp.text()
+      svgContent = (await svgo.optimize(svgContent)).data
+      fs.writeFileSync(`${outputDir}/${fileName}`, svgContent)
     }  
-  }
-})
+  }  
+}
