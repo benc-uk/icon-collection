@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
-    <title>Asset 27</title>
-    <path d="M9,1V9H1V1H9m1-1H0V10H10V0Z"/>
-    <line x1="9.5" y1="9.5" x2="14.5" y2="14.5" stroke="#000" stroke-miterlimit="10"/>
-    <polygon points="14 9 14 14 9 14 9 15 15 15 15 9 14 9"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"><path d="M9 1v8H1V1h8m1-1H0v10h10V0z"/><path stroke="#000" stroke-miterlimit="10" d="M9.5 9.5l5 5"/><path d="M14 9v5H9v1h6V9h-1z"/></svg>

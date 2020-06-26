@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <title>Icon-command-1113Artboard 2</title>
-  <g id="bbecc0f8-07ac-4e43-a404-ac795ec9a0d3">
-    <g>
-      <polygon points="14.65 15.53 8 8.88 1.35 15.53 0.65 14.82 8 7.47 15.35 14.82 14.65 15.53"/>
-      <polygon points="14.65 8.53 8 1.88 1.35 8.53 0.65 7.82 8 0.47 15.35 7.82 14.65 8.53"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M14.65 15.53L8 8.88l-6.65 6.65-.7-.71L8 7.47l7.35 7.35-.7.71z"/><path d="M14.65 8.53L8 1.88 1.35 8.53l-.7-.71L8 .47l7.35 7.35-.7.71z"/></svg>

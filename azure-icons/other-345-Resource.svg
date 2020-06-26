@@ -1,8 +1,1 @@
-<svg id="a1d7ddca-c328-42f3-98f4-094c61aadb49" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-  <title>Icon-other-345</title>
-  <polygon points="16.18 4.79 16.18 13.25 8.87 17.5 8.87 9.03 16.18 4.79" fill="#32bedd"/>
-  <polygon points="16.18 4.79 8.87 9.04 1.55 4.78 8.87 0.53 16.18 4.79" fill="#9cebff"/>
-  <polygon points="8.87 9.04 8.87 17.5 1.55 13.25 1.55 4.78 8.87 9.04" fill="#50e6ff"/>
-  <polygon points="1.55 13.25 8.87 9.03 8.87 17.5 1.55 13.25" fill="#9cebff"/>
-  <polygon points="16.18 13.25 8.87 9.03 8.87 17.5 16.18 13.25" fill="#50e6ff"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path fill="#32bedd" d="M16.18 4.79v8.46L8.87 17.5V9.03l7.31-4.24z"/><path fill="#9cebff" d="M16.18 4.79L8.87 9.04 1.55 4.78 8.87.53l7.31 4.26z"/><path fill="#50e6ff" d="M8.87 9.04v8.46l-7.32-4.25V4.78l7.32 4.26z"/><path fill="#9cebff" d="M1.55 13.25l7.32-4.22v8.47l-7.32-4.25z"/><path fill="#50e6ff" d="M16.18 13.25L8.87 9.03v8.47l7.31-4.25z"/></svg>

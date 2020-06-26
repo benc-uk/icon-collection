@@ -2,10 +2,10 @@ This is a collection of various technical icons, glyphs, logos and other imagery
 
 All files are run through [SVGO](https://github.com/svg/svgo) to clean them up and optimize them 
 
-**Icons refreshed/updated: March 22nd 2020**
+**Icons refreshed/updated: July 26th 2020**
 
 - HUGE UPDATE! 😁
-- New 'Cloud Design Studio' icon set added with all offical Azure icons in new style
+- New 'Cloud Design Studio' icon set added with all official Azure icons in new style
 - All Azure Docs icons refreshed with the new Azure branding / style
 - All Azure Patterns icons refreshed with the new Azure branding / style
 - Azure Patterns icons now have names!
@@ -53,11 +53,13 @@ The official Kubernetes icons for all the resource types; pods, nodes, namespace
 Logos and icons for CNCF and CNCF projects
 
 ##### [Simpleicons.org ⇗](https://simpleicons.org/)
-Free SVG mono-coloured icons for popular brands
+Free SVG mono-coloured icons for popular projects & brands
 
 ##### [Font Awesome ⇗](https://fontawesome.com/icons?d=gallery&m=free)
 Huge set of over 5,000 icons, free set of over 1,500 which can be downloaded as SVG
 
+#### [Amazing Icon Downloader ⇗](https://chrome.google.com/webstore/detail/amazing-icon-downloader/kllljifcjfleikiipbkdcgllbllahaob?hl=en)
+Not a set of icons, but a browser extension for Chrome and Edge which allows you to easily grab icons from the Azure portal
 
 ---
 
