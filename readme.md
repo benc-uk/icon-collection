@@ -2,10 +2,10 @@ This is a collection of various technical icons, glyphs, logos and other imagery
 
 All files are run through [SVGO](https://github.com/svg/svgo) to clean them up and optimize them 
 
-**Icons refreshed/updated: March 22nd 2020**
+**Icons refreshed/updated: July 26th 2020**
 
 - HUGE UPDATE! 😁
-- New 'Cloud Design Studio' icon set added with all offical Azure icons in new style
+- New 'Cloud Design Studio' icon set added with all official Azure icons in new style
 - All Azure Docs icons refreshed with the new Azure branding / style
 - All Azure Patterns icons refreshed with the new Azure branding / style
 - Azure Patterns icons now have names!
