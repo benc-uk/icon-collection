@@ -1,7 +1,16 @@
 This is a collection of various technical icons, glyphs, logos and other imagery all in SVG format. The icons are mainly Azure related but there are various other brands and logos plus abstract/generic symbols.
 
-All files are run through [SVGO](https://github.com/svg/svgo) to clean them up and optimize them 
+All files are run through [SVGO](https://github.com/svg/svgo) to clean them up and optimize them, with `removeDimensions` plugin enabled.
 
+Many overlaps exist between the three main Azure icon sets, this expected, but each set also has unique icons hence their reason for inclusion. Condensing down to one merged super-set would be a huge undertaking  
+
+**Icons refreshed/updated: August 1st 2020**
+
+- Reorg and rename!
+- Added the new official icon set from the Azure Architecture Center
+- Renamed the previous 'azure-icons' set to 'azure-cds', and the above Azure Architecture Center icons are now called 'azure-icons'. This is confusing, sorry!
+- Removed the 'cloud-old' set, no one should need this now.
+  
 **Icons refreshed/updated: July 26th 2020**
 
 - HUGE UPDATE! 😁
@@ -15,24 +24,30 @@ All files are run through [SVGO](https://github.com/svg/svgo) to clean them up a
 I do not attribute ownership to any of these icons & images. No copyright infringement is intended.  
 All files have been sourced and scraped from the public internet and various Microsoft sites. They are collected here under fair use. 
 
+Microsoft permits the use of these icons in architectural diagrams, training materials, or documentation. You may copy, distribute, and display the icons only for the permitted use unless granted explicit permission by Microsoft. Microsoft reserves all other rights.  
+Don’t crop, flip or rotate icons  
+Don’t distort or change icon shape in any way  
+Don’t use Microsoft product icons to represent your product or service  
 
 # Icon Galleries
 To view the icons, thumbnail gallery pages for each of the main sets is provided. The gallery pages also allow you to search the icons, view them on a range of light & dark backgrounds and also download the icon in SVG or PNG format.  
 Note. These galleries only work when viewing this repo from GitHub pages here https://code.benco.io/icon-collection/
 
+If viewing the downloaded icons in Windows, install [PowerToys](https://github.com/microsoft/PowerToys/releases/) and enable the 'File Explorer Preview' module as it supports showing SVGs as thumbnails within explorer
+
 ## Core Azure Sets
 
-#### [Azure Docs](azure-docs)
-Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. The main place to start if what you require is an icon for a top level Azure service 
-
 #### ['Official' Azure Icons Set](azure-icons)
-This is the official "Microsoft Azure Icon Repository" set from the Microsoft Cloud Design Studio, the best place to look if you're after an Azure service or other icon from the Azure Portal. There will be an overlap with the Azure Docs set, but there's nearly four times the number of icons here.
+This set is the official downloadable collection from the [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/icons/), the best place to look if you're after an Azure service or common Azure related icon. The set has been flattened (no sub-directories) and superfluous prefixes removed from the filenames 
+
+#### [Azure Docs](azure-docs)
+Scraped from main Azure docs site, all major Azure services are in here plus a couple of other useful icons. It's a smallish set and a good place to start if you require an icon for a top level Azure service.
+
+#### ['CDS' Azure Icons Set](azure-cds)
+This set comprises the "Microsoft Azure Icon Repository" from the Microsoft Cloud Design Studio. There is an almost complete overlap with the above two sets, however there's some unique icons in here, and icons from the Azure portal which aren't anywhere else.
 
 #### [Azure Patterns Collection](azure-patterns)
-Very large set of 1200+ icons including many Azure services, but mostly focused on other concepts, actions and gyphs. This has been scraped from https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/ This is made public, as part of the "Sundog" Azure.com design system
-
-#### [Microsoft 'Cloud and AI' Set (Outdated)](cloud-old)
-This is the old official "Microsoft Azure Cloud and AI Symbol / Icon Set - SVG" dated 15/05/2019 fetched from [here](https://www.microsoft.com/en-gb/download/details.aspx?id=41937). It is extremely outdated, and has many overlaps with the other sets, but also contains many unique icons. It's included here in entirety for completeness
+Very large set of 1200+ icons including many Azure services, but mostly focused on other concepts, actions and gyphs. This has been scraped from https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/ This is made public, as part of the "Sundog" Azure.com design system.
 
 
 ## Other Sets
