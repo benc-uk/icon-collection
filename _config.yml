@@ -1,6 +1,0 @@
-remote_theme: benc-uk/theme-msdark
-title: Azure Icon Collection
-favicon: favicon.png
-buttons:
-  - text: Download All
-    href: https://github.com/benc-uk/icon-collection/archive/master.zip
