@@ -3,6 +3,8 @@
   <meta name="google" content="notranslate" />
   <title>Azure Icon Collection</title>
   <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
   <style>
     body {
       font-family: 'Segoe UI', Arial;
@@ -31,15 +33,20 @@
       text-align: center;
       width: 12rem;
       height: 12rem;
-      background-color: #e0e0e0;
-      font-family: Arial, Helvetica, sans-serif;
+      background-color: #333;
+      font-family: 'Segoe UI', Arial;
+      color: white;
     }
     h1 {
       font-size: 1.8rem;
+      margin-left: 20px;
     }
     .find, .find input {
       font-size: 1.1rem;
+      margin-top: 10px;
       margin-bottom: 10px;
+      margin-left: 20px;
+      width: 300px;
     }
     .top {
       position: -webkit-sticky;
@@ -53,20 +60,21 @@
     .top button {
       float: right; 
       position: absolute; 
-      top: 0.2rem; 
-      right: 0.2rem;
+      top: 0.5rem; 
+      right: 0.5rem;
       font-size: 1rem;
       border-radius: 4px;
     }
     .pngbox {
       position: absolute; 
-      top: 2rem; 
-      right: 1rem;
+      top: 4rem; 
+      right: 1.3rem;
       font-size: 0.9rem;
     }
     input[type="checkbox"] {
       width: 1.6em;
       height: 1.6em;
+      margin-top: 0px;
     }
     .label {
       height: 2.5em;
@@ -88,17 +96,21 @@
       text-decoration: none;
       color:rgb(99, 99, 99);
     }
+    p {
+      margin-left: 20px;
+      float: left;
+    }
   </style>  
 </head>
 
 <body>
 
   <div class="top">
-    <h1>Azure Icon Collection</h1><br>
-    <br/>
-    <span class="find">Finder: <input onkeyup="search()" id="finder">&nbsp; Icons: <span id="count">...</span></span><br>
-    <div class="pngbox"><input type="checkbox" id="pngcheck"><label for="pngcheck">Download as PNG</label></div>
-    <button onclick="toggleBg()">Toggle Background</button>
+    <h1>Azure Icon Collection</h1>
+    <span class="find"><input onkeyup="search()" id="finder" class="form-control" placeholder="Find"><p>Icons:&nbsp;</p><span id="count">...</span></span><br>
+
+    <button onclick="toggleBg()" type="button" class="btn btn-primary">Toggle Background</button><br>
+    <div class="pngbox"><input type="checkbox" id="pngcheck" class="form-check-input"><label class="form-check-label" for="pngcheck" style="margin-left: 5px;">Download as PNG</label></div>
   </div>
 
   <div class="grid">
