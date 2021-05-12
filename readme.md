@@ -1,5 +1,5 @@
 # Azure Icon Collection
-Over 3'000 useful Microsoft & Azure Icons to download for presentations or something else.
+About 3'000 useful Microsoft & Azure Icons to download for presentations or something else.
 View Webpage: [Azure Icon Collection](https://icons.buehler.dev/)
 
 # Ownership & Copyright
